@@ -1,0 +1,11 @@
+phase A: 8 probes at 4 concurrent
+  r01_reset_backward_barrier      orig      off  min_period=  1.001 ns   probed p0.3438, wns=-0.657
+  r01_reset_backward_barrier      orig      on   min_period=  0.641 ns   probed p0.3438, wns=-0.297
+  r01_reset_backward_barrier      retimed   off  min_period=  0.699 ns   probed p0.3438, wns=-0.355
+  r01_reset_backward_barrier      directive off  min_period=  0.641 ns   probed p0.3438, wns=-0.297
+  r05_fsm_high_fanout             orig      off  min_period=  0.539 ns   probed p0.0696, wns=-0.469
+  r05_fsm_high_fanout             orig      on   min_period=   0.61 ns   probed p0.0696, wns=-0.54
+  r05_fsm_high_fanout             retimed   off  min_period=  0.556 ns   probed p0.0696, wns=-0.486
+  r05_fsm_high_fanout             directive off  min_period=  0.606 ns   probed p0.0696, wns=-0.536
+
+wrote /home/esifferm/GitHub/retiming/results/fmax_validate.json

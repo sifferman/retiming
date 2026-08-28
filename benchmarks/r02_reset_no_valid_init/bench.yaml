@@ -1,0 +1,32 @@
+id: r02
+name: reset_no_valid_init
+class: "A - reset / initial state"
+top: r02_reset_no_valid_init
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  Backward retiming across a reset flop where NO new reset constant can reproduce the original behaviour: the logic being crossed is not surjective onto the reset value. The only legal fix is to unmap reset into explicit reset circuitry, then retime the now-reset-free register.
+
+constraints:
+  asic:
+    clock_period_ns: 1.067
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.5
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  This is the case Touati and Brayton's forward-only restriction exists to avoid. Genus exposes retime_fallback_to_explicit_reset (default true), so it may well find this; the benchmark measures whether it does and what the extra flop costs.

@@ -1,0 +1,47 @@
+id: r01
+name: reset_backward_barrier
+class: "A - reset / initial state"
+top: r01_reset_backward_barrier
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A six-round invertible chain fed directly from primary inputs terminates at a
+  synchronous-reset register whose downstream logic is trivial.  There is no
+  upstream register to push forward, so the only way to balance the register cut
+  is to move the reset register BACKWARD into the chain -- which requires a new
+  reset value equal to the pre-image of the original one.
+
+constraints:
+  asic:
+    clock_period_ns: 1.051
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  MEASURED: Genus solves this. With retiming enabled it reaches 325 MHz on the
+  original, versus 240 MHz for the hand-retimed reference -- it beats the manual
+  solution by 35%, because it restructures the arithmetic as well as moving
+  registers, and it is willing to add registers (32 -> 42) to do it.
+
+  Vivado does NOT solve it: with -retiming explicitly enabled the flip-flop count
+  is unchanged at 32 and timing misses badly.
+
+  So r01 is a calibration control, not a tool failure: it separates Genus from
+  Vivado and establishes that the classical reset-barrier case is solved on the
+  Cadence side.  Its value to the project is negative evidence -- do not build a
+  thesis on this case.

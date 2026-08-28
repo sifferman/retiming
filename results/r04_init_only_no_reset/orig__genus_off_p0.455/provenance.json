@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T18:09:43Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r04.sdc",
+  "sdc_sha1": "e2862f223c25",
+  "rtl": [{"file": "r04_init_only_no_reset.sv", "sha1": "4c577da53c3b"}]
+}

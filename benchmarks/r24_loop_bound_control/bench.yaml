@@ -1,0 +1,32 @@
+id: r24
+name: loop_bound_control
+class: "I - negative control"
+top: r24_loop_bound_control
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A single-register feedback loop containing all the logic. The iteration bound equals the loop delay, so NO retiming can reduce the clock period. The retimed variant is deliberately identical to the original.
+
+constraints:
+  asic:
+    clock_period_ns: 1.309
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Neither tool should improve on this, and the reference cannot either. Because orig and retimed are the same circuit, the measured difference between them is pure tool noise -- which is what this benchmark is for: establishing the noise floor against which the other benchmarks' gains are judged.

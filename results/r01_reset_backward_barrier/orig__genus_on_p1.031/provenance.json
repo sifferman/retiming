@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-21T20:44:29Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r01.sdc",
+  "sdc_sha1": "74b0f336603c",
+  "rtl": [{"file": "r01_reset_backward_barrier.sv", "sha1": "4bb6c0135d43"}]
+}

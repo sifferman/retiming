@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-24T13:00:19Z",
+  "git_commit": "bdf1989",
+  "git_dirty": true,
+  "sdc": "r30.sdc",
+  "sdc_sha1": "06cb52e75002",
+  "rtl": [{"file": "r30_fsm_decode_fanout.sv", "sha1": "649fea014838"}]
+}

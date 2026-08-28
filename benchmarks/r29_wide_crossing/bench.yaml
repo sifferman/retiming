@@ -1,0 +1,46 @@
+id: r29
+name: wide_crossing
+class: "H - net delay dominates logic delay, at scale"
+top: r29_wide_crossing
+latency_preserving: true
+density_target: 0.7
+
+description: |
+  Two logic clusters joined by a 512-bit crossing, ~10k cells so the die is large
+  enough for the crossing to cost real delay. Eight nonlinear rounds are split
+  between the clusters and the movable register decides how many sit on each side.
+  This is r28's structure at r22's scale: r28 has the right shape but only ~800
+  cells, so its die is tens of microns across and it needs a Metal3 cap, a placement
+  blockage and a 4:1 core to reach 15% route share -- returning just 18 ps. r22
+  reaches 15.3% route share unaided at 12.6k cells but is a fanout benchmark, with no
+  movable crossing to retime.
+
+constraints:
+  asic:
+    clock_period_ns: 1.2
+    core_density: 0.7
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 32
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 8.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau15p-sbvb484-1-e  # 24-27k cells: does not fit AU7P's 37440 LUTs
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  With the crossing costing W, the two cycles are a and W + b, so the balance point
+  is a = b + W rather than a = b. The original IS the even split a wire-blind retimer
+  produces, giving period W + 4r; the reference moves two rounds ahead of the
+  register for max(6r, W + 2r). Predicted gap is about W/2, so the benchmark is only
+  informative once W exceeds roughly two rounds -- the measured route share decides
+  whether it says anything, and that is checked before any conclusion is drawn.
+  Scored on post-route Fmax at equal density, with congestion overflow reported so a
+  strangled unroutable design is not mistaken for a fast one.

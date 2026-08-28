@@ -1,0 +1,25 @@
+  r01_reset_backward_barrier         directive  PROVEN EQUIVALENT
+  r02_reset_no_valid_init            directive  PROVEN EQUIVALENT
+  r03_async_reset_blocker            directive  PROVEN EQUIVALENT
+  r04_init_only_no_reset             directive  PROVEN EQUIVALENT
+  r05_fsm_high_fanout                directive  PROVEN EQUIVALENT
+  r06_fsm_high_fanin                 directive  PROVEN EQUIVALENT
+  r08_fsm_output_decode              directive  PROVEN EQUIVALENT
+  r09_unbalanced_mult_pipe           directive  PROVEN EQUIVALENT
+  r10_long_carry_chain               directive  PROVEN EQUIVALENT
+  r11_deep_retime_distance           directive  PROVEN EQUIVALENT
+  r12_wide_reduction_tree            directive  PROVEN EQUIVALENT
+  r13_retime_around_sram             directive  PROVEN EQUIVALENT
+  r15_hier_boundary_block            directive  PROVEN EQUIVALENT
+  r16_dont_touch_conflict            directive  PROVEN EQUIVALENT
+  r17_clock_enable_barrier           directive  PROVEN EQUIVALENT
+  r18_clock_gated_region             directive  PROVEN EQUIVALENT
+  r19_power_activity_retime          directive  PROVEN EQUIVALENT
+  r20_glitch_absorb                  directive  PROVEN EQUIVALENT
+  r21_wire_pipeline_cross_die        directive  PROVEN EQUIVALENT
+  r22_fanout_wire_load               directive  PROVEN EQUIVALENT
+  r24_loop_bound_control             directive  PROVEN EQUIVALENT
+  r26_sdc_exception_invalidation     directive  PROVEN EQUIVALENT
+  r27_exception_scope_probe          directive  PROVEN EQUIVALENT
+
+LEC: 23 proven equivalent, 0 non-equivalent, 0 license-blocked

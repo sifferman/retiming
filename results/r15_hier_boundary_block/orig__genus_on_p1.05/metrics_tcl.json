@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r15_hier_boundary_block",
+  "retime_mode": "on",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "1050.0",
+  "area_um2": "721.04861575",
+  "num_cells": 259,
+  "num_seq_pre_syn": 32,
+  "num_seq": 26,
+  "runtime_generic_s": 13,
+  "runtime_map_s": 14,
+  "runtime_total_s": 15
+}

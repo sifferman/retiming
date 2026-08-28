@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-24T14:29:35Z",
+  "git_commit": "bdf1989",
+  "git_dirty": true,
+  "sdc": "r31.sdc",
+  "sdc_sha1": "6a2b62dfaf1d",
+  "rtl": [{"file": "r31_clone_distinct_reset.sv", "sha1": "ea664a174bf5"}]
+}

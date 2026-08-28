@@ -1,0 +1,22 @@
+  r31_clone_distinct_reset        orig      off  min_period=  0.315 ns   probed p0.3, wns=-0.015
+  r31_clone_distinct_reset        orig      on   min_period=  0.272 ns   probed p0.15, wns=-0.122
+  r31_clone_distinct_reset        retimed   off  min_period=  0.406 ns   probed p0.3, wns=-0.106
+  r31_clone_distinct_reset        directive off  min_period=  0.315 ns   probed p0.3, wns=-0.015
+
+wrote /home/esifferm/GitHub/retiming/results/fmax_n45.json
+17 benchmark(s) already stressed, 2 to do
+total concurrent tool jobs capped at 12
+
+  r15_hier_boundary_block         STRESSED at p=0.1275
+      orig      off WNS=  -0.041 TNS=      -0.3 viol=   8.0 WL=  3682.325
+      orig      on  WNS=  -0.203 TNS=    -4.357 viol=  26.0 WL=  3743.685
+      retimed   off WNS=    None TNS=      None viol=  None WL=      None
+      directive off WNS=  -0.203 TNS=    -4.357 viol=  26.0 WL=  3743.685
+  r27_exception_scope_probe       STRESSED at p=0.2415
+      orig      off WNS=  -0.101 TNS=    -0.266 viol=  11.0 WL=   10665.3
+      orig      on  WNS=  -0.172 TNS=    -3.504 viol=  38.0 WL= 10112.865
+      retimed   off WNS=    None TNS=      None viol=  None WL=      None
+      directive off WNS=  -0.172 TNS=    -3.504 viol=  38.0 WL= 10112.865
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (307 routed configs, 302 unrouted configs dropped)
+  dropped by tool: ?=22, genus=112, openroad_syn=72, yosys=96
+wrote /home/esifferm/GitHub/retiming/docs/stress_tns_light.svg  (13 benchmarks)

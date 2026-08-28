@@ -1,0 +1,18 @@
+{
+  "tool": "innovus",
+  "tool_version": "23.12-s091_1",
+  "top": "r22_fanout_wire_load",
+  "density_target": 0.7,
+  "max_route_layer": "10",
+  "rc_scale": "1",
+  "place_blockage_frac": "0",
+  "routed_wirelength_um": "NA",
+  "num_cells": 18982,
+  "num_seq": 1114,
+  "core_area_um2": "33163.6032",
+  "power_mode": "probabilistic",
+  "runtime_place_s": 353,
+  "runtime_cts_s": 576,
+  "runtime_route_s": 661,
+  "runtime_total_s": 661
+}

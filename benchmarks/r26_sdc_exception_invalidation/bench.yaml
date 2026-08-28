@@ -1,0 +1,32 @@
+id: r26
+name: sdc_exception_invalidation
+class: "J - constraint interaction"
+top: r26_sdc_exception_invalidation
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A multicycle-path exception is declared by register name on the stage-2 path. When the retimer relocates those registers it renames them (Genus calls them retime_*), the exception stops matching anything, and the relief the designer intended silently disappears.
+
+constraints:
+  asic:
+    clock_period_ns: 0.734
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: diagnostic
+expected: |
+  DIAGNOSTIC benchmark. The measurement is whether the SDC exception still matches objects after retiming, not Fmax. This is a practical reason engineers fight retimers: the transform is correct but it invalidates name-based constraints, and nothing warns loudly.

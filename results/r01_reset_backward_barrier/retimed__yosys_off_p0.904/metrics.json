@@ -1,0 +1,18 @@
+{
+  "tool": "yosys",
+  "top": "r01_reset_backward_barrier",
+  "area_um2": 347.396,
+  "num_cells": 306,
+  "tool_version": "0.58",
+  "wns_ns": -0.077,
+  "timing_status": "VIOLATED",
+  "tns_ns": -0.3564,
+  "data_path_ns": 0.9282,
+  "critical_endpoint": "_447_",
+  "power_mw": 0.643,
+  "power_switching_mw": 0.187,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "off"
+}

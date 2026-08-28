@@ -1,0 +1,400 @@
+bench,class,latency_preserving,primary_metric,tool,variant,mode,fmax_mhz,fmax_is_lower_bound,min_period_ns,n_runs,n_met,cells_at_fmax,seq_at_fmax,area_at_fmax_um2,wirelength_um,power_mw,compile_seconds_at_fmax
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,?,orig,,,,,2,0,,,,,,66.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,?,retimed,,,,,1,0,,,,,,23.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,genus,directive,off,277.8,,3.6,9,5,323,48,17299.77980025,,41.427600000000005,26.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,genus,orig,off,156.2,,6.4,6,3,422,24,19967.63393775,,24.8913,23.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,genus,orig,on,324.7,,3.08,16,12,400,48,20551.255549999998,,56.3263,25.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,genus,orig,on_reset,312.5,,3.2,5,3,382,48,19505.255002500002,,50.0482,28.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,genus,retimed,off,239.8,,4.17,12,8,426,24,20500.045426,,35.4858,21.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,innovus,orig,pnr,200.0,yes,5.0,1,1,277,42,,7531.135,16.21917427,79.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,openroad_syn,directive,unsupported,,,,5,0,249,32,,,5.64079,1.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,openroad_syn,orig,unsupported,,,,5,0,249,32,,,5.64079,1.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,openroad_syn,retimed,unsupported,96.2,,10.4,5,1,238,32,,,5.07697,1.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado,directive,on,104.2,,9.6,5,2,84,32,,,109.0,40.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado,orig,off,104.2,,9.6,5,2,84,32,,,109.0,41.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado,orig,on,104.2,,9.6,5,2,84,32,,,109.0,36.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado,retimed,off,125.0,,8.0,5,3,84,32,,,113.0,41.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,yosys,directive,off,,,,1,0,303,24,7070.112,,9.17,2.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,yosys,directive,on,125.0,,8.0,5,2,327,24,9884.0448,,8.059999999999999,2.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,yosys,orig,off,,,,5,0,303,24,7070.112,,7.05,2.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,yosys,orig,on,125.0,,8.0,5,2,327,24,9884.0448,,8.059999999999999,2.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,yosys,retimed,off,125.0,,8.0,5,2,306,24,6833.0304,,6.949999999999999,1.0
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,yosys,retimed,on,125.0,yes,8.0,1,1,330,24,9971.5392,,7.22,3.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,genus,directive,off,333.3,,3.0,5,4,433,51,22198.78820975,,58.2415,30.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,genus,orig,off,153.8,,6.5,5,1,421,24,19560.4101975,,24.633300000000002,21.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,genus,orig,on,333.3,,3.0,5,4,433,51,22198.78820975,,58.2415,30.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,genus,retimed,off,200.0,,5.0,5,2,346,25,16862.789608,,21.6756,18.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,openroad_syn,directive,unsupported,,,,5,0,245,32,,,25.3628,1.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,openroad_syn,orig,unsupported,,,,5,0,245,32,,,25.3628,1.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,241,33,,,22.7271,1.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado,directive,on,119.0,,8.4,5,2,84,32,,,112.0,35.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado,orig,off,119.0,,8.4,5,2,84,32,,,112.0,35.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado,orig,on,119.0,,8.4,5,2,84,32,,,112.0,41.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado,retimed,off,119.0,,8.4,5,2,84,33,,,112.0,36.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,yosys,directive,off,,,,1,0,302,24,6926.1696,,14.8,2.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,yosys,directive,on,,,,5,0,325,24,9790.9056,,29.1,2.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,yosys,orig,off,,,,5,0,302,24,6926.1696,,32.9,2.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,yosys,orig,on,,,,5,0,325,24,9790.9056,,29.1,2.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,yosys,retimed,off,,,,5,0,323,25,6886.656,,23.7,2.0
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,yosys,retimed,on,200.0,yes,5.0,1,1,347,25,10143.7056,,11.700000000000001,1.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,genus,directive,off,250.0,,4.0,5,3,270,37,15123.6402295,,31.2937,23.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,genus,orig,off,153.8,,6.5,5,1,405,24,19386.79122975,,24.3921,21.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,genus,orig,on,250.0,,4.0,5,3,270,37,15123.6402295,,31.2937,23.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,genus,retimed,off,200.0,,5.0,5,2,251,24,13721.07897525,,23.8065,16.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,openroad_syn,directive,unsupported,,,,5,0,225,32,,,36.5336,1.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,openroad_syn,orig,unsupported,,,,5,0,225,32,,,36.5336,1.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,215,32,,,36.1245,1.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado,directive,on,119.0,,8.4,5,2,84,32,,,112.0,43.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado,orig,off,119.0,,8.4,5,2,84,32,,,112.0,41.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado,orig,on,119.0,,8.4,5,2,84,32,,,112.0,36.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado,retimed,off,142.9,,7.0,5,3,84,32,,,117.0,43.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,yosys,directive,off,,,,1,0,303,24,6971.328,,17.6,2.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,yosys,directive,on,,,,5,0,303,24,10067.5008,,36.6,2.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,yosys,orig,off,,,,5,0,303,24,6971.328,,39.1,2.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,yosys,orig,on,,,,5,0,303,24,10067.5008,,36.6,2.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,yosys,retimed,off,,,,5,0,306,24,6886.656,,39.4,2.0
+r03_async_reset_blocker,A - reset / initial state,true,fmax,yosys,retimed,on,,,,1,0,306,24,10527.552,,18.2,2.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,genus,directive,off,333.3,,3.0,5,4,425,41,21255.02458525,,55.817699999999995,31.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,genus,orig,off,153.8,,6.5,5,1,376,24,17732.14016,,22.8663,19.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,genus,orig,on,333.3,,3.0,5,4,425,41,21255.02458525,,55.817699999999995,31.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,genus,retimed,off,200.0,,5.0,5,2,242,24,13069.58853,,22.5426,17.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,openroad_syn,directive,unsupported,,,,5,0,225,32,,,31.293799999999997,2.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,openroad_syn,orig,unsupported,,,,5,0,225,32,,,31.293799999999997,1.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,215,32,,,31.0515,1.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado,directive,on,119.0,,8.4,5,2,83,32,,,112.0,36.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado,orig,off,119.0,,8.4,5,2,83,32,,,112.0,86.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado,orig,on,119.0,,8.4,5,2,83,32,,,112.0,41.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado,retimed,off,119.0,,8.4,5,2,83,32,,,112.0,35.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,yosys,directive,off,,,,1,0,303,24,6553.6128,,15.7,2.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,yosys,directive,on,,,,5,0,303,24,9649.7856,,33.300000000000004,2.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,yosys,orig,off,,,,5,0,303,24,6553.6128,,34.9,2.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,yosys,orig,on,,,,5,0,303,24,9649.7856,,33.300000000000004,2.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,yosys,retimed,off,,,,5,0,306,24,6525.3888,,35.5,1.0
+r04_init_only_no_reset,A - reset / initial state,true,fmax,yosys,retimed,on,,,,1,0,306,24,10166.2848,,17.0,2.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,genus,directive,off,396.8,,2.52,9,6,569,128,33711.062101999996,,79.7886,19.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,genus,orig,off,317.5,,3.15,9,5,574,70,31119.600682750002,,55.101499999999994,16.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,genus,orig,on,396.8,,2.52,9,6,566,157,35543.54934875,,90.9367,19.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,genus,retimed,off,317.5,,3.15,9,5,545,70,29827.66082175,,52.143,14.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,innovus,directive,pnr,317.5,yes,3.15,1,1,507,111,,37704.445,71.42541005,82.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,innovus,orig,pnr,238.1,yes,4.2,1,1,479,70,,26879.265,38.29406184,99.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,innovus,retimed,pnr,238.1,yes,4.2,1,1,619,118,,37323.02,58.2906289,89.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,openroad_syn,directive,unsupported,,,,5,0,2721,70,,,70.6477,2.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,openroad_syn,orig,unsupported,,,,5,0,2721,70,,,70.6477,2.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,openroad_syn,retimed,unsupported,,,,5,0,5066,117,,,111.943,4.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado,directive,on,125.0,,8.0,5,4,192,99,,,126.0,40.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado,orig,off,125.0,,8.0,5,4,187,70,,,125.0,44.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado,orig,on,125.0,,8.0,5,4,187,70,,,125.0,102.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado,retimed,off,125.0,,8.0,5,4,217,117,,,129.0,36.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,yosys,directive,off,142.9,yes,7.0,1,1,804,70,15616.3392,,13.299999999999999,2.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,yosys,directive,on,178.6,,5.6,5,3,874,70,18994.752,,17.2,2.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,yosys,orig,off,142.9,,7.0,5,2,804,70,15616.3392,,13.299999999999999,2.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,yosys,orig,on,178.6,,5.6,5,3,874,70,18994.752,,17.2,3.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,yosys,retimed,off,142.9,,7.0,5,2,804,70,15616.3392,,13.299999999999999,2.0
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,yosys,retimed,on,142.9,yes,7.0,1,1,874,70,18994.752,,13.700000000000001,3.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,genus,directive,off,208.3,,4.8,5,3,1490,53,74953.14607475,,101.18,58.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,genus,orig,off,128.2,,7.8,5,1,1397,70,72695.756422,,60.8674,48.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,genus,orig,on,208.3,,4.8,5,3,1490,53,74953.14607475,,101.18,57.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,genus,retimed,off,128.2,,7.8,5,1,743,10,44604.70790425,,35.117599999999996,35.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,openroad_syn,directive,unsupported,,,,5,0,1369,70,,,530.054,2.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,openroad_syn,orig,unsupported,,,,5,0,1369,70,,,530.054,2.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,1235,10,,,699.0690000000001,2.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado,directive,on,83.3,,12.0,5,1,234,70,,,98.0,39.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado,orig,off,83.3,,12.0,5,1,234,70,,,98.0,41.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado,orig,on,83.3,,12.0,5,1,234,70,,,98.0,38.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado,retimed,off,104.2,,9.6,5,2,235,13,,,99.0,94.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,yosys,directive,off,,,,1,0,1091,70,30210.9696,,186.0,3.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,yosys,directive,on,,,,5,0,1161,70,41314.2912,,240.0,3.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,yosys,orig,off,,,,5,0,1091,70,30210.9696,,263.0,3.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,yosys,orig,on,,,,5,0,1161,70,41314.2912,,240.0,3.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,yosys,retimed,off,,,,5,0,1027,10,23496.48,,257.0,2.0
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,yosys,retimed,on,,,,1,0,1037,10,36287.5968,,104.0,4.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,genus,directive,off,208.3,,4.8,5,3,364,49,18846.55948275,,31.923199999999998,27.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,genus,orig,off,128.2,,7.8,5,1,405,38,19516.15478975,,20.0079,24.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,genus,orig,on,208.3,,4.8,5,3,364,49,18846.55948275,,31.923199999999998,27.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,genus,retimed,off,208.3,,4.8,5,3,367,38,18330.29173875,,27.645,17.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,openroad_syn,directive,unsupported,,,,5,0,279,38,,,25.6299,1.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,openroad_syn,orig,unsupported,,,,5,0,279,38,,,25.6299,2.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,282,38,,,20.4719,2.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado,directive,on,83.3,,12.0,5,1,80,38,,,106.0,39.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado,orig,off,83.3,,12.0,5,1,80,38,,,106.0,41.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado,orig,on,83.3,,12.0,5,1,80,38,,,106.0,35.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado,retimed,off,125.0,,8.0,5,3,80,38,,,113.0,37.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,yosys,directive,off,,,,1,0,342,38,8760.7296,,15.100000000000001,2.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,yosys,directive,on,128.2,,7.8,5,1,380,38,12720.5568,,11.799999999999999,2.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,yosys,orig,off,,,,5,0,342,38,8760.7296,,33.6,2.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,yosys,orig,on,128.2,,7.8,5,1,380,38,12720.5568,,11.799999999999999,2.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,yosys,retimed,off,128.2,,7.8,5,1,343,38,8453.088,,8.18,2.0
+r08_fsm_output_decode,B - FSM output decode,true,fmax,yosys,retimed,on,166.7,yes,6.0,1,1,381,38,11777.8752,,13.6,2.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,genus,directive,off,333.3,,3.0,9,7,2359,240,120409.38609375,,289.688,76.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,genus,orig,off,166.7,,6.0,9,3,2526,96,117890.355866,,136.765,44.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,genus,orig,on,333.3,,3.0,9,7,2359,240,120409.38609375,,289.688,76.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,genus,retimed,off,208.3,,4.8,9,4,3283,112,146535.351532,,182.583,71.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,openroad,orig,,,,,1,0,3050,96,71186.573,155803.2,131.077,20.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,openroad_syn,directive,unsupported,,,,5,0,1672,96,,,203.0,2.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,openroad_syn,orig,unsupported,,,,5,0,1672,96,,,203.0,2.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,1735,112,,,158.238,2.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado,directive,on,125.0,,8.0,5,3,17,33,,,133.0,47.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado,orig,off,104.2,yes,9.6,2,2,17,33,,,126.0,43.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado,orig,on,125.0,,8.0,4,2,17,33,,,133.0,92.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado,retimed,off,104.2,,9.6,5,2,17,35,,,127.0,43.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,yosys,directive,off,,,,1,0,1911,96,45776.5056,,122.0,3.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,yosys,directive,on,128.2,,7.8,5,1,2007,96,70057.6128,,79.10000000000001,2.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,yosys,orig,off,,,,5,0,1911,96,45776.5056,,261.0,2.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,yosys,orig,on,128.2,,7.8,5,1,2007,96,70057.6128,,79.10000000000001,3.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,yosys,retimed,off,,,,5,0,1906,112,47204.64,,183.0,2.0
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,yosys,retimed,on,166.7,yes,6.0,1,1,2018,112,68189.184,,81.0,3.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,genus,directive,off,370.4,,2.7,9,5,560,139,39550.067401,,116.552,21.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,genus,orig,off,208.3,,4.8,5,3,625,64,37674.9987635,,54.8255,18.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,genus,orig,on,370.4,,2.7,9,5,560,139,39550.067401,,116.552,21.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,genus,retimed,off,277.8,,3.6,5,4,1529,96,71899.25971025,,125.671,35.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,openroad_syn,directive,unsupported,,,,5,0,806,64,,,74.9345,1.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,openroad_syn,orig,unsupported,,,,5,0,806,64,,,74.9345,2.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,922,96,,,65.92530000000001,1.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado,directive,on,125.0,,8.0,5,3,140,64,,,137.0,38.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado,orig,off,125.0,,8.0,5,3,140,64,,,137.0,36.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado,orig,on,125.0,,8.0,5,3,140,64,,,137.0,38.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado,retimed,off,125.0,,8.0,5,3,142,96,,,140.0,71.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,yosys,directive,off,,,,1,0,763,64,21241.3824,,37.199999999999996,2.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,yosys,directive,on,166.7,,6.0,5,2,827,64,31754.8224,,31.6,2.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,yosys,orig,off,,,,5,0,763,64,21241.3824,,82.8,2.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,yosys,orig,on,166.7,,6.0,5,2,827,64,31754.8224,,31.6,2.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,yosys,retimed,off,,,,5,0,854,96,24580.2816,,74.30000000000001,2.0
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,yosys,retimed,on,166.7,yes,6.0,1,1,950,96,36149.2992,,33.2,3.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,genus,directive,off,,,,5,0,5331,155,232153.48800724998,,1208.8000000000002,281.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,genus,orig,off,,,,6,0,5828,96,253682.7015845,,1335.96,404.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,genus,orig,on,,,,5,0,5331,155,232153.48800724998,,1208.8000000000002,284.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,genus,retimed,off,,,,5,0,5368,96,236862.46800325,,1224.79,293.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,openroad_syn,directive,unsupported,,,,5,0,2471,96,,,1556.88,3.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,openroad_syn,orig,unsupported,,,,5,0,2471,96,,,1556.88,4.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,2055,96,,,772.04,3.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado,directive,on,,,,5,0,582,96,,,133.0,45.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado,orig,off,,,,5,0,582,96,,,133.0,57.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado,orig,on,,,,5,0,582,96,,,133.0,46.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado,retimed,off,,,,5,0,582,97,,,131.0,41.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,yosys,directive,off,,,,1,0,2851,96,51119.3088,,1350.0,3.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,yosys,directive,on,,,,5,0,2947,96,79840.0512,,2710.0,6.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,yosys,orig,off,,,,5,0,2851,96,51119.3088,,1490.0,3.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,yosys,orig,on,,,,5,0,2947,96,79840.0512,,2710.0,6.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,yosys,retimed,off,,,,5,0,2873,96,48748.4928,,895.0,3.0
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,yosys,retimed,on,,,,1,0,2969,96,68939.9424,,517.0,6.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,genus,directive,off,724.6,,1.38,9,8,24,12,1694.36759675,,9.84258,22.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,genus,orig,off,724.6,,1.38,9,8,23,10,1538.909848,,8.437109999999999,22.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,genus,orig,on,724.6,,1.38,9,8,24,12,1694.36759675,,9.84258,24.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,genus,retimed,off,463.0,,2.16,9,6,84,15,4659.29307075,,11.6393,23.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,openroad_syn,directive,unsupported,370.4,yes,2.7,5,5,35,20,,,5.682910000000001,1.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,openroad_syn,orig,unsupported,370.4,yes,2.7,5,5,35,20,,,5.682910000000001,1.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,openroad_syn,retimed,unsupported,166.7,,6.0,5,2,184,45,,,8.17273,1.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado,directive,on,83.3,,12.0,5,1,574,27,,,110.0,40.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado,orig,off,83.3,,12.0,5,1,574,27,,,110.0,41.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado,orig,on,83.3,,12.0,5,1,574,27,,,110.0,39.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado,retimed,off,104.2,,9.6,5,2,566,58,,,119.0,45.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,yosys,directive,off,166.7,yes,6.0,1,1,581,29,2816.7552,,3.62,2.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,yosys,directive,on,370.4,yes,2.7,5,5,610,29,3178.0224,,8.22,2.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,yosys,orig,off,370.4,yes,2.7,5,5,581,29,2816.7552,,8.040000000000001,2.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,yosys,orig,on,370.4,yes,2.7,5,5,610,29,3178.0224,,8.22,2.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,yosys,retimed,off,166.7,,6.0,5,2,805,52,8125.6896,,10.0,2.0
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,yosys,retimed,on,166.7,yes,6.0,1,1,857,52,10767.456,,10.3,2.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,genus,directive,off,277.8,,3.6,5,4,1965,1316,177025.21912025003,,341.21299999999997,36.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,genus,orig,off,166.7,,6.0,5,2,1238,549,106857.221881,,120.267,24.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,genus,orig,on,277.8,,3.6,5,4,1965,1316,177025.21912025003,,341.21299999999997,39.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,genus,retimed,off,208.3,,4.8,5,3,1476,560,117432.89443049999,,164.67000000000002,31.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,openroad_syn,directive,unsupported,,,,5,0,1589,549,,,329.01399999999995,3.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,openroad_syn,orig,unsupported,,,,5,0,1589,549,,,329.01399999999995,3.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,1785,560,,,303.013,2.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado,directive,on,125.0,,8.0,5,3,70,61,,,99.0,36.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado,orig,off,125.0,,8.0,5,3,70,61,,,99.0,84.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado,orig,on,125.0,,8.0,5,3,70,61,,,99.0,36.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado,retimed,off,125.0,,8.0,5,3,70,72,,,99.0,36.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,yosys,directive,off,,,,1,0,1341,549,81372.6144,,182.0,3.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,yosys,directive,on,,,,5,0,1874,549,87181.1136,,312.0,3.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,yosys,orig,off,,,,5,0,1341,549,81372.6144,,327.0,3.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,yosys,orig,on,,,,5,0,1874,549,87181.1136,,312.0,3.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,yosys,retimed,off,,,,5,0,1352,560,81903.2256,,346.0,3.0
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,yosys,retimed,on,166.7,yes,6.0,1,1,1896,560,92580.3648,,137.0,3.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,genus,directive,off,333.3,,3.0,5,4,429,48,21816.92790575,,57.9231,30.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,genus,orig,off,153.8,,6.5,5,1,419,24,19714.9820685,,24.127699999999997,20.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,genus,orig,on,333.3,,3.0,5,4,429,48,21816.92790575,,57.9231,30.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,genus,retimed,off,200.0,,5.0,5,2,313,24,15624.53632975,,23.5986,17.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,openroad_syn,directive,unsupported,,,,5,0,249,32,,,26.0808,1.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,openroad_syn,orig,unsupported,,,,5,0,249,32,,,26.0808,1.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,239,32,,,25.1295,1.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado,directive,on,119.0,,8.4,5,2,84,32,,,112.0,39.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado,orig,off,119.0,,8.4,5,2,84,32,,,112.0,42.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado,orig,on,119.0,,8.4,5,2,84,32,,,112.0,35.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado,retimed,off,142.9,,7.0,5,3,84,32,,,117.0,35.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,yosys,directive,off,,,,1,0,305,24,7044.7104,,14.6,2.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,yosys,directive,on,,,,5,0,329,24,9906.624,,28.6,2.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,yosys,orig,off,,,,5,0,305,24,7044.7104,,32.4,2.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,yosys,orig,on,,,,5,0,329,24,9906.624,,28.6,2.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,yosys,retimed,off,,,,5,0,306,24,6835.8528,,26.0,1.0
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,yosys,retimed,on,,,,1,0,330,24,9277.2288,,12.200000000000001,2.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,genus,directive,off,333.3,,3.0,5,4,702,68,34191.32979025,,93.6828,44.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,genus,orig,off,153.8,,6.5,5,1,727,48,33993.835963,,43.705,44.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,genus,orig,on,333.3,,3.0,5,4,702,68,34191.32979025,,93.6828,43.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,genus,retimed,off,200.0,,5.0,5,2,530,48,25785.225493,,37.794200000000004,21.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,openroad_syn,directive,unsupported,,,,5,0,396,48,,,44.9007,1.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,openroad_syn,orig,unsupported,,,,5,0,396,48,,,44.9007,1.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,349,48,,,38.5691,1.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado,directive,on,,,,5,0,92,48,,,108.0,40.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado,orig,off,,,,5,0,92,48,,,108.0,43.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado,orig,on,,,,5,0,92,48,,,108.0,49.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado,retimed,off,95.2,,10.5,5,1,92,48,,,108.0,41.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,yosys,directive,off,,,,1,0,417,48,10713.8304,,26.200000000000003,2.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,yosys,directive,on,,,,5,0,465,48,13753.5552,,57.7,3.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,yosys,orig,off,,,,5,0,417,48,10713.8304,,58.3,1.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,yosys,orig,on,,,,5,0,465,48,13753.5552,,57.7,2.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,yosys,retimed,off,,,,5,0,421,48,10809.792,,47.7,2.0
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,yosys,retimed,on,,,,1,0,469,48,14001.9264,,23.3,2.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,genus,directive,off,277.8,,3.6,5,4,353,48,20104.9229845,,36.8651,27.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,genus,orig,off,166.7,,6.0,5,2,575,24,26036.2015275,,32.7486,36.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,genus,orig,on,277.8,,3.6,5,4,353,48,20104.9229845,,36.8651,28.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,genus,retimed,off,208.3,,4.8,5,3,387,24,18790.22844925,,25.7743,17.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,openroad_syn,directive,unsupported,,,,5,0,309,32,,,22.5474,1.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,openroad_syn,orig,unsupported,,,,5,0,309,32,,,22.5474,1.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,286,32,,,20.967699999999997,1.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado,directive,on,104.2,,9.6,5,2,84,32,,,109.0,66.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado,orig,off,104.2,,9.6,5,2,84,32,,,109.0,36.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado,orig,on,104.2,,9.6,5,2,84,32,,,109.0,58.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado,retimed,off,104.2,,9.6,5,2,84,32,,,109.0,36.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,yosys,directive,off,,,,1,0,301,24,7755.9552,,12.3,2.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,yosys,directive,on,128.2,,7.8,5,1,349,24,11069.4528,,8.7,2.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,yosys,orig,off,,,,5,0,301,24,7755.9552,,27.2,2.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,yosys,orig,on,128.2,,7.8,5,1,349,24,11069.4528,,8.7,2.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,yosys,retimed,off,,,,5,0,306,24,7688.2176,,19.099999999999998,2.0
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,yosys,retimed,on,166.7,yes,6.0,1,1,354,24,10843.6608,,10.200000000000001,2.0
+r18_clock_gated_region,F - clock gating,true,fmax,genus,directive,off,208.3,,4.8,5,3,441,62,23183.370355500003,,36.0959,28.0
+r18_clock_gated_region,F - clock gating,true,fmax,genus,orig,off,166.7,,6.0,5,2,569,49,27725.87619175,,35.7354,30.0
+r18_clock_gated_region,F - clock gating,true,fmax,genus,orig,on,208.3,,4.8,5,3,441,62,23183.370355500003,,36.0959,27.0
+r18_clock_gated_region,F - clock gating,true,fmax,genus,retimed,off,208.3,,4.8,5,3,431,49,22410.751016000002,,36.7589,19.0
+r18_clock_gated_region,F - clock gating,true,fmax,openroad_syn,directive,unsupported,,,,5,0,400,48,,,27.912200000000002,1.0
+r18_clock_gated_region,F - clock gating,true,fmax,openroad_syn,orig,unsupported,,,,5,0,400,48,,,27.912200000000002,1.0
+r18_clock_gated_region,F - clock gating,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,410,48,,,30.2837,1.0
+r18_clock_gated_region,F - clock gating,true,fmax,vivado,directive,on,104.2,,9.6,5,2,92,48,,,110.0,39.0
+r18_clock_gated_region,F - clock gating,true,fmax,vivado,orig,off,104.2,,9.6,5,2,92,48,,,110.0,40.0
+r18_clock_gated_region,F - clock gating,true,fmax,vivado,orig,on,104.2,,9.6,5,2,92,48,,,110.0,46.0
+r18_clock_gated_region,F - clock gating,true,fmax,vivado,retimed,off,104.2,,9.6,5,2,92,48,,,110.0,45.0
+r18_clock_gated_region,F - clock gating,true,fmax,yosys,directive,off,,,,1,0,416,48,11998.0224,,17.6,2.0
+r18_clock_gated_region,F - clock gating,true,fmax,yosys,directive,on,128.2,,7.8,5,1,512,48,15424.416,,12.0,2.0
+r18_clock_gated_region,F - clock gating,true,fmax,yosys,orig,off,,,,5,0,416,48,11998.0224,,39.0,2.0
+r18_clock_gated_region,F - clock gating,true,fmax,yosys,orig,on,128.2,,7.8,5,1,512,48,15424.416,,12.0,2.0
+r18_clock_gated_region,F - clock gating,true,fmax,yosys,retimed,off,,,,5,0,423,48,11856.9024,,32.4,2.0
+r18_clock_gated_region,F - clock gating,true,fmax,yosys,retimed,on,166.7,yes,6.0,1,1,519,48,15003.8784,,15.9,2.0
+r19_power_activity_retime,G - power-driven retiming,true,power,genus,directive,off,370.4,,2.7,9,5,605,47,30085.24778675,,63.123200000000004,23.0
+r19_power_activity_retime,G - power-driven retiming,true,power,genus,orig,off,208.3,,4.8,5,3,919,71,44158.5921605,,50.7728,38.0
+r19_power_activity_retime,G - power-driven retiming,true,power,genus,orig,on,370.4,,2.7,9,5,777,45,35904.87070775,,72.1517,30.0
+r19_power_activity_retime,G - power-driven retiming,true,power,genus,retimed,off,208.3,,4.8,5,3,745,14,33223.029729,,44.5165,24.0
+r19_power_activity_retime,G - power-driven retiming,true,power,innovus,directive,pnr,208.3,yes,4.8,1,1,183,41,,10046.075,15.83300978,71.0
+r19_power_activity_retime,G - power-driven retiming,true,power,openroad_syn,directive,unsupported,,,,5,0,870,71,,,565.4820000000001,2.0
+r19_power_activity_retime,G - power-driven retiming,true,power,openroad_syn,orig,unsupported,,,,5,0,870,71,,,565.4820000000001,1.0
+r19_power_activity_retime,G - power-driven retiming,true,power,openroad_syn,retimed,unsupported,,,,5,0,677,14,,,532.5459999999999,2.0
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado,directive,on,125.0,,8.0,5,3,146,71,,,106.0,48.0
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado,orig,off,125.0,,8.0,5,3,146,71,,,106.0,49.0
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado,orig,on,125.0,,8.0,5,3,146,71,,,106.0,40.0
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado,retimed,off,125.0,,8.0,5,3,113,14,,,106.0,42.0
+r19_power_activity_retime,G - power-driven retiming,true,power,yosys,directive,on,128.2,,7.8,5,1,487,71,21952.6272,,27.0,2.0
+r19_power_activity_retime,G - power-driven retiming,true,power,yosys,orig,off,,,,5,0,416,71,15119.5968,,90.80000000000001,2.0
+r19_power_activity_retime,G - power-driven retiming,true,power,yosys,orig,on,128.2,,7.8,5,1,487,71,21952.6272,,27.0,2.0
+r19_power_activity_retime,G - power-driven retiming,true,power,yosys,retimed,off,,,,5,0,333,14,9249.0048,,87.7,2.0
+r20_glitch_absorb,G - power-driven retiming,true,power,genus,directive,off,370.4,,2.7,9,5,295,66,18453.18420225,,57.5404,18.0
+r20_glitch_absorb,G - power-driven retiming,true,power,genus,orig,off,208.3,,4.8,5,3,346,48,18676.403072250003,,28.4112,13.0
+r20_glitch_absorb,G - power-driven retiming,true,power,genus,orig,on,370.4,,2.7,9,5,292,56,17817.46410025,,52.871300000000005,18.0
+r20_glitch_absorb,G - power-driven retiming,true,power,genus,retimed,off,370.4,,2.7,9,5,304,48,17635.2730805,,41.2295,13.0
+r20_glitch_absorb,G - power-driven retiming,true,power,innovus,directive,pnr,370.4,yes,2.7,1,1,365,66,,15361.06,39.22640478,85.0
+r20_glitch_absorb,G - power-driven retiming,true,power,openroad_syn,directive,unsupported,,,,5,0,74997,42,,,5131.610000000001,63.0
+r20_glitch_absorb,G - power-driven retiming,true,power,openroad_syn,orig,unsupported,,,,5,0,74997,42,,,5131.610000000001,64.0
+r20_glitch_absorb,G - power-driven retiming,true,power,openroad_syn,retimed,unsupported,,,,5,0,3855,48,,,531.044,3.0
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado,directive,on,125.0,,8.0,5,3,91,48,,,134.0,43.0
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado,orig,off,125.0,,8.0,5,3,91,48,,,134.0,35.0
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado,orig,on,125.0,,8.0,5,3,91,48,,,134.0,40.0
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado,retimed,off,125.0,,8.0,5,3,73,48,,,131.0,39.0
+r20_glitch_absorb,G - power-driven retiming,true,power,yosys,directive,on,208.3,,4.8,5,3,468,48,16581.6,,25.4,7.0
+r20_glitch_absorb,G - power-driven retiming,true,power,yosys,orig,off,128.2,,7.8,5,1,420,48,10358.208,,21.8,7.0
+r20_glitch_absorb,G - power-driven retiming,true,power,yosys,orig,on,208.3,,4.8,5,3,468,48,16581.6,,25.4,7.0
+r20_glitch_absorb,G - power-driven retiming,true,power,yosys,retimed,off,208.3,,4.8,5,3,421,48,9680.832,,25.2,2.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,genus,directive,off,250.0,,4.0,5,3,1169,156,62187.981278,,117.91699999999999,44.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,genus,orig,off,250.0,,4.0,5,3,1757,128,82759.43012075001,,150.111,59.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,genus,orig,on,250.0,,4.0,5,3,1169,156,62187.981278,,117.91699999999999,44.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,genus,retimed,off,250.0,,4.0,5,3,2080,192,100716.19681975001,,137.59099999999998,59.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus,directive,pnr,250.0,yes,4.0,1,1,1265,156,,53604.415,107.22512637,105.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,openroad_syn,directive,unsupported,,,,5,0,946,128,,,86.6955,1.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,openroad_syn,orig,unsupported,,,,5,0,946,128,,,86.6955,1.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,openroad_syn,retimed,unsupported,,,,5,0,1074,192,,,98.31439999999999,1.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado,directive,on,95.2,,10.5,5,1,271,128,,,154.0,37.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado,orig,off,95.2,,10.5,5,1,271,128,,,154.0,96.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado,orig,on,95.2,,10.5,5,1,271,128,,,154.0,37.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado,retimed,off,95.2,,10.5,5,1,271,192,,,155.0,37.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,yosys,directive,off,,,,1,0,1207,128,29601.3312,,45.1,2.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,yosys,directive,on,200.0,,5.0,5,2,1335,128,36880.3008,,45.199999999999996,2.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,yosys,orig,off,,,,5,0,1207,128,29601.3312,,100.0,2.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,yosys,orig,on,200.0,,5.0,5,2,1335,128,36880.3008,,45.199999999999996,2.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,yosys,retimed,off,,,,5,0,1271,192,36104.1408,,107.0,3.0
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,yosys,retimed,on,200.0,yes,5.0,1,1,1463,192,43594.7904,,49.4,3.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,genus,orig,off,195.3,,5.12,5,3,8520,1050,496005.78108275,,651.4219999999999,181.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,genus,retimed,off,195.3,,5.12,5,3,8569,1114,508714.0931585,,629.3349999999999,179.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus,orig,pnr,125.0,,8.0,3,2,8036,1050,,1032085.3,488.83012468,174.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus,retimed,pnr,125.0,yes,8.0,2,2,8540,1114,,1102543.515,499.97993993,186.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,openroad_syn,directive,unsupported,,,,5,0,10092,1050,,,327.892,13.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,openroad_syn,orig,unsupported,,,,5,0,10092,1050,,,327.892,13.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,openroad_syn,retimed,unsupported,,,,5,0,32042,1114,,,729.121,26.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado,directive,on,100.0,,10.0,5,3,8142,4140,,,223.0,73.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado,orig,off,125.0,,8.0,5,4,8148,1063,,,220.0,66.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado,orig,on,100.0,,10.0,5,3,8142,4138,,,222.0,81.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado,retimed,off,100.0,,10.0,5,3,8142,1151,,,198.0,58.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,yosys,directive,off,,,,1,0,19127,1050,280162.7136,,430.0,26.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,yosys,directive,on,,,,5,0,20177,1050,325151.7696,,244.0,29.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,yosys,orig,off,,,,5,0,19127,1050,280162.7136,,332.0,23.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,yosys,orig,on,,,,5,0,20177,1050,325151.7696,,244.0,30.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,yosys,retimed,off,,,,5,0,19127,1050,280162.7136,,332.0,25.0
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,yosys,retimed,on,,,,1,0,20177,1050,325151.7696,,317.0,35.0
+r24_loop_bound_control,I - negative control,true,fmax,genus,directive,off,,,,5,0,930,26,41520.67242725,,190.559,106.0
+r24_loop_bound_control,I - negative control,true,fmax,genus,orig,off,,,,5,0,853,16,37103.276935500005,,173.56,83.0
+r24_loop_bound_control,I - negative control,true,fmax,genus,orig,on,,,,5,0,930,26,41520.67242725,,190.559,106.0
+r24_loop_bound_control,I - negative control,true,fmax,genus,retimed,off,,,,5,0,853,16,37103.276935500005,,173.56,78.0
+r24_loop_bound_control,I - negative control,true,fmax,openroad_syn,directive,unsupported,,,,5,0,290,16,,,158.572,1.0
+r24_loop_bound_control,I - negative control,true,fmax,openroad_syn,orig,unsupported,,,,5,0,290,16,,,158.572,1.0
+r24_loop_bound_control,I - negative control,true,fmax,openroad_syn,retimed,unsupported,,,,5,0,290,16,,,158.572,1.0
+r24_loop_bound_control,I - negative control,true,fmax,vivado,directive,on,,,,5,0,104,32,,,106.0,38.0
+r24_loop_bound_control,I - negative control,true,fmax,vivado,orig,off,,,,5,0,104,32,,,106.0,40.0
+r24_loop_bound_control,I - negative control,true,fmax,vivado,orig,on,,,,5,0,104,32,,,106.0,38.0
+r24_loop_bound_control,I - negative control,true,fmax,vivado,retimed,off,,,,5,0,104,32,,,106.0,38.0
+r24_loop_bound_control,I - negative control,true,fmax,yosys,directive,off,,,,1,0,402,16,8128.512,,131.0,2.0
+r24_loop_bound_control,I - negative control,true,fmax,yosys,directive,on,,,,5,0,418,16,14165.6256,,233.0,3.0
+r24_loop_bound_control,I - negative control,true,fmax,yosys,orig,off,,,,5,0,402,16,8128.512,,195.0,2.0
+r24_loop_bound_control,I - negative control,true,fmax,yosys,orig,on,,,,5,0,418,16,14165.6256,,233.0,3.0
+r24_loop_bound_control,I - negative control,true,fmax,yosys,retimed,off,,,,5,0,402,16,8128.512,,195.0,2.0
+r24_loop_bound_control,I - negative control,true,fmax,yosys,retimed,on,,,,1,0,418,16,14165.6256,,110.0,3.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,genus,directive,off,,,,1,0,1123,56,50850.600592749994,,128.612,88.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,genus,directive,on,,,,1,0,1123,56,50850.600592749994,,128.612,87.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,genus,orig,on,,,,1,0,1137,32,51369.47925725,,138.12800000000001,138.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,openroad_syn,directive,unsupported,,,,5,0,440,32,,,119.836,2.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,openroad_syn,orig,unsupported,,,,5,0,440,32,,,119.836,1.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,openroad_syn,retimed,unsupported,,,,5,0,462,32,,,112.119,1.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado,directive,on,,,,5,0,128,32,,,138.0,41.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado,orig,off,,,,5,0,128,32,,,138.0,41.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado,orig,on,,,,5,0,128,32,,,138.0,38.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado,retimed,off,,,,5,0,128,32,,,138.0,40.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,yosys,directive,off,,,,1,0,559,32,11354.5152,,92.60000000000001,2.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,yosys,directive,on,,,,5,0,591,32,15365.1456,,171.0,3.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,yosys,orig,off,,,,5,0,559,32,11354.5152,,154.0,2.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,yosys,orig,on,,,,5,0,591,32,15365.1456,,171.0,3.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,yosys,retimed,off,,,,5,0,552,32,11219.04,,155.0,2.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,yosys,retimed,on,,,,1,0,584,32,16355.808,,65.10000000000001,2.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,genus,orig,on,250.0,,4.0,5,1,1178,76,56514.691961000004,,140.08100000000002,70.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,openroad_syn,directive,unsupported,,,,5,0,657,64,,,157.552,1.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,openroad_syn,orig,unsupported,,,,5,0,657,64,,,157.552,2.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,openroad_syn,retimed,unsupported,,,,5,0,662,64,,,156.917,1.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado,directive,on,,,,5,0,208,64,,,182.0,39.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado,orig,off,,,,5,0,208,64,,,182.0,40.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado,orig,on,,,,5,0,208,64,,,182.0,89.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado,retimed,off,,,,5,0,208,64,,,182.0,39.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,yosys,directive,off,,,,1,0,838,56,18269.3952,,81.10000000000001,3.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,yosys,directive,on,,,,5,0,894,56,24859.6992,,167.0,2.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,yosys,orig,off,,,,5,0,838,56,18269.3952,,171.0,2.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,yosys,orig,on,,,,5,0,894,56,24859.6992,,167.0,3.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,yosys,retimed,off,,,,5,0,842,56,17792.4096,,167.0,2.0
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,yosys,retimed,on,,,,1,0,898,56,22429.6128,,68.6,2.0
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,?,orig,,,,,4,0,,,,,,104.0
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,genus,orig,off,1000.0,yes,1.0,4,4,1842,768,6726.073511750001,,7.74152,15.0
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,genus,retimed,off,833.3,yes,1.2,3,2,1846,768,6788.111139750001,,6.52374,14.0
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus,orig,pnr,1000.0,yes,1.0,9,5,1945,768,,31976.45,7.51861323,79.0
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus,retimed,pnr,833.3,yes,1.2,4,3,1983,768,,32229.92,6.28958588,84.0

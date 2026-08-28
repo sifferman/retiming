@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r11_deep_retime_distance",
+  "area_um2": 51119.3088,
+  "num_cells": 2851,
+  "num_seq": 96,
+  "tool_version": "0.58",
+  "wns_ns": -74.7157,
+  "timing_status": "VIOLATED",
+  "tns_ns": -2300.99,
+  "data_path_ns": 79.3876,
+  "critical_endpoint": "_3709_",
+  "power_mw": 1350.0,
+  "power_switching_mw": 636.0,
+  "power_mode": "vectorless",
+  "wall_seconds": 3.0,
+  "runtime_total_s": 2.0,
+  "retime_mode": "off"
+}

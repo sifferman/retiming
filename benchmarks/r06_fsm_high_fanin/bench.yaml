@@ -1,0 +1,32 @@
+id: r06
+name: fsm_high_fanin
+class: "B - FSM fanin"
+top: r06_fsm_high_fanin
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  Sixty-four status bits are registered, then reduced by a deep tree, and the result feeds FSM next-state logic. The critical path is status_q -> reduce -> next_state -> state_q. The fix is to forward-retime the status register across the reduction so the reduction happens before the register, not after.
+
+constraints:
+  asic:
+    clock_period_ns: 0.947
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  A clean forward retiming that preserves latency exactly. The stressor is that the destination register is FSM next-state logic: Genus has retime_preserve_state_points, and tools are generally reluctant to disturb registers adjacent to a state machine.

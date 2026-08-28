@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r01_reset_backward_barrier",
+  "retime_mode": "unsupported",
+  "num_cells": 242,
+  "num_seq": 32,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 1,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": 1.2119,
+  "timing_status": "MET",
+  "tns_ns": 0.0,
+  "data_path_ns": 1.0903,
+  "power_mw": 0.24816,
+  "power_switching_mw": 0.055080000000000004,
+  "wall_seconds": 1.0
+}

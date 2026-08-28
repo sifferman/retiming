@@ -1,0 +1,926 @@
+
+=== phase 1/6  r15 re-run (corrected top module) :: 14:17:57Z ===
+matrix: 1 benchmark(s), 20 runs, 4 concurrent, tool=genus
+  [1/20] r15_hier_boundary_block          orig      off       p=6.5    MET
+  [2/20] r15_hier_boundary_block          orig      off       p=5.0    VIOLATED
+  [3/20] r15_hier_boundary_block          orig      off       p=4.0    VIOLATED
+  [4/20] r15_hier_boundary_block          orig      off       p=3.0    VIOLATED
+  [5/20] r15_hier_boundary_block          orig      off       p=2.25   VIOLATED
+  [6/20] r15_hier_boundary_block          orig      on        p=6.5    MET
+  [7/20] r15_hier_boundary_block          orig      on        p=5.0    MET
+  [8/20] r15_hier_boundary_block          orig      on        p=4.0    MET
+  [9/20] r15_hier_boundary_block          orig      on        p=3.0    MET
+  [10/20] r15_hier_boundary_block          orig      on        p=2.25   VIOLATED
+  [11/20] r15_hier_boundary_block          directive off       p=6.5    MET
+  [12/20] r15_hier_boundary_block          directive off       p=5.0    MET
+  [13/20] r15_hier_boundary_block          directive off       p=4.0    MET
+  [14/20] r15_hier_boundary_block          directive off       p=3.0    MET
+  [15/20] r15_hier_boundary_block          directive off       p=2.25   VIOLATED
+  [16/20] r15_hier_boundary_block          retimed   off       p=6.5    MET
+  [17/20] r15_hier_boundary_block          retimed   off       p=5.0    MET
+  [18/20] r15_hier_boundary_block          retimed   off       p=4.0    VIOLATED
+  [19/20] r15_hier_boundary_block          retimed   off       p=3.0    VIOLATED
+  [20/20] r15_hier_boundary_block          retimed   off       p=2.25   VIOLATED
+wrote results/matrix_r15_refix.json (20 rows)
+
+=== phase 2/6  close lower-bounded Genus Fmax figures :: 14:21:44Z ===
+nothing to close -- no lower-bounded configs for this tool
+
+=== phase 3/6  OpenROAD-syn matrix (local) :: 14:22:42Z ===
+matrix: 23 benchmark(s), 345 runs, 6 concurrent, tool=openroad_syn
+  [1/345] r01_reset_backward_barrier       orig      none      p=10.4   no metrics
+  [2/345] r01_reset_backward_barrier       orig      none      p=8.0    no metrics
+  [3/345] r01_reset_backward_barrier       orig      none      p=6.4    no metrics
+  [4/345] r01_reset_backward_barrier       orig      none      p=4.8    no metrics
+  [5/345] r01_reset_backward_barrier       orig      none      p=3.6    no metrics
+  [6/345] r01_reset_backward_barrier       directive none      p=10.4   no metrics
+  [7/345] r01_reset_backward_barrier       directive none      p=8.0    no metrics
+  [8/345] r01_reset_backward_barrier       directive none      p=6.4    no metrics
+  [9/345] r01_reset_backward_barrier       directive none      p=4.8    no metrics
+  [10/345] r01_reset_backward_barrier       directive none      p=3.6    no metrics
+  [11/345] r01_reset_backward_barrier       retimed   none      p=10.4   no metrics
+  [12/345] r01_reset_backward_barrier       retimed   none      p=8.0    no metrics
+  [13/345] r01_reset_backward_barrier       retimed   none      p=6.4    no metrics
+  [14/345] r01_reset_backward_barrier       retimed   none      p=4.8    no metrics
+  [15/345] r01_reset_backward_barrier       retimed   none      p=3.6    no metrics
+  [16/345] r02_reset_no_valid_init          orig      none      p=6.5    no metrics
+  [17/345] r02_reset_no_valid_init          orig      none      p=5.0    no metrics
+  [18/345] r02_reset_no_valid_init          orig      none      p=4.0    no metrics
+  [19/345] r02_reset_no_valid_init          orig      none      p=3.0    no metrics
+  [20/345] r02_reset_no_valid_init          orig      none      p=2.25   no metrics
+  [21/345] r02_reset_no_valid_init          directive none      p=6.5    no metrics
+  [22/345] r02_reset_no_valid_init          directive none      p=5.0    no metrics
+  [23/345] r02_reset_no_valid_init          directive none      p=4.0    no metrics
+  [24/345] r02_reset_no_valid_init          directive none      p=3.0    no metrics
+  [25/345] r02_reset_no_valid_init          directive none      p=2.25   no metrics
+  [26/345] r02_reset_no_valid_init          retimed   none      p=6.5    no metrics
+  [27/345] r02_reset_no_valid_init          retimed   none      p=5.0    no metrics
+  [28/345] r02_reset_no_valid_init          retimed   none      p=4.0    no metrics
+  [29/345] r02_reset_no_valid_init          retimed   none      p=3.0    no metrics
+  [30/345] r02_reset_no_valid_init          retimed   none      p=2.25   no metrics
+  [31/345] r03_async_reset_blocker          orig      none      p=6.5    no metrics
+  [32/345] r03_async_reset_blocker          orig      none      p=5.0    no metrics
+  [33/345] r03_async_reset_blocker          orig      none      p=4.0    no metrics
+  [34/345] r03_async_reset_blocker          orig      none      p=3.0    no metrics
+  [35/345] r03_async_reset_blocker          orig      none      p=2.25   no metrics
+  [36/345] r03_async_reset_blocker          directive none      p=6.5    no metrics
+  [37/345] r03_async_reset_blocker          directive none      p=5.0    no metrics
+  [38/345] r03_async_reset_blocker          directive none      p=4.0    no metrics
+  [39/345] r03_async_reset_blocker          directive none      p=3.0    no metrics
+  [40/345] r03_async_reset_blocker          directive none      p=2.25   no metrics
+  [41/345] r03_async_reset_blocker          retimed   none      p=6.5    no metrics
+  [42/345] r03_async_reset_blocker          retimed   none      p=5.0    no metrics
+  [43/345] r03_async_reset_blocker          retimed   none      p=4.0    no metrics
+  [44/345] r03_async_reset_blocker          retimed   none      p=3.0    no metrics
+  [45/345] r03_async_reset_blocker          retimed   none      p=2.25   no metrics
+  [46/345] r04_init_only_no_reset           orig      none      p=6.5    no metrics
+  [47/345] r04_init_only_no_reset           orig      none      p=5.0    no metrics
+  [48/345] r04_init_only_no_reset           orig      none      p=4.0    no metrics
+  [49/345] r04_init_only_no_reset           orig      none      p=3.0    no metrics
+  [50/345] r04_init_only_no_reset           orig      none      p=2.25   no metrics
+  [51/345] r04_init_only_no_reset           directive none      p=6.5    no metrics
+  [52/345] r04_init_only_no_reset           directive none      p=5.0    no metrics
+  [53/345] r04_init_only_no_reset           directive none      p=4.0    no metrics
+  [54/345] r04_init_only_no_reset           directive none      p=3.0    no metrics
+  [55/345] r04_init_only_no_reset           directive none      p=2.25   no metrics
+  [56/345] r04_init_only_no_reset           retimed   none      p=6.5    no metrics
+  [57/345] r04_init_only_no_reset           retimed   none      p=5.0    no metrics
+  [58/345] r04_init_only_no_reset           retimed   none      p=4.0    no metrics
+  [59/345] r04_init_only_no_reset           retimed   none      p=3.0    no metrics
+  [60/345] r04_init_only_no_reset           retimed   none      p=2.25   no metrics
+  [61/345] r05_fsm_high_fanout              orig      none      p=9.1    no metrics
+  [62/345] r05_fsm_high_fanout              orig      none      p=7.0    no metrics
+  [63/345] r05_fsm_high_fanout              orig      none      p=5.6    no metrics
+  [64/345] r05_fsm_high_fanout              orig      none      p=4.2    no metrics
+  [65/345] r05_fsm_high_fanout              orig      none      p=3.15   no metrics
+  [66/345] r05_fsm_high_fanout              directive none      p=9.1    no metrics
+  [67/345] r05_fsm_high_fanout              directive none      p=7.0    no metrics
+  [68/345] r05_fsm_high_fanout              directive none      p=5.6    no metrics
+  [69/345] r05_fsm_high_fanout              directive none      p=4.2    no metrics
+  [70/345] r05_fsm_high_fanout              directive none      p=3.15   no metrics
+  [71/345] r05_fsm_high_fanout              retimed   none      p=9.1    no metrics
+  [72/345] r05_fsm_high_fanout              retimed   none      p=7.0    no metrics
+  [73/345] r05_fsm_high_fanout              retimed   none      p=5.6    no metrics
+  [74/345] r05_fsm_high_fanout              retimed   none      p=4.2    no metrics
+  [75/345] r05_fsm_high_fanout              retimed   none      p=3.15   no metrics
+  [76/345] r06_fsm_high_fanin               orig      none      p=7.8    no metrics
+  [77/345] r06_fsm_high_fanin               orig      none      p=6.0    no metrics
+  [78/345] r06_fsm_high_fanin               orig      none      p=4.8    no metrics
+  [79/345] r06_fsm_high_fanin               orig      none      p=3.6    no metrics
+  [80/345] r06_fsm_high_fanin               orig      none      p=2.7    no metrics
+  [81/345] r06_fsm_high_fanin               directive none      p=7.8    no metrics
+  [82/345] r06_fsm_high_fanin               directive none      p=6.0    no metrics
+  [83/345] r06_fsm_high_fanin               directive none      p=4.8    no metrics
+  [84/345] r06_fsm_high_fanin               directive none      p=3.6    no metrics
+  [85/345] r06_fsm_high_fanin               directive none      p=2.7    no metrics
+  [86/345] r06_fsm_high_fanin               retimed   none      p=7.8    no metrics
+  [87/345] r06_fsm_high_fanin               retimed   none      p=6.0    no metrics
+  [88/345] r06_fsm_high_fanin               retimed   none      p=4.8    no metrics
+  [89/345] r06_fsm_high_fanin               retimed   none      p=3.6    no metrics
+  [90/345] r06_fsm_high_fanin               retimed   none      p=2.7    no metrics
+  [91/345] r08_fsm_output_decode            orig      none      p=7.8    no metrics
+  [92/345] r08_fsm_output_decode            orig      none      p=6.0    no metrics
+  [93/345] r08_fsm_output_decode            orig      none      p=4.8    no metrics
+  [94/345] r08_fsm_output_decode            orig      none      p=3.6    no metrics
+  [95/345] r08_fsm_output_decode            orig      none      p=2.7    no metrics
+  [96/345] r08_fsm_output_decode            directive none      p=7.8    no metrics
+  [97/345] r08_fsm_output_decode            directive none      p=6.0    no metrics
+  [98/345] r08_fsm_output_decode            directive none      p=4.8    no metrics
+  [99/345] r08_fsm_output_decode            directive none      p=3.6    no metrics
+  [100/345] r08_fsm_output_decode            directive none      p=2.7    no metrics
+  [101/345] r08_fsm_output_decode            retimed   none      p=7.8    no metrics
+  [102/345] r08_fsm_output_decode            retimed   none      p=6.0    no metrics
+  [103/345] r08_fsm_output_decode            retimed   none      p=4.8    no metrics
+  [104/345] r08_fsm_output_decode            retimed   none      p=3.6    no metrics
+  [105/345] r08_fsm_output_decode            retimed   none      p=2.7    no metrics
+  [106/345] r09_unbalanced_mult_pipe         orig      none      p=7.8    no metrics
+  [107/345] r09_unbalanced_mult_pipe         orig      none      p=6.0    no metrics
+  [108/345] r09_unbalanced_mult_pipe         orig      none      p=4.8    no metrics
+  [109/345] r09_unbalanced_mult_pipe         orig      none      p=3.6    no metrics
+  [110/345] r09_unbalanced_mult_pipe         orig      none      p=2.7    no metrics
+  [111/345] r09_unbalanced_mult_pipe         directive none      p=7.8    no metrics
+  [112/345] r09_unbalanced_mult_pipe         directive none      p=6.0    no metrics
+  [113/345] r09_unbalanced_mult_pipe         directive none      p=4.8    no metrics
+  [114/345] r09_unbalanced_mult_pipe         directive none      p=3.6    no metrics
+  [115/345] r09_unbalanced_mult_pipe         directive none      p=2.7    no metrics
+  [116/345] r09_unbalanced_mult_pipe         retimed   none      p=7.8    no metrics
+  [117/345] r09_unbalanced_mult_pipe         retimed   none      p=6.0    no metrics
+  [118/345] r09_unbalanced_mult_pipe         retimed   none      p=4.8    no metrics
+  [119/345] r09_unbalanced_mult_pipe         retimed   none      p=3.6    no metrics
+  [120/345] r09_unbalanced_mult_pipe         retimed   none      p=2.7    no metrics
+  [121/345] r10_long_carry_chain             orig      none      p=7.8    no metrics
+  [122/345] r10_long_carry_chain             orig      none      p=6.0    no metrics
+  [123/345] r10_long_carry_chain             orig      none      p=4.8    no metrics
+  [124/345] r10_long_carry_chain             orig      none      p=3.6    no metrics
+  [125/345] r10_long_carry_chain             orig      none      p=2.7    no metrics
+  [126/345] r10_long_carry_chain             directive none      p=7.8    no metrics
+  [127/345] r10_long_carry_chain             directive none      p=6.0    no metrics
+  [128/345] r10_long_carry_chain             directive none      p=4.8    no metrics
+  [129/345] r10_long_carry_chain             directive none      p=3.6    no metrics
+  [130/345] r10_long_carry_chain             directive none      p=2.7    no metrics
+  [131/345] r10_long_carry_chain             retimed   none      p=7.8    no metrics
+  [132/345] r10_long_carry_chain             retimed   none      p=6.0    no metrics
+  [133/345] r10_long_carry_chain             retimed   none      p=4.8    no metrics
+  [134/345] r10_long_carry_chain             retimed   none      p=3.6    no metrics
+  [135/345] r10_long_carry_chain             retimed   none      p=2.7    no metrics
+  [136/345] r11_deep_retime_distance         orig      none      p=6.5    no metrics
+  [137/345] r11_deep_retime_distance         orig      none      p=5.0    no metrics
+  [138/345] r11_deep_retime_distance         orig      none      p=4.0    no metrics
+  [139/345] r11_deep_retime_distance         orig      none      p=3.0    no metrics
+  [140/345] r11_deep_retime_distance         orig      none      p=2.25   no metrics
+  [141/345] r11_deep_retime_distance         directive none      p=6.5    no metrics
+  [142/345] r11_deep_retime_distance         directive none      p=5.0    no metrics
+  [143/345] r11_deep_retime_distance         directive none      p=4.0    no metrics
+  [144/345] r11_deep_retime_distance         directive none      p=3.0    no metrics
+  [145/345] r11_deep_retime_distance         directive none      p=2.25   no metrics
+  [146/345] r11_deep_retime_distance         retimed   none      p=6.5    no metrics
+  [147/345] r11_deep_retime_distance         retimed   none      p=5.0    no metrics
+  [148/345] r11_deep_retime_distance         retimed   none      p=4.0    no metrics
+  [149/345] r11_deep_retime_distance         retimed   none      p=3.0    no metrics
+  [150/345] r11_deep_retime_distance         retimed   none      p=2.25   no metrics
+  [151/345] r12_wide_reduction_tree          orig      none      p=7.8    no metrics
+  [152/345] r12_wide_reduction_tree          orig      none      p=6.0    no metrics
+  [153/345] r12_wide_reduction_tree          orig      none      p=4.8    no metrics
+  [154/345] r12_wide_reduction_tree          orig      none      p=3.6    no metrics
+  [155/345] r12_wide_reduction_tree          orig      none      p=2.7    no metrics
+  [156/345] r12_wide_reduction_tree          directive none      p=7.8    no metrics
+  [157/345] r12_wide_reduction_tree          directive none      p=6.0    no metrics
+  [158/345] r12_wide_reduction_tree          directive none      p=4.8    no metrics
+  [159/345] r12_wide_reduction_tree          directive none      p=3.6    no metrics
+  [160/345] r12_wide_reduction_tree          directive none      p=2.7    no metrics
+  [161/345] r12_wide_reduction_tree          retimed   none      p=7.8    no metrics
+  [162/345] r12_wide_reduction_tree          retimed   none      p=6.0    no metrics
+  [163/345] r12_wide_reduction_tree          retimed   none      p=4.8    no metrics
+  [164/345] r12_wide_reduction_tree          retimed   none      p=3.6    no metrics
+  [165/345] r12_wide_reduction_tree          retimed   none      p=2.7    no metrics
+  [166/345] r13_retime_around_sram           orig      none      p=7.8    no metrics
+  [167/345] r13_retime_around_sram           orig      none      p=6.0    no metrics
+  [168/345] r13_retime_around_sram           orig      none      p=4.8    no metrics
+  [169/345] r13_retime_around_sram           orig      none      p=3.6    no metrics
+  [170/345] r13_retime_around_sram           orig      none      p=2.7    no metrics
+  [171/345] r13_retime_around_sram           directive none      p=7.8    no metrics
+  [172/345] r13_retime_around_sram           directive none      p=6.0    no metrics
+  [173/345] r13_retime_around_sram           directive none      p=4.8    no metrics
+  [174/345] r13_retime_around_sram           directive none      p=3.6    no metrics
+  [175/345] r13_retime_around_sram           directive none      p=2.7    no metrics
+  [176/345] r13_retime_around_sram           retimed   none      p=7.8    no metrics
+  [177/345] r13_retime_around_sram           retimed   none      p=6.0    no metrics
+  [178/345] r13_retime_around_sram           retimed   none      p=4.8    no metrics
+  [179/345] r13_retime_around_sram           retimed   none      p=3.6    no metrics
+  [180/345] r13_retime_around_sram           retimed   none      p=2.7    no metrics
+  [181/345] r15_hier_boundary_block          orig      none      p=6.5    no metrics
+  [182/345] r15_hier_boundary_block          orig      none      p=5.0    no metrics
+  [183/345] r15_hier_boundary_block          orig      none      p=4.0    no metrics
+  [184/345] r15_hier_boundary_block          orig      none      p=3.0    no metrics
+  [185/345] r15_hier_boundary_block          orig      none      p=2.25   no metrics
+  [186/345] r15_hier_boundary_block          directive none      p=6.5    no metrics
+  [187/345] r15_hier_boundary_block          directive none      p=5.0    no metrics
+  [188/345] r15_hier_boundary_block          directive none      p=4.0    no metrics
+  [189/345] r15_hier_boundary_block          directive none      p=3.0    no metrics
+  [190/345] r15_hier_boundary_block          directive none      p=2.25   no metrics
+  [191/345] r15_hier_boundary_block          retimed   none      p=6.5    no metrics
+  [192/345] r15_hier_boundary_block          retimed   none      p=5.0    no metrics
+  [193/345] r15_hier_boundary_block          retimed   none      p=4.0    no metrics
+  [194/345] r15_hier_boundary_block          retimed   none      p=3.0    no metrics
+  [195/345] r15_hier_boundary_block          retimed   none      p=2.25   no metrics
+  [196/345] r16_dont_touch_conflict          orig      none      p=6.5    no metrics
+  [197/345] r16_dont_touch_conflict          orig      none      p=5.0    no metrics
+  [198/345] r16_dont_touch_conflict          orig      none      p=4.0    no metrics
+  [199/345] r16_dont_touch_conflict          orig      none      p=3.0    no metrics
+  [200/345] r16_dont_touch_conflict          orig      none      p=2.25   no metrics
+  [201/345] r16_dont_touch_conflict          directive none      p=6.5    no metrics
+  [202/345] r16_dont_touch_conflict          directive none      p=5.0    no metrics
+  [203/345] r16_dont_touch_conflict          directive none      p=4.0    no metrics
+  [204/345] r16_dont_touch_conflict          directive none      p=3.0    no metrics
+  [205/345] r16_dont_touch_conflict          directive none      p=2.25   no metrics
+  [206/345] r16_dont_touch_conflict          retimed   none      p=6.5    no metrics
+  [207/345] r16_dont_touch_conflict          retimed   none      p=5.0    no metrics
+  [208/345] r16_dont_touch_conflict          retimed   none      p=4.0    no metrics
+  [209/345] r16_dont_touch_conflict          retimed   none      p=3.0    no metrics
+  [210/345] r16_dont_touch_conflict          retimed   none      p=2.25   no metrics
+  [211/345] r17_clock_enable_barrier         orig      none      p=7.8    no metrics
+  [212/345] r17_clock_enable_barrier         orig      none      p=6.0    no metrics
+  [213/345] r17_clock_enable_barrier         orig      none      p=4.8    no metrics
+  [214/345] r17_clock_enable_barrier         orig      none      p=3.6    no metrics
+  [215/345] r17_clock_enable_barrier         orig      none      p=2.7    no metrics
+  [216/345] r17_clock_enable_barrier         directive none      p=7.8    no metrics
+  [217/345] r17_clock_enable_barrier         directive none      p=6.0    no metrics
+  [218/345] r17_clock_enable_barrier         directive none      p=4.8    no metrics
+  [219/345] r17_clock_enable_barrier         directive none      p=3.6    no metrics
+  [220/345] r17_clock_enable_barrier         directive none      p=2.7    no metrics
+  [221/345] r17_clock_enable_barrier         retimed   none      p=7.8    no metrics
+  [222/345] r17_clock_enable_barrier         retimed   none      p=6.0    no metrics
+  [223/345] r17_clock_enable_barrier         retimed   none      p=4.8    no metrics
+  [224/345] r17_clock_enable_barrier         retimed   none      p=3.6    no metrics
+  [225/345] r17_clock_enable_barrier         retimed   none      p=2.7    no metrics
+  [226/345] r18_clock_gated_region           orig      none      p=7.8    no metrics
+  [227/345] r18_clock_gated_region           orig      none      p=6.0    no metrics
+  [228/345] r18_clock_gated_region           orig      none      p=4.8    no metrics
+  [229/345] r18_clock_gated_region           orig      none      p=3.6    no metrics
+  [230/345] r18_clock_gated_region           orig      none      p=2.7    no metrics
+  [231/345] r18_clock_gated_region           directive none      p=7.8    no metrics
+  [232/345] r18_clock_gated_region           directive none      p=6.0    no metrics
+  [233/345] r18_clock_gated_region           directive none      p=4.8    no metrics
+  [234/345] r18_clock_gated_region           directive none      p=3.6    no metrics
+  [235/345] r18_clock_gated_region           directive none      p=2.7    no metrics
+  [236/345] r18_clock_gated_region           retimed   none      p=7.8    no metrics
+  [237/345] r18_clock_gated_region           retimed   none      p=6.0    no metrics
+  [238/345] r18_clock_gated_region           retimed   none      p=4.8    no metrics
+  [239/345] r18_clock_gated_region           retimed   none      p=3.6    no metrics
+  [240/345] r18_clock_gated_region           retimed   none      p=2.7    no metrics
+  [241/345] r19_power_activity_retime        orig      none      p=7.8    no metrics
+  [242/345] r19_power_activity_retime        orig      none      p=6.0    no metrics
+  [243/345] r19_power_activity_retime        orig      none      p=4.8    no metrics
+  [244/345] r19_power_activity_retime        orig      none      p=3.6    no metrics
+  [245/345] r19_power_activity_retime        orig      none      p=2.7    no metrics
+  [246/345] r19_power_activity_retime        directive none      p=7.8    no metrics
+  [247/345] r19_power_activity_retime        directive none      p=6.0    no metrics
+  [248/345] r19_power_activity_retime        directive none      p=4.8    no metrics
+  [249/345] r19_power_activity_retime        directive none      p=3.6    no metrics
+  [250/345] r19_power_activity_retime        directive none      p=2.7    no metrics
+  [251/345] r19_power_activity_retime        retimed   none      p=7.8    no metrics
+  [252/345] r19_power_activity_retime        retimed   none      p=6.0    no metrics
+  [253/345] r19_power_activity_retime        retimed   none      p=4.8    no metrics
+  [254/345] r19_power_activity_retime        retimed   none      p=3.6    no metrics
+  [255/345] r19_power_activity_retime        retimed   none      p=2.7    no metrics
+  [256/345] r20_glitch_absorb                orig      none      p=7.8    no metrics
+  [257/345] r20_glitch_absorb                orig      none      p=6.0    no metrics
+  [258/345] r20_glitch_absorb                orig      none      p=4.8    no metrics
+  [259/345] r20_glitch_absorb                orig      none      p=3.6    no metrics
+  [260/345] r20_glitch_absorb                orig      none      p=2.7    no metrics
+  [261/345] r20_glitch_absorb                directive none      p=7.8    no metrics
+  [262/345] r20_glitch_absorb                directive none      p=6.0    no metrics
+  [263/345] r20_glitch_absorb                directive none      p=4.8    no metrics
+  [264/345] r20_glitch_absorb                directive none      p=3.6    no metrics
+  [265/345] r20_glitch_absorb                directive none      p=2.7    no metrics
+  [266/345] r20_glitch_absorb                retimed   none      p=7.8    no metrics
+  [267/345] r20_glitch_absorb                retimed   none      p=6.0    no metrics
+  [268/345] r20_glitch_absorb                retimed   none      p=4.8    no metrics
+  [269/345] r20_glitch_absorb                retimed   none      p=3.6    no metrics
+  [270/345] r20_glitch_absorb                retimed   none      p=2.7    no metrics
+  [271/345] r21_wire_pipeline_cross_die      orig      none      p=6.5    no metrics
+  [272/345] r21_wire_pipeline_cross_die      orig      none      p=5.0    no metrics
+  [273/345] r21_wire_pipeline_cross_die      orig      none      p=4.0    no metrics
+  [274/345] r21_wire_pipeline_cross_die      orig      none      p=3.0    no metrics
+  [275/345] r21_wire_pipeline_cross_die      orig      none      p=2.25   no metrics
+  [276/345] r21_wire_pipeline_cross_die      directive none      p=6.5    no metrics
+  [277/345] r21_wire_pipeline_cross_die      directive none      p=5.0    no metrics
+  [278/345] r21_wire_pipeline_cross_die      directive none      p=4.0    no metrics
+  [279/345] r21_wire_pipeline_cross_die      directive none      p=3.0    no metrics
+  [280/345] r21_wire_pipeline_cross_die      directive none      p=2.25   no metrics
+  [281/345] r21_wire_pipeline_cross_die      retimed   none      p=6.5    no metrics
+  [282/345] r21_wire_pipeline_cross_die      retimed   none      p=5.0    no metrics
+  [283/345] r21_wire_pipeline_cross_die      retimed   none      p=4.0    no metrics
+  [284/345] r21_wire_pipeline_cross_die      retimed   none      p=3.0    no metrics
+  [285/345] r21_wire_pipeline_cross_die      retimed   none      p=2.25   no metrics
+  [286/345] r22_fanout_wire_load             orig      none      p=10.4   no metrics
+  [287/345] r22_fanout_wire_load             orig      none      p=8.0    no metrics
+  [288/345] r22_fanout_wire_load             orig      none      p=6.4    no metrics
+  [289/345] r22_fanout_wire_load             orig      none      p=4.8    no metrics
+  [290/345] r22_fanout_wire_load             orig      none      p=3.6    no metrics
+  [291/345] r22_fanout_wire_load             directive none      p=10.4   no metrics
+  [292/345] r22_fanout_wire_load             directive none      p=8.0    no metrics
+  [293/345] r22_fanout_wire_load             directive none      p=6.4    no metrics
+  [294/345] r22_fanout_wire_load             directive none      p=4.8    no metrics
+  [295/345] r22_fanout_wire_load             directive none      p=3.6    no metrics
+  [296/345] r22_fanout_wire_load             retimed   none      p=10.4   no metrics
+  [297/345] r22_fanout_wire_load             retimed   none      p=8.0    no metrics
+  [298/345] r22_fanout_wire_load             retimed   none      p=6.4    no metrics
+  [299/345] r22_fanout_wire_load             retimed   none      p=4.8    no metrics
+  [300/345] r22_fanout_wire_load             retimed   none      p=3.6    no metrics
+  [301/345] r24_loop_bound_control           orig      none      p=7.8    no metrics
+  [302/345] r24_loop_bound_control           orig      none      p=6.0    no metrics
+  [303/345] r24_loop_bound_control           orig      none      p=4.8    no metrics
+  [304/345] r24_loop_bound_control           orig      none      p=3.6    no metrics
+  [305/345] r24_loop_bound_control           orig      none      p=2.7    no metrics
+  [306/345] r24_loop_bound_control           directive none      p=7.8    no metrics
+  [307/345] r24_loop_bound_control           directive none      p=6.0    no metrics
+  [308/345] r24_loop_bound_control           directive none      p=4.8    no metrics
+  [309/345] r24_loop_bound_control           directive none      p=3.6    no metrics
+  [310/345] r24_loop_bound_control           directive none      p=2.7    no metrics
+  [311/345] r24_loop_bound_control           retimed   none      p=7.8    no metrics
+  [312/345] r24_loop_bound_control           retimed   none      p=6.0    no metrics
+  [313/345] r24_loop_bound_control           retimed   none      p=4.8    no metrics
+  [314/345] r24_loop_bound_control           retimed   none      p=3.6    no metrics
+  [315/345] r24_loop_bound_control           retimed   none      p=2.7    no metrics
+  [316/345] r26_sdc_exception_invalidation   orig      none      p=5.2    no metrics
+  [317/345] r26_sdc_exception_invalidation   orig      none      p=4.0    no metrics
+  [318/345] r26_sdc_exception_invalidation   orig      none      p=3.2    no metrics
+  [319/345] r26_sdc_exception_invalidation   orig      none      p=2.4    no metrics
+  [320/345] r26_sdc_exception_invalidation   orig      none      p=1.8    no metrics
+  [321/345] r26_sdc_exception_invalidation   directive none      p=5.2    no metrics
+  [322/345] r26_sdc_exception_invalidation   directive none      p=4.0    no metrics
+  [323/345] r26_sdc_exception_invalidation   directive none      p=3.2    no metrics
+  [324/345] r26_sdc_exception_invalidation   directive none      p=2.4    no metrics
+  [325/345] r26_sdc_exception_invalidation   directive none      p=1.8    no metrics
+  [326/345] r26_sdc_exception_invalidation   retimed   none      p=5.2    no metrics
+  [327/345] r26_sdc_exception_invalidation   retimed   none      p=4.0    no metrics
+  [328/345] r26_sdc_exception_invalidation   retimed   none      p=3.2    no metrics
+  [329/345] r26_sdc_exception_invalidation   retimed   none      p=2.4    no metrics
+  [330/345] r26_sdc_exception_invalidation   retimed   none      p=1.8    no metrics
+  [331/345] r27_exception_scope_probe        orig      none      p=5.2    no metrics
+  [332/345] r27_exception_scope_probe        orig      none      p=4.0    no metrics
+  [333/345] r27_exception_scope_probe        orig      none      p=3.2    no metrics
+  [334/345] r27_exception_scope_probe        orig      none      p=2.4    no metrics
+  [335/345] r27_exception_scope_probe        orig      none      p=1.8    no metrics
+  [336/345] r27_exception_scope_probe        directive none      p=5.2    no metrics
+  [337/345] r27_exception_scope_probe        directive none      p=4.0    no metrics
+  [338/345] r27_exception_scope_probe        directive none      p=3.2    no metrics
+  [339/345] r27_exception_scope_probe        directive none      p=2.4    no metrics
+  [340/345] r27_exception_scope_probe        directive none      p=1.8    no metrics
+  [341/345] r27_exception_scope_probe        retimed   none      p=5.2    no metrics
+  [342/345] r27_exception_scope_probe        retimed   none      p=4.0    no metrics
+  [343/345] r27_exception_scope_probe        retimed   none      p=3.2    no metrics
+  [344/345] r27_exception_scope_probe        retimed   none      p=2.4    no metrics
+  [345/345] r27_exception_scope_probe        retimed   none      p=1.8    no metrics
+wrote results/matrix_orsyn.json (345 rows)
+
+=== phase 4/6  Vivado matrix (Artix-7) :: 14:26:52Z ===
+matrix: 23 benchmark(s), 460 runs, 4 concurrent, tool=vivado
+  [1/460] r01_reset_backward_barrier       orig      off       p=12.0   MET
+  [2/460] r01_reset_backward_barrier       orig      off       p=9.6    MET
+  [3/460] r01_reset_backward_barrier       orig      off       p=8.0    VIOLATED
+  [4/460] r01_reset_backward_barrier       orig      off       p=6.4    VIOLATED
+  [5/460] r01_reset_backward_barrier       orig      off       p=5.2    VIOLATED
+  [6/460] r01_reset_backward_barrier       orig      on        p=12.0   MET
+  [7/460] r01_reset_backward_barrier       orig      on        p=9.6    MET
+  [8/460] r01_reset_backward_barrier       orig      on        p=8.0    VIOLATED
+  [9/460] r01_reset_backward_barrier       orig      on        p=6.4    VIOLATED
+  [10/460] r01_reset_backward_barrier       orig      on        p=5.2    VIOLATED
+  [11/460] r01_reset_backward_barrier       directive on        p=12.0   MET
+  [12/460] r01_reset_backward_barrier       directive on        p=9.6    MET
+  [13/460] r01_reset_backward_barrier       directive on        p=8.0    VIOLATED
+  [14/460] r01_reset_backward_barrier       directive on        p=6.4    VIOLATED
+  [15/460] r01_reset_backward_barrier       directive on        p=5.2    VIOLATED
+  [16/460] r01_reset_backward_barrier       retimed   off       p=12.0   MET
+  [17/460] r01_reset_backward_barrier       retimed   off       p=9.6    MET
+  [18/460] r01_reset_backward_barrier       retimed   off       p=8.0    MET
+  [19/460] r01_reset_backward_barrier       retimed   off       p=6.4    VIOLATED
+  [20/460] r01_reset_backward_barrier       retimed   off       p=5.2    VIOLATED
+  [21/460] r02_reset_no_valid_init          orig      off       p=10.5   MET
+  [22/460] r02_reset_no_valid_init          orig      off       p=8.4    MET
+  [23/460] r02_reset_no_valid_init          orig      off       p=7.0    VIOLATED
+  [24/460] r02_reset_no_valid_init          orig      off       p=5.6    VIOLATED
+  [25/460] r02_reset_no_valid_init          orig      off       p=4.55   VIOLATED
+  [26/460] r02_reset_no_valid_init          orig      on        p=10.5   MET
+  [27/460] r02_reset_no_valid_init          orig      on        p=8.4    MET
+  [28/460] r02_reset_no_valid_init          orig      on        p=7.0    VIOLATED
+  [29/460] r02_reset_no_valid_init          orig      on        p=5.6    VIOLATED
+  [30/460] r02_reset_no_valid_init          orig      on        p=4.55   VIOLATED
+  [31/460] r02_reset_no_valid_init          directive on        p=10.5   MET
+  [32/460] r02_reset_no_valid_init          directive on        p=8.4    MET
+  [33/460] r02_reset_no_valid_init          directive on        p=7.0    VIOLATED
+  [34/460] r02_reset_no_valid_init          directive on        p=5.6    VIOLATED
+  [35/460] r02_reset_no_valid_init          directive on        p=4.55   VIOLATED
+  [36/460] r02_reset_no_valid_init          retimed   off       p=10.5   MET
+  [37/460] r02_reset_no_valid_init          retimed   off       p=8.4    MET
+  [38/460] r02_reset_no_valid_init          retimed   off       p=7.0    VIOLATED
+  [39/460] r02_reset_no_valid_init          retimed   off       p=5.6    VIOLATED
+  [40/460] r02_reset_no_valid_init          retimed   off       p=4.55   VIOLATED
+  [41/460] r03_async_reset_blocker          orig      off       p=10.5   MET
+  [42/460] r03_async_reset_blocker          orig      off       p=8.4    MET
+  [43/460] r03_async_reset_blocker          orig      off       p=7.0    VIOLATED
+  [44/460] r03_async_reset_blocker          orig      off       p=5.6    VIOLATED
+  [45/460] r03_async_reset_blocker          orig      off       p=4.55   VIOLATED
+  [46/460] r03_async_reset_blocker          orig      on        p=10.5   MET
+  [47/460] r03_async_reset_blocker          orig      on        p=8.4    MET
+  [48/460] r03_async_reset_blocker          orig      on        p=7.0    VIOLATED
+  [49/460] r03_async_reset_blocker          orig      on        p=5.6    VIOLATED
+  [50/460] r03_async_reset_blocker          orig      on        p=4.55   VIOLATED
+  [51/460] r03_async_reset_blocker          directive on        p=10.5   MET
+  [52/460] r03_async_reset_blocker          directive on        p=8.4    MET
+  [53/460] r03_async_reset_blocker          directive on        p=7.0    VIOLATED
+  [54/460] r03_async_reset_blocker          directive on        p=5.6    VIOLATED
+  [55/460] r03_async_reset_blocker          directive on        p=4.55   VIOLATED
+  [56/460] r03_async_reset_blocker          retimed   off       p=10.5   MET
+  [57/460] r03_async_reset_blocker          retimed   off       p=8.4    MET
+  [58/460] r03_async_reset_blocker          retimed   off       p=7.0    MET
+  [59/460] r03_async_reset_blocker          retimed   off       p=5.6    VIOLATED
+  [60/460] r03_async_reset_blocker          retimed   off       p=4.55   VIOLATED
+  [61/460] r04_init_only_no_reset           orig      off       p=10.5   MET
+  [62/460] r04_init_only_no_reset           orig      off       p=8.4    MET
+  [63/460] r04_init_only_no_reset           orig      off       p=7.0    VIOLATED
+  [64/460] r04_init_only_no_reset           orig      off       p=5.6    VIOLATED
+  [65/460] r04_init_only_no_reset           orig      off       p=4.55   VIOLATED
+  [66/460] r04_init_only_no_reset           orig      on        p=10.5   MET
+  [67/460] r04_init_only_no_reset           orig      on        p=8.4    MET
+  [68/460] r04_init_only_no_reset           orig      on        p=7.0    VIOLATED
+  [69/460] r04_init_only_no_reset           orig      on        p=5.6    VIOLATED
+  [70/460] r04_init_only_no_reset           orig      on        p=4.55   VIOLATED
+  [71/460] r04_init_only_no_reset           directive on        p=10.5   MET
+  [72/460] r04_init_only_no_reset           directive on        p=8.4    MET
+  [73/460] r04_init_only_no_reset           directive on        p=7.0    VIOLATED
+  [74/460] r04_init_only_no_reset           directive on        p=5.6    VIOLATED
+  [75/460] r04_init_only_no_reset           directive on        p=4.55   VIOLATED
+  [76/460] r04_init_only_no_reset           retimed   off       p=10.5   MET
+  [77/460] r04_init_only_no_reset           retimed   off       p=8.4    MET
+  [78/460] r04_init_only_no_reset           retimed   off       p=7.0    VIOLATED
+  [79/460] r04_init_only_no_reset           retimed   off       p=5.6    VIOLATED
+  [80/460] r04_init_only_no_reset           retimed   off       p=4.55   VIOLATED
+  [81/460] r05_fsm_high_fanout              orig      off       p=15.0   MET
+  [82/460] r05_fsm_high_fanout              orig      off       p=12.0   MET
+  [83/460] r05_fsm_high_fanout              orig      off       p=10.0   MET
+  [84/460] r05_fsm_high_fanout              orig      off       p=8.0    MET
+  [85/460] r05_fsm_high_fanout              orig      off       p=6.5    VIOLATED
+  [86/460] r05_fsm_high_fanout              orig      on        p=15.0   MET
+  [87/460] r05_fsm_high_fanout              orig      on        p=12.0   MET
+  [88/460] r05_fsm_high_fanout              orig      on        p=10.0   MET
+  [89/460] r05_fsm_high_fanout              orig      on        p=8.0    MET
+  [90/460] r05_fsm_high_fanout              orig      on        p=6.5    VIOLATED
+  [91/460] r05_fsm_high_fanout              directive on        p=15.0   MET
+  [92/460] r05_fsm_high_fanout              directive on        p=12.0   MET
+  [93/460] r05_fsm_high_fanout              directive on        p=10.0   MET
+  [94/460] r05_fsm_high_fanout              directive on        p=8.0    MET
+  [95/460] r05_fsm_high_fanout              directive on        p=6.5    VIOLATED
+  [96/460] r05_fsm_high_fanout              retimed   off       p=15.0   MET
+  [97/460] r05_fsm_high_fanout              retimed   off       p=12.0   MET
+  [98/460] r05_fsm_high_fanout              retimed   off       p=10.0   MET
+  [99/460] r05_fsm_high_fanout              retimed   off       p=8.0    MET
+  [100/460] r05_fsm_high_fanout              retimed   off       p=6.5    VIOLATED
+  [101/460] r06_fsm_high_fanin               orig      off       p=12.0   MET
+  [102/460] r06_fsm_high_fanin               orig      off       p=9.6    VIOLATED
+  [103/460] r06_fsm_high_fanin               orig      off       p=8.0    VIOLATED
+  [104/460] r06_fsm_high_fanin               orig      off       p=6.4    VIOLATED
+  [105/460] r06_fsm_high_fanin               orig      off       p=5.2    VIOLATED
+  [106/460] r06_fsm_high_fanin               orig      on        p=12.0   MET
+  [107/460] r06_fsm_high_fanin               orig      on        p=9.6    VIOLATED
+  [108/460] r06_fsm_high_fanin               orig      on        p=8.0    VIOLATED
+  [109/460] r06_fsm_high_fanin               orig      on        p=6.4    VIOLATED
+  [110/460] r06_fsm_high_fanin               orig      on        p=5.2    VIOLATED
+  [111/460] r06_fsm_high_fanin               directive on        p=12.0   MET
+  [112/460] r06_fsm_high_fanin               directive on        p=9.6    VIOLATED
+  [113/460] r06_fsm_high_fanin               directive on        p=8.0    VIOLATED
+  [114/460] r06_fsm_high_fanin               directive on        p=6.4    VIOLATED
+  [115/460] r06_fsm_high_fanin               directive on        p=5.2    VIOLATED
+  [116/460] r06_fsm_high_fanin               retimed   off       p=12.0   MET
+  [117/460] r06_fsm_high_fanin               retimed   off       p=9.6    MET
+  [118/460] r06_fsm_high_fanin               retimed   off       p=8.0    VIOLATED
+  [119/460] r06_fsm_high_fanin               retimed   off       p=6.4    VIOLATED
+  [120/460] r06_fsm_high_fanin               retimed   off       p=5.2    VIOLATED
+  [121/460] r08_fsm_output_decode            orig      off       p=12.0   MET
+  [122/460] r08_fsm_output_decode            orig      off       p=9.6    VIOLATED
+  [123/460] r08_fsm_output_decode            orig      off       p=8.0    VIOLATED
+  [124/460] r08_fsm_output_decode            orig      off       p=6.4    VIOLATED
+  [125/460] r08_fsm_output_decode            orig      off       p=5.2    VIOLATED
+  [126/460] r08_fsm_output_decode            orig      on        p=12.0   MET
+  [127/460] r08_fsm_output_decode            orig      on        p=9.6    VIOLATED
+  [128/460] r08_fsm_output_decode            orig      on        p=8.0    VIOLATED
+  [129/460] r08_fsm_output_decode            orig      on        p=6.4    VIOLATED
+  [130/460] r08_fsm_output_decode            orig      on        p=5.2    VIOLATED
+  [131/460] r08_fsm_output_decode            directive on        p=12.0   MET
+  [132/460] r08_fsm_output_decode            directive on        p=9.6    VIOLATED
+  [133/460] r08_fsm_output_decode            directive on        p=8.0    VIOLATED
+  [134/460] r08_fsm_output_decode            directive on        p=6.4    VIOLATED
+  [135/460] r08_fsm_output_decode            directive on        p=5.2    VIOLATED
+  [136/460] r08_fsm_output_decode            retimed   off       p=12.0   MET
+  [137/460] r08_fsm_output_decode            retimed   off       p=9.6    MET
+  [138/460] r08_fsm_output_decode            retimed   off       p=8.0    MET
+  [139/460] r08_fsm_output_decode            retimed   off       p=6.4    VIOLATED
+  [140/460] r08_fsm_output_decode            retimed   off       p=5.2    VIOLATED
+  [141/460] r09_unbalanced_mult_pipe         orig      off       p=12.0   MET
+  [142/460] r09_unbalanced_mult_pipe         orig      off       p=9.6    MET
+  [143/460] r09_unbalanced_mult_pipe         orig      off       p=8.0    no metrics
+  [144/460] r09_unbalanced_mult_pipe         orig      off       p=6.4    no metrics
+  [145/460] r09_unbalanced_mult_pipe         orig      off       p=5.2    no metrics
+  [146/460] r09_unbalanced_mult_pipe         orig      on        p=12.0   no metrics
+  [147/460] r09_unbalanced_mult_pipe         orig      on        p=9.6    MET
+  [148/460] r09_unbalanced_mult_pipe         orig      on        p=8.0    MET
+  [149/460] r09_unbalanced_mult_pipe         orig      on        p=6.4    VIOLATED
+  [150/460] r09_unbalanced_mult_pipe         orig      on        p=5.2    VIOLATED
+  [151/460] r09_unbalanced_mult_pipe         directive on        p=12.0   MET
+  [152/460] r09_unbalanced_mult_pipe         directive on        p=9.6    MET
+  [153/460] r09_unbalanced_mult_pipe         directive on        p=8.0    MET
+  [154/460] r09_unbalanced_mult_pipe         directive on        p=6.4    VIOLATED
+  [155/460] r09_unbalanced_mult_pipe         directive on        p=5.2    VIOLATED
+  [156/460] r09_unbalanced_mult_pipe         retimed   off       p=12.0   MET
+  [157/460] r09_unbalanced_mult_pipe         retimed   off       p=9.6    MET
+  [158/460] r09_unbalanced_mult_pipe         retimed   off       p=8.0    VIOLATED
+  [159/460] r09_unbalanced_mult_pipe         retimed   off       p=6.4    VIOLATED
+  [160/460] r09_unbalanced_mult_pipe         retimed   off       p=5.2    VIOLATED
+  [161/460] r10_long_carry_chain             orig      off       p=12.0   MET
+  [162/460] r10_long_carry_chain             orig      off       p=9.6    MET
+  [163/460] r10_long_carry_chain             orig      off       p=8.0    MET
+  [164/460] r10_long_carry_chain             orig      off       p=6.4    VIOLATED
+  [165/460] r10_long_carry_chain             orig      off       p=5.2    VIOLATED
+  [166/460] r10_long_carry_chain             orig      on        p=12.0   MET
+  [167/460] r10_long_carry_chain             orig      on        p=9.6    MET
+  [168/460] r10_long_carry_chain             orig      on        p=8.0    MET
+  [169/460] r10_long_carry_chain             orig      on        p=6.4    VIOLATED
+  [170/460] r10_long_carry_chain             orig      on        p=5.2    VIOLATED
+  [171/460] r10_long_carry_chain             directive on        p=12.0   MET
+  [172/460] r10_long_carry_chain             directive on        p=9.6    MET
+  [173/460] r10_long_carry_chain             directive on        p=8.0    MET
+  [174/460] r10_long_carry_chain             directive on        p=6.4    VIOLATED
+  [175/460] r10_long_carry_chain             directive on        p=5.2    VIOLATED
+  [176/460] r10_long_carry_chain             retimed   off       p=12.0   MET
+  [177/460] r10_long_carry_chain             retimed   off       p=9.6    MET
+  [178/460] r10_long_carry_chain             retimed   off       p=8.0    MET
+  [179/460] r10_long_carry_chain             retimed   off       p=6.4    VIOLATED
+  [180/460] r10_long_carry_chain             retimed   off       p=5.2    VIOLATED
+  [181/460] r11_deep_retime_distance         orig      off       p=10.5   VIOLATED
+  [182/460] r11_deep_retime_distance         orig      off       p=8.4    VIOLATED
+  [183/460] r11_deep_retime_distance         orig      off       p=7.0    VIOLATED
+  [184/460] r11_deep_retime_distance         orig      off       p=5.6    VIOLATED
+  [185/460] r11_deep_retime_distance         orig      off       p=4.55   VIOLATED
+  [186/460] r11_deep_retime_distance         orig      on        p=10.5   VIOLATED
+  [187/460] r11_deep_retime_distance         orig      on        p=8.4    VIOLATED
+  [188/460] r11_deep_retime_distance         orig      on        p=7.0    VIOLATED
+  [189/460] r11_deep_retime_distance         orig      on        p=5.6    VIOLATED
+  [190/460] r11_deep_retime_distance         orig      on        p=4.55   VIOLATED
+  [191/460] r11_deep_retime_distance         directive on        p=10.5   VIOLATED
+  [192/460] r11_deep_retime_distance         directive on        p=8.4    VIOLATED
+  [193/460] r11_deep_retime_distance         directive on        p=7.0    VIOLATED
+  [194/460] r11_deep_retime_distance         directive on        p=5.6    VIOLATED
+  [195/460] r11_deep_retime_distance         directive on        p=4.55   VIOLATED
+  [196/460] r11_deep_retime_distance         retimed   off       p=10.5   VIOLATED
+  [197/460] r11_deep_retime_distance         retimed   off       p=8.4    VIOLATED
+  [198/460] r11_deep_retime_distance         retimed   off       p=7.0    VIOLATED
+  [199/460] r11_deep_retime_distance         retimed   off       p=5.6    VIOLATED
+  [200/460] r11_deep_retime_distance         retimed   off       p=4.55   VIOLATED
+  [201/460] r12_wide_reduction_tree          orig      off       p=12.0   MET
+  [202/460] r12_wide_reduction_tree          orig      off       p=9.6    VIOLATED
+  [203/460] r12_wide_reduction_tree          orig      off       p=8.0    VIOLATED
+  [204/460] r12_wide_reduction_tree          orig      off       p=6.4    VIOLATED
+  [205/460] r12_wide_reduction_tree          orig      off       p=5.2    VIOLATED
+  [206/460] r12_wide_reduction_tree          orig      on        p=12.0   MET
+  [207/460] r12_wide_reduction_tree          orig      on        p=9.6    VIOLATED
+  [208/460] r12_wide_reduction_tree          orig      on        p=8.0    VIOLATED
+  [209/460] r12_wide_reduction_tree          orig      on        p=6.4    VIOLATED
+  [210/460] r12_wide_reduction_tree          orig      on        p=5.2    VIOLATED
+  [211/460] r12_wide_reduction_tree          directive on        p=12.0   MET
+  [212/460] r12_wide_reduction_tree          directive on        p=9.6    VIOLATED
+  [213/460] r12_wide_reduction_tree          directive on        p=8.0    VIOLATED
+  [214/460] r12_wide_reduction_tree          directive on        p=6.4    VIOLATED
+  [215/460] r12_wide_reduction_tree          directive on        p=5.2    VIOLATED
+  [216/460] r12_wide_reduction_tree          retimed   off       p=12.0   MET
+  [217/460] r12_wide_reduction_tree          retimed   off       p=9.6    MET
+  [218/460] r12_wide_reduction_tree          retimed   off       p=8.0    VIOLATED
+  [219/460] r12_wide_reduction_tree          retimed   off       p=6.4    VIOLATED
+  [220/460] r12_wide_reduction_tree          retimed   off       p=5.2    VIOLATED
+  [221/460] r13_retime_around_sram           orig      off       p=12.0   MET
+  [222/460] r13_retime_around_sram           orig      off       p=9.6    MET
+  [223/460] r13_retime_around_sram           orig      off       p=8.0    MET
+  [224/460] r13_retime_around_sram           orig      off       p=6.4    VIOLATED
+  [225/460] r13_retime_around_sram           orig      off       p=5.2    VIOLATED
+  [226/460] r13_retime_around_sram           orig      on        p=12.0   MET
+  [227/460] r13_retime_around_sram           orig      on        p=9.6    MET
+  [228/460] r13_retime_around_sram           orig      on        p=8.0    MET
+  [229/460] r13_retime_around_sram           orig      on        p=6.4    VIOLATED
+  [230/460] r13_retime_around_sram           orig      on        p=5.2    VIOLATED
+  [231/460] r13_retime_around_sram           directive on        p=12.0   MET
+  [232/460] r13_retime_around_sram           directive on        p=9.6    MET
+  [233/460] r13_retime_around_sram           directive on        p=8.0    MET
+  [234/460] r13_retime_around_sram           directive on        p=6.4    VIOLATED
+  [235/460] r13_retime_around_sram           directive on        p=5.2    VIOLATED
+  [236/460] r13_retime_around_sram           retimed   off       p=12.0   MET
+  [237/460] r13_retime_around_sram           retimed   off       p=9.6    MET
+  [238/460] r13_retime_around_sram           retimed   off       p=8.0    MET
+  [239/460] r13_retime_around_sram           retimed   off       p=6.4    VIOLATED
+  [240/460] r13_retime_around_sram           retimed   off       p=5.2    VIOLATED
+  [241/460] r15_hier_boundary_block          orig      off       p=10.5   MET
+  [242/460] r15_hier_boundary_block          orig      off       p=8.4    MET
+  [243/460] r15_hier_boundary_block          orig      off       p=7.0    VIOLATED
+  [244/460] r15_hier_boundary_block          orig      off       p=5.6    VIOLATED
+  [245/460] r15_hier_boundary_block          orig      off       p=4.55   VIOLATED
+  [246/460] r15_hier_boundary_block          orig      on        p=10.5   MET
+  [247/460] r15_hier_boundary_block          orig      on        p=8.4    MET
+  [248/460] r15_hier_boundary_block          orig      on        p=7.0    VIOLATED
+  [249/460] r15_hier_boundary_block          orig      on        p=5.6    VIOLATED
+  [250/460] r15_hier_boundary_block          orig      on        p=4.55   VIOLATED
+  [251/460] r15_hier_boundary_block          directive on        p=10.5   MET
+  [252/460] r15_hier_boundary_block          directive on        p=8.4    MET
+  [253/460] r15_hier_boundary_block          directive on        p=7.0    VIOLATED
+  [254/460] r15_hier_boundary_block          directive on        p=5.6    VIOLATED
+  [255/460] r15_hier_boundary_block          directive on        p=4.55   VIOLATED
+  [256/460] r15_hier_boundary_block          retimed   off       p=10.5   MET
+  [257/460] r15_hier_boundary_block          retimed   off       p=8.4    MET
+  [258/460] r15_hier_boundary_block          retimed   off       p=7.0    MET
+  [259/460] r15_hier_boundary_block          retimed   off       p=5.6    VIOLATED
+  [260/460] r15_hier_boundary_block          retimed   off       p=4.55   VIOLATED
+  [261/460] r16_dont_touch_conflict          orig      off       p=10.5   VIOLATED
+  [262/460] r16_dont_touch_conflict          orig      off       p=8.4    VIOLATED
+  [263/460] r16_dont_touch_conflict          orig      off       p=7.0    VIOLATED
+  [264/460] r16_dont_touch_conflict          orig      off       p=5.6    VIOLATED
+  [265/460] r16_dont_touch_conflict          orig      off       p=4.55   VIOLATED
+  [266/460] r16_dont_touch_conflict          orig      on        p=10.5   VIOLATED
+  [267/460] r16_dont_touch_conflict          orig      on        p=8.4    VIOLATED
+  [268/460] r16_dont_touch_conflict          orig      on        p=7.0    VIOLATED
+  [269/460] r16_dont_touch_conflict          orig      on        p=5.6    VIOLATED
+  [270/460] r16_dont_touch_conflict          orig      on        p=4.55   VIOLATED
+  [271/460] r16_dont_touch_conflict          directive on        p=10.5   VIOLATED
+  [272/460] r16_dont_touch_conflict          directive on        p=8.4    VIOLATED
+  [273/460] r16_dont_touch_conflict          directive on        p=7.0    VIOLATED
+  [274/460] r16_dont_touch_conflict          directive on        p=5.6    VIOLATED
+  [275/460] r16_dont_touch_conflict          directive on        p=4.55   VIOLATED
+  [276/460] r16_dont_touch_conflict          retimed   off       p=10.5   MET
+  [277/460] r16_dont_touch_conflict          retimed   off       p=8.4    VIOLATED
+  [278/460] r16_dont_touch_conflict          retimed   off       p=7.0    VIOLATED
+  [279/460] r16_dont_touch_conflict          retimed   off       p=5.6    VIOLATED
+  [280/460] r16_dont_touch_conflict          retimed   off       p=4.55   VIOLATED
+  [281/460] r17_clock_enable_barrier         orig      off       p=12.0   MET
+  [282/460] r17_clock_enable_barrier         orig      off       p=9.6    MET
+  [283/460] r17_clock_enable_barrier         orig      off       p=8.0    VIOLATED
+  [284/460] r17_clock_enable_barrier         orig      off       p=6.4    VIOLATED
+  [285/460] r17_clock_enable_barrier         orig      off       p=5.2    VIOLATED
+  [286/460] r17_clock_enable_barrier         orig      on        p=12.0   MET
+  [287/460] r17_clock_enable_barrier         orig      on        p=9.6    MET
+  [288/460] r17_clock_enable_barrier         orig      on        p=8.0    VIOLATED
+  [289/460] r17_clock_enable_barrier         orig      on        p=6.4    VIOLATED
+  [290/460] r17_clock_enable_barrier         orig      on        p=5.2    VIOLATED
+  [291/460] r17_clock_enable_barrier         directive on        p=12.0   MET
+  [292/460] r17_clock_enable_barrier         directive on        p=9.6    MET
+  [293/460] r17_clock_enable_barrier         directive on        p=8.0    VIOLATED
+  [294/460] r17_clock_enable_barrier         directive on        p=6.4    VIOLATED
+  [295/460] r17_clock_enable_barrier         directive on        p=5.2    VIOLATED
+  [296/460] r17_clock_enable_barrier         retimed   off       p=12.0   MET
+  [297/460] r17_clock_enable_barrier         retimed   off       p=9.6    MET
+  [298/460] r17_clock_enable_barrier         retimed   off       p=8.0    VIOLATED
+  [299/460] r17_clock_enable_barrier         retimed   off       p=6.4    VIOLATED
+  [300/460] r17_clock_enable_barrier         retimed   off       p=5.2    VIOLATED
+  [301/460] r18_clock_gated_region           orig      off       p=12.0   MET
+  [302/460] r18_clock_gated_region           orig      off       p=9.6    MET
+  [303/460] r18_clock_gated_region           orig      off       p=8.0    VIOLATED
+  [304/460] r18_clock_gated_region           orig      off       p=6.4    VIOLATED
+  [305/460] r18_clock_gated_region           orig      off       p=5.2    VIOLATED
+  [306/460] r18_clock_gated_region           orig      on        p=12.0   MET
+  [307/460] r18_clock_gated_region           orig      on        p=9.6    MET
+  [308/460] r18_clock_gated_region           orig      on        p=8.0    VIOLATED
+  [309/460] r18_clock_gated_region           orig      on        p=6.4    VIOLATED
+  [310/460] r18_clock_gated_region           orig      on        p=5.2    VIOLATED
+  [311/460] r18_clock_gated_region           directive on        p=12.0   MET
+  [312/460] r18_clock_gated_region           directive on        p=9.6    MET
+  [313/460] r18_clock_gated_region           directive on        p=8.0    VIOLATED
+  [314/460] r18_clock_gated_region           directive on        p=6.4    VIOLATED
+  [315/460] r18_clock_gated_region           directive on        p=5.2    VIOLATED
+  [316/460] r18_clock_gated_region           retimed   off       p=12.0   MET
+  [317/460] r18_clock_gated_region           retimed   off       p=9.6    MET
+  [318/460] r18_clock_gated_region           retimed   off       p=8.0    VIOLATED
+  [319/460] r18_clock_gated_region           retimed   off       p=6.4    VIOLATED
+  [320/460] r18_clock_gated_region           retimed   off       p=5.2    VIOLATED
+  [321/460] r19_power_activity_retime        orig      off       p=12.0   MET
+  [322/460] r19_power_activity_retime        orig      off       p=9.6    MET
+  [323/460] r19_power_activity_retime        orig      off       p=8.0    MET
+  [324/460] r19_power_activity_retime        orig      off       p=6.4    VIOLATED
+  [325/460] r19_power_activity_retime        orig      off       p=5.2    VIOLATED
+  [326/460] r19_power_activity_retime        orig      on        p=12.0   MET
+  [327/460] r19_power_activity_retime        orig      on        p=9.6    MET
+  [328/460] r19_power_activity_retime        orig      on        p=8.0    MET
+  [329/460] r19_power_activity_retime        orig      on        p=6.4    VIOLATED
+  [330/460] r19_power_activity_retime        orig      on        p=5.2    VIOLATED
+  [331/460] r19_power_activity_retime        directive on        p=12.0   MET
+  [332/460] r19_power_activity_retime        directive on        p=9.6    MET
+  [333/460] r19_power_activity_retime        directive on        p=8.0    MET
+  [334/460] r19_power_activity_retime        directive on        p=6.4    VIOLATED
+  [335/460] r19_power_activity_retime        directive on        p=5.2    VIOLATED
+  [336/460] r19_power_activity_retime        retimed   off       p=12.0   MET
+  [337/460] r19_power_activity_retime        retimed   off       p=9.6    MET
+  [338/460] r19_power_activity_retime        retimed   off       p=8.0    MET
+  [339/460] r19_power_activity_retime        retimed   off       p=6.4    VIOLATED
+  [340/460] r19_power_activity_retime        retimed   off       p=5.2    VIOLATED
+  [341/460] r20_glitch_absorb                orig      off       p=12.0   MET
+  [342/460] r20_glitch_absorb                orig      off       p=9.6    MET
+  [343/460] r20_glitch_absorb                orig      off       p=8.0    MET
+  [344/460] r20_glitch_absorb                orig      off       p=6.4    VIOLATED
+  [345/460] r20_glitch_absorb                orig      off       p=5.2    VIOLATED
+  [346/460] r20_glitch_absorb                orig      on        p=12.0   MET
+  [347/460] r20_glitch_absorb                orig      on        p=9.6    MET
+  [348/460] r20_glitch_absorb                orig      on        p=8.0    MET
+  [349/460] r20_glitch_absorb                orig      on        p=6.4    VIOLATED
+  [350/460] r20_glitch_absorb                orig      on        p=5.2    VIOLATED
+  [351/460] r20_glitch_absorb                directive on        p=12.0   MET
+  [352/460] r20_glitch_absorb                directive on        p=9.6    MET
+  [353/460] r20_glitch_absorb                directive on        p=8.0    MET
+  [354/460] r20_glitch_absorb                directive on        p=6.4    VIOLATED
+  [355/460] r20_glitch_absorb                directive on        p=5.2    VIOLATED
+  [356/460] r20_glitch_absorb                retimed   off       p=12.0   MET
+  [357/460] r20_glitch_absorb                retimed   off       p=9.6    MET
+  [358/460] r20_glitch_absorb                retimed   off       p=8.0    MET
+  [359/460] r20_glitch_absorb                retimed   off       p=6.4    VIOLATED
+  [360/460] r20_glitch_absorb                retimed   off       p=5.2    VIOLATED
+  [361/460] r21_wire_pipeline_cross_die      orig      off       p=10.5   MET
+  [362/460] r21_wire_pipeline_cross_die      orig      off       p=8.4    VIOLATED
+  [363/460] r21_wire_pipeline_cross_die      orig      off       p=7.0    VIOLATED
+  [364/460] r21_wire_pipeline_cross_die      orig      off       p=5.6    VIOLATED
+  [365/460] r21_wire_pipeline_cross_die      orig      off       p=4.55   VIOLATED
+  [366/460] r21_wire_pipeline_cross_die      orig      on        p=10.5   MET
+  [367/460] r21_wire_pipeline_cross_die      orig      on        p=8.4    VIOLATED
+  [368/460] r21_wire_pipeline_cross_die      orig      on        p=7.0    VIOLATED
+  [369/460] r21_wire_pipeline_cross_die      orig      on        p=5.6    VIOLATED
+  [370/460] r21_wire_pipeline_cross_die      orig      on        p=4.55   VIOLATED
+  [371/460] r21_wire_pipeline_cross_die      directive on        p=10.5   MET
+  [372/460] r21_wire_pipeline_cross_die      directive on        p=8.4    VIOLATED
+  [373/460] r21_wire_pipeline_cross_die      directive on        p=7.0    VIOLATED
+  [374/460] r21_wire_pipeline_cross_die      directive on        p=5.6    VIOLATED
+  [375/460] r21_wire_pipeline_cross_die      directive on        p=4.55   VIOLATED
+  [376/460] r21_wire_pipeline_cross_die      retimed   off       p=10.5   MET
+  [377/460] r21_wire_pipeline_cross_die      retimed   off       p=8.4    VIOLATED
+  [378/460] r21_wire_pipeline_cross_die      retimed   off       p=7.0    VIOLATED
+  [379/460] r21_wire_pipeline_cross_die      retimed   off       p=5.6    VIOLATED
+  [380/460] r21_wire_pipeline_cross_die      retimed   off       p=4.55   VIOLATED
+  [381/460] r22_fanout_wire_load             orig      off       p=15.0   MET
+  [382/460] r22_fanout_wire_load             orig      off       p=12.0   MET
+  [383/460] r22_fanout_wire_load             orig      off       p=10.0   MET
+  [384/460] r22_fanout_wire_load             orig      off       p=8.0    MET
+  [385/460] r22_fanout_wire_load             orig      off       p=6.5    VIOLATED
+  [386/460] r22_fanout_wire_load             orig      on        p=15.0   MET
+  [387/460] r22_fanout_wire_load             orig      on        p=12.0   MET
+  [388/460] r22_fanout_wire_load             orig      on        p=10.0   MET
+  [389/460] r22_fanout_wire_load             orig      on        p=8.0    VIOLATED
+  [390/460] r22_fanout_wire_load             orig      on        p=6.5    VIOLATED
+  [391/460] r22_fanout_wire_load             directive on        p=15.0   MET
+  [392/460] r22_fanout_wire_load             directive on        p=12.0   MET
+  [393/460] r22_fanout_wire_load             directive on        p=10.0   MET
+  [394/460] r22_fanout_wire_load             directive on        p=8.0    VIOLATED
+  [395/460] r22_fanout_wire_load             directive on        p=6.5    VIOLATED
+  [396/460] r22_fanout_wire_load             retimed   off       p=15.0   MET
+  [397/460] r22_fanout_wire_load             retimed   off       p=12.0   MET
+  [398/460] r22_fanout_wire_load             retimed   off       p=10.0   MET
+  [399/460] r22_fanout_wire_load             retimed   off       p=8.0    VIOLATED
+  [400/460] r22_fanout_wire_load             retimed   off       p=6.5    VIOLATED
+  [401/460] r24_loop_bound_control           orig      off       p=12.0   VIOLATED
+  [402/460] r24_loop_bound_control           orig      off       p=9.6    VIOLATED
+  [403/460] r24_loop_bound_control           orig      off       p=8.0    VIOLATED
+  [404/460] r24_loop_bound_control           orig      off       p=6.4    VIOLATED
+  [405/460] r24_loop_bound_control           orig      off       p=5.2    VIOLATED
+  [406/460] r24_loop_bound_control           orig      on        p=12.0   VIOLATED
+  [407/460] r24_loop_bound_control           orig      on        p=9.6    VIOLATED
+  [408/460] r24_loop_bound_control           orig      on        p=8.0    VIOLATED
+  [409/460] r24_loop_bound_control           orig      on        p=6.4    VIOLATED
+  [410/460] r24_loop_bound_control           orig      on        p=5.2    VIOLATED
+  [411/460] r24_loop_bound_control           directive on        p=12.0   VIOLATED
+  [412/460] r24_loop_bound_control           directive on        p=9.6    VIOLATED
+  [413/460] r24_loop_bound_control           directive on        p=8.0    VIOLATED
+  [414/460] r24_loop_bound_control           directive on        p=6.4    VIOLATED
+  [415/460] r24_loop_bound_control           directive on        p=5.2    VIOLATED
+  [416/460] r24_loop_bound_control           retimed   off       p=12.0   VIOLATED
+  [417/460] r24_loop_bound_control           retimed   off       p=9.6    VIOLATED
+  [418/460] r24_loop_bound_control           retimed   off       p=8.0    VIOLATED
+  [419/460] r24_loop_bound_control           retimed   off       p=6.4    VIOLATED
+  [420/460] r24_loop_bound_control           retimed   off       p=5.2    VIOLATED
+  [421/460] r26_sdc_exception_invalidation   orig      off       p=9.0    VIOLATED
+  [422/460] r26_sdc_exception_invalidation   orig      off       p=7.2    VIOLATED
+  [423/460] r26_sdc_exception_invalidation   orig      off       p=6.0    VIOLATED
+  [424/460] r26_sdc_exception_invalidation   orig      off       p=4.8    VIOLATED
+  [425/460] r26_sdc_exception_invalidation   orig      off       p=3.9    VIOLATED
+  [426/460] r26_sdc_exception_invalidation   orig      on        p=9.0    VIOLATED
+  [427/460] r26_sdc_exception_invalidation   orig      on        p=7.2    VIOLATED
+  [428/460] r26_sdc_exception_invalidation   orig      on        p=6.0    VIOLATED
+  [429/460] r26_sdc_exception_invalidation   orig      on        p=4.8    VIOLATED
+  [430/460] r26_sdc_exception_invalidation   orig      on        p=3.9    VIOLATED
+  [431/460] r26_sdc_exception_invalidation   directive on        p=9.0    VIOLATED
+  [432/460] r26_sdc_exception_invalidation   directive on        p=7.2    VIOLATED
+  [433/460] r26_sdc_exception_invalidation   directive on        p=6.0    VIOLATED
+  [434/460] r26_sdc_exception_invalidation   directive on        p=4.8    VIOLATED
+  [435/460] r26_sdc_exception_invalidation   directive on        p=3.9    VIOLATED
+  [436/460] r26_sdc_exception_invalidation   retimed   off       p=9.0    VIOLATED
+  [437/460] r26_sdc_exception_invalidation   retimed   off       p=7.2    VIOLATED
+  [438/460] r26_sdc_exception_invalidation   retimed   off       p=6.0    VIOLATED
+  [439/460] r26_sdc_exception_invalidation   retimed   off       p=4.8    VIOLATED
+  [440/460] r26_sdc_exception_invalidation   retimed   off       p=3.9    VIOLATED
+  [441/460] r27_exception_scope_probe        orig      off       p=9.0    VIOLATED
+  [442/460] r27_exception_scope_probe        orig      off       p=7.2    VIOLATED
+  [443/460] r27_exception_scope_probe        orig      off       p=6.0    VIOLATED
+  [444/460] r27_exception_scope_probe        orig      off       p=4.8    VIOLATED
+  [445/460] r27_exception_scope_probe        orig      off       p=3.9    VIOLATED
+  [446/460] r27_exception_scope_probe        orig      on        p=9.0    VIOLATED
+  [447/460] r27_exception_scope_probe        orig      on        p=7.2    VIOLATED
+  [448/460] r27_exception_scope_probe        orig      on        p=6.0    VIOLATED
+  [449/460] r27_exception_scope_probe        orig      on        p=4.8    VIOLATED
+  [450/460] r27_exception_scope_probe        orig      on        p=3.9    VIOLATED
+  [451/460] r27_exception_scope_probe        directive on        p=9.0    VIOLATED
+  [452/460] r27_exception_scope_probe        directive on        p=7.2    VIOLATED
+  [453/460] r27_exception_scope_probe        directive on        p=6.0    VIOLATED
+  [454/460] r27_exception_scope_probe        directive on        p=4.8    VIOLATED
+  [455/460] r27_exception_scope_probe        directive on        p=3.9    VIOLATED
+  [456/460] r27_exception_scope_probe        retimed   off       p=9.0    VIOLATED
+  [457/460] r27_exception_scope_probe        retimed   off       p=7.2    VIOLATED
+  [458/460] r27_exception_scope_probe        retimed   off       p=6.0    VIOLATED
+  [459/460] r27_exception_scope_probe        retimed   off       p=4.8    VIOLATED
+  [460/460] r27_exception_scope_probe        retimed   off       p=3.9    VIOLATED
+wrote results/matrix_vivado.json (460 rows)
+
+=== phase 5/6  Innovus PnR on the physical and power benchmarks :: 15:57:37Z ===
+>>> PnR r05_fsm_high_fanout/directive from directive__genus_off_p3.15  density=0.6 aspect=1.0 top=r05_fsm_high_fanout
+RT_DONE_PNR wl=NA cells=507 seq=111 time=63s
+>>> PnR r22_fanout_wire_load/orig from orig__genus_off_p5.12  density=0.35 aspect=1.0 top=r22_fanout_wire_load
+RT_DONE_PNR wl=NA cells=10943 seq=1050 time=343s
+>>> PnR r21_wire_pipeline_cross_die/directive from directive__genus_off_p4.0  density=0.45 aspect=1.0 top=r21_wire_pipeline_cross_die
+RT_DONE_PNR wl=NA cells=1265 seq=156 time=87s
+>>> PnR r19_power_activity_retime/directive from directive__genus_off_p4.8  density=0.55 aspect=1.0 top=r19_power_activity_retime
+RT_DONE_PNR wl=NA cells=183 seq=41 time=51s
+>>> PnR r20_glitch_absorb/directive from directive__genus_off_p2.7  density=0.55 aspect=1.0 top=r20_glitch_absorb
+RT_DONE_PNR wl=NA cells=365 seq=66 time=66s
+
+=== phase 6/6  rebuild dataset, audit, score :: 16:09:34Z ===
+== 1. top module: bench.yaml vs first-module-in-first-file ==
+   note: r15_hier_boundary_block declares 'r15_hier_boundary_block' but first module is 'r15_sub_a'
+         (fine as long as every runner uses benchmeta.py, which is checked below)
+== 2. runners must take the top from bench.yaml, not from a filename ==
+   ok: all runners use benchmeta.py
+== 3. result dirs with no usable timing status ==
+   WARNING: 7 run dirs have metrics but no MET/VIOLATED verdict
+            (unconstrained design, wrong top, or a crashed run)
+== 4. remote runs missing locally (dropped transfers) ==
+   repair_pull: 1036 remote runs, 8 missing locally, 0 recovered, 0 still failing, 0 suspect
+   -> run scripts/repair_pull.sh to recover (no re-synthesis needed)
+== 5. per-benchmark file completeness ==
+   ok: all benchmarks complete
+
+audit: no blocking problems
+benchmark                         tool         metric           tool       ref  verdict
+------------------------------------------------------------------------------------------------------------
+r01_reset_backward_barrier        genus        fmax MHz        324.7     239.8  tool wins 26% (already solved)
+r01_reset_backward_barrier        vivado       fmax MHz        104.2     125.0  REFERENCE WINS +20%
+r01_reset_backward_barrier        yosys        fmax MHz        125.0     125.0  tie (within 5%)
+r02_reset_no_valid_init           genus        fmax MHz        333.3     200.0  tool wins 40% (already solved)
+r02_reset_no_valid_init           vivado       fmax MHz        119.0     119.0  tie (within 5%)
+r03_async_reset_blocker           genus        fmax MHz        250.0     200.0  tool wins 20% (already solved)
+r03_async_reset_blocker           vivado       fmax MHz        119.0     142.9  REFERENCE WINS +20%
+r04_init_only_no_reset            genus        fmax MHz        333.3     200.0  tool wins 40% (already solved)
+r04_init_only_no_reset            vivado       fmax MHz        119.0     119.0  tie (within 5%)
+r05_fsm_high_fanout               innovus      wirelength    26879.3   37323.0  reference LOSES 39% (wirelength worse)
+r06_fsm_high_fanin                genus        fmax MHz        208.3     128.2  tool wins 38% (already solved)
+r06_fsm_high_fanin                vivado       fmax MHz         83.3     104.2  REFERENCE WINS +25%
+r08_fsm_output_decode             genus        fmax MHz        208.3     208.3  tie (within 5%)
+r08_fsm_output_decode             vivado       fmax MHz         83.3     125.0  REFERENCE WINS +50%
+r08_fsm_output_decode             yosys        fmax MHz        128.2     166.7  NO DATA (only 5/1 periods; needs >=3)
+r09_unbalanced_mult_pipe          genus        fmax MHz        333.3     208.3  tool wins 38% (already solved)
+r09_unbalanced_mult_pipe          vivado       fmax MHz        125.0     104.2  tool wins 17% (already solved)
+r09_unbalanced_mult_pipe          yosys        fmax MHz        128.2     166.7  NO DATA (only 5/1 periods; needs >=3)
+r10_long_carry_chain              genus        fmax MHz        370.4     277.8  tool wins 25% (already solved)
+r10_long_carry_chain              vivado       fmax MHz        125.0     125.0  tie (within 5%)
+r10_long_carry_chain              yosys        fmax MHz        166.7     166.7  NO DATA (only 5/1 periods; needs >=3)
+r12_wide_reduction_tree           genus        fmax MHz        724.6     463.0  tool wins 36% (already solved)
+r12_wide_reduction_tree           openroad_syn fmax MHz        370.4     166.7  INCONCLUSIVE (Fmax is a lower bound; sweep tighter)
+r12_wide_reduction_tree           vivado       fmax MHz         83.3     104.2  REFERENCE WINS +25%
+r12_wide_reduction_tree           yosys        fmax MHz        370.4     166.7  INCONCLUSIVE (Fmax is a lower bound; sweep tighter)
+r13_retime_around_sram            genus        fmax MHz        277.8     208.3  tool wins 25% (already solved)
+r13_retime_around_sram            vivado       fmax MHz        125.0     125.0  tie (within 5%)
+r15_hier_boundary_block           genus        fmax MHz        333.3     200.0  tool wins 40% (already solved)
+r15_hier_boundary_block           vivado       fmax MHz        119.0     142.9  REFERENCE WINS +20%
+r16_dont_touch_conflict           genus        fmax MHz        333.3     200.0  tool wins 40% (already solved)
+r17_clock_enable_barrier          genus        fmax MHz        277.8     208.3  tool wins 25% (already solved)
+r17_clock_enable_barrier          vivado       fmax MHz        104.2     104.2  tie (within 5%)
+r17_clock_enable_barrier          yosys        fmax MHz        128.2     166.7  NO DATA (only 5/1 periods; needs >=3)
+r18_clock_gated_region            genus        fmax MHz        208.3     208.3  tie (within 5%)
+r18_clock_gated_region            vivado       fmax MHz        104.2     104.2  tie (within 5%)
+r18_clock_gated_region            yosys        fmax MHz        128.2     166.7  NO DATA (only 5/1 periods; needs >=3)
+r19_power_activity_retime         genus        power            50.8      44.5  REFERENCE WINS +12% lower power
+r19_power_activity_retime         openroad_syn power           565.5     532.5  REFERENCE WINS +6% lower power
+r19_power_activity_retime         vivado       power           106.0     106.0  tie (within 5%)
+r19_power_activity_retime         yosys        power            27.0      87.7  reference LOSES 225% (power worse)
+r20_glitch_absorb                 genus        power            28.4      41.2  reference LOSES 45% (power worse)
+r20_glitch_absorb                 openroad_syn power          5131.6     531.0  REFERENCE WINS +90% lower power
+r20_glitch_absorb                 vivado       power           134.0     131.0  tie (within 5%)
+r20_glitch_absorb                 yosys        power            21.8      25.2  reference LOSES 16% (power worse)
+r22_fanout_wire_load              innovus      wirelength  1032085.3 1102543.5  reference LOSES 7% (wirelength worse)
+r26_sdc_exception_invalidation    openroad_syn diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r26_sdc_exception_invalidation    vivado       diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r26_sdc_exception_invalidation    yosys        diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r27_exception_scope_probe         openroad_syn diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r27_exception_scope_probe         vivado       diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r27_exception_scope_probe         yosys        diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+------------------------------------------------------------------------------------------------------------
+reference wins: 9   tool wins: 18   ties: 11   inconclusive: 2   no data: 5   diagnostic: 6
+
+=== all phases done :: 16:11:50Z ===

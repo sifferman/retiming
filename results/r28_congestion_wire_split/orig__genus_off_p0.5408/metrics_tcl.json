@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r28_congestion_wire_split",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "2704.0",
+  "area_um2": "6757.497123",
+  "num_cells": 1845,
+  "num_seq_pre_syn": 768,
+  "num_seq": 768,
+  "runtime_generic_s": 3,
+  "runtime_map_s": 6,
+  "runtime_total_s": 7
+}

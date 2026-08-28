@@ -1,0 +1,17 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r26_sdc_exception_invalidation",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.1678",
+  "clock_period_tool_internal": "839.0",
+  "area_um2": "2549.977495",
+  "num_cells": 1077,
+  "num_seq_pre_syn": 32,
+  "num_seq": 32,
+  "runtime_generic_s": 12,
+  "runtime_map_s": 20,
+  "runtime_total_s": 109
+}

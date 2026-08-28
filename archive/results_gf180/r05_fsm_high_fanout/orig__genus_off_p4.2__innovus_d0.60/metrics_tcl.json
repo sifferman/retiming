@@ -1,0 +1,15 @@
+{
+  "tool": "innovus",
+  "tool_version": "23.12-s091_1",
+  "top": "r05_fsm_high_fanout",
+  "density_target": 0.60,
+  "routed_wirelength_um": "NA",
+  "num_cells": 479,
+  "num_seq": 70,
+  "core_area_um2": "37306.1696",
+  "power_mode": "probabilistic",
+  "runtime_place_s": 32,
+  "runtime_cts_s": 56,
+  "runtime_route_s": 69,
+  "runtime_total_s": 69
+}

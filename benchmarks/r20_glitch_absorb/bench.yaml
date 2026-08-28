@@ -1,0 +1,32 @@
+id: r20
+name: glitch_absorb
+class: "G - power-driven retiming"
+top: r20_glitch_absorb
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A deep XOR network feeds a wide 32-lane cone in the same pipeline stage, so the XOR network's glitches propagate through all 32 lanes. Moving the register to sit immediately after the XOR network absorbs the glitching before it fans out.
+
+constraints:
+  asic:
+    clock_period_ns: 0.59
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: power
+expected: |
+  Strictly latency-preserving and roughly timing-neutral, but it removes glitch propagation into 32 lanes of logic. No production tool places registers to absorb glitch power. Scored on switching power from an activity-annotated run.

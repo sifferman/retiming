@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T15:42:45Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r32.sdc",
+  "sdc_sha1": "797b53cd06b3",
+  "rtl": [{"file": "r32_backward_reset_preimage.sv", "sha1": "fe6db69d595a"}]
+}

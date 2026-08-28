@@ -1,0 +1,171 @@
+  r05_fsm_high_fanout          p=0.3773   4 still meeting
+      orig      off WNS=     0.0 TNS=       0.0 viol=   0.0 WL=    5961.3 ovfl=   0.0
+      orig      on  WNS=   0.012 TNS=       0.0 viol=   0.0 WL=  6517.275 ovfl=   0.0
+      retimed   off WNS=    -0.0 TNS=       0.0 viol=   1.0 WL=   9453.85 ovfl=   0.0
+      directive off WNS=   0.008 TNS=       0.0 viol=   0.0 WL=   6881.22 ovfl=   0.0
+  r05_fsm_high_fanout          p=0.2641   2 still meeting
+      orig      off WNS=  -0.099 TNS=    -4.253 viol=  49.0 WL=  9819.385 ovfl=   0.0
+      orig      on  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=    9128.3 ovfl=   0.0
+      retimed   off WNS=  -0.073 TNS=    -1.812 viol=  55.0 WL=   11132.2 ovfl=   0.0
+      directive off WNS=    -0.0 TNS=      -0.0 viol=   1.0 WL=  9935.115 ovfl=   0.0
+  r05_fsm_high_fanout          p=0.1849   STRESSED
+      orig      off WNS=   -0.18 TNS=    -6.281 viol=  54.0 WL=  9332.335 ovfl=   0.0
+      orig      on  WNS=  -0.035 TNS=    -1.209 viol=  72.0 WL= 11380.025 ovfl=   0.0
+      retimed   off WNS=   -0.18 TNS=    -8.421 viol=  89.0 WL=  11018.89 ovfl=   0.0
+      directive off WNS=  -0.032 TNS=    -1.071 viol=  78.0 WL= 11330.335 ovfl=   0.0
+  r06_fsm_high_fanin           p=0.5243   3 still meeting
+      orig      off WNS=  -0.191 TNS=    -0.994 viol=   6.0 WL=  23043.16 ovfl=   0.0
+      orig      on  WNS=   0.001 TNS=       0.0 viol=   0.0 WL= 16778.395 ovfl=   0.0
+      retimed   off WNS=   0.183 TNS=       0.0 viol=   0.0 WL=  17157.91 ovfl=   0.0
+      directive off WNS=   0.001 TNS=       0.0 viol=   0.0 WL= 16778.395 ovfl=   0.0
+  r06_fsm_high_fanin           p=0.367    1 still meeting
+      orig      off WNS=  -0.323 TNS=    -1.603 viol=   6.0 WL= 22415.155 ovfl=   0.0
+      orig      on  WNS=  -0.164 TNS=    -0.966 viol=   6.0 WL= 17263.915 ovfl=   0.0
+      retimed   off WNS=   0.104 TNS=       0.0 viol=   0.0 WL= 16677.375 ovfl=   0.0
+      directive off WNS=  -0.164 TNS=    -0.966 viol=   6.0 WL= 17263.915 ovfl=   0.0
+  r06_fsm_high_fanin           p=0.2569   1 still meeting
+      orig      off WNS=  -0.593 TNS=    -3.491 viol=   6.0 WL= 21646.415 ovfl=   0.0
+      orig      on  WNS=  -0.288 TNS=    -1.966 viol=   7.0 WL=  16311.83 ovfl=   0.0
+      retimed   off WNS=   0.027 TNS=       0.0 viol=   0.0 WL=  16619.78 ovfl=   0.0
+      directive off WNS=  -0.288 TNS=    -1.966 viol=   7.0 WL=  16311.83 ovfl=   0.0
+  r06_fsm_high_fanin           p=0.1798   STRESSED
+      orig      off WNS=  -0.614 TNS=     -3.64 viol=   6.0 WL=  20263.21 ovfl=   0.0
+      orig      on  WNS=  -0.329 TNS=    -2.961 viol=  10.0 WL= 15949.045 ovfl=   0.0
+      retimed   off WNS=  -0.009 TNS=    -0.017 viol=   3.0 WL= 16743.335 ovfl=   0.0
+      directive off WNS=  -0.329 TNS=    -2.961 viol=  10.0 WL= 15949.045 ovfl=   0.0
+  r08_fsm_output_decode        p=0.4928   3 still meeting
+      orig      off WNS=  -0.201 TNS=    -2.781 viol=  16.0 WL=  5287.805 ovfl=   0.0
+      orig      on  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=   3248.72 ovfl=   0.0
+      retimed   off WNS=   0.009 TNS=       0.0 viol=   0.0 WL=   3554.83 ovfl=   0.0
+      directive off WNS=   0.002 TNS=       0.0 viol=   0.0 WL=   3248.72 ovfl=   0.0
+  r08_fsm_output_decode        p=0.345    1 still meeting
+      orig      off WNS=   0.009 TNS=       0.0 viol=   0.0 WL=   5340.87 ovfl=   0.0
+      orig      on  WNS=  -0.066 TNS=    -0.645 viol=  17.0 WL=    4452.1 ovfl=   0.0
+      retimed   off WNS=  -0.037 TNS=    -0.369 viol=  14.0 WL=   4281.78 ovfl=   0.0
+      directive off WNS=  -0.066 TNS=    -0.645 viol=  17.0 WL=    4452.1 ovfl=   0.0
+  r08_fsm_output_decode        p=0.2415   STRESSED
+      orig      off WNS=  -0.462 TNS=    -7.283 viol=  17.0 WL=   4948.33 ovfl=   0.0
+      orig      on  WNS=  -0.099 TNS=    -1.189 viol=  24.0 WL=  4890.875 ovfl=   0.0
+      retimed   off WNS=  -0.144 TNS=    -2.096 viol=  16.0 WL=  4280.575 ovfl=   0.0
+      directive off WNS=  -0.099 TNS=    -1.189 viol=  24.0 WL=  4890.875 ovfl=   0.0
+  r16_dont_touch_conflict      p=0.4613   3 still meeting
+      orig      off WNS=  -0.111 TNS=    -1.611 viol=  21.0 WL=   5795.48 ovfl=   0.0
+      orig      on  WNS=   0.005 TNS=       0.0 viol=   0.0 WL=   3329.41 ovfl=   0.0
+      retimed   off WNS=   0.002 TNS=       0.0 viol=   0.0 WL=   4597.41 ovfl=   0.0
+      directive off WNS=   0.005 TNS=       0.0 viol=   0.0 WL=   3329.41 ovfl=   0.0
+  r16_dont_touch_conflict      p=0.3229   STRESSED
+      orig      off WNS=  -0.336 TNS=    -5.217 viol=  24.0 WL=   6010.86 ovfl=   0.0
+      orig      on  WNS=  -0.065 TNS=    -1.614 viol=  41.0 WL=  4808.215 ovfl=   0.0
+      retimed   off WNS=  -0.132 TNS=    -1.257 viol=  21.0 WL=  5326.465 ovfl=   0.0
+      directive off WNS=  -0.065 TNS=    -1.614 viol=  41.0 WL=  4808.215 ovfl=   0.0
+  r19_power_activity_retime    p=0.4221   4 still meeting
+      orig      off WNS=   0.004 TNS=       0.0 viol=   0.0 WL=   8373.84 ovfl=   0.0
+      orig      on  WNS=   0.015 TNS=       0.0 viol=   0.0 WL=  3376.615 ovfl=   0.0
+      retimed   off WNS=   0.235 TNS=       0.0 viol=   0.0 WL=   4558.79 ovfl=   0.0
+      directive off WNS=   0.019 TNS=       0.0 viol=   0.0 WL=   3479.15 ovfl=   0.0
+  r19_power_activity_retime    p=0.2955   1 still meeting
+      orig      off WNS=  -0.255 TNS=    -1.637 viol=   7.0 WL=  7265.265 ovfl=   0.0
+      orig      on  WNS=  -0.003 TNS=    -0.006 viol=   4.0 WL=  5433.675 ovfl=   0.0
+      retimed   off WNS=   0.114 TNS=       0.0 viol=   0.0 WL=   4626.83 ovfl=   0.0
+      directive off WNS=  -0.009 TNS=    -0.009 viol=   2.0 WL=   5337.69 ovfl=   0.0
+  r19_power_activity_retime    p=0.2068   1 still meeting
+      orig      off WNS=  -0.276 TNS=    -1.822 viol=   7.0 WL=  7662.455 ovfl=   0.0
+      orig      on  WNS=  -0.083 TNS=    -1.044 viol=  15.0 WL=  5541.615 ovfl=   0.0
+      retimed   off WNS=   0.078 TNS=       0.0 viol=   0.0 WL=  5017.145 ovfl=   0.0
+      directive off WNS=  -0.101 TNS=    -0.969 viol=  11.0 WL=   5094.68 ovfl=   0.0
+  r19_power_activity_retime    p=0.1448   1 still meeting
+      orig      off WNS=    -0.4 TNS=    -2.623 viol=   7.0 WL=  7662.375 ovfl=   0.0
+      orig      on  WNS=   -0.14 TNS=    -1.562 viol=  13.0 WL=   5692.63 ovfl=   0.0
+      retimed   off WNS=   0.017 TNS=       0.0 viol=   0.0 WL=  4577.025 ovfl=   0.0
+      directive off WNS=  -0.128 TNS=    -1.943 viol=  17.0 WL=   5193.08 ovfl=   0.0
+  r19_power_activity_retime: still not fully stressed after 4 tightenings
+  r20_glitch_absorb            p=0.3934   3 still meeting
+      orig      off WNS=   -0.04 TNS=    -0.586 viol=  25.0 WL=  6998.075 ovfl=   0.0
+      orig      on  WNS=   0.083 TNS=       0.0 viol=   0.0 WL=   2930.81 ovfl=   0.0
+      retimed   off WNS=   0.001 TNS=       0.0 viol=   0.0 WL=  2626.645 ovfl=   0.0
+      directive off WNS=   0.038 TNS=       0.0 viol=   0.0 WL=   2827.22 ovfl=   0.0
+  r20_glitch_absorb            p=0.2754   2 still meeting
+      orig      off WNS=   -0.18 TNS=    -2.727 viol=  17.0 WL=   6978.58 ovfl=   0.0
+      orig      on  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=    3870.6 ovfl=   0.0
+      retimed   off WNS=   -0.03 TNS=    -0.626 viol=  30.0 WL=  5351.015 ovfl=   0.0
+      directive off WNS=   0.003 TNS=       0.0 viol=   0.0 WL=   3799.67 ovfl=   0.0
+  r20_glitch_absorb            p=0.1928   1 still meeting
+      orig      off WNS=  -0.262 TNS=    -5.308 viol=  32.0 WL=   6530.03 ovfl=   0.0
+      orig      on  WNS=  -0.052 TNS=    -0.928 viol=  34.0 WL=  5010.065 ovfl=   0.0
+      retimed   off WNS=  -0.106 TNS=    -2.999 viol=  32.0 WL=  5319.215 ovfl=   0.0
+      directive off WNS=   0.006 TNS=       0.0 viol=   0.0 WL=  5041.895 ovfl=   0.0
+  r20_glitch_absorb            p=0.135    STRESSED
+      orig      off WNS=   -0.28 TNS=    -6.908 viol=  32.0 WL=   6791.72 ovfl=   0.0
+      orig      on  WNS=  -0.109 TNS=     -3.23 viol=  40.0 WL=  5127.625 ovfl=   0.0
+      retimed   off WNS=  -0.157 TNS=    -4.489 viol=  32.0 WL=  6025.115 ovfl=   0.0
+      directive off WNS=  -0.061 TNS=    -0.511 viol=  19.0 WL=   4723.36 ovfl=   0.0
+  r21_wire_pipeline_cross_di   p=0.4753   2 still meeting
+      orig      off WNS=  -0.004 TNS=     -0.02 viol=   9.0 WL=   13860.3 ovfl=   0.0
+      orig      on  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=  10195.76 ovfl=   0.0
+      retimed   off WNS=  -0.004 TNS=    -0.013 viol=   6.0 WL= 14740.965 ovfl=   0.0
+      directive off WNS=   0.002 TNS=       0.0 viol=   0.0 WL=  10195.76 ovfl=   0.0
+  r21_wire_pipeline_cross_di   p=0.3327   STRESSED
+      orig      off WNS=  -0.124 TNS=     -4.04 viol=  46.0 WL= 15748.085 ovfl=   0.0
+      orig      on  WNS=  -0.004 TNS=    -0.005 viol=   2.0 WL=  15478.28 ovfl=   0.0
+      retimed   off WNS=  -0.125 TNS=    -4.945 viol=  49.0 WL=  17433.97 ovfl=   0.0
+      directive off WNS=  -0.004 TNS=    -0.005 viol=   2.0 WL=  15478.28 ovfl=   0.0
+  r22_fanout_wire_load         p=0.4459   1 still meeting
+      orig      off WNS=    -0.0 TNS=       0.0 viol=   2.0 WL= 245073.14 ovfl=  0.03
+      orig      on  WNS=  -0.004 TNS=    -0.004 viol=   2.0 WL=306229.065 ovfl=  0.29
+      retimed   off WNS=  -0.001 TNS=    -0.004 viol=   5.0 WL=253797.915 ovfl=  0.04
+      directive off WNS=  -0.004 TNS=    -0.008 viol=   5.0 WL=  248482.8 ovfl=  0.05
+  r22_fanout_wire_load         p=0.3121   STRESSED
+      orig      off WNS=  -0.121 TNS=   -16.576 viol= 622.0 WL=284019.665 ovfl=  0.05
+      orig      on  WNS=   -0.15 TNS=    -7.096 viol= 194.0 WL= 452492.05 ovfl=  0.25
+      retimed   off WNS=  -0.071 TNS=    -4.197 viol= 238.0 WL=292026.185 ovfl=  0.03
+      directive off WNS=  -0.164 TNS=  -126.397 viol=1339.0 WL= 252497.49 ovfl=  0.08
+  r24_loop_bound_control       p=0.7259   STRESSED
+      orig      off WNS=  -0.277 TNS=    -4.193 viol=  16.0 WL=   6346.14 ovfl=   0.0
+      orig      on  WNS=  -0.224 TNS=    -5.258 viol=  25.0 WL=  5456.515 ovfl=   0.0
+      retimed   off WNS=  -0.277 TNS=    -4.193 viol=  16.0 WL=   6346.14 ovfl=   0.0
+      directive off WNS=  -0.224 TNS=    -5.258 viol=  25.0 WL=  5456.515 ovfl=   0.0
+  r26_sdc_exception_invalida   p=0.4893   2 still meeting
+      orig      off WNS=   0.013 TNS=       0.0 viol=   0.0 WL=  6604.935 ovfl=   0.0
+      orig      on  WNS=   0.004 TNS=       0.0 viol=   0.0 WL=   6707.13 ovfl=   0.0
+      retimed   off WNS=  -0.387 TNS=    -5.927 viol=  16.0 WL=  8364.735 ovfl=   0.0
+      directive off WNS=  -0.261 TNS=    -5.647 viol=  24.0 WL=  7006.945 ovfl=   0.0
+  r26_sdc_exception_invalida   p=0.3425   1 still meeting
+      orig      off WNS=  -0.121 TNS=    -0.689 viol=   6.0 WL=  7799.425 ovfl=   0.0
+      orig      on  WNS=   0.001 TNS=       0.0 viol=   0.0 WL=  7116.455 ovfl=   0.0
+      retimed   off WNS=  -0.529 TNS=    -8.114 viol=  16.0 WL=  8662.435 ovfl=   0.0
+      directive off WNS=  -0.379 TNS=    -9.761 viol=  29.0 WL=   6455.56 ovfl=   0.0
+  r26_sdc_exception_invalida   p=0.2397   1 still meeting
+      orig      off WNS=   0.005 TNS=       0.0 viol=   0.0 WL=  7837.765 ovfl=   0.0
+      orig      on  WNS=  -0.003 TNS=    -0.003 viol=   2.0 WL=   7546.19 ovfl=   0.0
+      retimed   off WNS=  -0.664 TNS=   -10.466 viol=  16.0 WL=  7517.225 ovfl=   0.0
+      directive off WNS=  -0.458 TNS=    -11.19 viol=  28.0 WL=   6690.24 ovfl=   0.0
+  r26_sdc_exception_invalida   p=0.1678   STRESSED
+      orig      off WNS=  -0.469 TNS=    -6.769 viol=  16.0 WL=  6357.335 ovfl=   0.0
+      orig      on  WNS=  -0.644 TNS=    -9.728 viol=  16.0 WL=  6258.905 ovfl=   0.0
+      retimed   off WNS=  -0.762 TNS=   -11.968 viol=  16.0 WL=   7798.82 ovfl=   0.0
+      directive off WNS=  -0.471 TNS=   -13.607 viol=  32.0 WL=   7074.94 ovfl=   0.0
+  r28_congestion_wire_split    p=0.3675   4 still meeting
+      orig      off WNS=    0.14 TNS=       0.0 viol=   0.0 WL= 29581.925 ovfl=   0.0
+      orig      on  WNS=   0.126 TNS=       0.0 viol=   0.0 WL=  32025.92 ovfl=   0.0
+      retimed   off WNS=   0.131 TNS=       0.0 viol=   0.0 WL= 29955.275 ovfl=   0.0
+      directive off WNS=   0.126 TNS=       0.0 viol=   0.0 WL=  32025.92 ovfl=   0.0
+  r28_congestion_wire_split    p=0.2572   4 still meeting
+      orig      off WNS=   0.027 TNS=       0.0 viol=   0.0 WL= 29282.055 ovfl=   0.0
+      orig      on  WNS=   0.021 TNS=       0.0 viol=   0.0 WL=  30383.72 ovfl=   0.0
+      retimed   off WNS=   0.022 TNS=       0.0 viol=   0.0 WL= 29754.215 ovfl=   0.0
+      directive off WNS=   0.021 TNS=       0.0 viol=   0.0 WL=  30383.72 ovfl=   0.0
+  r28_congestion_wire_split    p=0.18     STRESSED
+      orig      off WNS=   -0.03 TNS=    -2.387 viol= 206.0 WL=  37198.99 ovfl=  0.06
+      orig      on  WNS=  -0.016 TNS=    -0.655 viol= 120.0 WL=  35521.22 ovfl=   0.0
+      retimed   off WNS=  -0.013 TNS=    -0.156 viol=  45.0 WL= 37374.785 ovfl=   0.0
+      directive off WNS=  -0.016 TNS=    -0.655 viol= 120.0 WL=  35521.22 ovfl=   0.0
+  r29_wide_crossing            p=0.2247   STRESSED
+      orig      off WNS=  -0.233 TNS=  -236.254 viol=1571.0 WL=469568.365 ovfl=   0.0
+      orig      on  WNS=  -0.138 TNS=  -339.981 viol=3775.0 WL=499676.115 ovfl=   0.0
+      retimed   off WNS=  -0.265 TNS=  -256.948 viol=1763.0 WL= 469418.82 ovfl=   0.0
+      directive off WNS=  -0.233 TNS=  -236.254 viol=1571.0 WL=469568.365 ovfl=   0.0
+  r30_fsm_decode_fanout        p=0.3255   STRESSED
+      orig      off WNS=  -0.141 TNS=  -110.838 viol=1024.0 WL=438935.795 ovfl=   0.0
+      orig      on  WNS=  -0.226 TNS=  -294.529 viol=2145.0 WL= 736914.63 ovfl=  0.01
+      retimed   off WNS=  -0.132 TNS=   -97.584 viol=1024.0 WL=  468189.0 ovfl=   0.0
+      directive off WNS=  -0.141 TNS=  -110.838 viol=1024.0 WL=438935.795 ovfl=   0.0

@@ -1,0 +1,18 @@
+=== [19:10] Artix-7, 2025.2, congestion from level 1
+  [109/112] r32_backward_reset_preimage      orig      off       p=6.0    ?
+  [110/112] r32_backward_reset_preimage      orig      on        p=6.0    ?
+  [111/112] r32_backward_reset_preimage      directive on        p=6.0    ?
+  [112/112] r32_backward_reset_preimage      retimed   off       p=6.0    ?
+wrote results/matrix_vivado_a7_cong.json (112 rows)
+=== [20:40] Artix UltraScale+ (AU7P / AU15P per bench.yaml)
+  [109/112] r32_backward_reset_preimage      orig      off       p=6.0    ?
+  [110/112] r32_backward_reset_preimage      orig      on        p=6.0    ?
+  [111/112] r32_backward_reset_preimage      directive on        p=6.0    ?
+  [112/112] r32_backward_reset_preimage      retimed   off       p=6.0    ?
+wrote results/matrix_vivado_auplus_cong.json (112 rows)
+=== [21:17] regenerate
+wrote /home/esifferm/GitHub/retiming/results/results.csv (2802 runs)
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (307 routed configs, 302 unrouted configs dropped)
+  dropped by tool: ?=22, genus=112, openroad_syn=72, yosys=96
+  vivado congestion populated: 0/185
+=== [21:17] done

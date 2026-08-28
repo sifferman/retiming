@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-24T10:00:20Z",
+  "git_commit": "bdf1989",
+  "git_dirty": true,
+  "sdc": "r24.sdc",
+  "sdc_sha1": "818ef79be998",
+  "rtl": [{"file": "r24_loop_bound_control.sv", "sha1": "9b0d8bc0279b"}]
+}

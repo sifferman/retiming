@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r04_init_only_no_reset",
+  "retime_mode": "unsupported",
+  "num_cells": 229,
+  "num_seq": 32,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 0,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": -0.7033,
+  "timing_status": "VIOLATED",
+  "tns_ns": -8.2538,
+  "data_path_ns": 1.9638,
+  "power_mw": 0.593638,
+  "power_switching_mw": 0.12562399999999999,
+  "wall_seconds": 1.0
+}

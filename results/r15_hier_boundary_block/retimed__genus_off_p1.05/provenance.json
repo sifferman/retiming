@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-21T20:49:03Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r15.sdc",
+  "sdc_sha1": "be7e1e19c030",
+  "rtl": [{"file": "r15_hier_boundary_block.sv", "sha1": "201ee0410696"}]
+}

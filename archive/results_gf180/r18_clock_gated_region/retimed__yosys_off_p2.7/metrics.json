@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r18_clock_gated_region",
+  "area_um2": 11856.9024,
+  "num_cells": 423,
+  "num_seq": 48,
+  "tool_version": "0.58",
+  "wns_ns": -6.0517,
+  "timing_status": "VIOLATED",
+  "tns_ns": -160.225,
+  "data_path_ns": 8.3994,
+  "critical_endpoint": "_731_",
+  "power_mw": 32.4,
+  "power_switching_mw": 8.33,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "off"
+}

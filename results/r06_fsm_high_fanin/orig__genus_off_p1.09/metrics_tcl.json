@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r06_fsm_high_fanin",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "1090.0",
+  "area_um2": "3742.42573725",
+  "num_cells": 1412,
+  "num_seq_pre_syn": 70,
+  "num_seq": 70,
+  "runtime_generic_s": 22,
+  "runtime_map_s": 29,
+  "runtime_total_s": 31
+}

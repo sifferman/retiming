@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T17:44:25Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r20.sdc",
+  "sdc_sha1": "42ec5d96daf9",
+  "rtl": [{"file": "r20_glitch_absorb.sv", "sha1": "cffd3e4a9dda"}]
+}

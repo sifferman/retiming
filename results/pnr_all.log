@@ -1,0 +1,75 @@
+--- phase 1: min periods for r29, r30
+
+phase B: 8 confirmation runs at each config's own Fmax
+  r29_wide_crossing               orig      off  p=0.403  MET      
+  r29_wide_crossing               orig      on   p=0.331  VIOLATED    <-- prediction not confirmed
+  r29_wide_crossing               retimed   off  p=0.467  MET      
+  r29_wide_crossing               directive off  p=0.403  MET      
+  r30_fsm_decode_fanout           orig      off  p=0.488  MET      
+  r30_fsm_decode_fanout           orig      on   p=0.496  MET      
+  r30_fsm_decode_fanout           retimed   off  p=0.479  MET      
+  r30_fsm_decode_fanout           directive off  p=0.488  MET      
+
+phase C: 6 runs at each benchmark's common period
+  r29_wide_crossing               orig      off  p=0.467  MET
+  r29_wide_crossing               orig      on   p=0.467  MET
+  r29_wide_crossing               directive off  p=0.467  MET
+  r30_fsm_decode_fanout           orig      off  p=0.496  MET
+  r30_fsm_decode_fanout           retimed   off  p=0.496  MET
+  r30_fsm_decode_fanout           directive off  p=0.496  MET
+
+wrote /home/esifferm/GitHub/retiming/results/fmax_n45.json
+--- phase 2: Innovus, open stack, all 13
+52 PnR run(s) at 8 concurrent
+  r05_fsm_high_fanout             orig      off  wirelength=   4715.57  MET route=1.44% ovflV=0.0%
+  r05_fsm_high_fanout             orig      on   wirelength=  7789.545  MET route=0.61% ovflV=0.0%
+  r05_fsm_high_fanout             retimed   off  wirelength=  7324.025  MET route=2.82% ovflV=0.0%
+  r05_fsm_high_fanout             directive off  wirelength=   8112.94  MET route=0.9% ovflV=0.0%
+  r06_fsm_high_fanin              orig      off  wirelength=  12188.72  MET route=0.21% ovflV=0.0%
+  r06_fsm_high_fanin              orig      on   wirelength=  9003.705  MET route=0.64% ovflV=0.0%
+  r06_fsm_high_fanin              retimed   off  wirelength=  16183.33  VIOLATED route=0.76% ovflV=0.0%
+  r06_fsm_high_fanin              directive off  wirelength=  9003.705  MET route=0.64% ovflV=0.0%
+  r08_fsm_output_decode           orig      off  wirelength=   3608.04  MET route=0.41% ovflV=0.0%
+  r08_fsm_output_decode           orig      on   wirelength=   2458.21  MET route=0.27% ovflV=0.0%
+  r08_fsm_output_decode           retimed   off  wirelength=   2078.02  MET route=0.42% ovflV=0.0%
+  r08_fsm_output_decode           directive off  wirelength=   2458.21  MET route=0.27% ovflV=0.0%
+  r16_dont_touch_conflict         orig      off  wirelength=  5395.925  MET route=0.83% ovflV=0.0%
+  r16_dont_touch_conflict         orig      on   wirelength=   2780.34  MET route=0.41% ovflV=0.0%
+  r16_dont_touch_conflict         retimed   off  wirelength=  2344.935  MET route=0.41% ovflV=0.0%
+  r16_dont_touch_conflict         directive off  wirelength=   2780.34  MET route=0.41% ovflV=0.0%
+  r19_power_activity_retime       orig      off  wirelength=  3598.235  MET route=0.68% ovflV=0.0%
+  r19_power_activity_retime       orig      on   wirelength=   2870.73  MET route=0.42% ovflV=0.0%
+  r19_power_activity_retime       retimed   off  wirelength=  4553.265  VIOLATED route=0.7% ovflV=0.0%
+  r19_power_activity_retime       directive off  wirelength=   2926.09  MET route=0.14% ovflV=0.0%
+  r20_glitch_absorb               orig      off  wirelength=   3599.65  MET route=0.61% ovflV=0.0%
+  r20_glitch_absorb               orig      on   wirelength=  3071.875  MET route=1.24% ovflV=0.0%
+  r20_glitch_absorb               retimed   off  wirelength=  3285.315  MET route=2.42% ovflV=0.0%
+  r20_glitch_absorb               directive off  wirelength=   2905.17  MET route=1.2% ovflV=0.0%
+  r21_wire_pipeline_cross_die     orig      off  wirelength=  10979.89  VIOLATED route=1.56% ovflV=0.0%
+  r21_wire_pipeline_cross_die     orig      on   wirelength=  10233.89  MET route=0.67% ovflV=0.0%
+  r21_wire_pipeline_cross_die     retimed   off  wirelength=  12357.13  VIOLATED route=1.6% ovflV=0.0%
+  r21_wire_pipeline_cross_die     directive off  wirelength=  10233.89  MET route=0.67% ovflV=0.0%
+  r22_fanout_wire_load            orig      off  wirelength= 193591.11  MET route=15.32% ovflV=0.01%
+  r22_fanout_wire_load            orig      on   wirelength= 199705.98  VIOLATED route=12.4% ovflV=0.01%
+  r22_fanout_wire_load            retimed   off  wirelength=170898.475  MET route=2.04% ovflV=0.0%
+  r22_fanout_wire_load            directive off  wirelength=192242.585  MET route=2.4% ovflV=0.02%
+  r24_loop_bound_control          orig      off  wirelength=   5800.75  VIOLATED route=0.94% ovflV=0.0%
+  r24_loop_bound_control          orig      on   wirelength=  2991.035  MET route=0.09% ovflV=0.0%
+  r24_loop_bound_control          retimed   off  wirelength=   5800.75  VIOLATED route=0.94% ovflV=0.0%
+  r24_loop_bound_control          directive off  wirelength=  2991.035  MET route=0.09% ovflV=0.0%
+  r26_sdc_exception_invalidation  orig      off  wirelength=  2524.445  MET route=0.11% ovflV=0.0%
+  r26_sdc_exception_invalidation  orig      on   wirelength=  2524.445  MET route=0.11% ovflV=0.0%
+  r26_sdc_exception_invalidation  retimed   off  wirelength=  6401.235  MET route=0.84% ovflV=0.0%
+  r26_sdc_exception_invalidation  directive off  wirelength=   3328.73  MET route=0.19% ovflV=0.0%
+  r28_congestion_wire_split       orig      off  wirelength=   27898.3  MET route=2.27% ovflV=0.0%
+  r28_congestion_wire_split       orig      on   wirelength= 30334.535  MET route=3.34% ovflV=0.0%
+  r28_congestion_wire_split       retimed   off  wirelength= 28544.165  MET route=5.26% ovflV=0.0%
+  r28_congestion_wire_split       directive off  wirelength= 30334.535  MET route=3.34% ovflV=0.0%
+  r29_wide_crossing               orig      off  wirelength=      None  None route=None% ovflV=None%
+  r29_wide_crossing               orig      on   wirelength=      None  None route=None% ovflV=None%
+  r29_wide_crossing               retimed   off  wirelength=      None  None route=None% ovflV=None%
+  r29_wide_crossing               directive off  wirelength=      None  None route=None% ovflV=None%
+  r30_fsm_decode_fanout           orig      off  wirelength=  319824.9  MET route=2.78% ovflV=0.0%
+  r30_fsm_decode_fanout           orig      on   wirelength=581199.995  MET route=3.41% ovflV=0.0%
+  r30_fsm_decode_fanout           retimed   off  wirelength= 301747.06  VIOLATED route=13.95% ovflV=0.0%
+  r30_fsm_decode_fanout           directive off  wirelength=  319824.9  MET route=2.78% ovflV=0.0%

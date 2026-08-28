@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T15:30:59Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r06.sdc",
+  "sdc_sha1": "5d557b781c6f",
+  "rtl": [{"file": "r06_fsm_high_fanin.sv", "sha1": "49c4cff5d106"}]
+}

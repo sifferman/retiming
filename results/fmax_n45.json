@@ -1,0 +1,760 @@
+{
+  "r01_reset_backward_barrier": {
+    "orig__off": {
+      "min_period_ns": 1.001,
+      "probe": "probed p0.3438, wns=-0.657",
+      "confirm_period_ns": 1.031,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.641,
+      "probe": "probed p0.3438, wns=-0.297",
+      "confirm_period_ns": 0.66,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.699,
+      "probe": "probed p0.3438, wns=-0.355",
+      "confirm_period_ns": 0.72,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.641,
+      "probe": "probed p0.3438, wns=-0.297",
+      "confirm_period_ns": 0.66,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.031
+  },
+  "r02_reset_no_valid_init": {
+    "orig__off": {
+      "min_period_ns": 1.016,
+      "probe": "probed p0.3684, wns=-0.648",
+      "confirm_period_ns": 1.046,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.623,
+      "probe": "probed p0.3684, wns=-0.255",
+      "confirm_period_ns": 0.642,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.712,
+      "probe": "probed p0.3684, wns=-0.344",
+      "confirm_period_ns": 0.733,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.623,
+      "probe": "probed p0.3684, wns=-0.255",
+      "confirm_period_ns": 0.642,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.046
+  },
+  "r03_async_reset_blocker": {
+    "orig__off": {
+      "min_period_ns": 0.996,
+      "probe": "probed p0.312, wns=-0.684",
+      "confirm_period_ns": 1.026,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.662,
+      "probe": "probed p0.312, wns=-0.35",
+      "confirm_period_ns": 0.682,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.705,
+      "probe": "probed p0.312, wns=-0.393",
+      "confirm_period_ns": 0.726,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.662,
+      "probe": "probed p0.312, wns=-0.35",
+      "confirm_period_ns": 0.682,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.026
+  },
+  "r04_init_only_no_reset": {
+    "orig__off": {
+      "min_period_ns": 0.982,
+      "probe": "probed p0.3498, wns=-0.632",
+      "confirm_period_ns": 1.011,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.65,
+      "probe": "probed p0.3498, wns=-0.3",
+      "confirm_period_ns": 0.67,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.705,
+      "probe": "probed p0.3498, wns=-0.355",
+      "confirm_period_ns": 0.726,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.65,
+      "probe": "probed p0.3498, wns=-0.3",
+      "confirm_period_ns": 0.67,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.011
+  },
+  "r05_fsm_high_fanout": {
+    "orig__off": {
+      "min_period_ns": 0.539,
+      "probe": "probed p0.0696, wns=-0.469",
+      "confirm_period_ns": 0.555,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.61,
+      "probe": "probed p0.0696, wns=-0.54",
+      "confirm_period_ns": 0.628,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.556,
+      "probe": "probed p0.0696, wns=-0.486",
+      "confirm_period_ns": 0.573,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.606,
+      "probe": "probed p0.0696, wns=-0.536",
+      "confirm_period_ns": 0.624,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.628
+  },
+  "r06_fsm_high_fanin": {
+    "orig__off": {
+      "min_period_ns": 0.902,
+      "probe": "probed p0.489, wns=-0.413",
+      "confirm_period_ns": 0.929,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.749,
+      "probe": "probed p0.489, wns=-0.26",
+      "confirm_period_ns": 0.771,
+      "confirm_status": "VIOLATED",
+      "delivered_period_ns": 0.8018,
+      "pressure_gap_pct": 7.0
+    },
+    "retimed__off": {
+      "min_period_ns": 1.058,
+      "probe": "probed p0.489, wns=-0.569",
+      "confirm_period_ns": 1.09,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.749,
+      "probe": "probed p0.489, wns=-0.26",
+      "confirm_period_ns": 0.771,
+      "confirm_status": "VIOLATED",
+      "delivered_period_ns": 0.8018,
+      "pressure_gap_pct": 7.0
+    },
+    "_common_period_ns": 1.09
+  },
+  "r08_fsm_output_decode": {
+    "orig__off": {
+      "min_period_ns": 0.849,
+      "probe": "probed p0.4482, wns=-0.401",
+      "confirm_period_ns": 0.874,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.704,
+      "probe": "probed p0.4482, wns=-0.256",
+      "confirm_period_ns": 0.725,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.82,
+      "probe": "probed p0.4482, wns=-0.372",
+      "confirm_period_ns": 0.845,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.704,
+      "probe": "probed p0.4482, wns=-0.256",
+      "confirm_period_ns": 0.725,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.874
+  },
+  "r09_unbalanced_mult_pipe": {
+    "orig__off": {
+      "min_period_ns": 0.973,
+      "probe": "probed p0.3456, wns=-0.627",
+      "confirm_period_ns": 1.002,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.608,
+      "probe": "probed p0.3456, wns=-0.262",
+      "confirm_period_ns": 0.626,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.882,
+      "probe": "probed p0.3456, wns=-0.536",
+      "confirm_period_ns": 0.908,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.608,
+      "probe": "probed p0.3456, wns=-0.262",
+      "confirm_period_ns": 0.626,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.002
+  },
+  "r10_long_carry_chain": {
+    "orig__off": {
+      "min_period_ns": 0.82,
+      "probe": "probed p0.2436, wns=-0.576",
+      "confirm_period_ns": 0.845,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.597,
+      "probe": "probed p0.2436, wns=-0.353",
+      "confirm_period_ns": 0.615,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.772,
+      "probe": "probed p0.2436, wns=-0.528",
+      "confirm_period_ns": 0.795,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.597,
+      "probe": "probed p0.2436, wns=-0.353",
+      "confirm_period_ns": 0.615,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.845
+  },
+  "r11_deep_retime_distance": {
+    "orig__off": {
+      "min_period_ns": 3.754,
+      "probe": "probed p2.0688, wns=-1.685",
+      "confirm_period_ns": 3.867,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 1.195,
+      "probe": "probed p1.0344, wns=-0.161",
+      "confirm_period_ns": 1.231,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 1.35,
+      "probe": "probed p1.0344, wns=-0.316",
+      "confirm_period_ns": 1.391,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 1.195,
+      "probe": "probed p1.0344, wns=-0.161",
+      "confirm_period_ns": 1.231,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 3.867
+  },
+  "r12_wide_reduction_tree": {
+    "orig__off": {
+      "min_period_ns": 0.872,
+      "probe": "probed p0.264, wns=-0.608",
+      "confirm_period_ns": 0.898,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.604,
+      "probe": "probed p0.264, wns=-0.34",
+      "confirm_period_ns": 0.622,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.678,
+      "probe": "probed p0.264, wns=-0.414",
+      "confirm_period_ns": 0.698,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.604,
+      "probe": "probed p0.264, wns=-0.34",
+      "confirm_period_ns": 0.622,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.898
+  },
+  "r13_retime_around_sram": {
+    "orig__off": {
+      "min_period_ns": 0.911,
+      "probe": "probed p0.2946, wns=-0.616",
+      "confirm_period_ns": 0.938,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.631,
+      "probe": "probed p0.2946, wns=-0.336",
+      "confirm_period_ns": 0.65,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.711,
+      "probe": "probed p0.2946, wns=-0.416",
+      "confirm_period_ns": 0.732,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.631,
+      "probe": "probed p0.2946, wns=-0.336",
+      "confirm_period_ns": 0.65,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.938
+  },
+  "r15_hier_boundary_block": {
+    "orig__off": {
+      "min_period_ns": 1.019,
+      "probe": "probed p0.3648, wns=-0.654",
+      "confirm_period_ns": 1.05,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.619,
+      "probe": "probed p0.3648, wns=-0.254",
+      "confirm_period_ns": 0.638,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.697,
+      "probe": "probed p0.3648, wns=-0.332",
+      "confirm_period_ns": 0.718,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.619,
+      "probe": "probed p0.3648, wns=-0.254",
+      "confirm_period_ns": 0.638,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.05
+  },
+  "r16_dont_touch_conflict": {
+    "orig__off": {
+      "min_period_ns": 0.846,
+      "probe": "probed p0.4554, wns=-0.391",
+      "confirm_period_ns": 0.871,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.659,
+      "probe": "probed p0.4554, wns=-0.204",
+      "confirm_period_ns": 0.679,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.731,
+      "probe": "probed p0.4554, wns=-0.276",
+      "confirm_period_ns": 0.753,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.659,
+      "probe": "probed p0.4554, wns=-0.204",
+      "confirm_period_ns": 0.679,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.871
+  },
+  "r17_clock_enable_barrier": {
+    "orig__off": {
+      "min_period_ns": 1.015,
+      "probe": "probed p0.3516, wns=-0.663",
+      "confirm_period_ns": 1.045,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.64,
+      "probe": "probed p0.3516, wns=-0.288",
+      "confirm_period_ns": 0.659,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.702,
+      "probe": "probed p0.3516, wns=-0.35",
+      "confirm_period_ns": 0.723,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.64,
+      "probe": "probed p0.3516, wns=-0.288",
+      "confirm_period_ns": 0.659,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.045
+  },
+  "r18_clock_gated_region": {
+    "orig__off": {
+      "min_period_ns": 1.005,
+      "probe": "probed p0.357, wns=-0.648",
+      "confirm_period_ns": 1.035,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.648,
+      "probe": "probed p0.357, wns=-0.291",
+      "confirm_period_ns": 0.667,
+      "confirm_status": "VIOLATED",
+      "delivered_period_ns": 0.7214,
+      "pressure_gap_pct": 11.3
+    },
+    "retimed__off": {
+      "min_period_ns": 0.644,
+      "probe": "probed p0.357, wns=-0.287",
+      "confirm_period_ns": 0.663,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.648,
+      "probe": "probed p0.357, wns=-0.291",
+      "confirm_period_ns": 0.667,
+      "confirm_status": "VIOLATED",
+      "delivered_period_ns": 0.7214,
+      "pressure_gap_pct": 11.3
+    },
+    "_common_period_ns": 1.035
+  },
+  "r19_power_activity_retime": {
+    "orig__off": {
+      "min_period_ns": 0.672,
+      "probe": "probed p0.333, wns=-0.339",
+      "confirm_period_ns": 0.692,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.603,
+      "probe": "probed p0.333, wns=-0.27",
+      "confirm_period_ns": 0.621,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.854,
+      "probe": "probed p0.333, wns=-0.521",
+      "confirm_period_ns": 0.88,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.62,
+      "probe": "probed p0.333, wns=-0.287",
+      "confirm_period_ns": 0.639,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.88
+  },
+  "r20_glitch_absorb": {
+    "orig__off": {
+      "min_period_ns": 0.562,
+      "probe": "probed p0.2718, wns=-0.29",
+      "confirm_period_ns": 0.579,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.608,
+      "probe": "probed p0.2718, wns=-0.336",
+      "confirm_period_ns": 0.626,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.601,
+      "probe": "probed p0.2718, wns=-0.329",
+      "confirm_period_ns": 0.619,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.607,
+      "probe": "probed p0.2718, wns=-0.335",
+      "confirm_period_ns": 0.625,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.626
+  },
+  "r21_wire_pipeline_cross_die": {
+    "orig__off": {
+      "min_period_ns": 0.746,
+      "probe": "probed p0.1896, wns=-0.556",
+      "confirm_period_ns": 0.768,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.679,
+      "probe": "probed p0.1896, wns=-0.489",
+      "confirm_period_ns": 0.699,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.738,
+      "probe": "probed p0.1896, wns=-0.548",
+      "confirm_period_ns": 0.76,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.679,
+      "probe": "probed p0.1896, wns=-0.489",
+      "confirm_period_ns": 0.699,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.768
+  },
+  "r22_fanout_wire_load": {
+    "orig__off": {
+      "min_period_ns": 0.652,
+      "probe": "probed p0.1002, wns=-0.552",
+      "confirm_period_ns": 0.672,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.827,
+      "probe": "probed p0.1002, wns=-0.727",
+      "confirm_period_ns": 0.852,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.637,
+      "probe": "probed p0.1002, wns=-0.537",
+      "confirm_period_ns": 0.656,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.651,
+      "probe": "probed p0.1002, wns=-0.551",
+      "confirm_period_ns": 0.671,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.852
+  },
+  "r24_loop_bound_control": {
+    "orig__off": {
+      "min_period_ns": 1.247,
+      "probe": "probed p0.5172, wns=-0.73",
+      "confirm_period_ns": 1.284,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 1.037,
+      "probe": "probed p0.5172, wns=-0.52",
+      "confirm_period_ns": 1.068,
+      "confirm_status": "VIOLATED",
+      "delivered_period_ns": 1.1107,
+      "pressure_gap_pct": 7.1
+    },
+    "retimed__off": {
+      "min_period_ns": 1.247,
+      "probe": "probed p0.5172, wns=-0.73",
+      "confirm_period_ns": 1.284,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 1.037,
+      "probe": "probed p0.5172, wns=-0.52",
+      "confirm_period_ns": 1.068,
+      "confirm_status": "VIOLATED",
+      "delivered_period_ns": 1.1107,
+      "pressure_gap_pct": 7.1
+    },
+    "_common_period_ns": 1.284
+  },
+  "r26_sdc_exception_invalidation": {
+    "orig__off": {
+      "min_period_ns": 0.699,
+      "probe": "probed p0.612, wns=-0.087",
+      "confirm_period_ns": 0.72,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.699,
+      "probe": "probed p0.612, wns=-0.087",
+      "confirm_period_ns": 0.72,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.94,
+      "probe": "probed p0.612, wns=-0.328",
+      "confirm_period_ns": 0.968,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.797,
+      "probe": "probed p0.612, wns=-0.185",
+      "confirm_period_ns": 0.821,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.968
+  },
+  "r27_exception_scope_probe": {
+    "orig__off": {
+      "min_period_ns": 1.035,
+      "probe": "probed p0.3702, wns=-0.665",
+      "confirm_period_ns": 1.066,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.704,
+      "probe": "probed p0.3702, wns=-0.334",
+      "confirm_period_ns": 0.725,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.711,
+      "probe": "probed p0.3702, wns=-0.341",
+      "confirm_period_ns": 0.732,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.704,
+      "probe": "probed p0.3702, wns=-0.334",
+      "confirm_period_ns": 0.725,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 1.066
+  },
+  "r28_congestion_wire_split": {
+    "orig__off": {
+      "min_period_ns": 0.525,
+      "probe": "probed p0.048, wns=-0.477",
+      "confirm_period_ns": 0.541,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.563,
+      "probe": "probed p0.048, wns=-0.515",
+      "confirm_period_ns": 0.58,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.525,
+      "probe": "probed p0.048, wns=-0.477",
+      "confirm_period_ns": 0.541,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.563,
+      "probe": "probed p0.048, wns=-0.515",
+      "confirm_period_ns": 0.58,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.58
+  },
+  "r29_wide_crossing": {
+    "orig__off": {
+      "min_period_ns": 0.435,
+      "probe": "probed p0.36, wns=-0.075",
+      "confirm_period_ns": 0.448,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.362,
+      "probe": "probed p0.36, wns=-0.002",
+      "confirm_period_ns": 0.373,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.484,
+      "probe": "probed p0.36, wns=-0.124",
+      "confirm_period_ns": 0.499,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.435,
+      "probe": "probed p0.36, wns=-0.075",
+      "confirm_period_ns": 0.448,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.467
+  },
+  "r30_fsm_decode_fanout": {
+    "orig__off": {
+      "min_period_ns": 0.474,
+      "probe": "probed p0.3, wns=-0.174",
+      "confirm_period_ns": 0.488,
+      "confirm_status": "MET"
+    },
+    "orig__on": {
+      "min_period_ns": 0.482,
+      "probe": "probed p0.3, wns=-0.182",
+      "confirm_period_ns": 0.496,
+      "confirm_status": "MET"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.465,
+      "probe": "probed p0.3, wns=-0.165",
+      "confirm_period_ns": 0.479,
+      "confirm_status": "MET"
+    },
+    "directive__off": {
+      "min_period_ns": 0.474,
+      "probe": "probed p0.3, wns=-0.174",
+      "confirm_period_ns": 0.488,
+      "confirm_status": "MET"
+    },
+    "_common_period_ns": 0.496
+  },
+  "r31_clone_distinct_reset": {
+    "orig__off": {
+      "min_period_ns": 0.315,
+      "probe": "probed p0.3, wns=-0.015"
+    },
+    "orig__on": {
+      "min_period_ns": 0.272,
+      "probe": "probed p0.15, wns=-0.122"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.406,
+      "probe": "probed p0.3, wns=-0.106"
+    },
+    "directive__off": {
+      "min_period_ns": 0.315,
+      "probe": "probed p0.3, wns=-0.015"
+    }
+  },
+  "r32_backward_reset_preimage": {
+    "orig__off": {
+      "min_period_ns": 0.347,
+      "probe": "probed p0.3, wns=-0.047",
+      "confirm_period_ns": 0.357,
+      "confirm_status": "VIOLATED"
+    },
+    "orig__on": {
+      "min_period_ns": 0.26,
+      "probe": "probed p0.15, wns=-0.11",
+      "confirm_period_ns": 0.268,
+      "confirm_status": "VIOLATED"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.283,
+      "probe": "probed p0.15, wns=-0.133",
+      "confirm_period_ns": 0.291,
+      "confirm_status": null
+    },
+    "directive__off": {
+      "min_period_ns": 0.347,
+      "probe": "probed p0.3, wns=-0.047",
+      "confirm_period_ns": 0.357,
+      "confirm_status": "VIOLATED"
+    }
+  }
+}

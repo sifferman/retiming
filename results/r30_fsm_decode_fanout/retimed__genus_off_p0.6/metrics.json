@@ -1,0 +1,22 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r30_fsm_decode_fanout",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.6",
+  "clock_period_tool_internal": "600.0",
+  "area_um2": "62608.400649999996",
+  "num_cells": 21577,
+  "num_ffs_pre_syn": 2139,
+  "num_ffs": 2138,
+  "runtime_generic_s": 132,
+  "runtime_map_s": 282,
+  "runtime_total_s": 308,
+  "wns_ns": 0.0,
+  "timing_status": "MET",
+  "data_path_ns": 0.548,
+  "critical_endpoint": "u_core/acc_q_reg[29][30]/D",
+  "wall_seconds": 16.0
+}

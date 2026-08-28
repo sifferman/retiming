@@ -1,0 +1,11 @@
+# The designer's intent for stage 2, expressed as a constraint rather than in RTL.
+#
+# Stage 2 is eight rounds deep and cannot close in one cycle at this period, so it
+# is given two.  This is completely ordinary practice -- and it can only be written
+# by naming the registers involved:
+set_multicycle_path 2 -setup -from [get_cells fq1_reg*] -to [get_cells fq2_reg*]
+set_multicycle_path 1 -hold  -from [get_cells fq1_reg*] -to [get_cells fq2_reg*]
+
+# Which is precisely the problem.  A retimer that relocates and renames these
+# registers leaves this exception matching nothing, and the two cycles of relief
+# disappear without the netlist ever looking wrong.

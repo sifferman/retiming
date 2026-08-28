@@ -1,0 +1,15 @@
+{
+  "tool": "openroad",
+  "top": "r09_unbalanced_mult_pipe",
+  "density_target": 0.55,
+  "area_um2": "71186.573",
+  "core_area_um2": "125850.816",
+  "num_cells": 3050,
+  "num_seq": 96,
+  "power_mode": "vectorless",
+  "route_stage": "global",
+  "runtime_place_s": 1,
+  "runtime_cts_s": 18,
+  "runtime_groute_s": 18,
+  "runtime_total_s": 18
+}

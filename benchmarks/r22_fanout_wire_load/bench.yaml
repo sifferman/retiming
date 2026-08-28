@@ -1,0 +1,32 @@
+id: r22
+name: fanout_wire_load
+class: "H - physical / fanout wire load"
+top: r22_fanout_wire_load
+latency_preserving: true
+density_target: 0.35
+
+description: |
+  The scaled-up version of r05. A 6-bit control register drives 256 datapath lanes at low placement density, so the driven net genuinely spans the die and its load is dominated by wire capacitance rather than pin capacitance. The reference clones the driver 16 times, one per group of 16 lanes.
+
+constraints:
+  asic:
+    clock_period_ns: 0.685
+    core_density: 0.35
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 128
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 5.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: wirelength
+expected: |
+  r05 showed that 8-way cloning of a 48-lane fanout in a 479-cell design LOSES: +39% wirelength and +52% power for 66 ps. This benchmark exists to find the size at which the trade reverses, since cloning can only pay off once the loads are far enough apart that one long net becomes several short ones. Density is deliberately low (0.35) to spread the die.

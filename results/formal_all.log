@@ -1,0 +1,27 @@
+  r16_dont_touch_conflict         orig vs retimed: BMC-20 clean
+  r08_fsm_output_decode           orig vs retimed: BMC-20 clean
+  r16_dont_touch_conflict         orig vs directive: BMC-20 clean
+  r08_fsm_output_decode           orig vs directive: BMC-20 clean
+  r21_wire_pipeline_cross_die     orig vs retimed: COUNTEREXAMPLE
+  r21_wire_pipeline_cross_die     orig vs directive: BMC-20 clean
+  r24_loop_bound_control          orig vs retimed: BMC-20 clean
+  r24_loop_bound_control          orig vs directive: BMC-20 clean
+  r26_sdc_exception_invalidation  orig vs retimed: BMC-20 clean
+  r26_sdc_exception_invalidation  orig vs directive: BMC-20 clean
+  r06_fsm_high_fanin              orig vs retimed: BMC-20 clean
+  r05_fsm_high_fanout             orig vs retimed: BMC-20 clean
+  r06_fsm_high_fanin              orig vs directive: BMC-20 clean
+  r05_fsm_high_fanout             orig vs directive: BMC-20 clean
+  r28_congestion_wire_split       orig vs retimed: BMC-20 clean
+  r28_congestion_wire_split       orig vs directive: BMC-20 clean
+  r20_glitch_absorb               orig vs retimed: BMC-20 clean
+  r20_glitch_absorb               orig vs directive: BMC-20 clean
+subprocess.TimeoutExpired: Command '['/home/esifferm/.local/bin/sby', '-f', '/home/esifferm/GitHub/retiming/build/formal_r19_power_activity_retime_orig_vs_retimed.sby']' timed out after 2300 seconds
+  r19_power_activity_retime       orig vs directive: BMC-20 clean
+subprocess.TimeoutExpired: Command '['/home/esifferm/.local/bin/sby', '-f', '/home/esifferm/GitHub/retiming/build/formal_r22_fanout_wire_load_orig_vs_retimed.sby']' timed out after 2300 seconds
+subprocess.TimeoutExpired: Command '['/home/esifferm/.local/bin/sby', '-f', '/home/esifferm/GitHub/retiming/build/formal_r29_wide_crossing_orig_vs_retimed.sby']' timed out after 2300 seconds
+subprocess.TimeoutExpired: Command '['/home/esifferm/.local/bin/sby', '-f', '/home/esifferm/GitHub/retiming/build/formal_r30_fsm_decode_fanout_orig_vs_retimed.sby']' timed out after 2300 seconds
+  r30_fsm_decode_fanout           orig vs directive: BMC-20 clean
+  r22_fanout_wire_load            orig vs directive: BMC-20 clean
+  r29_wide_crossing               orig vs directive: BMC-20 clean
+scripts/formal_all.sh: line 28: unexpected EOF while looking for matching `"'

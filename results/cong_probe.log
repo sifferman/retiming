@@ -1,0 +1,4 @@
+  A baseline(what I ran)     route_share=2.27    WL=27898.3     postWNS=0.004     density=91.981
+  B metal3 cap               route_share=8.76    WL=34904.77    postWNS=0.002     density=93.223
+  C cap+blockage+thin        route_share=15.44   WL=31195.24    postWNS=-0.001    density=76.114
+  D cap+blockage+RCx10       route_share=60.96   WL=56068.63    postWNS=-2.66     density=100.06

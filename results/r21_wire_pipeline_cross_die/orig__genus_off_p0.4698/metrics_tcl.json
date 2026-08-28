@@ -1,0 +1,17 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r21_wire_pipeline_cross_die",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.4698",
+  "clock_period_tool_internal": "2349.0",
+  "area_um2": "5374.196499",
+  "num_cells": 2029,
+  "num_ffs_pre_syn": 208,
+  "num_ffs": 208,
+  "runtime_generic_s": 19,
+  "runtime_map_s": 29,
+  "runtime_total_s": 98
+}

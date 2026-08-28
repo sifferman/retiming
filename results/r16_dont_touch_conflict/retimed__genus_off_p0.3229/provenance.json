@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-24T08:22:11Z",
+  "git_commit": "bdf1989",
+  "git_dirty": true,
+  "sdc": "r16.sdc",
+  "sdc_sha1": "5d8b25549dc0",
+  "rtl": [{"file": "r16_dont_touch_conflict.sv", "sha1": "c77fe76b4304"}]
+}

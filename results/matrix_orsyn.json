@@ -1,0 +1,2762 @@
+[
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 10.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 8.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 10.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 8.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 10.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 8.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 9.1,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.15,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 9.1,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.15,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 9.1,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.15,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.5,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.25,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 10.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 8.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 10.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 8.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 10.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 8.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.6,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.7,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.8,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.0,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.2,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.4,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.8,
+    "error": "no metrics"
+  }
+]

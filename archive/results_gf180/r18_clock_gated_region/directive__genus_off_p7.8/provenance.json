@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-21T01:29:45Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r18.sdc",
+  "sdc_sha1": "1a3948b8bef4",
+  "rtl": [{"file": "r18_clock_gated_region.sv", "sha1": "d145a48bdf6c"}]
+}

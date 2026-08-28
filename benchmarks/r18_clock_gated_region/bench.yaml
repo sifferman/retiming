@@ -1,0 +1,32 @@
+id: r18
+name: clock_gated_region
+class: "F - clock gating"
+top: r18_clock_gated_region
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A three-stage enabled pipeline that the flow clock-gates (lp_insert_clock_gating is enabled for this benchmark via common.tcl, so a real ICG cell is inserted and shared across the region). Rebalancing the stages moves registers inside the gated domain, which changes which flops the ICG drives.
+
+constraints:
+  asic:
+    clock_period_ns: 1.055
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Retiming and clock gating interact: moving a register changes the gated flop count and therefore the ICG's own load and enable fanout. Tools sequence clock-gating insertion and retiming as separate passes, so the second one sees the first one's decisions as fixed.

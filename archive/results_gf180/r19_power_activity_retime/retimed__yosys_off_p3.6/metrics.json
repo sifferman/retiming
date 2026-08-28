@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r19_power_activity_retime",
+  "area_um2": 9249.0048,
+  "num_cells": 333,
+  "num_seq": 14,
+  "tool_version": "0.58",
+  "wns_ns": -6.2651,
+  "timing_status": "VIOLATED",
+  "tns_ns": -39.0863,
+  "data_path_ns": 9.5793,
+  "critical_endpoint": "_593_",
+  "power_mw": 75.1,
+  "power_switching_mw": 29.7,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "off"
+}

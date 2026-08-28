@@ -1,0 +1,32 @@
+id: r15
+name: hier_boundary_block
+class: "E - hierarchy boundary"
+top: r15_hier_boundary_block
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A purely combinational deep submodule feeds a submodule whose first act is to register its input. The critical path runs from primary inputs, through all of submodule A, to a register that lives in submodule B. Fixing it requires moving that register BACKWARD ACROSS THE MODULE BOUNDARY into A.
+
+constraints:
+  asic:
+    clock_period_ns: 1.07
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.5
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Legal strict retiming, but it relocates a register from one module to another. Tools that keep hierarchy boundaries intact -- or that retime only within a module -- cannot express it. Also tests whether boundary optimisation is enabled by default.

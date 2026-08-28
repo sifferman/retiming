@@ -1,0 +1,17 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r10_long_carry_chain",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.1673",
+  "clock_period_tool_internal": "1673.0",
+  "area_um2": "8050.4993155",
+  "num_cells": 2982,
+  "num_ffs_pre_syn": 468,
+  "num_ffs": 458,
+  "runtime_generic_s": 9,
+  "runtime_map_s": 28,
+  "runtime_total_s": 130
+}

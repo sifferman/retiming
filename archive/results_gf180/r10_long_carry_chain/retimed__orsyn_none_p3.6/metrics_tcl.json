@@ -1,0 +1,10 @@
+{
+  "tool": "openroad_syn",
+  "top": "r10_long_carry_chain",
+  "retime_mode": "unsupported",
+  "num_cells": 922,
+  "num_seq": 96,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 1
+}

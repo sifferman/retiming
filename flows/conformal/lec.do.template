@@ -1,0 +1,63 @@
+# Conformal LEC (Tcl mode): formal equivalence between a benchmark's original and
+# its hand-retimed reference.
+#
+# LICENSE LIMITATION -- READ THIS BEFORE TRUSTING A RESULT FROM THIS SCRIPT.
+#
+# A retimed circuit is not combinationally equivalent to its original: the state
+# encoding differs and the registers do not correspond by name.  Closing such a
+# comparison formally needs Conformal's pipeline-retiming analysis
+# (`analyze_retiming`) or its automatic mapping mode (`set_analyze_option -auto`).
+# Measured on this installation, BOTH require a `Conformal_Ultra` license:
+#
+#     // Error: Analyze retiming requires a Conformal_Ultra license.
+#     // Error: Auto analysis requires a Conformal_Ultra license.
+#
+# The available license is `Conformal_Asic`.  So a NON-EQUIVALENT or unmapped
+# result from this script on a retimed pair means "this license cannot do the
+# comparison", NOT "the reference is wrong".  Every reference in this suite is
+# verified by bounded simulation instead -- see scripts/check_equiv.py, which is
+# the equivalence check the suite actually relies on.
+#
+# The script is kept because it documents exactly what is missing, and because it
+# will work unchanged if an Ultra license becomes available.
+#
+# @TOP@, @GOLDEN@, @REVISED@, @OUT@ are substituted by scripts/check_lec.sh.
+
+set _have_ultra 1
+if {[catch {set_analyze_option -auto} err]} {
+  puts "LEC_LICENSE auto-analysis unavailable: $err"
+  set _have_ultra 0
+}
+catch { set_flatten_model -seq_constant }
+
+read_design -systemverilog -golden  -replace -root @TOP@ @GOLDEN@
+read_design -systemverilog -revised -replace -root @TOP@ @REVISED@
+
+report_design_data
+
+set_system_mode lec
+
+if {[catch {analyze_retiming} err]} {
+  puts "LEC_LICENSE retiming analysis unavailable: $err"
+  set _have_ultra 0
+}
+
+if {$_have_ultra} {
+  puts "LEC_MODE retiming-aware (Conformal_Ultra available)"
+} else {
+  puts "LEC_MODE degraded -- name-based mapping only; a retimed pair is NOT"
+  puts "LEC_MODE expected to map, and a mismatch here is a license artefact."
+}
+
+# Tcl-mode spelling is add_compared_points (with the "d"); add_compare_points
+# does not exist and fails with "invalid command name".
+catch { add_compared_points -all }
+catch { compare }
+
+catch { report_compare_data > @OUT@/compare.rpt }
+catch { report_verification  > @OUT@/verification.rpt }
+catch { report_unmapped_points > @OUT@/unmapped.rpt }
+catch { report_compared_points > @OUT@/compared_points.rpt }
+
+# `exit -force` is native-mode syntax; in Tcl mode exit takes an integer.
+exit 0

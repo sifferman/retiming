@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r18_clock_gated_region",
+  "retime_mode": "off",
+  "retime_optimize_reset": "true",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "2700.0",
+  "area_um2": "32340.355729",
+  "num_cells": 669,
+  "num_seq_pre_syn": 48,
+  "num_seq": 62,
+  "runtime_generic_s": 18,
+  "runtime_map_s": 22,
+  "runtime_total_s": 44
+}

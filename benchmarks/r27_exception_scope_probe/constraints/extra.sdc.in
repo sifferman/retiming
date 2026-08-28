@@ -1,0 +1,4 @@
+# Pipeline B only: eight rounds cannot close in one cycle, so it gets two.
+# Pipeline A is deliberately NOT mentioned anywhere in this file.
+set_multicycle_path 2 -setup -from [get_cells bq1_reg*] -to [get_cells bq2_reg*]
+set_multicycle_path 1 -hold  -from [get_cells bq1_reg*] -to [get_cells bq2_reg*]

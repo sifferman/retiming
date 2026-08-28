@@ -1,0 +1,55 @@
+probing 24 benchmarks at 4.0 ns (4 concurrent)
+  r01_reset_backward_barrier         data_path=   2.064 ns    46.0s
+  r02_reset_no_valid_init            data_path=   2.057 ns    50.0s
+  r03_async_reset_blocker            data_path=   2.091 ns    44.0s
+  r04_init_only_no_reset             data_path=   2.075 ns    42.0s
+  r05_fsm_high_fanout                data_path=   0.772 ns    20.0s
+  r06_fsm_high_fanin                 data_path=   1.987 ns    30.0s
+  r08_fsm_output_decode              data_path=   2.256 ns    24.0s
+  r09_unbalanced_mult_pipe           data_path=   2.541 ns    28.0s
+  r10_long_carry_chain               data_path=   2.414 ns    15.0s
+  r11_deep_retime_distance           data_path=   3.567 ns   173.0s
+  r12_wide_reduction_tree            data_path=   0.087 ns    22.0s
+  r13_retime_around_sram             data_path=   1.418 ns    20.0s
+  r15_hier_boundary_block            data_path=   2.113 ns    15.0s
+  r16_dont_touch_conflict            data_path=   2.738 ns    20.0s
+  r17_clock_enable_barrier           data_path=    2.16 ns    21.0s
+  r18_clock_gated_region             data_path=   2.091 ns    23.0s
+  r19_power_activity_retime          data_path=   1.011 ns    14.0s
+  r20_glitch_absorb                  data_path=   0.855 ns    12.0s
+  r21_wire_pipeline_cross_die        data_path=   0.989 ns    24.0s
+  r22_fanout_wire_load               data_path=   0.615 ns   178.0s
+  r24_loop_bound_control             data_path=   3.004 ns    18.0s
+  r26_sdc_exception_invalidation     data_path=   0.929 ns    18.0s
+  r27_exception_scope_probe          data_path=   2.048 ns    22.0s
+  r28_congestion_wire_split          data_path=   0.282 ns    15.0s
+
+benchmark                            old ns   new ns
+  r01_reset_backward_barrier            8.0     2.27
+  r02_reset_no_valid_init               5.0     2.26
+  r03_async_reset_blocker               5.0      2.3
+  r04_init_only_no_reset                5.0     2.28
+  r05_fsm_high_fanout                   7.0     0.85
+  r06_fsm_high_fanin                    6.0     2.19
+  r08_fsm_output_decode                 6.0     2.48
+  r09_unbalanced_mult_pipe              6.0      2.8
+  r10_long_carry_chain                  6.0     2.66
+  r11_deep_retime_distance              5.0     3.92
+  r12_wide_reduction_tree               6.0      0.1
+  r13_retime_around_sram                6.0     1.56
+  r15_hier_boundary_block               5.0     2.32
+  r16_dont_touch_conflict               5.0     3.01
+  r17_clock_enable_barrier              6.0     2.38
+  r18_clock_gated_region                6.0      2.3
+  r19_power_activity_retime             6.0     1.11
+  r20_glitch_absorb                     6.0     0.94
+  r21_wire_pipeline_cross_die           5.0     1.09
+  r22_fanout_wire_load                  8.0     0.68
+  r24_loop_bound_control                6.0      3.3
+  r26_sdc_exception_invalidation        4.0     1.02
+  r27_exception_scope_probe             4.0     2.25
+  r28_congestion_wire_split             6.0     0.31
+
+Genus timing on this PDK: n=24 mean=37.2s max=178s (total cpu 14.9 min at 4 jobs -> 3.7 min wall)
+
+periods written; now run: python3 scripts/regen_constraints.py

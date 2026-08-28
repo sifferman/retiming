@@ -1,0 +1,42 @@
+id: r32
+name: backward_reset_preimage
+class: "A - backward retiming with no valid initial state"
+top: r32_backward_reset_preimage
+latency_preserving: true
+density_target: 0.7
+
+description: |
+  A 256-bit pipeline split 8 levels / 2 levels, so balancing requires moving the middle
+  register BACKWARD by three levels. Those three levels contain an AND-mask, so the
+  stage is not surjective, and the register's reset value is provably outside its image
+  (the stage is linear over GF(2); Gaussian elimination on the 256x256 matrix decides
+  it). No constant can serve as the moved register's reset value, so a behaviour-
+  preserving backward move MUST add explicit reset logic -- which is what Genus does
+  when retime_fallback_to_explicit_reset keeps its TRUE default, at the cost of a
+  256-bit mux level.
+
+constraints:
+  asic:
+    clock_period_ns: 1.0
+    core_density: 0.7
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 32
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+  fpga:
+    clock_period_ns: 6.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Three outcomes are all interesting. The tool may decline to move the register at all
+  (retime_optimize_reset defaults to FALSE), leaving the 8/2 split. It may move it and
+  add explicit reset logic, in which case the question is whether it recovers the
+  balance net of the mux. Or it may move it and get the reset value WRONG, which the
+  mid-run reset pulse in gen_tb.py and the BMC proof in formal_equiv.py will catch.

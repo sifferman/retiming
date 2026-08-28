@@ -1,0 +1,44 @@
+id: r30
+name: fsm_decode_fanout
+class: "B/H - FSM decode fanout, real design"
+top: r30_fsm_decode_fanout
+latency_preserving: true
+density_target: 0.7
+
+description: |
+  Reduced from sifferman/ternip rtl/fus/ternip_tmatmul.sv at commit 55bf227, which
+  Vivado could not retime; commit 7b658c7 did the transform by hand. A 3-state FSM
+  plus a 4-value operation enum are decoded into five mutually exclusive conditions,
+  each gating a 32-lane x 32-bit accumulator array. The decode output is the
+  high-fanout net and it sits in front of everything it gates. state_q is in the
+  next-state feedback loop, so classical retiming cannot move it; the legal transform
+  is to retime the DECODE across the state register, which needs the decode of the
+  reset state as the new registers' reset value. This is the only benchmark in the
+  suite taken from a real design rather than constructed.
+
+constraints:
+  asic:
+    clock_period_ns: 1.0
+    core_density: 0.7
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 32
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+  fpga:
+    clock_period_ns: 6.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau15p-sbvb484-1-e  # 24-27k cells: does not fit AU7P's 37440 LUTs
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  The reference moves the decode cone off the critical path and turns a high-fanout
+  decode apex into a register output the tool may duplicate per lane group. Vivado
+  did not find this on the real design. The open question for this suite is whether
+  Genus does, and whether the win is a logic-depth effect or a wire effect -- the
+  fanout net is physically long, so post-route wirelength and reg-to-reg slack are
+  both reported.

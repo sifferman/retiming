@@ -1,0 +1,19 @@
+{
+  "tool": "vivado",
+  "tool_version": "2025.2",
+  "part": "xc7a100tcsg324-1",
+  "architecture": "artix7",
+  "retiming_default_on": "0",
+  "top": "r18_clock_gated_region",
+  "retime_mode": "on",
+  "directive": "",
+  "wns_ns": "-6.171",
+  "wns_reg2reg_ns": "-4.557",
+  "num_lut": 92,
+  "num_ff": 48,
+  "num_ff_post_synth": 48,
+  "num_carry": 32,
+  "power_mode": "vectorless",
+  "runtime_synth_s": 105,
+  "runtime_total_s": 327
+}

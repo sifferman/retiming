@@ -1,0 +1,17 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r30_fsm_decode_fanout",
+  "retime_mode": "on",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.3",
+  "clock_period_tool_internal": "300.0",
+  "area_um2": "119912.401808",
+  "num_cells": 48439,
+  "num_ffs_pre_syn": 2134,
+  "num_ffs": 3144,
+  "runtime_generic_s": 490,
+  "runtime_map_s": 647,
+  "runtime_total_s": 1329
+}

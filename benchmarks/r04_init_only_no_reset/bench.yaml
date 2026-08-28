@@ -1,0 +1,32 @@
+id: r04
+name: init_only_no_reset
+class: "A - reset / initial state"
+top: r04_init_only_no_reset
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  The same unbalanced chain as r01, but the registers carry only an initial value and there is no reset port at all. On Artix-7 the INIT attribute must travel with a retimed register; on an ASIC library there is no initial-value concept, so the retimer is unconstrained.
+
+constraints:
+  asic:
+    clock_period_ns: 1.031
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.5
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  This should be the EASIEST Class A case for Genus -- with no reset semantics to preserve, backward retiming is unconstrained. Vivado must instead recompute INIT. The benchmark exists to expose that FPGA/ASIC asymmetry directly.

@@ -1,0 +1,32 @@
+id: r27
+name: exception_scope_probe
+class: "J - constraint interaction"
+top: r27_exception_scope_probe
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  Two independent pipelines in one design. Pipeline A is unbalanced and needs retiming, and no constraint names its registers. Pipeline B carries a multicycle-path exception naming its own registers. The probe: does Genus still retime A?
+
+constraints:
+  asic:
+    clock_period_ns: 1.087
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: diagnostic
+expected: |
+  Answers the scope question r26 raises. If A is retimed, exception-driven exclusion is path-local and the workaround is to keep exceptions off retimable paths. If A is NOT retimed, one exception anywhere disables retiming design-wide, which is a much more serious constraint on how a design can be written.

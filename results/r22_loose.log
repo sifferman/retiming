@@ -1,0 +1,4 @@
+  orig/off       WL=269653.365  route=5.67    ovflV=0.11   WNS=-0.042
+  orig/on        WL=342274.48   route=8.25    ovflV=0.74   WNS=-0.174
+  retimed/off    WL=304877.96   route=14.52   ovflV=0.07   WNS=0.002
+  directive/off  WL=268172.395  route=3.17    ovflV=0.04   WNS=0.006

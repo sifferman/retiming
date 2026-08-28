@@ -1,0 +1,269 @@
+phase A: 96 probes at 4 concurrent
+  r01_reset_backward_barrier      orig      off  min_period=  1.001 ns   probed p0.3438, wns=-0.657
+  r01_reset_backward_barrier      orig      on   min_period=  0.641 ns   probed p0.3438, wns=-0.297
+  r01_reset_backward_barrier      retimed   off  min_period=  0.699 ns   probed p0.3438, wns=-0.355
+  r01_reset_backward_barrier      directive off  min_period=  0.641 ns   probed p0.3438, wns=-0.297
+  r02_reset_no_valid_init         orig      off  min_period=  1.016 ns   probed p0.3684, wns=-0.648
+  r02_reset_no_valid_init         orig      on   min_period=  0.623 ns   probed p0.3684, wns=-0.255
+  r02_reset_no_valid_init         retimed   off  min_period=  0.712 ns   probed p0.3684, wns=-0.344
+  r02_reset_no_valid_init         directive off  min_period=  0.623 ns   probed p0.3684, wns=-0.255
+  r03_async_reset_blocker         orig      off  min_period=  0.996 ns   probed p0.312, wns=-0.684
+  r03_async_reset_blocker         orig      on   min_period=  0.662 ns   probed p0.312, wns=-0.35
+  r03_async_reset_blocker         retimed   off  min_period=  0.705 ns   probed p0.312, wns=-0.393
+  r03_async_reset_blocker         directive off  min_period=  0.662 ns   probed p0.312, wns=-0.35
+  r04_init_only_no_reset          orig      off  min_period=  0.982 ns   probed p0.3498, wns=-0.632
+  r04_init_only_no_reset          orig      on   min_period=   0.65 ns   probed p0.3498, wns=-0.3
+  r04_init_only_no_reset          retimed   off  min_period=  0.705 ns   probed p0.3498, wns=-0.355
+  r04_init_only_no_reset          directive off  min_period=   0.65 ns   probed p0.3498, wns=-0.3
+  r05_fsm_high_fanout             orig      off  min_period=  0.539 ns   probed p0.0696, wns=-0.469
+  r05_fsm_high_fanout             orig      on   min_period=   0.61 ns   probed p0.0696, wns=-0.54
+  r05_fsm_high_fanout             retimed   off  min_period=  0.556 ns   probed p0.0696, wns=-0.486
+  r05_fsm_high_fanout             directive off  min_period=  0.606 ns   probed p0.0696, wns=-0.536
+  r06_fsm_high_fanin              orig      off  min_period=  0.902 ns   probed p0.489, wns=-0.413
+  r06_fsm_high_fanin              orig      on   min_period=  0.749 ns   probed p0.489, wns=-0.26
+  r06_fsm_high_fanin              retimed   off  min_period=  1.058 ns   probed p0.489, wns=-0.569
+  r06_fsm_high_fanin              directive off  min_period=  0.749 ns   probed p0.489, wns=-0.26
+  r08_fsm_output_decode           orig      off  min_period=  0.849 ns   probed p0.4482, wns=-0.401
+  r08_fsm_output_decode           orig      on   min_period=  0.704 ns   probed p0.4482, wns=-0.256
+  r08_fsm_output_decode           retimed   off  min_period=   0.82 ns   probed p0.4482, wns=-0.372
+  r08_fsm_output_decode           directive off  min_period=  0.704 ns   probed p0.4482, wns=-0.256
+  r09_unbalanced_mult_pipe        orig      off  min_period=  0.973 ns   probed p0.3456, wns=-0.627
+  r09_unbalanced_mult_pipe        orig      on   min_period=  0.608 ns   probed p0.3456, wns=-0.262
+  r09_unbalanced_mult_pipe        retimed   off  min_period=  0.882 ns   probed p0.3456, wns=-0.536
+  r09_unbalanced_mult_pipe        directive off  min_period=  0.608 ns   probed p0.3456, wns=-0.262
+  r10_long_carry_chain            orig      off  min_period=   0.82 ns   probed p0.2436, wns=-0.576
+  r10_long_carry_chain            orig      on   min_period=  0.597 ns   probed p0.2436, wns=-0.353
+  r10_long_carry_chain            retimed   off  min_period=  0.772 ns   probed p0.2436, wns=-0.528
+  r10_long_carry_chain            directive off  min_period=  0.597 ns   probed p0.2436, wns=-0.353
+  r11_deep_retime_distance        orig      off  min_period=  3.754 ns   probed p2.0688, wns=-1.685
+  r11_deep_retime_distance        orig      on   min_period=  1.195 ns   probed p1.0344, wns=-0.161
+  r11_deep_retime_distance        retimed   off  min_period=   1.35 ns   probed p1.0344, wns=-0.316
+  r11_deep_retime_distance        directive off  min_period=  1.195 ns   probed p1.0344, wns=-0.161
+  r12_wide_reduction_tree         orig      off  min_period=  0.872 ns   probed p0.264, wns=-0.608
+  r12_wide_reduction_tree         orig      on   min_period=  0.604 ns   probed p0.264, wns=-0.34
+  r12_wide_reduction_tree         retimed   off  min_period=  0.678 ns   probed p0.264, wns=-0.414
+  r12_wide_reduction_tree         directive off  min_period=  0.604 ns   probed p0.264, wns=-0.34
+  r13_retime_around_sram          orig      off  min_period=  0.911 ns   probed p0.2946, wns=-0.616
+  r13_retime_around_sram          orig      on   min_period=  0.631 ns   probed p0.2946, wns=-0.336
+  r13_retime_around_sram          retimed   off  min_period=  0.711 ns   probed p0.2946, wns=-0.416
+  r13_retime_around_sram          directive off  min_period=  0.631 ns   probed p0.2946, wns=-0.336
+  r15_hier_boundary_block         orig      off  min_period=  1.019 ns   probed p0.3648, wns=-0.654
+  r15_hier_boundary_block         orig      on   min_period=  0.619 ns   probed p0.3648, wns=-0.254
+  r15_hier_boundary_block         retimed   off  min_period=  0.697 ns   probed p0.3648, wns=-0.332
+  r15_hier_boundary_block         directive off  min_period=  0.619 ns   probed p0.3648, wns=-0.254
+  r16_dont_touch_conflict         orig      off  min_period=  0.846 ns   probed p0.4554, wns=-0.391
+  r16_dont_touch_conflict         orig      on   min_period=  0.659 ns   probed p0.4554, wns=-0.204
+  r16_dont_touch_conflict         retimed   off  min_period=  0.731 ns   probed p0.4554, wns=-0.276
+  r16_dont_touch_conflict         directive off  min_period=  0.659 ns   probed p0.4554, wns=-0.204
+  r17_clock_enable_barrier        orig      off  min_period=  1.015 ns   probed p0.3516, wns=-0.663
+  r17_clock_enable_barrier        orig      on   min_period=   0.64 ns   probed p0.3516, wns=-0.288
+  r17_clock_enable_barrier        retimed   off  min_period=  0.702 ns   probed p0.3516, wns=-0.35
+  r17_clock_enable_barrier        directive off  min_period=   0.64 ns   probed p0.3516, wns=-0.288
+  r18_clock_gated_region          orig      off  min_period=  1.005 ns   probed p0.357, wns=-0.648
+  r18_clock_gated_region          orig      on   min_period=  0.648 ns   probed p0.357, wns=-0.291
+  r18_clock_gated_region          retimed   off  min_period=  0.644 ns   probed p0.357, wns=-0.287
+  r18_clock_gated_region          directive off  min_period=  0.648 ns   probed p0.357, wns=-0.291
+  r19_power_activity_retime       orig      off  min_period=  0.672 ns   probed p0.333, wns=-0.339
+  r19_power_activity_retime       orig      on   min_period=  0.603 ns   probed p0.333, wns=-0.27
+  r19_power_activity_retime       retimed   off  min_period=  0.854 ns   probed p0.333, wns=-0.521
+  r19_power_activity_retime       directive off  min_period=   0.62 ns   probed p0.333, wns=-0.287
+  r20_glitch_absorb               orig      off  min_period=  0.562 ns   probed p0.2718, wns=-0.29
+  r20_glitch_absorb               orig      on   min_period=  0.608 ns   probed p0.2718, wns=-0.336
+  r20_glitch_absorb               retimed   off  min_period=  0.601 ns   probed p0.2718, wns=-0.329
+  r20_glitch_absorb               directive off  min_period=  0.607 ns   probed p0.2718, wns=-0.335
+  r21_wire_pipeline_cross_die     orig      off  min_period=  0.746 ns   probed p0.1896, wns=-0.556
+  r21_wire_pipeline_cross_die     orig      on   min_period=  0.679 ns   probed p0.1896, wns=-0.489
+  r21_wire_pipeline_cross_die     retimed   off  min_period=  0.738 ns   probed p0.1896, wns=-0.548
+  r21_wire_pipeline_cross_die     directive off  min_period=  0.679 ns   probed p0.1896, wns=-0.489
+  r22_fanout_wire_load            orig      off  min_period=  0.652 ns   probed p0.1002, wns=-0.552
+  r22_fanout_wire_load            orig      on   min_period=  0.827 ns   probed p0.1002, wns=-0.727
+  r22_fanout_wire_load            retimed   off  min_period=  0.637 ns   probed p0.1002, wns=-0.537
+  r22_fanout_wire_load            directive off  min_period=  0.651 ns   probed p0.1002, wns=-0.551
+  r24_loop_bound_control          orig      off  min_period=  1.247 ns   probed p0.5172, wns=-0.73
+  r24_loop_bound_control          orig      on   min_period=  1.037 ns   probed p0.5172, wns=-0.52
+  r24_loop_bound_control          retimed   off  min_period=  1.247 ns   probed p0.5172, wns=-0.73
+  r24_loop_bound_control          directive off  min_period=  1.037 ns   probed p0.5172, wns=-0.52
+  r26_sdc_exception_invalidation  orig      off  min_period=  0.699 ns   probed p0.612, wns=-0.087
+  r26_sdc_exception_invalidation  orig      on   min_period=  0.699 ns   probed p0.612, wns=-0.087
+  r26_sdc_exception_invalidation  retimed   off  min_period=   0.94 ns   probed p0.612, wns=-0.328
+  r26_sdc_exception_invalidation  directive off  min_period=  0.797 ns   probed p0.612, wns=-0.185
+  r27_exception_scope_probe       orig      off  min_period=  1.035 ns   probed p0.3702, wns=-0.665
+  r27_exception_scope_probe       orig      on   min_period=  0.704 ns   probed p0.3702, wns=-0.334
+  r27_exception_scope_probe       retimed   off  min_period=  0.711 ns   probed p0.3702, wns=-0.341
+  r27_exception_scope_probe       directive off  min_period=  0.704 ns   probed p0.3702, wns=-0.334
+  r28_congestion_wire_split       orig      off  min_period=  0.525 ns   probed p0.048, wns=-0.477
+  r28_congestion_wire_split       orig      on   min_period=  0.563 ns   probed p0.048, wns=-0.515
+  r28_congestion_wire_split       retimed   off  min_period=  0.525 ns   probed p0.048, wns=-0.477
+  r28_congestion_wire_split       directive off  min_period=  0.563 ns   probed p0.048, wns=-0.515
+
+phase B: 96 confirmation runs at each config's own Fmax
+  r01_reset_backward_barrier      orig      off  p=1.031  MET      
+  r01_reset_backward_barrier      orig      on   p=0.660  MET      
+  r01_reset_backward_barrier      retimed   off  p=0.720  MET      
+  r01_reset_backward_barrier      directive off  p=0.660  MET      
+  r02_reset_no_valid_init         orig      off  p=1.046  MET      
+  r02_reset_no_valid_init         orig      on   p=0.642  MET      
+  r02_reset_no_valid_init         retimed   off  p=0.733  MET      
+  r02_reset_no_valid_init         directive off  p=0.642  MET      
+  r03_async_reset_blocker         orig      off  p=1.026  MET      
+  r03_async_reset_blocker         orig      on   p=0.682  MET      
+  r03_async_reset_blocker         retimed   off  p=0.726  MET      
+  r03_async_reset_blocker         directive off  p=0.682  MET      
+  r04_init_only_no_reset          orig      off  p=1.011  MET      
+  r04_init_only_no_reset          orig      on   p=0.670  MET      
+  r04_init_only_no_reset          retimed   off  p=0.726  MET      
+  r04_init_only_no_reset          directive off  p=0.670  MET      
+  r05_fsm_high_fanout             orig      off  p=0.555  MET      
+  r05_fsm_high_fanout             orig      on   p=0.628  MET      
+  r05_fsm_high_fanout             retimed   off  p=0.573  MET      
+  r05_fsm_high_fanout             directive off  p=0.624  MET      
+  r06_fsm_high_fanin              orig      off  p=0.929  MET      
+  r06_fsm_high_fanin              orig      on   p=0.771  VIOLATED    <-- prediction not confirmed
+  r06_fsm_high_fanin              retimed   off  p=1.090  MET      
+  r06_fsm_high_fanin              directive off  p=0.771  VIOLATED    <-- prediction not confirmed
+  r08_fsm_output_decode           orig      off  p=0.874  MET      
+  r08_fsm_output_decode           orig      on   p=0.725  MET      
+  r08_fsm_output_decode           retimed   off  p=0.845  MET      
+  r08_fsm_output_decode           directive off  p=0.725  MET      
+  r09_unbalanced_mult_pipe        orig      off  p=1.002  MET      
+  r09_unbalanced_mult_pipe        orig      on   p=0.626  MET      
+  r09_unbalanced_mult_pipe        retimed   off  p=0.908  MET      
+  r09_unbalanced_mult_pipe        directive off  p=0.626  MET      
+  r10_long_carry_chain            orig      off  p=0.845  MET      
+  r10_long_carry_chain            orig      on   p=0.615  MET      
+  r10_long_carry_chain            retimed   off  p=0.795  MET      
+  r10_long_carry_chain            directive off  p=0.615  MET      
+  r11_deep_retime_distance        orig      off  p=3.867  MET      
+  r11_deep_retime_distance        orig      on   p=1.231  MET      
+  r11_deep_retime_distance        retimed   off  p=1.391  MET      
+  r11_deep_retime_distance        directive off  p=1.231  MET      
+  r12_wide_reduction_tree         orig      off  p=0.898  MET      
+  r12_wide_reduction_tree         orig      on   p=0.622  MET      
+  r12_wide_reduction_tree         retimed   off  p=0.698  MET      
+  r12_wide_reduction_tree         directive off  p=0.622  MET      
+  r13_retime_around_sram          orig      off  p=0.938  MET      
+  r13_retime_around_sram          orig      on   p=0.650  MET      
+  r13_retime_around_sram          retimed   off  p=0.732  MET      
+  r13_retime_around_sram          directive off  p=0.650  MET      
+  r15_hier_boundary_block         orig      off  p=1.050  MET      
+  r15_hier_boundary_block         orig      on   p=0.638  MET      
+  r15_hier_boundary_block         retimed   off  p=0.718  MET      
+  r15_hier_boundary_block         directive off  p=0.638  MET      
+  r16_dont_touch_conflict         orig      off  p=0.871  MET      
+  r16_dont_touch_conflict         orig      on   p=0.679  MET      
+  r16_dont_touch_conflict         retimed   off  p=0.753  MET      
+  r16_dont_touch_conflict         directive off  p=0.679  MET      
+  r17_clock_enable_barrier        orig      off  p=1.045  MET      
+  r17_clock_enable_barrier        orig      on   p=0.659  MET      
+  r17_clock_enable_barrier        retimed   off  p=0.723  MET      
+  r17_clock_enable_barrier        directive off  p=0.659  MET      
+  r18_clock_gated_region          orig      off  p=1.035  MET      
+  r18_clock_gated_region          orig      on   p=0.667  VIOLATED    <-- prediction not confirmed
+  r18_clock_gated_region          retimed   off  p=0.663  MET      
+  r18_clock_gated_region          directive off  p=0.667  VIOLATED    <-- prediction not confirmed
+  r19_power_activity_retime       orig      off  p=0.692  MET      
+  r19_power_activity_retime       orig      on   p=0.621  MET      
+  r19_power_activity_retime       retimed   off  p=0.880  MET      
+  r19_power_activity_retime       directive off  p=0.639  MET      
+  r20_glitch_absorb               orig      off  p=0.579  MET      
+  r20_glitch_absorb               orig      on   p=0.626  MET      
+  r20_glitch_absorb               retimed   off  p=0.619  MET      
+  r20_glitch_absorb               directive off  p=0.625  MET      
+  r21_wire_pipeline_cross_die     orig      off  p=0.768  MET      
+  r21_wire_pipeline_cross_die     orig      on   p=0.699  MET      
+  r21_wire_pipeline_cross_die     retimed   off  p=0.760  MET      
+  r21_wire_pipeline_cross_die     directive off  p=0.699  MET      
+  r22_fanout_wire_load            orig      off  p=0.672  MET      
+  r22_fanout_wire_load            orig      on   p=0.852  MET      
+  r22_fanout_wire_load            retimed   off  p=0.656  MET      
+  r22_fanout_wire_load            directive off  p=0.671  MET      
+  r24_loop_bound_control          orig      off  p=1.284  MET      
+  r24_loop_bound_control          orig      on   p=1.068  VIOLATED    <-- prediction not confirmed
+  r24_loop_bound_control          retimed   off  p=1.284  MET      
+  r24_loop_bound_control          directive off  p=1.068  VIOLATED    <-- prediction not confirmed
+  r26_sdc_exception_invalidation  orig      off  p=0.720  MET      
+  r26_sdc_exception_invalidation  orig      on   p=0.720  MET      
+  r26_sdc_exception_invalidation  retimed   off  p=0.968  MET      
+  r26_sdc_exception_invalidation  directive off  p=0.821  MET      
+  r27_exception_scope_probe       orig      off  p=1.066  MET      
+  r27_exception_scope_probe       orig      on   p=0.725  MET      
+  r27_exception_scope_probe       retimed   off  p=0.732  MET      
+  r27_exception_scope_probe       directive off  p=0.725  MET      
+  r28_congestion_wire_split       orig      off  p=0.541  MET      
+  r28_congestion_wire_split       orig      on   p=0.580  MET      
+  r28_congestion_wire_split       retimed   off  p=0.541  MET      
+  r28_congestion_wire_split       directive off  p=0.580  MET      
+
+phase C: 70 runs at each benchmark's common period
+  r01_reset_backward_barrier      orig      on   p=1.031  MET
+  r01_reset_backward_barrier      retimed   off  p=1.031  MET
+  r01_reset_backward_barrier      directive off  p=1.031  MET
+  r02_reset_no_valid_init         orig      on   p=1.046  MET
+  r02_reset_no_valid_init         retimed   off  p=1.046  MET
+  r02_reset_no_valid_init         directive off  p=1.046  MET
+  r03_async_reset_blocker         orig      on   p=1.026  MET
+  r03_async_reset_blocker         retimed   off  p=1.026  MET
+  r03_async_reset_blocker         directive off  p=1.026  MET
+  r04_init_only_no_reset          orig      on   p=1.011  MET
+  r04_init_only_no_reset          retimed   off  p=1.011  MET
+  r04_init_only_no_reset          directive off  p=1.011  MET
+  r05_fsm_high_fanout             orig      off  p=0.628  MET
+  r05_fsm_high_fanout             retimed   off  p=0.628  MET
+  r05_fsm_high_fanout             directive off  p=0.628  MET
+  r06_fsm_high_fanin              orig      off  p=1.090  MET
+  r06_fsm_high_fanin              orig      on   p=1.090  MET
+  r06_fsm_high_fanin              directive off  p=1.090  MET
+  r08_fsm_output_decode           orig      on   p=0.874  MET
+  r08_fsm_output_decode           retimed   off  p=0.874  MET
+  r08_fsm_output_decode           directive off  p=0.874  MET
+  r09_unbalanced_mult_pipe        orig      on   p=1.002  MET
+  r09_unbalanced_mult_pipe        retimed   off  p=1.002  MET
+  r09_unbalanced_mult_pipe        directive off  p=1.002  MET
+  r10_long_carry_chain            orig      on   p=0.845  MET
+  r10_long_carry_chain            retimed   off  p=0.845  MET
+  r10_long_carry_chain            directive off  p=0.845  MET
+  r11_deep_retime_distance        orig      on   p=3.867  None
+  r11_deep_retime_distance        retimed   off  p=3.867  MET
+  r11_deep_retime_distance        directive off  p=3.867  None
+  r12_wide_reduction_tree         orig      on   p=0.898  MET
+  r12_wide_reduction_tree         retimed   off  p=0.898  MET
+  r12_wide_reduction_tree         directive off  p=0.898  MET
+  r13_retime_around_sram          orig      on   p=0.938  MET
+  r13_retime_around_sram          retimed   off  p=0.938  MET
+  r13_retime_around_sram          directive off  p=0.938  MET
+  r15_hier_boundary_block         orig      on   p=1.050  MET
+  r15_hier_boundary_block         retimed   off  p=1.050  MET
+  r15_hier_boundary_block         directive off  p=1.050  MET
+  r16_dont_touch_conflict         orig      on   p=0.871  MET
+  r16_dont_touch_conflict         retimed   off  p=0.871  MET
+  r16_dont_touch_conflict         directive off  p=0.871  MET
+  r17_clock_enable_barrier        orig      on   p=1.045  MET
+  r17_clock_enable_barrier        retimed   off  p=1.045  MET
+  r17_clock_enable_barrier        directive off  p=1.045  MET
+  r18_clock_gated_region          orig      on   p=1.035  MET
+  r18_clock_gated_region          retimed   off  p=1.035  MET
+  r18_clock_gated_region          directive off  p=1.035  MET
+  r19_power_activity_retime       orig      off  p=0.880  MET
+  r19_power_activity_retime       orig      on   p=0.880  MET
+  r19_power_activity_retime       directive off  p=0.880  MET
+  r20_glitch_absorb               orig      off  p=0.626  MET
+  r20_glitch_absorb               retimed   off  p=0.626  MET
+  r20_glitch_absorb               directive off  p=0.626  MET
+  r21_wire_pipeline_cross_die     orig      on   p=0.768  MET
+  r21_wire_pipeline_cross_die     retimed   off  p=0.768  MET
+  r21_wire_pipeline_cross_die     directive off  p=0.768  MET
+  r22_fanout_wire_load            orig      off  p=0.852  MET
+  r22_fanout_wire_load            retimed   off  p=0.852  MET
+  r22_fanout_wire_load            directive off  p=0.852  MET
+  r24_loop_bound_control          orig      on   p=1.284  MET
+  r24_loop_bound_control          directive off  p=1.284  MET
+  r26_sdc_exception_invalidation  orig      off  p=0.968  MET
+  r26_sdc_exception_invalidation  orig      on   p=0.968  MET
+  r26_sdc_exception_invalidation  directive off  p=0.968  MET
+  r27_exception_scope_probe       orig      on   p=1.066  MET
+  r27_exception_scope_probe       retimed   off  p=1.066  MET
+  r27_exception_scope_probe       directive off  p=1.066  MET
+  r28_congestion_wire_split       orig      off  p=0.580  MET
+  r28_congestion_wire_split       retimed   off  p=0.580  MET
+
+wrote /home/esifferm/GitHub/retiming/results/fmax_n45.json

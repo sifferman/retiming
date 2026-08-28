@@ -1,0 +1,18 @@
+{
+  "tool": "yosys",
+  "top": "r22_fanout_wire_load",
+  "area_um2": 15844.556,
+  "num_cells": 19127,
+  "tool_version": "0.58",
+  "wns_ns": -2.6003,
+  "timing_status": "VIOLATED",
+  "tns_ns": -1389.684,
+  "data_path_ns": 4.0306,
+  "critical_endpoint": "_19846_",
+  "power_mw": 21.8,
+  "power_switching_mw": 5.890000000000001,
+  "power_mode": "vectorless",
+  "wall_seconds": 34.0,
+  "runtime_total_s": 32.0,
+  "retime_mode": "off"
+}

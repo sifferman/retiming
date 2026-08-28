@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r08_fsm_output_decode",
+  "retime_mode": "off",
+  "retime_optimize_reset": "true",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "2241.0",
+  "area_um2": "1586.4466337499998",
+  "num_cells": 632,
+  "num_seq_pre_syn": 38,
+  "num_seq": 53,
+  "runtime_generic_s": 16,
+  "runtime_map_s": 19,
+  "runtime_total_s": 37
+}

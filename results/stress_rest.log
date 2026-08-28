@@ -1,0 +1,30 @@
+  r01_reset_backward_barrier   p=0.4487   4 still meeting
+      orig      off WNS=    0.27 TNS=       0.0 viol=   0.0 WL=   3624.05 ovfl=   0.0
+      orig      on  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=  1985.505 ovfl=   0.0
+      retimed   off WNS=   0.009 TNS=       0.0 viol=   0.0 WL=   3052.47 ovfl=   0.0
+      directive off WNS=   0.002 TNS=       0.0 viol=   0.0 WL=  1985.505 ovfl=   0.0
+  r01_reset_backward_barrier   p=0.1608   STRESSED
+      orig      off WNS=  -0.004 TNS=    -0.006 viol=   3.0 WL=    3286.7 ovfl=   0.0
+      orig      on  WNS=  -0.159 TNS=    -3.619 viol=  28.0 WL=   3494.99 ovfl=   0.0
+      retimed   off WNS=  -0.179 TNS=    -1.389 viol=   8.0 WL=   3670.84 ovfl=   0.0
+      directive off WNS=  -0.159 TNS=    -3.619 viol=  28.0 WL=   3494.99 ovfl=   0.0
+  r02_reset_no_valid_init      p=0.4361   4 still meeting
+      orig      off WNS=   0.255 TNS=       0.0 viol=   0.0 WL=   3022.82 ovfl=   0.0
+      orig      on  WNS=     0.0 TNS=       0.0 viol=   0.0 WL=  2086.325 ovfl=   0.0
+      retimed   off WNS=   0.009 TNS=       0.0 viol=   0.0 WL=  3435.175 ovfl=   0.0
+      directive off WNS=     0.0 TNS=       0.0 viol=   0.0 WL=  2086.325 ovfl=   0.0
+  r02_reset_no_valid_init      p=0.163    STRESSED
+      orig      off WNS=  -0.004 TNS=    -0.005 viol=   2.0 WL=  3575.345 ovfl=   0.0
+      orig      on  WNS=  -0.173 TNS=    -3.926 viol=  30.0 WL=   3328.99 ovfl=   0.0
+      retimed   off WNS=  -0.349 TNS=    -2.689 viol=   8.0 WL=  3289.585 ovfl=   0.0
+      directive off WNS=  -0.173 TNS=    -3.926 viol=  30.0 WL=   3328.99 ovfl=   0.0
+  r03_async_reset_blocker      p=0.4634   4 still meeting
+      orig      off WNS=   0.274 TNS=       0.0 viol=   0.0 WL=   3381.14 ovfl=   0.0
+      orig      on  WNS=   0.012 TNS=       0.0 viol=   0.0 WL=   2139.79 ovfl=   0.0
+      retimed   off WNS=   0.001 TNS=       0.0 viol=   0.0 WL=  3137.305 ovfl=   0.0
+      directive off WNS=   0.012 TNS=       0.0 viol=   0.0 WL=   2139.79 ovfl=   0.0
+  r03_async_reset_blocker      p=0.1705   STRESSED
+      orig      off WNS=   -0.01 TNS=     -0.01 viol=   1.0 WL=  3412.075 ovfl=   0.0
+      orig      on  WNS=  -0.142 TNS=    -2.868 viol=  27.0 WL=   3081.37 ovfl=   0.0
+      retimed   off WNS=  -0.302 TNS=    -2.285 viol=   8.0 WL=  3058.905 ovfl=   0.0
+      directive off WNS=  -0.142 TNS=    -2.868 viol=  27.0 WL=   3081.37 ovfl=   0.0

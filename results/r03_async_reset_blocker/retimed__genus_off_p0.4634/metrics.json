@@ -1,0 +1,22 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.4634",
+  "clock_period_tool_internal": "2317.0",
+  "area_um2": "NA",
+  "num_cells": 537,
+  "num_ffs_pre_syn": 64,
+  "num_ffs": 48,
+  "runtime_generic_s": 7,
+  "runtime_map_s": 11,
+  "runtime_total_s": 34,
+  "wns_ns": -0.019,
+  "timing_status": "VIOLATED",
+  "data_path_ns": 0.436,
+  "critical_endpoint": "u_core_out_q_reg[3]/D",
+  "wall_seconds": 54.0
+}

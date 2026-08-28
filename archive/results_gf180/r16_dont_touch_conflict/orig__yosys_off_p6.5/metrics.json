@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r16_dont_touch_conflict",
+  "area_um2": 10713.8304,
+  "num_cells": 417,
+  "num_seq": 48,
+  "tool_version": "0.58",
+  "wns_ns": -9.2498,
+  "timing_status": "VIOLATED",
+  "tns_ns": -131.1599,
+  "data_path_ns": 15.4308,
+  "critical_endpoint": "_632_",
+  "power_mw": 20.2,
+  "power_switching_mw": 6.57,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "off"
+}

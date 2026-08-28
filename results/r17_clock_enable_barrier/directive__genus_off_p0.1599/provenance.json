@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T17:43:08Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r17.sdc",
+  "sdc_sha1": "3267d6cc1452",
+  "rtl": [{"file": "r17_clock_enable_barrier.sv", "sha1": "f12da0f92b6b"}]
+}

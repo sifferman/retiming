@@ -1,0 +1,17 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r17_clock_enable_barrier",
+  "retime_mode": "off",
+  "retime_optimize_reset": "true",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.6396",
+  "clock_period_tool_internal": "3198.0",
+  "area_um2": "1103.1398095",
+  "num_cells": 312,
+  "num_ffs_pre_syn": 65,
+  "num_ffs": 72,
+  "runtime_generic_s": 14,
+  "runtime_map_s": 18,
+  "runtime_total_s": 19
+}

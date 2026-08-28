@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r28_congestion_wire_split",
+  "retime_mode": "unsupported",
+  "num_cells": 1857,
+  "num_seq": 768,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 0,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": -1.3512,
+  "timing_status": "VIOLATED",
+  "tns_ns": -583.8222,
+  "data_path_ns": 1.7066,
+  "power_mw": 10.8423,
+  "power_switching_mw": 0.627265,
+  "wall_seconds": 1.0
+}

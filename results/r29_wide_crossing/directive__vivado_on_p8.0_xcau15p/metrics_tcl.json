@@ -1,0 +1,19 @@
+{
+  "tool": "vivado",
+  "tool_version": "2025.2",
+  "part": "xcau15p-sbvb484-1-e",
+  "architecture": "kintexuplus",
+  "retiming_default_on": "0",
+  "top": "r29_wide_crossing",
+  "retime_mode": "on",
+  "directive": "",
+  "wns_ns": "0.011",
+  "wns_reg2reg_ns": "2.732",
+  "num_lut": 9794,
+  "num_ff": 2238,
+  "num_ff_post_synth": 2238,
+  "num_carry": 0,
+  "power_mode": "vectorless",
+  "runtime_synth_s": 58,
+  "runtime_total_s": 194
+}

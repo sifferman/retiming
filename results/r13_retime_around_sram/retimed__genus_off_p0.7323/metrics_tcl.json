@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r13_retime_around_sram",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "7323.0",
+  "area_um2": "6434.1288965",
+  "num_cells": 1410,
+  "num_seq_pre_syn": 560,
+  "num_seq": 560,
+  "runtime_generic_s": 5,
+  "runtime_map_s": 10,
+  "runtime_total_s": 12
+}

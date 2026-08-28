@@ -1,0 +1,19 @@
+{
+  "tool": "vivado",
+  "tool_version": "2025.2",
+  "part": "xcau7p-fcva289-1-e",
+  "architecture": "kintexuplus",
+  "retiming_default_on": "0",
+  "top": "r06_fsm_high_fanin",
+  "retime_mode": "on",
+  "directive": "",
+  "wns_ns": "-1.735",
+  "wns_reg2reg_ns": "-1.341",
+  "num_lut": 235,
+  "num_ff": 137,
+  "num_ff_post_synth": 137,
+  "num_carry": 16,
+  "power_mode": "vectorless",
+  "runtime_synth_s": 69,
+  "runtime_total_s": 267
+}

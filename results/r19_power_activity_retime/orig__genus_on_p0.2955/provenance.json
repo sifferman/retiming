@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-24T08:29:39Z",
+  "git_commit": "bdf1989",
+  "git_dirty": true,
+  "sdc": "r19.sdc",
+  "sdc_sha1": "f53d88f8c469",
+  "rtl": [{"file": "r19_power_activity_retime.sv", "sha1": "85ddadd8ecb9"}]
+}

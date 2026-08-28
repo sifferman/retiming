@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r27_exception_scope_probe",
+  "area_um2": 24859.6992,
+  "num_cells": 894,
+  "num_seq": 56,
+  "tool_version": "0.58",
+  "wns_ns": -7.6015,
+  "timing_status": "VIOLATED",
+  "tns_ns": -288.3887,
+  "data_path_ns": 9.0889,
+  "critical_endpoint": "_2031_",
+  "power_mw": 167.0,
+  "power_switching_mw": 75.80000000000001,
+  "power_mode": "vectorless",
+  "wall_seconds": 3.0,
+  "runtime_total_s": 2.0,
+  "retime_mode": "on"
+}

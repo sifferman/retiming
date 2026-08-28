@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r26_sdc_exception_invalidation",
+  "retime_mode": "unsupported",
+  "num_cells": 429,
+  "num_seq": 32,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 0,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": -2.0103,
+  "timing_status": "VIOLATED",
+  "tns_ns": -28.7499,
+  "data_path_ns": 2.9015,
+  "power_mw": 2.81314,
+  "power_switching_mw": 1.22773,
+  "wall_seconds": 1.0
+}

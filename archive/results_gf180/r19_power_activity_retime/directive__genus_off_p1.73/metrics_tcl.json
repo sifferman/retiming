@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r19_power_activity_retime",
+  "retime_mode": "off",
+  "retime_optimize_reset": "true",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "1730.0",
+  "area_um2": "38939.83799725",
+  "num_cells": 840,
+  "num_seq_pre_syn": 72,
+  "num_seq": 43,
+  "runtime_generic_s": 8,
+  "runtime_map_s": 11,
+  "runtime_total_s": 41
+}

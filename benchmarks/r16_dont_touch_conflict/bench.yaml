@@ -1,0 +1,32 @@
+id: r16
+name: dont_touch_conflict
+class: "E - preservation conflict"
+top: r16_dont_touch_conflict
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A register in the middle of the pipeline is marked dont_touch/preserve, and it is on the critical path. It cannot be moved, but the registers around it can. The correct answer is to rebalance using the movable registers and accept the pin, not to give up on the design.
+
+constraints:
+  asic:
+    clock_period_ns: 0.888
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.5
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Tests whether a retimer degrades gracefully. The pinned register caps the achievable period below the unconstrained optimum, but a useful improvement is still available by moving the output register backward. A tool that bails out entirely when it meets a preserved register scores worst here.

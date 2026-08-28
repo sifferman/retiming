@@ -1,0 +1,41 @@
+=== [21:18] VIVADO DONE
+wrote /home/esifferm/GitHub/retiming/results/results.csv (2802 runs)
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (307 routed configs, 302 unrouted configs dropped)
+  dropped by tool: ?=22, genus=112, openroad_syn=72, yosys=96
+  vivado rows: 185   congestion populated: 0
+  NO congestion reported at any level -- these designs are too small on
+  these parts for Vivado congestion to discriminate. Report that, do not
+  present the empty column as a result.
+=== [21:18] pushing the wrapped RTL (registered I/O on all 28)
+=== [21:18] re-measuring floors: the wrapper changed every design's timing
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/esifferm/GitHub/retiming/scripts/measure_fmax.py", line 90, in probe_min_period
+    return (bench, variant, mode, round(period - wns, 3),
+                                        ~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'NoneType'
+=== [21:32] stress sweep on the 10 benchmarks that carry findings
+17 benchmark(s) already stressed, 2 to do
+total concurrent tool jobs capped at 16
+
+  r13_retime_around_sram          STRESSED at p=0.2891
+      orig      off WNS=  -0.014 TNS=    -0.103 viol=  16.0 WL=  29265.57
+      orig      on  WNS=  -0.005 TNS=    -0.015 viol=   9.0 WL= 45955.055
+      retimed   off WNS=  -0.211 TNS=    -8.348 viol= 173.0 WL=  30110.16
+      directive off WNS=  -0.005 TNS=    -0.015 viol=   9.0 WL= 45955.055
+  r19_power_activity_retime       no measured floor
+=== [21:42] regenerate + commit
+wrote /home/esifferm/GitHub/retiming/results/results.csv (2865 runs)
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (399 routed configs, 304 unrouted configs dropped)
+  dropped by tool: ?=24, genus=112, openroad_syn=72, yosys=96
+wrote /home/esifferm/GitHub/retiming/docs/stress_tns_light.svg  (13 benchmarks)
+4f7c7a4 Registered I/O on all benchmarks; re-measure priority set
+=== [21:42] PRIORITY SET DONE

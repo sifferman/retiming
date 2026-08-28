@@ -1,0 +1,296 @@
+{
+  "genus": {
+    "label": "Genus 23.1\nnangate45, synthesis",
+    "no_auto_reason": null,
+    "metrics": {
+      "fmax": {
+        "label": "Fmax",
+        "lower_is_better": false,
+        "auto": {
+          "median": 94.66234508735644,
+          "n": 28,
+          "q1": 35.97622262226223,
+          "q3": 226.60977308917197,
+          "min": 0.0,
+          "max": 227.5080906148867
+        },
+        "manual": {
+          "median": 53.025252525252526,
+          "n": 28,
+          "q1": 0.0,
+          "q3": 63.49390164536901,
+          "min": -25.619834710743806,
+          "max": 226.88081149619612
+        }
+      },
+      "power_mw": {
+        "label": "Power",
+        "lower_is_better": true,
+        "auto": {
+          "median": 25.67388510495571,
+          "n": 25,
+          "q1": 0.04129755291754071,
+          "q3": 41.331130889589346,
+          "min": -33.260361023218074,
+          "max": 56.40912056230138
+        },
+        "manual": {
+          "median": 6.435695832494728,
+          "n": 25,
+          "q1": -3.0664802558389015,
+          "q3": 48.45011970260693,
+          "min": -93.8446983992794,
+          "max": 60.68004377196491
+        }
+      },
+      "area_um2": {
+        "label": "Area",
+        "lower_is_better": true,
+        "auto": {
+          "median": 26.521252935432305,
+          "n": 25,
+          "q1": 5.850933133995402,
+          "q3": 37.60403086915377,
+          "min": -38.737031773187184,
+          "max": 57.4644880514656
+        },
+        "manual": {
+          "median": 3.7996700765611853,
+          "n": 25,
+          "q1": -5.697002887064065,
+          "q3": 35.17100935521588,
+          "min": -84.62601139550526,
+          "max": 57.76970062691581
+        }
+      },
+      "num_cells": {
+        "label": "Cells",
+        "lower_is_better": true,
+        "auto": {
+          "median": 32.47535596933187,
+          "n": 25,
+          "q1": 5.397793945083314,
+          "q3": 49.368088467614534,
+          "min": -27.500000000000004,
+          "max": 78.10320781032078
+        },
+        "manual": {
+          "median": 6.119069624152804,
+          "n": 25,
+          "q1": -5.785284410794021,
+          "q3": 41.18589743589743,
+          "min": -100.78125,
+          "max": 78.94002789400278
+        }
+      },
+      "routed_wirelength_um": {
+        "label": "Wirelength",
+        "lower_is_better": true,
+        "auto": null,
+        "manual": null
+      },
+      "wall_seconds": {
+        "label": "Compile time",
+        "lower_is_better": true,
+        "auto": {
+          "median": 16.666666666666664,
+          "n": 25,
+          "q1": -5.0,
+          "q3": 38.46153846153847,
+          "min": -113.33333333333333,
+          "max": 57.14285714285714
+        },
+        "manual": {
+          "median": 12.698412698412698,
+          "n": 25,
+          "q1": 0.0,
+          "q3": 50.0,
+          "min": -121.42857142857142,
+          "max": 71.7948717948718
+        }
+      }
+    }
+  },
+  "yosys": {
+    "label": "yosys + ABC retime\nnangate45, synthesis",
+    "no_auto_reason": null,
+    "metrics": {
+      "fmax": {
+        "label": "Fmax",
+        "lower_is_better": false,
+        "auto": {
+          "median": 49.59612277867531,
+          "n": 11,
+          "q1": 35.05664941835155,
+          "q3": 79.20408269017398,
+          "min": 0.0,
+          "max": 118.19505094614264
+        },
+        "manual": {
+          "median": 45.911047345767564,
+          "n": 19,
+          "q1": 0.0,
+          "q3": 80.87642629278878,
+          "min": -17.068645640074205,
+          "max": 80.98214285714285
+        }
+      },
+      "power_mw": {
+        "label": "Power",
+        "lower_is_better": true,
+        "auto": {
+          "median": -18.37407646154609,
+          "n": 20,
+          "q1": -23.673445047408904,
+          "q3": -3.728367055724263,
+          "min": -38.48684210526316,
+          "max": 62.211981566820285
+        },
+        "manual": {
+          "median": 16.406310416827782,
+          "n": 20,
+          "q1": -2.9992520254143273,
+          "q3": 26.19602601747758,
+          "min": -37.72893772893772,
+          "max": 73.73271889400922
+        }
+      },
+      "area_um2": {
+        "label": "Area",
+        "lower_is_better": true,
+        "auto": {
+          "median": -50.11107722017321,
+          "n": 20,
+          "q1": -56.738883131846684,
+          "q3": -33.97721642280899,
+          "min": -93.86617100371745,
+          "max": -9.705748175182482
+        },
+        "manual": {
+          "median": 0.07228915662650617,
+          "n": 20,
+          "q1": -1.3972722401023485,
+          "q3": 2.734377926306154,
+          "min": -23.81289865343727,
+          "max": 42.77997839395031
+        }
+      },
+      "num_cells": {
+        "label": "Cells",
+        "lower_is_better": true,
+        "auto": {
+          "median": -8.154367206052191,
+          "n": 20,
+          "q1": -11.449126413155192,
+          "q3": -6.067985961923372,
+          "min": -66.66666666666666,
+          "max": 0.0
+        },
+        "manual": {
+          "median": -0.7182797914413099,
+          "n": 20,
+          "q1": -1.6665202530028114,
+          "q3": 0.0,
+          "min": -13.855421686746988,
+          "max": 19.951923076923077
+        }
+      },
+      "routed_wirelength_um": {
+        "label": "Wirelength",
+        "lower_is_better": true,
+        "auto": null,
+        "manual": null
+      },
+      "wall_seconds": {
+        "label": "Compile time",
+        "lower_is_better": true,
+        "auto": {
+          "median": 0.0,
+          "n": 20,
+          "q1": -25.0,
+          "q3": 0.0,
+          "min": -100.0,
+          "max": 50.0
+        },
+        "manual": {
+          "median": 0.0,
+          "n": 20,
+          "q1": -25.0,
+          "q3": 0.0,
+          "min": -100.0,
+          "max": 87.5
+        }
+      }
+    }
+  },
+  "openroad_syn": {
+    "label": "OpenROAD syn\nnangate45, synthesis",
+    "no_auto_reason": "OpenROAD syn has\nno retiming at all",
+    "metrics": {
+      "fmax": {
+        "label": "Fmax",
+        "lower_is_better": false,
+        "auto": null,
+        "manual": {
+          "median": 117.97153024911032,
+          "n": 9,
+          "q1": 45.89371980676329,
+          "q3": 118.02536231884055,
+          "min": 0.0,
+          "max": 118.12499999999999
+        }
+      },
+      "power_mw": {
+        "label": "Power",
+        "lower_is_better": true,
+        "auto": null,
+        "manual": {
+          "median": 9.119385383078974,
+          "n": 9,
+          "q1": 7.92908822743794,
+          "q3": 15.192317550364804,
+          "min": -10.685347495070737,
+          "max": 23.049756186611148
+        }
+      },
+      "area_um2": {
+        "label": "Area",
+        "lower_is_better": true,
+        "auto": null,
+        "manual": null
+      },
+      "num_cells": {
+        "label": "Cells",
+        "lower_is_better": true,
+        "auto": null,
+        "manual": {
+          "median": 3.2128514056224895,
+          "n": 9,
+          "q1": -2.4289099526066353,
+          "q3": 4.366812227074235,
+          "min": -13.778256189451021,
+          "max": 7.232704402515723
+        }
+      },
+      "routed_wirelength_um": {
+        "label": "Wirelength",
+        "lower_is_better": true,
+        "auto": null,
+        "manual": null
+      },
+      "wall_seconds": {
+        "label": "Compile time",
+        "lower_is_better": true,
+        "auto": null,
+        "manual": {
+          "median": 0.0,
+          "n": 6,
+          "q1": 0.0,
+          "q3": 0.0,
+          "min": 0.0,
+          "max": 100.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "vivado",
+  "tool_version": "2023.1",
+  "part": "xc7a100tcsg324-1",
+  "architecture": "artix7",
+  "retiming_default_on": "0",
+  "top": "r11_deep_retime_distance",
+  "retime_mode": "off",
+  "directive": "",
+  "wns_ns": "-45.156",
+  "wns_reg2reg_ns": "-45.156",
+  "num_lut": 582,
+  "num_ff": 96,
+  "num_ff_post_synth": 96,
+  "num_carry": 192,
+  "power_mode": "vectorless",
+  "runtime_synth_s": 15,
+  "runtime_total_s": 39
+}

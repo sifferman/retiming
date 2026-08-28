@@ -1,0 +1,17 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r20_glitch_absorb",
+  "retime_mode": "on",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.1603",
+  "clock_period_tool_internal": "1603.0",
+  "area_um2": "2117.1283565000003",
+  "num_cells": 764,
+  "num_ffs_pre_syn": 96,
+  "num_ffs": 133,
+  "runtime_generic_s": 13,
+  "runtime_map_s": 17,
+  "runtime_total_s": 39
+}

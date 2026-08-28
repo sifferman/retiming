@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-21T20:43:25Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r27.sdc",
+  "sdc_sha1": "e520ae02a1e7",
+  "rtl": [{"file": "r27_exception_scope_probe.sv", "sha1": "9aa5200ac602"}]
+}

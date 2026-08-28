@@ -1,0 +1,30 @@
+52 run(s) at 0.7x the fastest floor, 8 concurrent
+
+  r05_fsm_high_fanout         orig      off p=0.3773  WNS=     0.0 TNS=       0.0 viol=   0.0 WL=    5961.3
+  r05_fsm_high_fanout         orig      on  p=0.3773  WNS=   0.012 TNS=       0.0 viol=   0.0 WL=  6517.275
+  r05_fsm_high_fanout         retimed   off p=0.3773  WNS=    -0.0 TNS=       0.0 viol=   1.0 WL=   9453.85
+  r05_fsm_high_fanout         directive off p=0.3773  WNS=   0.008 TNS=       0.0 viol=   0.0 WL=   6881.22
+  r06_fsm_high_fanin          orig      off p=0.5243  WNS=  -0.191 TNS=    -0.994 viol=   6.0 WL=  23043.16
+  r06_fsm_high_fanin          orig      on  p=0.5243  WNS=   0.001 TNS=       0.0 viol=   0.0 WL= 16778.395
+  r06_fsm_high_fanin          retimed   off p=0.5243  WNS=   0.183 TNS=       0.0 viol=   0.0 WL=  17157.91
+  r06_fsm_high_fanin          directive off p=0.5243  WNS=   0.001 TNS=       0.0 viol=   0.0 WL= 16778.395
+  r08_fsm_output_decode       orig      off p=0.4928  WNS=  -0.201 TNS=    -2.781 viol=  16.0 WL=  5287.805
+  r08_fsm_output_decode       orig      on  p=0.4928  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=   3248.72
+  r08_fsm_output_decode       retimed   off p=0.4928  WNS=   0.009 TNS=       0.0 viol=   0.0 WL=   3554.83
+  r08_fsm_output_decode       directive off p=0.4928  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=   3248.72
+  r16_dont_touch_conflict     orig      off p=0.4613  WNS=  -0.111 TNS=    -1.611 viol=  21.0 WL=   5795.48
+  r16_dont_touch_conflict     orig      on  p=0.4613  WNS=   0.005 TNS=       0.0 viol=   0.0 WL=   3329.41
+  r16_dont_touch_conflict     retimed   off p=0.4613  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=   4597.41
+  r16_dont_touch_conflict     directive off p=0.4613  WNS=   0.005 TNS=       0.0 viol=   0.0 WL=   3329.41
+  r19_power_activity_retime   orig      off p=0.4221  WNS=   0.004 TNS=       0.0 viol=   0.0 WL=   8373.84
+  r19_power_activity_retime   orig      on  p=0.4221  WNS=   0.015 TNS=       0.0 viol=   0.0 WL=  3376.615
+  r19_power_activity_retime   retimed   off p=0.4221  WNS=   0.235 TNS=       0.0 viol=   0.0 WL=   4558.79
+  r19_power_activity_retime   directive off p=0.4221  WNS=   0.019 TNS=       0.0 viol=   0.0 WL=   3479.15
+  r20_glitch_absorb           orig      off p=0.3934  WNS=   -0.04 TNS=    -0.586 viol=  25.0 WL=  6998.075
+  r20_glitch_absorb           orig      on  p=0.3934  WNS=   0.083 TNS=       0.0 viol=   0.0 WL=   2930.81
+  r20_glitch_absorb           retimed   off p=0.3934  WNS=   0.001 TNS=       0.0 viol=   0.0 WL=  2626.645
+  r20_glitch_absorb           directive off p=0.3934  WNS=   0.038 TNS=       0.0 viol=   0.0 WL=   2827.22
+  r21_wire_pipeline_cross_di  orig      off p=0.4753  WNS=  -0.004 TNS=     -0.02 viol=   9.0 WL=   13860.3
+  r21_wire_pipeline_cross_di  orig      on  p=0.4753  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=  10195.76
+  r21_wire_pipeline_cross_di  retimed   off p=0.4753  WNS=  -0.004 TNS=    -0.013 viol=   6.0 WL= 14740.965
+  r21_wire_pipeline_cross_di  directive off p=0.4753  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=  10195.76

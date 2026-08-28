@@ -1,0 +1,32 @@
+id: r13
+name: retime_around_sram
+class: "D - memory / macro boundary"
+top: r13_retime_around_sram
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A deep address computation feeds a synchronous-read memory. The register that must move is the one driving the memory's address port. Memories are hard boundaries: on ASIC the macro timing model is fixed, and on Artix-7 the address register is normally absorbed into the BRAM itself, so moving it away costs that absorption.
+
+constraints:
+  asic:
+    clock_period_ns: 0.957
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  The move is a legal strict retiming of the address path, but its destination register directly drives a memory address pin. Tools avoid restructuring at macro pins. On Vivado the interesting question is whether moving the register defeats BRAM address-register absorption.

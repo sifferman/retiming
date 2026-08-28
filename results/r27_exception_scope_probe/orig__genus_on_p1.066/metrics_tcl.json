@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r27_exception_scope_probe",
+  "retime_mode": "on",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "1066.0",
+  "area_um2": "1917.7460765",
+  "num_cells": 741,
+  "num_seq_pre_syn": 64,
+  "num_seq": 59,
+  "runtime_generic_s": 20,
+  "runtime_map_s": 22,
+  "runtime_total_s": 23
+}

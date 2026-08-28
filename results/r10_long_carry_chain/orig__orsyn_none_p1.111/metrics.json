@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r10_long_carry_chain",
+  "retime_mode": "unsupported",
+  "num_cells": 790,
+  "num_seq": 64,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 0,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": -1.0921,
+  "timing_status": "VIOLATED",
+  "tns_ns": -12.3789,
+  "data_path_ns": 2.1354,
+  "power_mw": 2.10597,
+  "power_switching_mw": 0.6864819999999999,
+  "wall_seconds": 1.0
+}

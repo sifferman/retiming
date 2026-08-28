@@ -1,0 +1,20 @@
+=== [08:49] Artix-7, one period per config, congestion at level 1
+  [108/112] r31_clone_distinct_reset         retimed   off       p=6.0    ?
+  [109/112] r32_backward_reset_preimage      orig      off       p=6.0    ?
+  [110/112] r32_backward_reset_preimage      orig      on        p=6.0    ?
+  [111/112] r32_backward_reset_preimage      directive on        p=6.0    ?
+  [112/112] r32_backward_reset_preimage      retimed   off       p=6.0    ?
+wrote results/matrix_vivado_a7.json (112 rows)
+=== [09:21] Artix UltraScale+ (part_usplus per benchmark)
+  [108/112] r31_clone_distinct_reset         retimed   off       p=6.0    ?
+  [109/112] r32_backward_reset_preimage      orig      off       p=6.0    ?
+  [110/112] r32_backward_reset_preimage      orig      on        p=6.0    ?
+  [111/112] r32_backward_reset_preimage      directive on        p=6.0    ?
+  [112/112] r32_backward_reset_preimage      retimed   off       p=6.0    ?
+wrote results/matrix_vivado_auplus.json (112 rows)
+=== [09:36] regenerate + commit
+wrote /home/esifferm/GitHub/retiming/results/results.csv (2412 runs)
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (555 configs)
+wrote /home/esifferm/GitHub/retiming/docs/stress_tns_light.svg  (13 benchmarks)
+cc9b1e0 Vivado 2025.2 on Artix-7 and Artix UltraScale+, with congestion
+=== [09:36] fpga chain complete

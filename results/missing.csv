@@ -1,0 +1,89 @@
+bench,tool,variant,mode,status
+r01_reset_backward_barrier,vivado-xc7a100t,directive,off,UNROUTED
+r01_reset_backward_barrier,vivado-xcau7p,directive,off,UNROUTED
+r02_reset_no_valid_init,vivado-xc7a100t,directive,off,UNROUTED
+r02_reset_no_valid_init,vivado-xcau7p,directive,off,UNROUTED
+r03_async_reset_blocker,vivado-xc7a100t,directive,off,UNROUTED
+r03_async_reset_blocker,vivado-xcau7p,directive,off,UNROUTED
+r04_init_only_no_reset,vivado-xc7a100t,directive,off,UNROUTED
+r04_init_only_no_reset,vivado-xcau7p,directive,off,UNROUTED
+r05_fsm_high_fanout,vivado-xc7a100t,directive,off,UNROUTED
+r05_fsm_high_fanout,vivado-xcau7p,directive,off,UNROUTED
+r06_fsm_high_fanin,vivado-xc7a100t,directive,off,UNROUTED
+r06_fsm_high_fanin,vivado-xcau7p,directive,off,UNROUTED
+r08_fsm_output_decode,vivado-xc7a100t,directive,off,UNROUTED
+r08_fsm_output_decode,vivado-xcau7p,directive,off,UNROUTED
+r09_unbalanced_mult_pipe,vivado-xc7a100t,directive,off,UNROUTED
+r09_unbalanced_mult_pipe,vivado-xcau7p,directive,off,UNROUTED
+r10_long_carry_chain,vivado-xc7a100t,directive,off,FAILED_TOO_MANY_IO(194 ports)
+r10_long_carry_chain,vivado-xcau7p,orig,off,FAILED_TOO_MANY_IO(194 ports)
+r10_long_carry_chain,vivado-xcau7p,orig,on,FAILED_TOO_MANY_IO(194 ports)
+r10_long_carry_chain,vivado-xcau7p,retimed,off,FAILED_TOO_MANY_IO(194 ports)
+r10_long_carry_chain,vivado-xcau7p,directive,off,FAILED_TOO_MANY_IO(194 ports)
+r11_deep_retime_distance,vivado-xc7a100t,directive,off,UNROUTED
+r11_deep_retime_distance,vivado-xcau7p,directive,off,UNROUTED
+r12_wide_reduction_tree,vivado-xc7a100t,directive,off,UNROUTED
+r12_wide_reduction_tree,vivado-xcau7p,directive,off,UNROUTED
+r13_retime_around_sram,vivado-xc7a100t,directive,off,UNROUTED
+r13_retime_around_sram,vivado-xcau7p,directive,off,UNROUTED
+r15_hier_boundary_block,vivado-xc7a100t,directive,off,UNROUTED
+r15_hier_boundary_block,vivado-xcau7p,directive,off,UNROUTED
+r16_dont_touch_conflict,vivado-xc7a100t,directive,off,UNROUTED
+r16_dont_touch_conflict,vivado-xcau7p,directive,off,UNROUTED
+r17_clock_enable_barrier,vivado-xc7a100t,directive,off,UNROUTED
+r17_clock_enable_barrier,vivado-xcau7p,directive,off,UNROUTED
+r18_clock_gated_region,vivado-xc7a100t,directive,off,UNROUTED
+r18_clock_gated_region,vivado-xcau7p,directive,off,UNROUTED
+r19_power_activity_retime,vivado-xc7a100t,directive,off,UNROUTED
+r19_power_activity_retime,vivado-xcau7p,directive,off,UNROUTED
+r20_glitch_absorb,vivado-xc7a100t,directive,off,UNROUTED
+r20_glitch_absorb,vivado-xcau7p,directive,off,UNROUTED
+r21_wire_pipeline_cross_die,vivado-xc7a100t,directive,off,UNROUTED
+r21_wire_pipeline_cross_die,vivado-xcau7p,directive,off,UNROUTED
+r22_fanout_wire_load,vivado-xc7a100t,directive,off,UNROUTED
+r22_fanout_wire_load,vivado-xcau7p,directive,off,UNROUTED
+r24_loop_bound_control,vivado-xc7a100t,directive,off,UNROUTED
+r24_loop_bound_control,vivado-xcau7p,directive,off,UNROUTED
+r26_sdc_exception_invalidation,vivado-xc7a100t,directive,off,UNROUTED
+r26_sdc_exception_invalidation,vivado-xcau7p,directive,off,UNROUTED
+r27_exception_scope_probe,vivado-xc7a100t,directive,off,UNROUTED
+r27_exception_scope_probe,vivado-xcau7p,directive,off,UNROUTED
+r28_congestion_wire_split,vivado-xc7a100t,orig,off,FAILED_TOO_MANY_IO(514 ports)
+r28_congestion_wire_split,vivado-xc7a100t,orig,on,FAILED_TOO_MANY_IO(514 ports)
+r28_congestion_wire_split,vivado-xc7a100t,retimed,off,FAILED_TOO_MANY_IO(514 ports)
+r28_congestion_wire_split,vivado-xc7a100t,directive,off,FAILED_TOO_MANY_IO(514 ports)
+r28_congestion_wire_split,vivado-xcau7p,orig,off,FAILED_TOO_MANY_IO(514 ports)
+r28_congestion_wire_split,vivado-xcau7p,orig,on,FAILED_TOO_MANY_IO(514 ports)
+r28_congestion_wire_split,vivado-xcau7p,retimed,off,FAILED_TOO_MANY_IO(514 ports)
+r28_congestion_wire_split,vivado-xcau7p,directive,off,FAILED_TOO_MANY_IO(514 ports)
+r29_wide_crossing,vivado-xc7a100t,orig,off,UNROUTED
+r29_wide_crossing,vivado-xc7a100t,orig,on,UNROUTED
+r29_wide_crossing,vivado-xc7a100t,directive,off,UNROUTED
+r29_wide_crossing,vivado-xcau7p,orig,off,UNROUTED
+r29_wide_crossing,vivado-xcau7p,orig,on,UNROUTED
+r29_wide_crossing,vivado-xcau7p,retimed,off,UNROUTED
+r29_wide_crossing,vivado-xcau7p,directive,off,UNROUTED
+r30_fsm_decode_fanout,vivado-xc7a100t,orig,off,FAILED_TOO_MANY_IO(1061 ports)
+r30_fsm_decode_fanout,vivado-xc7a100t,orig,on,FAILED_TOO_MANY_IO(1061 ports)
+r30_fsm_decode_fanout,vivado-xc7a100t,retimed,off,FAILED_TOO_MANY_IO(1061 ports)
+r30_fsm_decode_fanout,vivado-xc7a100t,directive,off,FAILED_TOO_MANY_IO(1061 ports)
+r30_fsm_decode_fanout,vivado-xcau7p,orig,off,FAILED_TOO_MANY_IO(1061 ports)
+r30_fsm_decode_fanout,vivado-xcau7p,orig,on,FAILED_TOO_MANY_IO(1061 ports)
+r30_fsm_decode_fanout,vivado-xcau7p,retimed,off,FAILED_TOO_MANY_IO(1061 ports)
+r30_fsm_decode_fanout,vivado-xcau7p,directive,off,FAILED_TOO_MANY_IO(1061 ports)
+r31_clone_distinct_reset,vivado-xc7a100t,orig,off,FAILED_TOO_MANY_IO(803 ports)
+r31_clone_distinct_reset,vivado-xc7a100t,orig,on,FAILED_TOO_MANY_IO(803 ports)
+r31_clone_distinct_reset,vivado-xc7a100t,retimed,off,FAILED_TOO_MANY_IO(803 ports)
+r31_clone_distinct_reset,vivado-xc7a100t,directive,off,FAILED_TOO_MANY_IO(803 ports)
+r31_clone_distinct_reset,vivado-xcau7p,orig,off,FAILED_TOO_MANY_IO(803 ports)
+r31_clone_distinct_reset,vivado-xcau7p,orig,on,FAILED_TOO_MANY_IO(803 ports)
+r31_clone_distinct_reset,vivado-xcau7p,retimed,off,FAILED_TOO_MANY_IO(803 ports)
+r31_clone_distinct_reset,vivado-xcau7p,directive,off,FAILED_TOO_MANY_IO(803 ports)
+r32_backward_reset_preimage,vivado-xc7a100t,orig,off,FAILED_TOO_MANY_IO(514 ports)
+r32_backward_reset_preimage,vivado-xc7a100t,orig,on,FAILED_TOO_MANY_IO(514 ports)
+r32_backward_reset_preimage,vivado-xc7a100t,retimed,off,FAILED_TOO_MANY_IO(514 ports)
+r32_backward_reset_preimage,vivado-xc7a100t,directive,off,FAILED_TOO_MANY_IO(514 ports)
+r32_backward_reset_preimage,vivado-xcau7p,orig,off,FAILED_TOO_MANY_IO(514 ports)
+r32_backward_reset_preimage,vivado-xcau7p,orig,on,FAILED_TOO_MANY_IO(514 ports)
+r32_backward_reset_preimage,vivado-xcau7p,retimed,off,FAILED_TOO_MANY_IO(514 ports)
+r32_backward_reset_preimage,vivado-xcau7p,directive,off,FAILED_TOO_MANY_IO(514 ports)

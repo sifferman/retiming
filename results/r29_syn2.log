@@ -1,0 +1,3 @@
+  orig/off       cells=12099   seq=1536   dp=0.47     wns=0.664    MET
+  retimed/off    cells=11880   seq=1536   dp=0.66     wns=0.474    MET
+  orig/on        cells=12442   seq=1536   dp=0.626    wns=0.318    MET

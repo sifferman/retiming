@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r08_fsm_output_decode",
+  "area_um2": 8760.7296,
+  "num_cells": 342,
+  "num_seq": 38,
+  "tool_version": "0.58",
+  "wns_ns": -8.9944,
+  "timing_status": "VIOLATED",
+  "tns_ns": -127.0886,
+  "data_path_ns": 12.2498,
+  "critical_endpoint": "_515_",
+  "power_mw": 25.2,
+  "power_switching_mw": 7.779999999999999,
+  "power_mode": "vectorless",
+  "wall_seconds": 1.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "off"
+}

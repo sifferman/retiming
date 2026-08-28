@@ -1,0 +1,96 @@
+# ---------------------------------------------------------------------------
+# Build and tool artifacts.
+#
+# Measured before writing this: of the untracked output, 90.6 MB is tool logs,
+# 40.3 MB is raw reports and 8.1 MB is generated scripts -- all reproducible by
+# re-running a flow.  The actual dataset (per-run metrics, provenance, and the
+# aggregated CSVs) is 1.7 MB.  So results/ uses an allowlist: ignore everything,
+# then re-admit the data files by name.  New tool artifacts are then ignored
+# automatically instead of needing a new rule each time a flow is added.
+# ---------------------------------------------------------------------------
+
+# Liberty cache, generated testbenches, VCDs, simulator binaries.
+build/
+
+# OpenROAD is built out-of-tree into here; the submodule itself is tracked by
+# commit, and its own build dirs are its own business.
+third_party/install/
+
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------------------------------------------------------------------------
+# results/ : allowlist
+#
+# NOTE the ordering. `results/**` must come first, `!results/**/` re-admits the
+# directories (git cannot descend into an ignored directory to find the
+# negations), and only then do the file negations take effect.
+# ---------------------------------------------------------------------------
+results/**
+!results/**/
+
+# Per-run parsed metrics -- what every table in docs/ is built from.
+!results/**/metrics.json
+!results/**/metrics_tcl.json
+
+# Which RTL and which constraints produced each run.
+!results/**/provenance.json
+
+# Aggregated dataset and sweep manifests (results.csv, summary.csv,
+# matrix_*.json).
+!results/*.csv
+!results/*.json
+
+# Sweep driver logs are small (tens of KB) and useful for reconstructing what was
+# run.  Tool BUILD logs are not measurements and belong under build/ instead --
+# openroad_build.log lived here briefly at 251 KB, which is why this is called out.
+!results/*.log
+results/*_build.log
+
+# ---------------------------------------------------------------------------
+# Deliberately NOT ignored, to be explicit about it:
+#   benchmarks/**/*.sv              hand-written RTL, the point of the repo
+#   benchmarks/**/constraints/*.sdc hand-written constraints -- note these share
+#                                   filenames with Genus-written SDCs that land
+#                                   under results/, which is exactly why the
+#                                   ignore rules above are scoped to results/
+#                                   rather than written as a bare *.sdc
+#   benchmarks/**/*.tcl             directives.tcl / common.tcl are inputs
+#   flows/**                        flow scripts
+#   scripts/**                      harness
+#   docs/**, papers/**              write-ups and references
+# ---------------------------------------------------------------------------
+
+# Archived gf180 dataset (superseded by nangate45 as the primary PDK, kept for the
+# cross-technology comparison). Same allowlist as results/.
+archive/results_gf180/**
+!archive/results_gf180/**/
+!archive/results_gf180/**/metrics.json
+!archive/results_gf180/**/metrics_tcl.json
+!archive/results_gf180/**/provenance.json
+!archive/results_gf180/*.csv
+
+# calibration (r01 achieving 0.58 ns against a 2.27 ns "calibrated" period), but they
+# sit at off-grid periods and must not be pooled with the real matrix. Same allowlist.
+
+# Benchmarks dropped 2026-08-23 as uninformative (the tool already solved them, or
+# they duplicated another case). Kept out of the active suite but not deleted; the
+# RTL stays tracked, the measurement artifacts follow the results/ allowlist.
+archive/dropped_results/**
+!archive/dropped_results/**/
+!archive/dropped_results/**/metrics.json
+!archive/dropped_results/**/provenance.json
+
+# Advisor Slack transcript: private correspondence, deliberately not published.
+slack_*.md
+
+# Third-party papers: read locally, never redistributed from this repository.
+papers/
+
+# Working notes and agent instructions: local only.
+CLAUDE.md
+ideas
+ideas.md
+ideas-ethan.md
+ideas-honed.md

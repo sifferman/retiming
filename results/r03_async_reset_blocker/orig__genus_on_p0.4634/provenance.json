@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T18:09:45Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r03.sdc",
+  "sdc_sha1": "b848f1d6243c",
+  "rtl": [{"file": "r03_async_reset_blocker.sv", "sha1": "6d4a07c5ef7a"}]
+}

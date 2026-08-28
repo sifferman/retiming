@@ -1,0 +1,32 @@
+id: r09
+name: unbalanced_mult_pipe
+class: "C - classical unbalanced pipeline"
+top: r09_unbalanced_mult_pipe
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A 16x16 multiply is computed entirely in pipeline stage 1, while stages 2 and 3 do almost nothing. Classical forward retiming should rebalance it.
+
+constraints:
+  asic:
+    clock_period_ns: 1.022
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Both Genus and Vivado are expected to handle this; it is a positive control for the classical Leiserson-Saxe case. A tool that fails here is broken, not merely conservative.

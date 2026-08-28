@@ -1,0 +1,38 @@
+15 benchmarks have measured data; tight-probing 9
+  probed r18_clock_gated_region           data_path=   0.567 ns   74.0s
+  probed r19_power_activity_retime        data_path=   0.529 ns   86.0s
+  probed r20_glitch_absorb                data_path=   0.431 ns   46.0s
+  probed r21_wire_pipeline_cross_die      data_path=   0.301 ns   78.0s
+  probed r22_fanout_wire_load             data_path=   0.151 ns  287.0s
+  probed r24_loop_bound_control           data_path=   0.821 ns  100.0s
+  probed r26_sdc_exception_invalidation   data_path=   0.971 ns  122.0s
+  probed r27_exception_scope_probe        data_path=   0.588 ns   74.0s
+  probed r28_congestion_wire_split        data_path=   0.076 ns   37.0s
+
+benchmark                            old ns   new ns
+  r01_reset_backward_barrier           2.27    0.609
+  r02_reset_no_valid_init              2.26    0.612
+  r03_async_reset_blocker               2.3    0.617
+  r04_init_only_no_reset               2.28    0.621
+  r05_fsm_high_fanout                  0.85     0.04
+  r06_fsm_high_fanin                   2.19    0.657
+  r08_fsm_output_decode                2.48    0.753
+  r09_unbalanced_mult_pipe              2.8     0.86
+  r10_long_carry_chain                 2.66    0.786
+  r11_deep_retime_distance             3.92    1.392
+  r12_wide_reduction_tree               1.0    0.429
+  r13_retime_around_sram               1.56    0.491
+  r15_hier_boundary_block              2.32    0.608
+  r16_dont_touch_conflict              3.01    0.759
+  r17_clock_enable_barrier             2.38    0.586
+  r18_clock_gated_region                2.3    0.595
+  r19_power_activity_retime            1.11    0.555
+  r20_glitch_absorb                    0.94    0.453
+  r21_wire_pipeline_cross_die          1.09    0.316
+  r22_fanout_wire_load                 0.68    0.159
+  r24_loop_bound_control                3.3    0.862
+  r26_sdc_exception_invalidation       1.02     1.02
+  r27_exception_scope_probe            2.25    0.617
+  r28_congestion_wire_split            0.31     0.08
+
+periods written; run scripts/regen_constraints.py next

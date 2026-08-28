@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r12_wide_reduction_tree",
+  "retime_mode": "on",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "264.0",
+  "area_um2": "1618.6546202499999",
+  "num_cells": 639,
+  "num_seq_pre_syn": 32,
+  "num_seq": 49,
+  "runtime_generic_s": 8,
+  "runtime_map_s": 10,
+  "runtime_total_s": 19
+}

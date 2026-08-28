@@ -1,0 +1,17 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r09_unbalanced_mult_pipe",
+  "retime_mode": "on",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "0.1533",
+  "clock_period_tool_internal": "1533.0",
+  "area_um2": "9154.77232725",
+  "num_cells": 3372,
+  "num_ffs_pre_syn": 192,
+  "num_ffs": 535,
+  "runtime_generic_s": 38,
+  "runtime_map_s": 48,
+  "runtime_total_s": 104
+}

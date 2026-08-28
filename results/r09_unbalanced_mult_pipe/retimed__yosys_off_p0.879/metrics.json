@@ -1,0 +1,18 @@
+{
+  "tool": "yosys",
+  "top": "r09_unbalanced_mult_pipe",
+  "area_um2": 2388.946,
+  "num_cells": 1906,
+  "tool_version": "0.58",
+  "wns_ns": -0.5903,
+  "timing_status": "VIOLATED",
+  "tns_ns": -12.0987,
+  "data_path_ns": 1.4122,
+  "critical_endpoint": "_3571_",
+  "power_mw": 6.24,
+  "power_switching_mw": 2.17,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "off"
+}

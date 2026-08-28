@@ -1,0 +1,41 @@
+id: r31
+name: clone_distinct_reset
+class: "B - duplication with per-clone initial state"
+top: r31_clone_distinct_reset
+latency_preserving: true
+density_target: 0.7
+
+description: |
+  A 5-bit phase counter in its own feedback loop drives 24 lanes, each decoding the
+  phase through a different 3-level mask function. Classical retiming cannot move the
+  counter (the loop's register count is invariant) and relieving the fanout needs
+  duplication, which is not a retiming move. The reference clones the decode per lane
+  and registers it, so each clone needs its OWN reset constant -- lane_mask(i, 7) for
+  reset phase 7. Generalises r30, which comes from a real Vivado failure but where the
+  registered decodes happened to share a reset value.
+
+constraints:
+  asic:
+    clock_period_ns: 1.0
+    core_density: 0.7
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 32
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+  fpga:
+    clock_period_ns: 6.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: wirelength
+expected: |
+  A tool that clones for fanout but resets every clone identically is correct in
+  steady state and wrong for the cycles after each reset, so this is as much a
+  correctness probe as a QoR one: scripts/gen_tb.py pulses reset mid-run and
+  scripts/formal_equiv.py proves the pair by BMC. Scored on post-route wirelength and
+  reg2reg TNS at a stress period, since the fanout net is physically long.

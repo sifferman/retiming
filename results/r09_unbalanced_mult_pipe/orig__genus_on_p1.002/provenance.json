@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-21T20:46:35Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r09.sdc",
+  "sdc_sha1": "bb27cbe038b8",
+  "rtl": [{"file": "r09_unbalanced_mult_pipe.sv", "sha1": "ae5e502290fc"}]
+}

@@ -1,0 +1,7 @@
+6 config(s) to resolve
+  r06_fsm_high_fanin              orig      on   proved=0.749  delivered=0.8018  gap=+7.0%   p0.8018=MET
+  r06_fsm_high_fanin              directive off  proved=0.749  delivered=0.8018  gap=+7.0%   p0.8018=MET
+  r18_clock_gated_region          orig      on   proved=0.648  delivered=0.7214  gap=+11.3%   p0.6937=VIOLATED p0.7214=MET
+  r18_clock_gated_region          directive off  proved=0.648  delivered=0.7214  gap=+11.3%   p0.6937=VIOLATED p0.7214=MET
+  r24_loop_bound_control          orig      on   proved=1.037  delivered=1.1107  gap=+7.1%   p1.1107=MET
+  r24_loop_bound_control          directive off  proved=1.037  delivered=1.1107  gap=+7.1%   p1.1107=MET

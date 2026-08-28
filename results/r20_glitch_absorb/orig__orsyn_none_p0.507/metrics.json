@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r20_glitch_absorb",
+  "retime_mode": "unsupported",
+  "num_cells": 100344,
+  "num_seq": 42,
+  "power_mode": "vcd",
+  "runtime_elab_s": 1,
+  "runtime_total_s": 69,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": -101.0266,
+  "timing_status": "VIOLATED",
+  "tns_ns": -2547.3521,
+  "data_path_ns": 101.4841,
+  "power_mw": 544.501,
+  "power_switching_mw": 42.0523,
+  "wall_seconds": 93.0
+}

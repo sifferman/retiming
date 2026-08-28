@@ -1,0 +1,32 @@
+id: r05
+name: fsm_high_fanout
+class: "B/H - FSM fanout, register duplication"
+top: r05_fsm_high_fanout
+latency_preserving: true
+density_target: 0.6
+
+description: |
+  A one-hot FSM state register drives 48 datapath lanes as well as its own next-state logic. The state net is a very high fanout, physically long net. The reference clones the state register eight times, one clone per group of six lanes, keeping the original solely for next-state.
+
+constraints:
+  asic:
+    clock_period_ns: 0.566
+    core_density: 0.6
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 64
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 5.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: wirelength
+expected: |
+  The state register sits in a feedback loop, so classical retiming cannot move it. Duplication is the transform that helps, and duplication is outside the retiming formulation. Tools do clone for fanout during optimisation; the question is whether they clone as aggressively and as well-placed as the manual solution. Scored on post-route wirelength and Fmax.

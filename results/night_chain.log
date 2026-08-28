@@ -1,0 +1,84 @@
+=== [07:10] push new benchmarks to eq1
+=== [07:10] stage 1: min periods for the three new benchmarks
+  r31_clone_distinct_reset        orig      off  min_period=  0.315 ns   probed p0.3, wns=-0.015
+  r31_clone_distinct_reset        orig      on   min_period=  0.272 ns   probed p0.15, wns=-0.122
+  r31_clone_distinct_reset        retimed   off  min_period=  0.406 ns   probed p0.3, wns=-0.106
+  r31_clone_distinct_reset        directive off  min_period=  0.315 ns   probed p0.3, wns=-0.015
+  r32_backward_reset_preimage     orig      off  min_period=  0.347 ns   probed p0.3, wns=-0.047
+  r32_backward_reset_preimage     orig      on   min_period=   0.26 ns   probed p0.15, wns=-0.11
+  r32_backward_reset_preimage     retimed   off  min_period=  0.283 ns   probed p0.15, wns=-0.133
+  r32_backward_reset_preimage     directive off  min_period=  0.347 ns   probed p0.3, wns=-0.047
+
+phase B: 12 confirmation runs at each config's own Fmax
+  r29_wide_crossing               orig      off  p=0.448  MET      
+  r29_wide_crossing               orig      on   p=0.373  MET      
+  r29_wide_crossing               retimed   off  p=0.499  MET      
+  r29_wide_crossing               directive off  p=0.448  MET      
+  r31_clone_distinct_reset        orig      off  p=0.324  MET      
+  r31_clone_distinct_reset        orig      on   p=0.280  None        <-- prediction not confirmed
+  r31_clone_distinct_reset        retimed   off  p=0.418  MET      
+  r31_clone_distinct_reset        directive off  p=0.324  MET      
+  r32_backward_reset_preimage     orig      off  p=0.357  VIOLATED    <-- prediction not confirmed
+  r32_backward_reset_preimage     orig      on   p=0.268  VIOLATED    <-- prediction not confirmed
+  r32_backward_reset_preimage     retimed   off  p=0.291  None        <-- prediction not confirmed
+  r32_backward_reset_preimage     directive off  p=0.357  VIOLATED    <-- prediction not confirmed
+Traceback (most recent call last):
+  File "/home/esifferm/GitHub/retiming/scripts/measure_fmax.py", line 185, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/esifferm/GitHub/retiming/scripts/measure_fmax.py", line 157, in main
+    mins = [d["min_period_ns"] for d in cfgs.values() if d.get("min_period_ns")]
+                                                         ^^^^^
+AttributeError: 'float' object has no attribute 'get'
+=== [07:37] stage 2: stress-point TNS for the new benchmarks
+  r29_wide_crossing            p=0.2534   STRESSED
+      orig      off WNS=  -0.245 TNS=  -286.185 viol=1720.0 WL=534973.575 ovfl=   0.0
+      orig      on  WNS=  -0.113 TNS=  -327.279 viol=3857.0 WL=551787.325 ovfl=   0.0
+      retimed   off WNS=   -0.12 TNS=   -86.116 viol=1333.0 WL= 481224.48 ovfl=   0.0
+      directive off WNS=  -0.245 TNS=  -286.185 viol=1720.0 WL=534973.575 ovfl=   0.0
+  r31_clone_distinct_reset     p=0.1904   STRESSED
+      orig      off WNS=    None TNS=      None viol=  None WL=      None ovfl=  None
+      orig      on  WNS=    None TNS=      None viol=  None WL=      None ovfl=  None
+      retimed   off WNS=    None TNS=      None viol=  None WL=      None ovfl=  None
+      directive off WNS=    None TNS=      None viol=  None WL=      None ovfl=  None
+  r32_backward_reset_preimag   p=0.182    STRESSED
+      orig      off WNS=  -0.181 TNS=   -32.091 viol= 443.0 WL= 73171.415 ovfl=   0.0
+      orig      on  WNS=  -0.056 TNS=     -6.85 viol= 301.0 WL= 67293.365 ovfl=   0.0
+      retimed   off WNS=  -0.103 TNS=   -31.966 viol= 380.0 WL=  72861.79 ovfl=   0.0
+      directive off WNS=  -0.181 TNS=   -32.091 viol= 443.0 WL= 73171.415 ovfl=   0.0
+=== [08:33] stage 3: formal proof for the new benchmarks (donut, no license)
+  r31_clone_distinct_reset        orig vs retimed: BMC-20 clean
+subprocess.TimeoutExpired: Command '['/home/esifferm/.local/bin/sby', '-f', '/home/esifferm/GitHub/retiming/build/formal_r32_backward_reset_preimage_orig_vs_retimed.sby']' timed out after 2300 seconds
+subprocess.TimeoutExpired: Command '['/home/esifferm/.local/bin/sby', '-f', '/home/esifferm/GitHub/retiming/build/formal_r29_wide_crossing_orig_vs_retimed.sby']' timed out after 2300 seconds
+=== [09:59] stage 4: open-stack routes for the new benchmarks
+  SKIP r31_clone_distinct_reset orig off: no suitable netlist
+  SKIP r31_clone_distinct_reset orig on: no suitable netlist
+  SKIP r31_clone_distinct_reset retimed off: no suitable netlist
+  SKIP r31_clone_distinct_reset directive off: no suitable netlist
+  SKIP r32_backward_reset_preimage orig off: no suitable netlist
+  SKIP r32_backward_reset_preimage orig on: no suitable netlist
+  SKIP r32_backward_reset_preimage retimed off: no suitable netlist
+  SKIP r32_backward_reset_preimage directive off: no suitable netlist
+4 PnR run(s) at 12 concurrent
+  r29_wide_crossing               orig      off  wirelength=      None  None route=None% ovflV=None%
+  r29_wide_crossing               orig      on   wirelength=      None  None route=None% ovflV=None%
+  r29_wide_crossing               retimed   off  wirelength=      None  None route=None% ovflV=None%
+  r29_wide_crossing               directive off  wirelength=      None  None route=None% ovflV=None%
+=== [10:00] stage 5: regenerate dataset, verdicts, plots
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (259 routed configs, 300 unrouted configs dropped)
+  dropped by tool: ?=20, genus=112, openroad_syn=72, yosys=96
+openroad_syn  Compile time                 --                 +0.0%  n=6  
+
+wrote results/improvements.json
+wrote /home/esifferm/GitHub/retiming/docs/improvements_light.svg  (18 rows, interval=iqr)
+wrote /home/esifferm/GitHub/retiming/docs/improvements_dark.svg  (18 rows, interval=iqr)
+wrote docs/INDEX.md (28 benchmarks)
+r26_sdc_exception_invalidation    vivado       diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r26_sdc_exception_invalidation    vivado:xcau7pdiagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r27_exception_scope_probe         vivado       diagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+r27_exception_scope_probe         vivado:xcau7pdiagnostic          -         -  see docs/FINDINGS.md (not scored on a number)
+------------------------------------------------------------------------------------------------------------
+reference wins: 0   tool wins: 5   ties: 4   inconclusive: 0   no data: 0   diagnostic: 5
+=== [10:00] stage 6: commit
+585535c Add r31/r32, stress-point TNS scoring, formal proofs
+=== [10:00] chain complete

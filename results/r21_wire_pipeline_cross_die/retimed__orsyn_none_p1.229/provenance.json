@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-22T00:53:07Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r21.sdc",
+  "sdc_sha1": "62ec3145b291",
+  "rtl": [{"file": "r21_wire_pipeline_cross_die.sv", "sha1": "68b26204a8a7"}]
+}

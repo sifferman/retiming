@@ -1,0 +1,18 @@
+{
+  "tool": "yosys",
+  "top": "r26_sdc_exception_invalidation",
+  "area_um2": 568.974,
+  "num_cells": 552,
+  "tool_version": "0.58",
+  "wns_ns": -1.1611,
+  "timing_status": "VIOLATED",
+  "tns_ns": -21.4437,
+  "data_path_ns": 2.0477,
+  "critical_endpoint": "_837_",
+  "power_mw": 3.7100000000000004,
+  "power_switching_mw": 1.49,
+  "power_mode": "vectorless",
+  "wall_seconds": 1.0,
+  "runtime_total_s": 0.0,
+  "retime_mode": "off"
+}

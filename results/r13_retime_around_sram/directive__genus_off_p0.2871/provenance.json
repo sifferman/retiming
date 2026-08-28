@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T17:39:36Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r13.sdc",
+  "sdc_sha1": "5c39ebe53eda",
+  "rtl": [{"file": "r13_retime_around_sram.sv", "sha1": "894d8adfd9a3"}]
+}

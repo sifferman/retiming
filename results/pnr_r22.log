@@ -1,0 +1,5 @@
+4 PnR run(s) at 4 concurrent
+  r22_fanout_wire_load            orig      off  wirelength=328438.385  VIOLATED route=8.21% ovflV=0.3%
+  r22_fanout_wire_load            orig      on   wirelength=428703.445  VIOLATED route=10.53% ovflV=1.3%
+  r22_fanout_wire_load            retimed   off  wirelength= 298308.37  VIOLATED route=9.68% ovflV=0.11%
+  r22_fanout_wire_load            directive off  wirelength=316912.505  VIOLATED route=13.56% ovflV=0.25%

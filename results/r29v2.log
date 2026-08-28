@@ -1,0 +1,7 @@
+== r29_wide_crossing: orig vs retimed  (top=r29_wide_crossing, 4000 cycles)
+RESULT: PASS  (4001 cycles identical, incl. mid-run reset pulse, 3990 distinct output values)
+  SYN  orig__genus_off_p1.4           cells=24202   dp=0.282   MET
+  PNR  orig__genus_off_p1.4__innovu   r2r_WNS=None     achieved=1.4      route=None   ovflV=None
+  SYN  orig__genus_on_p1.4            cells=24579   dp=0.722   MET
+  SYN  retimed__genus_off_p1.4        cells=24024   dp=0.564   MET
+  PNR  retimed__genus_off_p1.4__inn   r2r_WNS=None     achieved=1.4      route=None   ovflV=None

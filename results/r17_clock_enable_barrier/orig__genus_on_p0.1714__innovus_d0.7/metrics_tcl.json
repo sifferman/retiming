@@ -1,0 +1,18 @@
+{
+  "tool": "innovus",
+  "tool_version": "23.12-s091_1",
+  "top": "r17_clock_enable_barrier",
+  "density_target": 0.7,
+  "max_route_layer": "10",
+  "rc_scale": "1",
+  "place_blockage_frac": "0",
+  "routed_wirelength_um": "NA",
+  "num_cells": 799,
+  "num_ffs": 53,
+  "core_area_um2": "2332.7136",
+  "power_mode": "probabilistic",
+  "runtime_place_s": 88,
+  "runtime_cts_s": 164,
+  "runtime_route_s": 189,
+  "runtime_total_s": 189
+}

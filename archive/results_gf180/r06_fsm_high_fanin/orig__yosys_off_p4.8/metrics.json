@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r06_fsm_high_fanin",
+  "area_um2": 30210.9696,
+  "num_cells": 1091,
+  "num_seq": 70,
+  "tool_version": "0.58",
+  "wns_ns": -7.4119,
+  "timing_status": "VIOLATED",
+  "tns_ns": -43.7537,
+  "data_path_ns": 11.8551,
+  "critical_endpoint": "_1901_",
+  "power_mw": 204.0,
+  "power_switching_mw": 80.5,
+  "power_mode": "vectorless",
+  "wall_seconds": 3.0,
+  "runtime_total_s": 2.0,
+  "retime_mode": "off"
+}

@@ -1,0 +1,32 @@
+id: r28
+name: congestion_wire_split
+class: "H - net delay dominates logic delay"
+top: r28_congestion_wire_split
+latency_preserving: true
+density_target: 0.9
+
+description: |
+  Two logic clusters joined by a 64-bit bus, placed at 0.90 density with a central placement blockage and the signal routing stack capped at Metal3, so the bus crossing is long and congested. The movable register decides how much logic sits before the crossing versus after it.
+
+constraints:
+  asic:
+    clock_period_ns: 0.551
+    core_density: 0.9
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 8.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  This is the regime the project cares about: net delay W comparable to or greater than logic delay. A wire-blind retimer balances logic evenly (a=b) and gets period L/2+W. The wire-aware optimum is ASYMMETRIC (a=b+W), giving (L+W)/2 -- better by W/2. The original IS the even split a wire-blind retimer produces, so the benchmark measures that gap directly.

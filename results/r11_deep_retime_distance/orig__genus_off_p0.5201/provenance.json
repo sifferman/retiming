@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T17:16:27Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r11.sdc",
+  "sdc_sha1": "37b5dafb6b8e",
+  "rtl": [{"file": "r11_deep_retime_distance.sv", "sha1": "56262c5343b5"}]
+}

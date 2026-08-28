@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-22T00:55:15Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r28.sdc",
+  "sdc_sha1": "7e03e5699d28",
+  "rtl": [{"file": "r28_congestion_wire_split.sv", "sha1": "e98d24b1fd47"}]
+}

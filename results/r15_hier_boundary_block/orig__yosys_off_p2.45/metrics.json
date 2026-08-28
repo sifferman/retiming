@@ -1,0 +1,18 @@
+{
+  "tool": "yosys",
+  "top": "r15_hier_boundary_block",
+  "area_um2": 355.908,
+  "num_cells": 305,
+  "tool_version": "0.58",
+  "wns_ns": 0.674,
+  "timing_status": "MET",
+  "tns_ns": 0.0,
+  "data_path_ns": 1.6669,
+  "critical_endpoint": "_475_",
+  "power_mw": 0.34900000000000003,
+  "power_switching_mw": 0.104,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "off"
+}

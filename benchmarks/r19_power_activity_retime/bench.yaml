@@ -1,0 +1,32 @@
+id: r19
+name: power_activity_retime
+class: "G - power-driven retiming"
+top: r19_power_activity_retime
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  Two register positions that are nearly timing-equivalent but differ enormously in switched capacitance: 64 high-activity flops before a reduction tree, versus 8 low-activity flops after it. Retiming across the reduction is legal and latency-preserving.
+
+constraints:
+  asic:
+    clock_period_ns: 0.706
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: power
+expected: |
+  No production tool retimes for switching activity, so both Genus and Vivado are expected to leave the registers where the RTL puts them. Scored on power at a period both variants meet, not on Fmax.

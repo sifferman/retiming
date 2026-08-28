@@ -1,0 +1,17 @@
+{
+  "tool": "vivado",
+  "tool_version": "2023.1",
+  "part": "xc7a100tcsg324-1",
+  "top": "r06_fsm_high_fanin",
+  "retime_mode": "off",
+  "directive": "",
+  "wns_ns": "1.794",
+  "wns_reg2reg_ns": "2.199",
+  "num_lut": 235,
+  "num_ff": 10,
+  "num_ff_post_synth": 10,
+  "num_carry": 31,
+  "power_mode": "vectorless",
+  "runtime_synth_s": 13,
+  "runtime_total_s": 28
+}

@@ -1,0 +1,32 @@
+id: r11
+name: deep_retime_distance
+class: "C - retiming distance / effort limit"
+top: r11_deep_retime_distance
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  A 24-round invertible chain feeds three back-to-back registers. Balancing it requires moving registers 6, 12 and 18 logic rounds upstream -- a large retiming distance that tests effort limits rather than legality.
+
+constraints:
+  asic:
+    clock_period_ns: 3.942
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.5
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Retiming is legal and the reference achieves roughly a 4x period reduction. Tools that cap retiming distance or effort will only partially close the gap.

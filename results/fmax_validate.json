@@ -1,0 +1,38 @@
+{
+  "r01_reset_backward_barrier": {
+    "orig__off": {
+      "min_period_ns": 1.001,
+      "probe": "probed p0.3438, wns=-0.657"
+    },
+    "orig__on": {
+      "min_period_ns": 0.641,
+      "probe": "probed p0.3438, wns=-0.297"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.699,
+      "probe": "probed p0.3438, wns=-0.355"
+    },
+    "directive__off": {
+      "min_period_ns": 0.641,
+      "probe": "probed p0.3438, wns=-0.297"
+    }
+  },
+  "r05_fsm_high_fanout": {
+    "orig__off": {
+      "min_period_ns": 0.539,
+      "probe": "probed p0.0696, wns=-0.469"
+    },
+    "orig__on": {
+      "min_period_ns": 0.61,
+      "probe": "probed p0.0696, wns=-0.54"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.556,
+      "probe": "probed p0.0696, wns=-0.486"
+    },
+    "directive__off": {
+      "min_period_ns": 0.606,
+      "probe": "probed p0.0696, wns=-0.536"
+    }
+  }
+}

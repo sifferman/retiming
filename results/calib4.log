@@ -1,0 +1,7 @@
+23 benchmarks have measured data; tight-probing 1
+  probed r22_fanout_wire_load             floor=   0.159 ns   floor at p0.15 (273.0s, endpoint .SI)
+
+benchmark                            old ns   new ns
+  r22_fanout_wire_load                0.167    0.167
+
+periods written; run scripts/regen_constraints.py next

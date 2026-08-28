@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r05_fsm_high_fanout",
+  "retime_mode": "unsupported",
+  "num_cells": 6236,
+  "num_seq": 117,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 2,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": -1.0938,
+  "timing_status": "VIOLATED",
+  "tns_ns": -49.1148,
+  "data_path_ns": 1.5257,
+  "power_mw": 8.10731,
+  "power_switching_mw": 2.5870699999999998,
+  "wall_seconds": 4.0
+}

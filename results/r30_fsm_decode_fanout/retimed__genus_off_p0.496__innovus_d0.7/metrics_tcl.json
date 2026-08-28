@@ -1,0 +1,18 @@
+{
+  "tool": "innovus",
+  "tool_version": "23.12-s091_1",
+  "top": "r30_fsm_decode_fanout",
+  "density_target": 0.7,
+  "max_route_layer": "10",
+  "rc_scale": "1",
+  "place_blockage_frac": "0",
+  "routed_wirelength_um": "NA",
+  "num_cells": 28467,
+  "num_seq": 1064,
+  "core_area_um2": "50793.6044",
+  "power_mode": "probabilistic",
+  "runtime_place_s": 387,
+  "runtime_cts_s": 556,
+  "runtime_route_s": 627,
+  "runtime_total_s": 627
+}

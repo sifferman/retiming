@@ -1,0 +1,17 @@
+{
+  "tool": "openroad_syn",
+  "top": "r22_fanout_wire_load",
+  "retime_mode": "unsupported",
+  "num_cells": 10092,
+  "num_seq": 1050,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 10,
+  "wns_ns": -44.6699,
+  "timing_status": "VIOLATED",
+  "tns_ns": -38867.2656,
+  "data_path_ns": 53.624,
+  "power_mw": 327.892,
+  "power_switching_mw": 54.8655,
+  "wall_seconds": 13.0
+}

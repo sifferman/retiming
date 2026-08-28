@@ -1,0 +1,33 @@
+id: r21
+name: wire_pipeline_cross_die
+class: "H - physical / wire delay (LATENCY-CHANGING)"
+top: r21_wire_pipeline_cross_die
+latency_preserving: false
+latency_delta: 1   # reference emits dout one cycle later than orig
+density_target: 0.45
+
+description: |
+  Two large logic clusters joined by a 64-bit bus. After placement the bus is physically long and its wire delay, not logic, sets the period. The fix is to pipeline the bus, which ADDS a cycle of latency and is therefore NOT a legal retiming.
+
+constraints:
+  asic:
+    clock_period_ns: 0.783
+    core_density: 0.45
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.5
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: wirelength
+expected: |
+  LATENCY-CHANGING: the reference adds one pipeline stage, so orig and retimed are equivalent only up to a one-cycle skew. No tool may do this on its own, and none should. It is in the suite to quantify what a latency-relaxing physical transform is worth, since that is the transform a placement-driven retimer would want and cannot legally take.

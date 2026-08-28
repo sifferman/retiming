@@ -1,0 +1,18 @@
+{
+  "tool": "openroad_syn",
+  "top": "r15_hier_boundary_block",
+  "retime_mode": "unsupported",
+  "num_cells": 242,
+  "num_seq": 32,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 1,
+  "num_seq_source": "cells.rpt",
+  "wns_ns": 0.8951,
+  "timing_status": "MET",
+  "tns_ns": 0.0,
+  "data_path_ns": 1.039,
+  "power_mw": 0.314031,
+  "power_switching_mw": 0.0746419,
+  "wall_seconds": 1.0
+}

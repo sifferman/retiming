@@ -1,0 +1,92 @@
+=== [09:51] wait for the Vivado pass to release eq1 licences
+=== [09:51] push
+=== [09:51] stage 1: min periods for the 14 benchmarks with no stress point yet
+  missing floors: none
+=== [09:51] stage 2: stress-point synth+route, every benchmark, every config
+  r04_init_only_no_reset       p=0.3185   1 still meeting
+      orig      off WNS=   0.142 TNS=       0.0 viol=   0.0 WL=  3421.345 ovfl=   0.0
+      orig      on  WNS=   -0.01 TNS=    -0.038 viol=   7.0 WL=   3206.33 ovfl=   0.0
+      retimed   off WNS=  -0.065 TNS=    -0.431 viol=   8.0 WL=  3224.255 ovfl=   0.0
+      directive off WNS=   -0.01 TNS=    -0.038 viol=   7.0 WL=   3206.33 ovfl=   0.0
+  r04_init_only_no_reset       p=0.2229   1 still meeting
+      orig      off WNS=   0.046 TNS=       0.0 viol=   0.0 WL=  2877.775 ovfl=   0.0
+      orig      on  WNS=  -0.089 TNS=    -1.421 viol=  22.0 WL=  3261.135 ovfl=   0.0
+      retimed   off WNS=  -0.256 TNS=    -1.965 viol=   8.0 WL=   3065.41 ovfl=   0.0
+      directive off WNS=  -0.089 TNS=    -1.421 viol=  22.0 WL=  3261.135 ovfl=   0.0
+  r04_init_only_no_reset       p=0.156    1 still meeting
+      orig      off WNS=   0.002 TNS=       0.0 viol=   0.0 WL=   3467.79 ovfl=   0.0
+      orig      on  WNS=  -0.156 TNS=    -3.004 viol=  24.0 WL=  3207.065 ovfl=   0.0
+      retimed   off WNS=   -0.21 TNS=    -1.596 viol=   8.0 WL=  4149.605 ovfl=   0.0
+      directive off WNS=  -0.156 TNS=    -3.004 viol=  24.0 WL=  3207.065 ovfl=   0.0
+  r04_init_only_no_reset: still not fully stressed after 4 tightenings
+  r05_fsm_high_fanout          p=0.3773   4 still meeting
+      orig      off WNS=     0.0 TNS=       0.0 viol=   0.0 WL=    5961.3 ovfl=   0.0
+      orig      on  WNS=   0.012 TNS=       0.0 viol=   0.0 WL=  6517.275 ovfl=   0.0
+      retimed   off WNS=    -0.0 TNS=       0.0 viol=   1.0 WL=   9453.85 ovfl=   0.0
+      directive off WNS=   0.008 TNS=       0.0 viol=   0.0 WL=   6881.22 ovfl=   0.0
+  r05_fsm_high_fanout          p=0.2641   2 still meeting
+      orig      off WNS=  -0.099 TNS=    -4.253 viol=  49.0 WL=  9819.385 ovfl=   0.0
+      orig      on  WNS=   0.002 TNS=       0.0 viol=   0.0 WL=    9128.3 ovfl=   0.0
+      retimed   off WNS=  -0.073 TNS=    -1.812 viol=  55.0 WL=   11132.2 ovfl=   0.0
+      directive off WNS=    -0.0 TNS=      -0.0 viol=   1.0 WL=  9935.115 ovfl=   0.0
+  r05_fsm_high_fanout          p=0.1849   STRESSED
+      orig      off WNS=   -0.18 TNS=    -6.281 viol=  54.0 WL=  9332.335 ovfl=   0.0
+      orig      on  WNS=  -0.035 TNS=    -1.209 viol=  72.0 WL= 11380.025 ovfl=   0.0
+      retimed   off WNS=   -0.18 TNS=    -8.421 viol=  89.0 WL=  11018.89 ovfl=   0.0
+      directive off WNS=  -0.032 TNS=    -1.071 viol=  78.0 WL= 11330.335 ovfl=   0.0
+  r06_fsm_high_fanin           p=0.5243   3 still meeting
+      orig      off WNS=  -0.191 TNS=    -0.994 viol=   6.0 WL=  23043.16 ovfl=   0.0
+      orig      on  WNS=   0.001 TNS=       0.0 viol=   0.0 WL= 16778.395 ovfl=   0.0
+      retimed   off WNS=   0.183 TNS=       0.0 viol=   0.0 WL=  17157.91 ovfl=   0.0
+      directive off WNS=   0.001 TNS=       0.0 viol=   0.0 WL= 16778.395 ovfl=   0.0
+  r06_fsm_high_fanin           p=0.367    1 still meeting
+      orig      off WNS=  -0.323 TNS=    -1.603 viol=   6.0 WL= 22415.155 ovfl=   0.0
+      orig      on  WNS=  -0.164 TNS=    -0.966 viol=   6.0 WL= 17263.915 ovfl=   0.0
+      retimed   off WNS=   0.104 TNS=       0.0 viol=   0.0 WL= 16677.375 ovfl=   0.0
+      directive off WNS=  -0.164 TNS=    -0.966 viol=   6.0 WL= 17263.915 ovfl=   0.0
+  r06_fsm_high_fanin           p=0.2569   1 still meeting
+      orig      off WNS=  -0.593 TNS=    -3.491 viol=   6.0 WL= 21646.415 ovfl=   0.0
+      orig      on  WNS=  -0.288 TNS=    -1.966 viol=   7.0 WL=  16311.83 ovfl=   0.0
+      retimed   off WNS=   0.027 TNS=       0.0 viol=   0.0 WL=  16619.78 ovfl=   0.0
+      directive off WNS=  -0.288 TNS=    -1.966 viol=   7.0 WL=  16311.83 ovfl=   0.0
+Traceback (most recent call last):
+  File "/home/esifferm/GitHub/retiming/scripts/stress_wns.py", line 125, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/esifferm/GitHub/retiming/scripts/stress_wns.py", line 106, in main
+    batch = list(ex.map(one, jobs))
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/esifferm/GitHub/retiming/scripts/stress_wns.py", line 50, in one
+    subprocess.run([str(ROOT / "scripts" / "run_innovus.sh"), bench, variant, tag,
+  File "/usr/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/usr/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/home/esifferm/GitHub/retiming/scripts/run_innovus.sh', 'r06_fsm_high_fanin', 'orig', 'orig__genus_off_p0.1798', '0.7']' timed out after 5400 seconds
+=== [14:47] stage 3: regenerate + plot + commit
+wrote /home/esifferm/GitHub/retiming/results/results.csv (2540 runs)
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (271 routed configs, 300 unrouted configs dropped)
+  dropped by tool: ?=20, genus=112, openroad_syn=72, yosys=96
+wrote /home/esifferm/GitHub/retiming/docs/stress_tns_light.svg  (13 benchmarks)
+33c3049 Post-route stress matrix across all 28 benchmarks
+=== [14:47] postroute chain complete

@@ -1,0 +1,17 @@
+phase A: 8 probes at 6 concurrent
+  r29_wide_crossing               orig      off  min_period=  0.435 ns   probed p0.36, wns=-0.075
+  r29_wide_crossing               orig      on   min_period=  0.362 ns   probed p0.36, wns=-0.002
+  r29_wide_crossing               retimed   off  min_period=  0.484 ns   probed p0.36, wns=-0.124
+  r29_wide_crossing               directive off  min_period=  0.435 ns   probed p0.36, wns=-0.075
+  r31_clone_distinct_reset        orig      off  min_period=  0.315 ns   probed p0.3, wns=-0.015
+  r31_clone_distinct_reset        orig      on   min_period=  0.272 ns   probed p0.15, wns=-0.122
+  r31_clone_distinct_reset        retimed   off  min_period=  0.406 ns   probed p0.3, wns=-0.106
+  r31_clone_distinct_reset        directive off  min_period=  0.315 ns   probed p0.3, wns=-0.015
+Traceback (most recent call last):
+  File "/home/esifferm/GitHub/retiming/scripts/measure_fmax.py", line 181, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/esifferm/GitHub/retiming/scripts/measure_fmax.py", line 134, in main
+    if d.get("min_period_ns")]
+       ^^^^^
+AttributeError: 'float' object has no attribute 'get'

@@ -1,0 +1,32 @@
+id: r17
+name: clock_enable_barrier
+class: "F - secondary control signals"
+top: r17_clock_enable_barrier
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  An unbalanced two-stage pipeline whose registers both carry a clock enable. Rebalancing requires moving a register whose enable term must move with it. gf180mcu has no enable flop at all, so the enable becomes a recirculating mux and the register to be moved sits inside a mux loop.
+
+constraints:
+  asic:
+    clock_period_ns: 1.066
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Genus exposes retime_move_mux_loop_with_reg for exactly this situation; whether it fires is the question. On Artix-7 the enable maps to FDRE.CE, where moving the register means re-deriving the enable.

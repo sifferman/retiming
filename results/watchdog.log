@@ -1,0 +1,273 @@
+[08-25 07:21] watchdog started (interval 1200s, stall limit 1500s)
+[08-25 07:41] OK: 36 tool jobs, newest output 31s ago
+[08-25 08:01] OK: 3 tool jobs, newest output 11s ago
+[08-25 08:21] OK: 48 tool jobs, newest output 2s ago
+[08-25 08:41] OK: 6 tool jobs, newest output 319s ago
+[08-25 09:01] OK: 5 tool jobs, newest output 1201s ago
+[08-25 09:21] OK: 2 tool jobs, newest output 546s ago
+[08-25 09:41] STALLED: jobs=0 driver=0 newest_output=1200s -- restarting run_all.sh
+[08-25 09:42] restarted run_all.sh (pid 659044)
+[08-25 10:02] OK: 36 tool jobs, newest output 8s ago
+[08-25 10:22] OK: 15 tool jobs, newest output 34s ago
+[08-25 10:42] OK: 3 tool jobs, newest output 330s ago
+[08-25 11:02] OK: 39 tool jobs, newest output 33s ago
+[08-25 11:22] OK: 6 tool jobs, newest output 627s ago
+[08-25 11:42] OK: 5 tool jobs, newest output 1200s ago
+[08-25 12:02] STALLED: jobs=0 driver=0 newest_output=936s -- restarting run_all.sh
+[08-25 12:02] restarted run_all.sh (pid 412572)
+[08-25 12:22] OK: 36 tool jobs, newest output 24s ago
+[08-25 12:42] OK: 15 tool jobs, newest output 74s ago
+[08-25 13:02] OK: 48 tool jobs, newest output 8s ago
+[08-25 13:22] OK: 24 tool jobs, newest output 63s ago
+[08-25 13:42] OK: 6 tool jobs, newest output 697s ago
+[08-25 14:02] OK: 5 tool jobs, newest output 1201s ago
+[08-25 14:22] STALLED: jobs=0 driver=0 newest_output=1155s -- restarting run_all.sh
+[08-25 14:22] restarted run_all.sh (pid 244111)
+[08-25 14:42] OK: 36 tool jobs, newest output 16s ago
+[08-25 15:02] OK: 15 tool jobs, newest output 92s ago
+[08-25 15:22] OK: 48 tool jobs, newest output 38s ago
+[08-25 15:42] OK: 48 tool jobs, newest output 46s ago
+[08-25 16:02] OK: 48 tool jobs, newest output 2s ago
+[08-25 16:22] OK: 46 tool jobs, newest output 180s ago
+[08-25 16:42] OK: 29 tool jobs, newest output 110s ago
+[08-25 17:02] OK: 18 tool jobs, newest output 1200s ago
+[08-25 17:22] OK: 4 tool jobs, newest output 639s ago
+[08-25 17:42] OK: 4 tool jobs, newest output 1201s ago
+[08-25 18:02] STALLED: jobs=0 driver=0 newest_output=1200s -- restarting run_all.sh
+[08-25 18:02] restarted run_all.sh (pid 2088107)
+[08-25 18:22] OK: 36 tool jobs, newest output 4s ago
+[08-25 18:42] OK: 15 tool jobs, newest output 58s ago
+[08-25 19:02] OK: 48 tool jobs, newest output 2s ago
+[08-25 19:22] STALLED: jobs=0 driver=0 newest_output=621s -- restarting run_all.sh
+[08-25 19:22] restarted run_all.sh (pid 399632)
+[08-25 19:42] OK: 36 tool jobs, newest output 24s ago
+[08-25 20:02] OK: 15 tool jobs, newest output 51s ago
+[08-25 20:22] OK: 48 tool jobs, newest output 5s ago
+[08-25 20:42] OK: 12 tool jobs, newest output 50s ago
+[08-25 21:02] STALLED: jobs=0 driver=0 newest_output=648s -- restarting run_all.sh
+[08-25 21:02] restarted run_all.sh (pid 3479799)
+[08-25 21:22] OK: 36 tool jobs, newest output 2s ago
+[08-25 21:42] OK: 15 tool jobs, newest output 92s ago
+[08-25 22:02] OK: 48 tool jobs, newest output 9s ago
+[08-25 22:22] STALLED: jobs=0 driver=0 newest_output=763s -- restarting run_all.sh
+[08-25 22:23] restarted run_all.sh (pid 1974190)
+[08-25 22:43] OK: 36 tool jobs, newest output 17s ago
+[08-25 23:03] OK: 15 tool jobs, newest output 64s ago
+[08-25 23:23] OK: 48 tool jobs, newest output 2s ago
+[08-25 23:43] OK: 12 tool jobs, newest output 20s ago
+[08-26 00:03] STALLED: jobs=0 driver=0 newest_output=622s -- restarting run_all.sh
+[08-26 00:03] restarted run_all.sh (pid 761633)
+[08-26 00:23] OK: 36 tool jobs, newest output 12s ago
+[08-26 00:43] OK: 36 tool jobs, newest output 18s ago
+[08-26 01:03] OK: 6 tool jobs, newest output 317s ago
+[08-26 01:23] STALLED: jobs=0 driver=0 newest_output=165s -- restarting run_all.sh
+[08-26 01:23] restarted run_all.sh (pid 2090298)
+[08-26 01:43] OK: 36 tool jobs, newest output 9s ago
+[08-26 02:03] OK: 15 tool jobs, newest output 58s ago
+[08-26 02:23] OK: 48 tool jobs, newest output 1s ago
+[08-26 02:43] OK: 12 tool jobs, newest output 60s ago
+[08-26 03:03] STALLED: jobs=0 driver=0 newest_output=602s -- restarting run_all.sh
+[08-26 03:03] restarted run_all.sh (pid 3893323)
+[08-26 03:23] OK: 36 tool jobs, newest output 8s ago
+[08-26 03:43] OK: 15 tool jobs, newest output 37s ago
+[08-26 04:03] OK: 48 tool jobs, newest output 2s ago
+[08-26 04:23] STALLED: jobs=0 driver=0 newest_output=779s -- restarting run_all.sh
+[08-26 04:23] restarted run_all.sh (pid 1131015)
+[08-26 04:43] OK: 36 tool jobs, newest output 3s ago
+[08-26 05:03] OK: 15 tool jobs, newest output 51s ago
+[08-26 05:23] OK: 46 tool jobs, newest output 2s ago
+[08-26 05:43] OK: 12 tool jobs, newest output 8s ago
+[08-26 06:03] STALLED: jobs=0 driver=0 newest_output=609s -- restarting run_all.sh
+[08-26 06:03] restarted run_all.sh (pid 2669064)
+[08-26 06:23] OK: 36 tool jobs, newest output 18s ago
+[08-26 06:43] OK: 15 tool jobs, newest output 48s ago
+[08-26 07:03] OK: 48 tool jobs, newest output 4s ago
+[08-26 07:23] STALLED: jobs=0 driver=0 newest_output=727s -- restarting run_all.sh
+[08-26 07:23] restarted run_all.sh (pid 4168388)
+[08-26 07:43] OK: 36 tool jobs, newest output 13s ago
+[08-26 08:03] OK: 15 tool jobs, newest output 79s ago
+[08-26 08:23] OK: 48 tool jobs, newest output 4s ago
+[08-26 08:43] OK: 12 tool jobs, newest output 45s ago
+[08-26 09:03] STALLED: jobs=0 driver=0 newest_output=647s -- restarting run_all.sh
+[08-26 09:04] restarted run_all.sh (pid 2625176)
+[08-26 09:24] OK: 36 tool jobs, newest output 7s ago
+[08-26 09:44] OK: 15 tool jobs, newest output 90s ago
+[08-26 10:04] OK: 48 tool jobs, newest output 70s ago
+[08-26 10:24] STALLED: jobs=0 driver=0 newest_output=621s -- restarting run_all.sh
+[08-26 10:24] restarted run_all.sh (pid 464953)
+[08-26 10:44] OK: 36 tool jobs, newest output 9s ago
+[08-26 11:04] OK: 15 tool jobs, newest output 92s ago
+[08-26 11:24] OK: 48 tool jobs, newest output 5s ago
+[08-26 11:44] OK: 12 tool jobs, newest output 12s ago
+[08-26 12:04] STALLED: jobs=0 driver=0 newest_output=577s -- restarting run_all.sh
+[08-26 12:04] restarted run_all.sh (pid 2812804)
+[08-26 12:24] OK: 36 tool jobs, newest output 25s ago
+[08-26 12:44] OK: 15 tool jobs, newest output 66s ago
+[08-26 13:04] OK: 48 tool jobs, newest output 5s ago
+[08-26 13:24] STALLED: jobs=0 driver=0 newest_output=729s -- restarting run_all.sh
+[08-26 13:24] restarted run_all.sh (pid 666555)
+[08-26 13:44] OK: 36 tool jobs, newest output 14s ago
+[08-26 14:04] OK: 15 tool jobs, newest output 71s ago
+[08-26 14:24] OK: 48 tool jobs, newest output 6s ago
+[08-26 14:44] OK: 12 tool jobs, newest output 23s ago
+[08-26 15:04] STALLED: jobs=0 driver=0 newest_output=629s -- restarting run_all.sh
+[08-26 15:04] restarted run_all.sh (pid 1680378)
+[08-26 15:24] OK: 36 tool jobs, newest output 19s ago
+[08-26 15:44] OK: 15 tool jobs, newest output 76s ago
+[08-26 16:04] OK: 46 tool jobs, newest output 14s ago
+[08-26 16:24] STALLED: jobs=0 driver=0 newest_output=791s -- restarting run_all.sh
+[08-26 16:24] restarted run_all.sh (pid 2780820)
+[08-26 16:44] OK: 36 tool jobs, newest output 17s ago
+[08-26 17:04] OK: 15 tool jobs, newest output 87s ago
+[08-26 17:24] OK: 48 tool jobs, newest output 3s ago
+[08-26 17:44] OK: 12 tool jobs, newest output 81s ago
+[08-26 18:04] STALLED: jobs=0 driver=0 newest_output=663s -- restarting run_all.sh
+[08-26 18:04] restarted run_all.sh (pid 180751)
+[08-26 18:24] OK: 36 tool jobs, newest output 37s ago
+[08-26 18:44] OK: 15 tool jobs, newest output 86s ago
+[08-26 19:04] OK: 46 tool jobs, newest output 1s ago
+[08-26 19:25] STALLED: jobs=0 driver=0 newest_output=802s -- restarting run_all.sh
+[08-26 19:25] restarted run_all.sh (pid 1435490)
+[08-26 19:45] OK: 36 tool jobs, newest output 3s ago
+[08-26 20:05] OK: 15 tool jobs, newest output 51s ago
+[08-26 20:25] OK: 48 tool jobs, newest output 4s ago
+[08-26 20:45] OK: 15 tool jobs, newest output 142s ago
+[08-26 21:05] STALLED: jobs=0 driver=0 newest_output=512s -- restarting run_all.sh
+[08-26 21:05] restarted run_all.sh (pid 2987005)
+[08-26 21:25] OK: 36 tool jobs, newest output 11s ago
+[08-26 21:45] OK: 15 tool jobs, newest output 91s ago
+[08-26 22:05] OK: 48 tool jobs, newest output 3s ago
+[08-26 22:25] STALLED: jobs=0 driver=0 newest_output=809s -- restarting run_all.sh
+[08-26 22:25] restarted run_all.sh (pid 61732)
+[08-26 22:45] OK: 36 tool jobs, newest output 5s ago
+[08-26 23:05] OK: 15 tool jobs, newest output 92s ago
+[08-26 23:25] OK: 46 tool jobs, newest output 18s ago
+[08-26 23:45] OK: 12 tool jobs, newest output 51s ago
+[08-27 00:05] STALLED: jobs=0 driver=0 newest_output=656s -- restarting run_all.sh
+[08-27 00:05] restarted run_all.sh (pid 1783679)
+[08-27 00:25] OK: 36 tool jobs, newest output 9s ago
+[08-27 00:45] OK: 15 tool jobs, newest output 40s ago
+[08-27 01:05] OK: 48 tool jobs, newest output 6s ago
+[08-27 01:25] STALLED: jobs=0 driver=0 newest_output=795s -- restarting run_all.sh
+[08-27 01:25] restarted run_all.sh (pid 3172981)
+[08-27 01:45] OK: 36 tool jobs, newest output 5s ago
+[08-27 02:05] OK: 15 tool jobs, newest output 46s ago
+[08-27 02:25] OK: 45 tool jobs, newest output 0s ago
+[08-27 02:45] OK: 12 tool jobs, newest output 16s ago
+[08-27 03:05] STALLED: jobs=0 driver=0 newest_output=619s -- restarting run_all.sh
+[08-27 03:05] restarted run_all.sh (pid 666034)
+[08-27 03:25] OK: 36 tool jobs, newest output 11s ago
+[08-27 03:45] OK: 15 tool jobs, newest output 46s ago
+[08-27 04:05] OK: 48 tool jobs, newest output 6s ago
+[08-27 04:25] STALLED: jobs=0 driver=0 newest_output=746s -- restarting run_all.sh
+[08-27 04:25] restarted run_all.sh (pid 2038448)
+[08-27 04:46] OK: 36 tool jobs, newest output 2s ago
+[08-27 05:06] OK: 15 tool jobs, newest output 49s ago
+[08-27 05:26] OK: 43 tool jobs, newest output 1s ago
+[08-27 05:46] OK: 12 tool jobs, newest output 8s ago
+[08-27 06:06] STALLED: jobs=0 driver=0 newest_output=535s -- restarting run_all.sh
+[08-27 06:06] restarted run_all.sh (pid 3791973)
+[08-27 06:26] OK: 36 tool jobs, newest output 5s ago
+[08-27 06:46] OK: 15 tool jobs, newest output 42s ago
+[08-27 07:06] OK: 48 tool jobs, newest output 5s ago
+[08-27 07:26] STALLED: jobs=0 driver=0 newest_output=738s -- restarting run_all.sh
+[08-27 07:26] restarted run_all.sh (pid 1034105)
+[08-27 07:46] OK: 36 tool jobs, newest output 20s ago
+[08-27 08:06] OK: 15 tool jobs, newest output 74s ago
+[08-27 08:26] OK: 48 tool jobs, newest output 10s ago
+[08-27 08:46] OK: 12 tool jobs, newest output 5s ago
+[08-27 09:06] STALLED: jobs=0 driver=0 newest_output=613s -- restarting run_all.sh
+[08-27 09:06] restarted run_all.sh (pid 2832244)
+[08-27 09:26] OK: 34 tool jobs, newest output 8s ago
+[08-27 09:46] OK: 15 tool jobs, newest output 83s ago
+[08-27 10:06] OK: 48 tool jobs, newest output 2s ago
+[08-27 10:26] STALLED: jobs=0 driver=0 newest_output=741s -- restarting run_all.sh
+[08-27 10:26] restarted run_all.sh (pid 81577)
+[08-27 10:46] OK: 36 tool jobs, newest output 14s ago
+[08-27 11:06] OK: 21 tool jobs, newest output 103s ago
+[08-27 11:26] OK: 3 tool jobs, newest output 268s ago
+[08-27 11:46] OK: 21 tool jobs, newest output 1s ago
+[08-27 12:06] STALLED: jobs=0 driver=0 newest_output=330s -- restarting run_all.sh
+[08-27 12:06] restarted run_all.sh (pid 1892722)
+[08-27 12:26] OK: 36 tool jobs, newest output 2s ago
+[08-27 12:46] OK: 15 tool jobs, newest output 69s ago
+[08-27 13:06] OK: 48 tool jobs, newest output 10s ago
+[08-27 13:26] STALLED: jobs=0 driver=0 newest_output=796s -- restarting run_all.sh
+[08-27 13:26] restarted run_all.sh (pid 3471201)
+[08-27 13:46] OK: 36 tool jobs, newest output 1s ago
+[08-27 14:06] OK: 15 tool jobs, newest output 87s ago
+[08-27 14:26] OK: 48 tool jobs, newest output 15s ago
+[08-27 14:46] OK: 12 tool jobs, newest output 31s ago
+[08-27 15:06] STALLED: jobs=0 driver=0 newest_output=617s -- restarting run_all.sh
+[08-27 15:07] restarted run_all.sh (pid 1193279)
+[08-27 15:27] OK: 36 tool jobs, newest output 19s ago
+[08-27 15:47] OK: 15 tool jobs, newest output 76s ago
+[08-27 16:07] OK: 48 tool jobs, newest output 2s ago
+[08-27 16:27] STALLED: jobs=0 driver=0 newest_output=791s -- restarting run_all.sh
+[08-27 16:27] restarted run_all.sh (pid 2643206)
+[08-27 16:47] OK: 36 tool jobs, newest output 7s ago
+[08-27 17:07] OK: 15 tool jobs, newest output 103s ago
+[08-27 17:27] OK: 3 tool jobs, newest output 317s ago
+[08-27 17:47] OK: 27 tool jobs, newest output 11s ago
+[08-27 18:07] STALLED: jobs=0 driver=0 newest_output=166s -- restarting run_all.sh
+[08-27 18:07] restarted run_all.sh (pid 217455)
+[08-27 18:27] OK: 36 tool jobs, newest output 8s ago
+[08-27 18:47] OK: 15 tool jobs, newest output 57s ago
+[08-27 19:07] OK: 48 tool jobs, newest output 7s ago
+[08-27 19:27] STALLED: jobs=0 driver=0 newest_output=777s -- restarting run_all.sh
+[08-27 19:27] restarted run_all.sh (pid 1255821)
+[08-27 19:47] OK: 36 tool jobs, newest output 10s ago
+[08-27 20:07] OK: 15 tool jobs, newest output 71s ago
+[08-27 20:27] OK: 48 tool jobs, newest output 3s ago
+[08-27 20:47] OK: 12 tool jobs, newest output 8s ago
+[08-27 21:07] STALLED: jobs=0 driver=0 newest_output=672s -- restarting run_all.sh
+[08-27 21:07] restarted run_all.sh (pid 2317014)
+[08-27 21:27] OK: 36 tool jobs, newest output 7s ago
+[08-27 21:47] OK: 15 tool jobs, newest output 73s ago
+[08-27 22:07] OK: 48 tool jobs, newest output 1s ago
+[08-27 22:27] STALLED: jobs=0 driver=0 newest_output=745s -- restarting run_all.sh
+[08-27 22:27] restarted run_all.sh (pid 4143050)
+[08-27 22:47] OK: 36 tool jobs, newest output 3s ago
+[08-27 23:07] OK: 15 tool jobs, newest output 93s ago
+[08-27 23:27] OK: 48 tool jobs, newest output 8s ago
+[08-27 23:47] OK: 12 tool jobs, newest output 20s ago
+[08-28 00:07] STALLED: jobs=0 driver=0 newest_output=615s -- restarting run_all.sh
+[08-28 00:07] restarted run_all.sh (pid 1246899)
+[08-28 00:27] OK: 34 tool jobs, newest output 17s ago
+[08-28 00:47] OK: 15 tool jobs, newest output 66s ago
+[08-28 01:07] OK: 46 tool jobs, newest output 8s ago
+[08-28 01:27] STALLED: jobs=0 driver=0 newest_output=785s -- restarting run_all.sh
+[08-28 01:28] restarted run_all.sh (pid 2659335)
+[08-28 01:48] OK: 36 tool jobs, newest output 17s ago
+[08-28 02:08] OK: 15 tool jobs, newest output 89s ago
+[08-28 02:28] OK: 48 tool jobs, newest output 4s ago
+[08-28 02:48] OK: 12 tool jobs, newest output 42s ago
+[08-28 03:08] STALLED: jobs=0 driver=0 newest_output=619s -- restarting run_all.sh
+[08-28 03:08] restarted run_all.sh (pid 376549)
+[08-28 03:28] OK: 34 tool jobs, newest output 25s ago
+[08-28 03:48] OK: 15 tool jobs, newest output 88s ago
+[08-28 04:08] OK: 46 tool jobs, newest output 1s ago
+[08-28 04:28] STALLED: jobs=0 driver=0 newest_output=763s -- restarting run_all.sh
+[08-28 04:28] restarted run_all.sh (pid 1882961)
+[08-28 04:48] OK: 36 tool jobs, newest output 14s ago
+[08-28 05:08] OK: 15 tool jobs, newest output 86s ago
+[08-28 05:28] OK: 48 tool jobs, newest output 11s ago
+[08-28 05:48] OK: 12 tool jobs, newest output 68s ago
+[08-28 06:08] STALLED: jobs=0 driver=0 newest_output=607s -- restarting run_all.sh
+[08-28 06:08] restarted run_all.sh (pid 3757005)
+[08-28 06:28] OK: 36 tool jobs, newest output 39s ago
+[08-28 06:48] OK: 15 tool jobs, newest output 18s ago
+[08-28 07:08] OK: 46 tool jobs, newest output 1s ago
+[08-28 07:28] STALLED: jobs=0 driver=0 newest_output=742s -- restarting run_all.sh
+[08-28 07:28] restarted run_all.sh (pid 1090762)
+[08-28 07:48] OK: 36 tool jobs, newest output 1s ago
+[08-28 08:08] OK: 15 tool jobs, newest output 82s ago
+[08-28 08:28] OK: 48 tool jobs, newest output 3s ago
+[08-28 08:48] OK: 12 tool jobs, newest output 19s ago
+[08-28 09:08] STALLED: jobs=0 driver=0 newest_output=615s -- restarting run_all.sh
+[08-28 09:08] restarted run_all.sh (pid 2867135)
+[08-28 09:28] OK: 36 tool jobs, newest output 2s ago
+[08-28 09:48] OK: 15 tool jobs, newest output 73s ago
+[08-28 10:08] OK: 46 tool jobs, newest output 0s ago
+[08-28 10:28] STALLED: jobs=0 driver=0 newest_output=719s -- restarting run_all.sh
+[08-28 10:28] restarted run_all.sh (pid 150501)

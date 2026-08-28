@@ -1,0 +1,63 @@
+17 benchmark(s) already stressed, 11 to do
+total concurrent tool jobs capped at 16
+
+  r04_init_only_no_reset          STRESSED at p=0.126
+      orig      off WNS=  -0.023 TNS=    -0.174 viol=   8.0 WL=   3151.69
+      orig      on  WNS=  -0.194 TNS=    -4.042 viol=  26.0 WL=   3181.25
+      retimed   off WNS=  -0.228 TNS=    -1.724 viol=   8.0 WL=   3213.56
+      directive off WNS=  -0.194 TNS=    -4.042 viol=  26.0 WL=   3181.25
+  r09_unbalanced_mult_pipe        STRESSED at p=0.2979
+      orig      off WNS=  -0.083 TNS=    -1.768 viol=  28.0 WL= 25530.295
+      orig      on  WNS=  -0.038 TNS=    -0.621 viol=  42.0 WL= 25203.785
+      retimed   off WNS=  -0.084 TNS=     -1.61 viol=  28.0 WL=  26291.37
+      directive off WNS=  -0.038 TNS=    -0.621 viol=  42.0 WL= 25203.785
+  r10_long_carry_chain            STRESSED at p=0.1001
+      orig      off WNS=  -0.033 TNS=    -0.865 viol=  32.0 WL= 11700.675
+      orig      on  WNS=  -0.129 TNS=    -6.935 viol=  87.0 WL= 12684.855
+      retimed   off WNS=  -0.248 TNS=    -7.025 viol=  32.0 WL= 14698.555
+      directive off WNS=  -0.129 TNS=    -6.935 viol=  87.0 WL= 12684.855
+  r11_deep_retime_distance        STRESSED at p=0.1106
+      orig      off WNS=  -0.031 TNS=    -1.082 viol=  64.0 WL=  37335.87
+      orig      on  WNS=  -0.842 TNS=    -90.18 viol= 127.0 WL= 35439.285
+      retimed   off WNS=  -0.866 TNS=   -51.893 viol=  64.0 WL= 31739.765
+      directive off WNS=  -0.842 TNS=    -90.18 viol= 127.0 WL= 35439.285
+  r12_wide_reduction_tree         STRESSED at p=0.1032
+      orig      off WNS=   -0.03 TNS=    -0.165 viol=   7.0 WL=    4632.2
+      orig      on  WNS=  -0.149 TNS=    -2.385 viol=  19.0 WL=    4378.0
+      retimed   off WNS=   -0.22 TNS=    -1.341 viol=   7.0 WL=   4570.79
+      directive off WNS=  -0.149 TNS=    -2.385 viol=  19.0 WL=    4378.0
+  r13_retime_around_sram          STRESSED at p=0.2164
+      orig      off WNS=  -0.157 TNS=    -2.378 viol=  16.0 WL= 25890.165
+      orig      on  WNS=  -0.077 TNS=    -0.601 viol=  22.0 WL=  39420.18
+      retimed   off WNS=  -0.033 TNS=    -0.361 viol=  17.0 WL= 36519.235
+      directive off WNS=  -0.077 TNS=    -0.601 viol=  22.0 WL=  39420.18
+  r15_hier_boundary_block         STRESSED at p=0.1275
+      orig      off WNS=  -0.041 TNS=      -0.3 viol=   8.0 WL=  3682.325
+      orig      on  WNS=  -0.203 TNS=    -4.357 viol=  26.0 WL=  3743.685
+      retimed   off WNS=    None TNS=      None viol=  None WL=      None
+      directive off WNS=  -0.203 TNS=    -4.357 viol=  26.0 WL=  3743.685
+  r17_clock_enable_barrier        STRESSED at p=0.1714
+      orig      off WNS=  -0.016 TNS=    -0.064 viol=   8.0 WL=   4032.61
+      orig      on  WNS=  -0.189 TNS=    -4.034 viol=  36.0 WL=  4501.015
+      retimed   off WNS=   -0.24 TNS=    -2.179 viol=  23.0 WL=  3993.665
+      directive off WNS=  -0.189 TNS=    -4.034 viol=  36.0 WL=  4501.015
+  r18_clock_gated_region          STRESSED at p=0.2209
+      orig      off WNS=  -0.069 TNS=    -1.233 viol=  28.0 WL=   4505.94
+      orig      on  WNS=   -0.13 TNS=    -2.079 viol=  33.0 WL=    5024.1
+      retimed   off WNS=  -0.249 TNS=    -6.513 viol=  32.0 WL=   5736.06
+      directive off WNS=   -0.13 TNS=    -2.079 viol=  33.0 WL=    5024.1
+  r19_power_activity_retime       STRESSED at p=0.1174
+      orig      off WNS=  -0.385 TNS=    -2.633 viol=   7.0 WL=  6834.255
+      orig      on  WNS=  -0.153 TNS=    -2.315 viol=  17.0 WL=   5819.32
+      retimed   off WNS=  -0.011 TNS=    -0.058 viol=   7.0 WL=  4522.395
+      directive off WNS=  -0.151 TNS=    -2.584 viol=  22.0 WL=  5416.615
+  r27_exception_scope_probe       STRESSED at p=0.2415
+      orig      off WNS=  -0.101 TNS=    -0.266 viol=  11.0 WL=   10665.3
+      orig      on  WNS=  -0.172 TNS=    -3.504 viol=  38.0 WL= 10112.865
+      retimed   off WNS=    None TNS=      None viol=  None WL=      None
+      directive off WNS=  -0.172 TNS=    -3.504 viol=  38.0 WL= 10112.865
+wrote /home/esifferm/GitHub/retiming/results/results.csv (2802 runs)
+wrote /home/esifferm/GitHub/retiming/results/summary.csv (307 routed configs, 302 unrouted configs dropped)
+  dropped by tool: ?=22, genus=112, openroad_syn=72, yosys=96
+wrote /home/esifferm/GitHub/retiming/docs/stress_tns_light.svg  (13 benchmarks)
+92f52de Parallel stress sweep across benchmarks

@@ -1,0 +1,44 @@
+{
+  "r05_fsm_high_fanout": {
+    "orig__off": {
+      "min_period_ns": 0.354,
+      "probe": "probed p0.3396, wns=-0.014"
+    },
+    "orig__on": {
+      "min_period_ns": 0.221,
+      "probe": "probed p0.1698, wns=-0.051"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.354,
+      "probe": "probed p0.3396, wns=-0.014"
+    },
+    "directive__off": {
+      "min_period_ns": 0.21,
+      "probe": "probed p0.1698, wns=-0.04"
+    }
+  },
+  "r06_fsm_high_fanin": {
+    "orig__off": {
+      "min_period_ns": 0.803,
+      "probe": "probed p0.5682, wns=-0.235"
+    },
+    "orig__on": {
+      "min_period_ns": 0.532,
+      "probe": "probed p0.2841, wns=-0.248"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.77,
+      "probe": "probed p0.5682, wns=-0.202"
+    },
+    "directive__off": {
+      "min_period_ns": 0.532,
+      "probe": "probed p0.2841, wns=-0.248"
+    }
+  },
+  "r13_retime_around_sram": {
+    "orig__off": {
+      "min_period_ns": 0.59,
+      "probe": "probed p0.5742, wns=-0.016"
+    }
+  }
+}

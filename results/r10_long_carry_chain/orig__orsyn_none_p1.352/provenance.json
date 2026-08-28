@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-22T00:47:04Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r10.sdc",
+  "sdc_sha1": "51b0e201e718",
+  "rtl": [{"file": "r10_long_carry_chain.sv", "sha1": "54faf83b8339"}]
+}

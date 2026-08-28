@@ -1,0 +1,18 @@
+{
+  "tool": "yosys",
+  "top": "r13_retime_around_sram",
+  "area_um2": 4700.486,
+  "num_cells": 1874,
+  "tool_version": "0.58",
+  "wns_ns": -0.3197,
+  "timing_status": "VIOLATED",
+  "tns_ns": -4.8032,
+  "data_path_ns": 1.2693,
+  "critical_endpoint": "_4118_",
+  "power_mw": 8.82,
+  "power_switching_mw": 1.6900000000000002,
+  "power_mode": "vectorless",
+  "wall_seconds": 4.0,
+  "runtime_total_s": 2.0,
+  "retime_mode": "on"
+}

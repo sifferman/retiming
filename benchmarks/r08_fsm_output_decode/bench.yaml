@@ -1,0 +1,32 @@
+id: r08
+name: fsm_output_decode
+class: "B - FSM output decode"
+top: r08_fsm_output_decode
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  The FSM's Mealy output decode, not its next-state logic, is the critical path. The decode is a pure feed-forward cone and is fully retimable, but tools tend to treat it as fused to the state machine.
+
+constraints:
+  asic:
+    clock_period_ns: 0.891
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 4.0
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Legal strict retiming: split the decode and move the output register into its middle. The reference derives the moved register's reset value as a pre-image, since the second half of the decode is invertible.

@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-21T17:01:35Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r26.sdc",
+  "sdc_sha1": "065c9ace944f",
+  "rtl": [{"file": "r26_sdc_exception_invalidation.sv", "sha1": "43161527f1ac"}]
+}

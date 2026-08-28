@@ -1,0 +1,32 @@
+id: r03
+name: async_reset_blocker
+class: "A - reset / initial state"
+top: r03_async_reset_blocker
+latency_preserving: true
+density_target: 0.55
+
+description: |
+  Identical unbalanced shape to r01, but the register that must move backward has an ASYNCHRONOUS reset. On Artix-7 an async reset forbids control-set remapping outright; on gf180mcu it forces the dffrnq cell.
+
+constraints:
+  asic:
+    clock_period_ns: 1.046
+    core_density: 0.55
+    input_delay_frac: 0.15   # of clock period
+    output_delay_frac: 0.15  # of clock period
+    max_fanout: 20
+    library: NangateOpenCellLibrary_typical (nangate45, primary)
+    library_archived: gf180mcu_fd_sc_mcu9t5v0 (tt_025C_5v00)
+  fpga:
+    clock_period_ns: 3.5
+    part: xc7a100tcsg324-1
+    part_usplus: xcau7p-fcva289-1-e
+
+variants:
+  orig:      variants/orig
+  retimed:   variants/retimed
+  directive: variants/directive
+
+primary_metric: fmax
+expected: |
+  Genus gates this on retime_async_reset (default true). Vivado's coding guidelines explicitly advise against async reset because control-set remapping becomes impossible, so the Artix-7 result is expected to be worse than r01's.

@@ -1,0 +1,3458 @@
+[
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.407,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.997,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.65,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.356,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.104,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.904,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.407,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.997,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.65,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.356,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.104,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.904,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.407,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.997,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.65,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.356,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.104,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r01_reset_backward_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.904,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.443,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.027,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.675,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.376,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.12,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.918,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.443,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.027,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.675,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.376,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.12,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.918,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.443,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.027,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.675,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.376,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.12,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r02_reset_no_valid_init",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.918,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.395,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.987,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.642,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.349,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.098,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.9,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.395,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.987,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.642,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.349,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.098,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.9,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.395,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.987,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.642,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.349,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.098,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r03_async_reset_blocker",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.9,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.361,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.959,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.619,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.33,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.083,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.887,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.361,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.959,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.619,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.33,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.083,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.887,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.361,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.959,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.619,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.33,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.083,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r04_init_only_no_reset",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.887,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.296,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.075,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.889,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.73,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.594,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.296,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.075,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.889,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.73,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.594,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.296,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.075,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.889,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.73,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.594,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r05_fsm_high_fanout",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.169,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.799,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.222,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.994,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.814,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.169,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.799,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.222,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.994,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.814,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.169,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.799,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.222,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.994,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r06_fsm_high_fanin",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.814,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.04,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.693,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.399,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.149,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.936,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.766,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.04,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.693,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.399,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.149,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.936,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.766,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.04,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.693,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.399,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.149,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.936,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r08_fsm_output_decode",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.766,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.34,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.942,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.605,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.318,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.073,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.879,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.34,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.942,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.605,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.318,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.073,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.879,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.34,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.942,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.605,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.318,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.073,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r09_unbalanced_mult_pipe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.879,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.972,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.636,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.352,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.111,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.904,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.74,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.972,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.636,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.352,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.111,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.904,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.74,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.972,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.636,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.352,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.111,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.904,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r10_long_carry_chain",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.74,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 9.027,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.49,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.189,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.085,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.139,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.39,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 9.027,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.49,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.189,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.085,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.139,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.39,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 9.027,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 7.49,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 6.189,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 5.085,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 4.139,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r11_deep_retime_distance",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 3.39,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.098,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.74,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.438,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.182,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.962,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.788,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.098,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.74,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.438,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.182,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.962,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.788,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.098,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.74,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.438,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.182,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.962,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r12_wide_reduction_tree",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.788,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.192,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.818,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.502,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.235,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.005,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.823,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.192,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.818,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.502,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.235,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.005,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.823,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.192,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.818,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.502,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.235,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.005,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r13_retime_around_sram",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.823,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.45,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.033,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.68,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.38,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.124,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.92,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.45,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.033,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.68,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.38,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.124,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.92,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.45,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.033,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.68,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.38,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.124,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r15_hier_boundary_block",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.92,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.034,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.687,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.394,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.146,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.932,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.764,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.034,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.687,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.394,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.146,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.932,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.764,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.034,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.687,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.394,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.146,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.932,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r16_dont_touch_conflict",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.764,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.441,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.025,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.674,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.375,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.119,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.917,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.441,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.025,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.674,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.375,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.119,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.917,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.441,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.025,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.674,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.375,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.119,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r17_clock_enable_barrier",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.917,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.416,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.004,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.656,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.361,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.108,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.907,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.416,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.004,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.656,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.361,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.108,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.907,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.416,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.004,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.656,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.361,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.108,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r18_clock_gated_region",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.907,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.617,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.341,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.108,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.911,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.741,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.607,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.617,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.341,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.108,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.911,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.741,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.607,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.617,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.341,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.108,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.911,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.741,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r19_power_activity_retime",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.607,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.351,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.121,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.926,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.761,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.619,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.507,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.351,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.121,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.926,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.761,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.619,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.507,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.351,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.121,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.926,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.761,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.619,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r20_glitch_absorb",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.507,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.793,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.488,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.229,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.01,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.822,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.673,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.793,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.488,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.229,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.01,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.822,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.673,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.793,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.488,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.229,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.01,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.822,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r21_wire_pipeline_cross_die",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.673,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.569,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.302,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.075,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.884,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.719,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.589,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.569,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.302,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.075,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.884,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.719,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.589,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.569,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.302,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.075,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.884,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.719,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r22_fanout_wire_load",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.589,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.998,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.055,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.689,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.374,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.126,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.998,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.055,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.689,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.374,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.126,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.998,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.487,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.055,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.689,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.374,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r24_loop_bound_control",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.126,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.681,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.395,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.152,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.947,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.771,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.631,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.681,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.395,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.152,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.947,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.771,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.631,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.681,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.395,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.152,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.947,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.771,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r26_sdc_exception_invalidation",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.631,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.489,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.065,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.707,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.402,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.141,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.935,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.489,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.065,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.707,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.402,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.141,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.935,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.489,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 2.065,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.707,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.402,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.141,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r27_exception_scope_probe",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.935,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.262,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.047,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.865,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.711,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.579,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "orig",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.474,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.262,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.047,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.865,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.711,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.579,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "directive",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.474,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.262,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 1.047,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.865,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.711,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.579,
+    "error": "no metrics"
+  },
+  {
+    "bench": "r28_congestion_wire_split",
+    "variant": "retimed",
+    "mode": "none",
+    "tool": "openroad_syn",
+    "period": 0.474,
+    "error": "no metrics"
+  }
+]

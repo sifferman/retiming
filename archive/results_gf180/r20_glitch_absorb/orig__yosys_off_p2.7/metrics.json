@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r20_glitch_absorb",
+  "area_um2": 10358.208,
+  "num_cells": 420,
+  "num_seq": 48,
+  "tool_version": "0.58",
+  "wns_ns": -3.7115,
+  "timing_status": "VIOLATED",
+  "tns_ns": -108.6214,
+  "data_path_ns": 6.1059,
+  "critical_endpoint": "_483_",
+  "power_mw": 63.0,
+  "power_switching_mw": 19.400000000000002,
+  "power_mode": "vectorless",
+  "wall_seconds": 6.0,
+  "runtime_total_s": 6.0,
+  "retime_mode": "off"
+}

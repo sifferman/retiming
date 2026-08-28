@@ -1,0 +1,19 @@
+{
+  "tool": "yosys",
+  "top": "r10_long_carry_chain",
+  "area_um2": 31754.8224,
+  "num_cells": 827,
+  "num_seq": 64,
+  "tool_version": "0.58",
+  "wns_ns": 0.942,
+  "timing_status": "MET",
+  "tns_ns": 0.0,
+  "data_path_ns": 4.7612,
+  "critical_endpoint": "_2383_",
+  "power_mw": 31.6,
+  "power_switching_mw": 11.5,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "on"
+}

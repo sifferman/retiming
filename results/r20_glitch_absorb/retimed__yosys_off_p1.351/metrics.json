@@ -1,0 +1,13 @@
+{
+  "tool": "yosys",
+  "wns_ns": 0.6695,
+  "timing_status": "MET",
+  "tns_ns": 0.0,
+  "data_path_ns": 0.6104,
+  "top": "r20_glitch_absorb",
+  "area_um2": 500.878,
+  "num_cells": 421,
+  "num_ffs": 48,
+  "tool_version": "0.58",
+  "wall_seconds": 2.0
+}

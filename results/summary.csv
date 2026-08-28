@@ -1,0 +1,404 @@
+bench,class,latency_preserving,primary_metric,tool,variant,mode,stress_period_ns,timing_status,tns_reg2reg,wns_reg2reg,violating_paths,num_ffs,num_ffs_pre_syn,cells,area_um2,wirelength_um,power_mw,compile_seconds,route_share_pct,overflow_route,overflow_h_pct,overflow_v_pct,congestion_max_level,achieved_density_pct
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,innovus-nangate45,directive,off,0.1539,VIOLATED,-3.679,-0.16,28.0,48,,693,,3798.11,8.51813206,113.0,0.87,0,0.0,0.0,,86.222
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,innovus-nangate45,orig,off,0.1539,VIOLATED,-0.052,-0.01,8.0,24,,672,,3099.14,14.75803008,110.0,1.43,0,0.0,0.0,,93.1
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,innovus-nangate45,orig,on,0.1539,VIOLATED,-3.679,-0.16,28.0,48,,693,,3798.11,8.51813206,112.0,0.87,0,0.0,0.0,,86.222
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,innovus-nangate45,retimed,off,0.1539,VIOLATED,-1.478,-0.191,8.0,24,,661,,3094.39,8.98604677,2702.0,0.32,0,0.0,0.0,,99.647
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-163.109,-4.549,,32,,84,,,136.0,351.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-163.109,-4.549,,32,,84,,,136.0,351.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-163.109,-4.549,,32,,84,,,136.0,353.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-160.936,-3.198,,32,,84,,,138.0,337.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-70.254,-2.241,,51,,113,,,178.0,269.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-70.254,-2.241,,51,,113,,,178.0,277.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-70.254,-2.241,,51,,113,,,178.0,281.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado-xcau7p,retimed,off,4.0,VIOLATED,-54.968,-0.816,,51,,70,,,178.0,297.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,2.698,,32,,84,,,105.0,39.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,2.698,,32,,84,,,105.0,35.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,2.698,,32,,84,,,105.0,35.0,,,,,,
+r01_reset_backward_barrier,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,4.592,,32,,84,,,106.0,34.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,innovus-nangate45,directive,off,0.1496,VIOLATED,-3.656,-0.16,28.0,55,,677,,3460.58,8.51443593,106.0,0.98,0,0.0,0.0,,88.524
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,innovus-nangate45,orig,off,0.1496,VIOLATED,-0.095,-0.017,8.0,24,,628,,3162.49,14.51843972,103.0,0.86,0,0.0,0.0,,94.145
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,innovus-nangate45,orig,on,0.1496,VIOLATED,-3.656,-0.16,28.0,55,,677,,3460.58,8.51443593,106.0,0.98,0,0.0,0.0,,88.524
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,innovus-nangate45,retimed,off,0.1496,VIOLATED,-1.526,-0.201,8.0,25,,697,,4085.98,9.54485736,129.0,0.92,0,0.0,0.0,,99.085
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xc7a100t,directive,on,3.5,VIOLATED,-175.847,-4.846,,32,,84,,,142.0,498.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,off,3.5,VIOLATED,-175.847,-4.846,,32,,84,,,142.0,347.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,on,3.5,VIOLATED,-175.847,-4.846,,32,,84,,,142.0,506.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xc7a100t,retimed,off,3.5,VIOLATED,-174.022,-3.654,,33,,84,,,145.0,513.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xcau7p,directive,on,3.5,VIOLATED,-81.655,-2.788,,51,,120,,,184.0,295.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xcau7p,orig,off,3.5,VIOLATED,-81.655,-2.788,,51,,120,,,184.0,284.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xcau7p,orig,on,3.5,VIOLATED,-81.655,-2.788,,51,,120,,,184.0,286.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado-xcau7p,retimed,off,3.5,VIOLATED,-77.558,-1.803,,52,,76,,,184.0,312.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,directive,on,10.5,MET,0.0,1.755,,32,,84,,,108.0,34.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,off,10.5,MET,0.0,1.755,,32,,84,,,108.0,35.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,on,10.5,MET,0.0,1.755,,32,,84,,,108.0,41.0,,,,,,
+r02_reset_no_valid_init,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,retimed,off,10.5,MET,0.0,3.129,,33,,84,,,108.0,38.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,innovus-nangate45,directive,off,0.159,VIOLATED,-3.772,-0.165,28.0,51,,580,,3202.74,7.69362454,126.0,1.42,0,0.0,0.0,,91.378
+r03_async_reset_blocker,A - reset / initial state,true,fmax,innovus-nangate45,orig,off,0.159,VIOLATED,0.0,0.006,0.0,24,,677,,3201.075,14.71397149,116.0,1.59,0,0.0,0.0,,93.302
+r03_async_reset_blocker,A - reset / initial state,true,fmax,innovus-nangate45,orig,on,0.159,VIOLATED,-3.772,-0.165,28.0,51,,580,,3202.74,7.69362454,125.0,1.42,0,0.0,0.0,,91.378
+r03_async_reset_blocker,A - reset / initial state,true,fmax,innovus-nangate45,retimed,off,0.159,VIOLATED,-1.357,-0.179,8.0,24,,614,,3003.975,8.26035845,1144.0,0.0,0,0.0,0.0,,100.121
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xc7a100t,directive,on,3.5,VIOLATED,-186.501,-5.069,,32,,84,,,142.0,349.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,off,3.5,VIOLATED,-186.501,-5.069,,32,,84,,,142.0,431.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,on,3.5,VIOLATED,-186.501,-5.069,,32,,84,,,142.0,383.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xc7a100t,retimed,off,3.5,VIOLATED,-181.814,-3.757,,32,,84,,,144.0,380.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xcau7p,directive,on,3.5,VIOLATED,-86.812,-2.639,,51,,113,,,183.0,273.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xcau7p,orig,off,3.5,VIOLATED,-86.812,-2.639,,51,,113,,,183.0,281.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xcau7p,orig,on,3.5,VIOLATED,-86.812,-2.639,,51,,113,,,183.0,264.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado-xcau7p,retimed,off,3.5,VIOLATED,-75.315,-1.662,,51,,70,,,183.0,268.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,directive,on,10.5,MET,0.0,1.704,,32,,84,,,108.0,43.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,off,10.5,MET,0.0,1.704,,32,,84,,,108.0,42.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,on,10.5,MET,0.0,1.704,,32,,84,,,108.0,36.0,,,,,,
+r03_async_reset_blocker,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,retimed,off,10.5,MET,0.0,3.137,,32,,84,,,108.0,41.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,innovus-nangate45,directive,off,0.126,VIOLATED,-4.042,-0.194,26.0,50,,632,,3181.25,10.36945492,202.0,0.79,0,0.0,0.0,,88.365
+r04_init_only_no_reset,A - reset / initial state,true,fmax,innovus-nangate45,orig,off,0.126,VIOLATED,-0.174,-0.023,8.0,24,,696,,3151.69,19.15517289,189.0,0.36,0,0.0,0.0,,90.607
+r04_init_only_no_reset,A - reset / initial state,true,fmax,innovus-nangate45,orig,on,0.126,VIOLATED,-4.042,-0.194,26.0,50,,632,,3181.25,10.36945492,200.0,0.79,0,0.0,0.0,,88.365
+r04_init_only_no_reset,A - reset / initial state,true,fmax,innovus-nangate45,retimed,off,0.126,VIOLATED,-1.724,-0.228,8.0,24,,639,,3213.56,10.46010868,228.0,0.0,0,0.0,0.0,,98.804
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xc7a100t,directive,on,3.5,VIOLATED,-177.252,-5.03,,32,,83,,,141.0,356.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,off,3.5,VIOLATED,-177.252,-5.03,,32,,83,,,141.0,357.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xc7a100t,orig,on,3.5,VIOLATED,-177.252,-5.03,,32,,83,,,141.0,362.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xc7a100t,retimed,off,3.5,VIOLATED,-195.981,-3.491,,32,,83,,,155.0,331.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xcau7p,directive,on,3.5,VIOLATED,-90.362,-2.847,,50,,113,,,184.0,269.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xcau7p,orig,off,3.5,VIOLATED,-90.362,-2.847,,50,,113,,,184.0,270.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xcau7p,orig,on,3.5,VIOLATED,-90.362,-2.847,,50,,113,,,184.0,271.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado-xcau7p,retimed,off,3.5,VIOLATED,-71.771,-1.439,,50,,70,,,183.0,241.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,directive,on,10.5,MET,0.0,1.541,,32,,83,,,107.0,35.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,off,10.5,MET,0.0,1.541,,32,,83,,,107.0,85.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,orig,on,10.5,MET,0.0,1.541,,32,,83,,,107.0,41.0,,,,,,
+r04_init_only_no_reset,A - reset / initial state,true,fmax,vivado2023.1-xc7a100t,retimed,off,10.5,MET,0.0,2.891,,32,,83,,,108.0,38.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,innovus-nangate45,directive,off,0.1849,VIOLATED,-1.071,-0.032,78.0,166,,1108,,11330.335,15.09301588,198.0,0.32,1,0.08,0.0,,86.675
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,innovus-nangate45,orig,off,0.1849,VIOLATED,-6.281,-0.18,54.0,70,,1046,,9332.335,12.18849886,211.0,0.42,0,0.0,0.0,,95.007
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,innovus-nangate45,orig,on,0.1849,VIOLATED,-1.209,-0.035,72.0,163,,1120,,11380.025,14.38402296,200.0,0.59,1,0.06,0.0,,84.565
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,innovus-nangate45,retimed,off,0.1849,VIOLATED,-8.421,-0.18,89.0,118,,1221,,11018.89,15.25653667,220.0,0.67,0,0.0,0.0,,95.094
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xc7a100t,directive,on,5.0,VIOLATED,-378.594,-3.036,,99,,192,,,168.0,360.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xc7a100t,orig,off,5.0,VIOLATED,-265.756,-1.341,,70,,187,,,168.0,378.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xc7a100t,orig,on,5.0,VIOLATED,-265.756,-1.341,,70,,187,,,168.0,362.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xc7a100t,retimed,off,5.0,VIOLATED,-275.097,-2.149,,117,,217,,,176.0,363.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xcau7p,directive,on,5.0,MET,-37.386,0.714,,122,,191,,,241.0,268.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xcau7p,orig,off,5.0,MET,-37.454,1.591,,93,,186,,,240.0,255.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xcau7p,orig,on,5.0,MET,-37.454,1.591,,93,,186,,,240.0,259.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado-xcau7p,retimed,off,5.0,MET,-37.28,0.9,,140,,216,,,250.0,252.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado2023.1-xc7a100t,directive,on,10.0,MET,0.0,2.482,,99,,192,,,119.0,40.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado2023.1-xc7a100t,orig,off,10.0,MET,0.0,3.399,,70,,187,,,118.0,46.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado2023.1-xc7a100t,orig,on,10.0,MET,0.0,3.399,,70,,187,,,118.0,36.0,,,,,,
+r05_fsm_high_fanout,"B/H - FSM fanout, register duplication",true,wirelength,vivado2023.1-xc7a100t,retimed,off,10.0,MET,0.0,3.166,,117,,217,,,122.0,37.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,innovus-nangate45,directive,off,0.1798,VIOLATED,-2.961,-0.329,10.0,75,,2306,,15949.045,32.98665815,191.0,9.13,0,0.0,0.0,,95.567
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,innovus-nangate45,orig,off,0.1798,VIOLATED,-3.64,-0.614,6.0,70,,3204,,20263.21,73.10041292,4378.0,0.84,0,0.0,0.0,,99.044
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,innovus-nangate45,orig,on,0.1798,VIOLATED,-2.961,-0.329,10.0,75,,2306,,15949.045,32.98665815,190.0,9.13,0,0.0,0.0,,95.567
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,innovus-nangate45,retimed,off,0.1798,VIOLATED,-0.017,-0.009,3.0,10,,2644,,16743.335,54.62994162,116.0,0.9,0,0.0,0.0,,94.985
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-88.077,-6.417,,72,,237,,,179.0,413.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-88.077,-6.417,,72,,237,,,179.0,420.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-88.077,-6.417,,72,,237,,,179.0,398.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-49.253,-3.382,,13,,244,,,116.0,411.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-17.281,-1.341,,137,,235,,,155.0,269.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-17.281,-1.341,,137,,235,,,155.0,283.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-17.281,-1.341,,137,,235,,,155.0,285.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado-xcau7p,retimed,off,4.0,VIOLATED,-20.645,-1.584,,77,,245,,,155.0,264.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,0.679,,70,,234,,,98.0,39.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,0.679,,70,,234,,,98.0,41.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,0.679,,70,,234,,,98.0,38.0,,,,,,
+r06_fsm_high_fanin,B - FSM fanin,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,2.199,,10,,235,,,97.0,36.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,innovus-nangate45,directive,off,0.2415,VIOLATED,-1.189,-0.099,24.0,98,,892,,5767.7,8.45603893,24.0,0.62,0,0.0,0.0,,86.72
+r08_fsm_output_decode,B - FSM output decode,true,fmax,innovus-nangate45,orig,off,0.2415,VIOLATED,-7.283,-0.462,17.0,74,,939,,5722.64,15.37297144,26.0,0.37,0,0.0,0.0,,97.901
+r08_fsm_output_decode,B - FSM output decode,true,fmax,innovus-nangate45,orig,on,0.2415,VIOLATED,-1.189,-0.099,24.0,98,,892,,5767.7,8.45603893,28.0,0.62,0,0.0,0.0,,86.72
+r08_fsm_output_decode,B - FSM output decode,true,fmax,innovus-nangate45,retimed,off,0.2415,VIOLATED,-2.096,-0.144,16.0,74,,813,,5094.505,7.40664708,22.0,1.45,0,0.0,0.0,,84.792
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-209.399,-7.189,,39,,80,,,157.0,330.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-209.399,-7.189,,39,,80,,,157.0,327.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-209.399,-7.189,,39,,80,,,157.0,358.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-230.363,-3.228,,38,,80,,,157.0,352.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-26.101,-0.061,,61,,106,,,171.0,197.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-26.101,-0.061,,61,,106,,,171.0,183.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-26.101,-0.061,,61,,106,,,171.0,170.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado-xcau7p,retimed,off,4.0,MET,-62.583,0.404,,72,,98,,,175.0,234.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,0.603,,38,,80,,,106.0,39.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,0.603,,38,,80,,,106.0,41.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,0.603,,38,,80,,,106.0,35.0,,,,,,
+r08_fsm_output_decode,B - FSM output decode,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,-46.962,3.61,,38,,80,,,106.0,37.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,directive,off,0.203,VIOLATED,-14.36,-0.109,264.0,526,,3878,,31200.775,45.82728534,21.0,8.51,0,0.0,0.0,,85.759
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,orig,off,0.203,VIOLATED,-16.928,-0.494,64.0,192,,4348,,30663.9,64.87239672,19.0,1.61,0,0.0,0.0,,94.084
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,orig,on,0.203,VIOLATED,-14.36,-0.109,264.0,526,,3878,,31200.775,45.82728534,22.0,8.51,0,0.0,0.0,,85.759
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,retimed,off,0.203,VIOLATED,-21.069,-0.409,80.0,208,,4860,,32343.76,59.77884108,21.0,1.51,0,0.0,0.0,,94.041
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-233.007,-3.506,,33,,17,,,242.0,321.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-233.007,-3.506,,33,,17,,,242.0,333.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-233.007,-3.506,,33,,17,,,242.0,304.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-266.025,-2.723,,35,,17,,,231.0,334.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,directive,on,4.0,MET,-46.016,0.162,,105,,16,,,282.0,190.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,orig,off,4.0,MET,-46.016,0.162,,105,,16,,,282.0,182.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,orig,on,4.0,MET,-46.016,0.162,,105,,16,,,282.0,184.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,retimed,off,4.0,MET,-46.016,0.023,,117,,16,,,262.0,179.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,7.065,,33,,17,,,118.0,43.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,7.065,,33,,17,,,118.0,44.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,orig,on,5.2,VIOLATED,-155.378,-1.519,,33,,17,,,155.0,67.0,,,,,,
+r09_unbalanced_mult_pipe,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,6.839,,35,,17,,,120.0,42.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,directive,off,0.1001,VIOLATED,-6.935,-0.129,87.0,165,,1855,,12684.855,38.39218844,232.0,1.08,2,0.07,0.0,,80.884
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,orig,off,0.1001,VIOLATED,-0.865,-0.033,32.0,64,,2021,,11700.675,57.98823859,204.0,0.57,0,0.0,0.0,,91.807
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,orig,on,0.1001,VIOLATED,-6.935,-0.129,87.0,165,,1855,,12684.855,38.39218844,222.0,1.08,2,0.07,0.0,,80.884
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,retimed,off,0.1001,VIOLATED,-7.025,-0.248,32.0,96,,2204,,14698.555,51.83604139,264.0,0.92,1,0.04,0.0,,88.252
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-252.392,-2.83,,64,,140,,,250.0,360.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-252.392,-2.83,,64,,140,,,250.0,310.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-252.392,-2.83,,64,,140,,,250.0,327.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-342.534,-2.913,,96,,142,,,315.0,354.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,4.29,,64,,140,,,122.0,40.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,4.29,,64,,140,,,122.0,38.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,4.29,,64,,140,,,122.0,35.0,,,,,,
+r10_long_carry_chain,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,4.688,,96,,142,,,124.0,70.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,innovus-nangate45,directive,off,0.1106,VIOLATED,-90.18,-0.842,127.0,186,,6553,,35439.285,296.69049871,574.0,0.89,2,0.04,0.0,,97.757
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,innovus-nangate45,orig,off,0.1106,VIOLATED,-1.082,-0.031,64.0,96,,6732,,37335.87,650.69398998,481.0,0.91,0,0.0,0.0,,98.56
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,innovus-nangate45,orig,on,0.1106,VIOLATED,-90.18,-0.842,127.0,186,,6553,,35439.285,296.69049871,569.0,0.89,2,0.04,0.0,,97.757
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,innovus-nangate45,retimed,off,0.1106,VIOLATED,-51.893,-0.866,64.0,96,,6331,,31739.765,257.31402306,605.0,0.89,0,0.0,0.0,,93.517
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xc7a100t,directive,on,3.5,VIOLATED,-1823.658,-49.956,,96,,582,,,219.0,571.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xc7a100t,orig,off,3.5,VIOLATED,-1823.658,-49.956,,96,,582,,,219.0,543.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xc7a100t,orig,on,3.5,VIOLATED,-1823.658,-49.956,,96,,582,,,219.0,568.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xc7a100t,retimed,off,3.5,VIOLATED,-1715.438,-12.789,,97,,582,,,211.0,758.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xcau7p,directive,on,3.5,VIOLATED,-648.021,-17.796,,131,,581,,,232.0,279.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xcau7p,orig,off,3.5,VIOLATED,-648.021,-17.796,,131,,581,,,232.0,293.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xcau7p,orig,on,3.5,VIOLATED,-648.021,-17.796,,131,,581,,,232.0,291.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado-xcau7p,retimed,off,3.5,VIOLATED,-518.672,-4.026,,132,,581,,,231.0,278.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado2023.1-xc7a100t,directive,on,10.5,VIOLATED,-1354.584,-43.095,,96,,582,,,133.0,45.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado2023.1-xc7a100t,orig,off,10.5,VIOLATED,-1354.584,-43.095,,96,,582,,,133.0,57.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado2023.1-xc7a100t,orig,on,10.5,VIOLATED,-1354.584,-43.095,,96,,582,,,133.0,46.0,,,,,,
+r11_deep_retime_distance,C - retiming distance / effort limit,true,fmax,vivado2023.1-xc7a100t,retimed,off,10.5,VIOLATED,-696.216,-5.548,,97,,582,,,131.0,41.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,directive,off,0.1032,VIOLATED,-2.385,-0.149,19.0,50,,837,,4378.0,16.8841684,182.0,0.56,0,0.0,0.0,,81.867
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,orig,off,0.1032,VIOLATED,-0.165,-0.03,7.0,15,,894,,4632.2,35.10539499,180.0,0.24,2,0.15,0.0,,93.536
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,orig,on,0.1032,VIOLATED,-2.385,-0.149,19.0,50,,837,,4378.0,16.8841684,194.0,0.56,0,0.0,0.0,,81.867
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,innovus-nangate45,retimed,off,0.1032,VIOLATED,-1.341,-0.22,7.0,28,,942,,4570.79,17.76162883,204.0,0.4,0,0.0,0.0,,88.62
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-85.529,-2.156,,18,,114,,,156.0,402.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-85.529,-2.156,,18,,114,,,156.0,380.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-85.529,-2.156,,18,,114,,,156.0,365.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-72.759,-1.604,,31,,119,,,161.0,449.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-30.277,-1.166,,85,,113,,,163.0,232.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-30.277,-1.166,,85,,113,,,163.0,221.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-30.277,-1.166,,85,,113,,,163.0,226.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado-xcau7p,retimed,off,4.0,VIOLATED,-30.778,-0.743,,98,,116,,,164.0,244.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,0.637,,27,,574,,,110.0,40.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,0.637,,27,,574,,,110.0,41.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,0.637,,27,,574,,,110.0,39.0,,,,,,
+r12_wide_reduction_tree,C - classical unbalanced pipeline,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,2.644,,58,,566,,,113.0,46.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,innovus-nangate45,directive,off,0.1771,VIOLATED,-11.37,-0.086,437.0,2176,,5176,,61238.645,128.91960824,19.0,2.0,0,0.0,0.0,,78.658
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,innovus-nangate45,orig,off,0.1771,VIOLATED,-49.16,-0.186,869.0,598,,2372,,33526.565,50.07154022,22.0,0.78,0,0.0,0.0,,89.494
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,innovus-nangate45,orig,on,0.1771,VIOLATED,-11.37,-0.086,437.0,2176,,5176,,61238.645,128.91960824,20.0,2.0,0,0.0,0.0,,78.658
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,innovus-nangate45,retimed,off,0.1771,VIOLATED,-94.892,-0.305,762.0,609,,2747,,38896.34,53.16193573,19.0,0.69,0,0.0,0.0,,94.854
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-202.735,-3.323,,61,,70,,,126.0,392.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-202.735,-3.323,,61,,70,,,126.0,435.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-202.735,-3.323,,61,,70,,,126.0,413.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-187.563,-2.623,,72,,70,,,141.0,466.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-53.683,-2.497,,93,,61,,,155.0,223.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-53.683,-2.497,,93,,61,,,155.0,228.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-53.683,-2.497,,93,,61,,,155.0,221.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado-xcau7p,retimed,off,4.0,VIOLATED,-47.935,-0.524,,104,,47,,,156.0,207.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,4.333,,61,,70,,,96.0,34.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,4.333,,61,,70,,,96.0,84.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,4.333,,61,,70,,,96.0,40.0,,,,,,
+r13_retime_around_sram,D - memory / macro boundary,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,5.109,,72,,70,,,96.0,34.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,innovus-nangate45,directive,off,0.1275,VIOLATED,-4.357,-0.203,26.0,60,,689,,3743.685,11.45557136,738.0,1.12,0,0.0,0.0,,90.374
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,innovus-nangate45,orig,off,0.1275,VIOLATED,-0.3,-0.041,8.0,24,,707,,3682.325,19.58429415,668.0,0.33,0,0.0,0.0,,93.889
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,innovus-nangate45,orig,on,0.1275,VIOLATED,-4.357,-0.203,26.0,60,,689,,3743.685,11.45557136,748.0,1.12,0,0.0,0.0,,90.374
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,innovus-nangate45,retimed,off,0.1821,VIOLATED,-1.459,-0.193,8.0,24,,654,,3388.04,7.27509078,728.0,0.0,0,0.0,0.0,,98.58
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xc7a100t,directive,on,3.5,VIOLATED,-182.628,-5.106,,32,,84,,,142.0,398.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xc7a100t,orig,off,3.5,VIOLATED,-182.628,-5.106,,32,,84,,,142.0,443.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xc7a100t,orig,on,3.5,VIOLATED,-182.628,-5.106,,32,,84,,,142.0,424.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xc7a100t,retimed,off,3.5,VIOLATED,-180.682,-3.811,,32,,84,,,144.0,373.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xcau7p,directive,on,3.5,VIOLATED,-85.846,-2.645,,51,,113,,,183.0,213.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xcau7p,orig,off,3.5,VIOLATED,-85.846,-2.645,,51,,113,,,183.0,223.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xcau7p,orig,on,3.5,VIOLATED,-85.846,-2.645,,51,,113,,,183.0,224.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado-xcau7p,retimed,off,3.5,VIOLATED,-74.874,-1.499,,51,,70,,,184.0,208.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado2023.1-xc7a100t,directive,on,10.5,MET,0.0,1.877,,32,,84,,,108.0,41.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado2023.1-xc7a100t,orig,off,10.5,MET,0.0,1.877,,32,,84,,,108.0,40.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado2023.1-xc7a100t,orig,on,10.5,MET,0.0,1.877,,32,,84,,,108.0,35.0,,,,,,
+r15_hier_boundary_block,E - hierarchy boundary,true,fmax,vivado2023.1-xc7a100t,retimed,off,10.5,MET,0.0,2.911,,32,,84,,,108.0,35.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,innovus-nangate45,directive,off,0.3229,VIOLATED,-1.614,-0.065,41.0,70,,875,,4808.215,5.6981716,107.0,1.21,0,0.0,0.0,,86.922
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,innovus-nangate45,orig,off,0.3229,VIOLATED,-5.217,-0.336,24.0,48,,1050,,6010.86,10.68003277,144.0,0.25,0,0.0,0.0,,95.007
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,innovus-nangate45,orig,on,0.3229,VIOLATED,-1.614,-0.065,41.0,70,,875,,4808.215,5.6981716,111.0,1.21,0,0.0,0.0,,86.922
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,innovus-nangate45,retimed,off,0.3229,VIOLATED,-1.257,-0.132,21.0,48,,941,,5326.465,6.85916182,132.0,0.0,0,0.0,0.0,,96.398
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xc7a100t,directive,on,3.5,VIOLATED,-256.467,-8.302,,48,,92,,,160.0,847.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xc7a100t,orig,off,3.5,VIOLATED,-256.467,-8.302,,48,,92,,,160.0,852.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xc7a100t,orig,on,3.5,VIOLATED,-256.467,-8.302,,48,,92,,,160.0,867.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xc7a100t,retimed,off,3.5,VIOLATED,-265.992,-5.438,,48,,92,,,161.0,388.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xcau7p,directive,on,3.5,VIOLATED,-56.295,-0.624,,67,,130,,,184.0,416.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xcau7p,orig,off,3.5,VIOLATED,-56.295,-0.624,,67,,130,,,184.0,417.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xcau7p,orig,on,3.5,VIOLATED,-56.295,-0.624,,67,,130,,,184.0,408.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado-xcau7p,retimed,off,3.5,VIOLATED,-70.826,-0.449,,70,,94,,,182.0,438.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado2023.1-xc7a100t,directive,on,10.5,VIOLATED,-9.38,-0.933,,48,,92,,,108.0,40.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado2023.1-xc7a100t,orig,off,10.5,VIOLATED,-9.38,-0.933,,48,,92,,,108.0,43.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado2023.1-xc7a100t,orig,on,10.5,VIOLATED,-9.38,-0.933,,48,,92,,,108.0,49.0,,,,,,
+r16_dont_touch_conflict,E - preservation conflict,true,fmax,vivado2023.1-xc7a100t,retimed,off,10.5,MET,-53.163,1.002,,48,,92,,,108.0,41.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,innovus-nangate45,directive,off,0.1714,VIOLATED,-4.034,-0.189,36.0,53,,799,,4501.015,8.73821126,214.0,0.76,0,0.0,0.0,,90.904
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,innovus-nangate45,orig,off,0.1714,VIOLATED,-0.064,-0.016,8.0,24,,825,,4032.61,16.58033754,206.0,1.2,0,0.0,0.0,,95.015
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,innovus-nangate45,orig,on,0.1714,VIOLATED,-4.034,-0.189,36.0,53,,799,,4501.015,8.73821126,217.0,0.76,0,0.0,0.0,,90.904
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,innovus-nangate45,retimed,off,0.1714,VIOLATED,-2.179,-0.24,23.0,24,,746,,3993.665,7.94818117,239.0,0.29,0,0.0,0.0,,98.79
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-161.98,-4.457,,32,,84,,,137.0,354.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-161.98,-4.457,,32,,84,,,137.0,384.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-161.98,-4.457,,32,,84,,,137.0,376.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-153.668,-3.375,,32,,84,,,138.0,353.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-73.504,-2.238,,52,,113,,,177.0,405.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-73.504,-2.238,,52,,113,,,177.0,220.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-73.504,-2.238,,52,,113,,,177.0,408.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado-xcau7p,retimed,off,4.0,VIOLATED,-55.657,-0.813,,52,,70,,,178.0,420.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,2.849,,32,,84,,,105.0,71.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,2.849,,32,,84,,,105.0,34.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,2.849,,32,,84,,,105.0,38.0,,,,,,
+r17_clock_enable_barrier,F - secondary control signals,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,4.768,,32,,84,,,105.0,35.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,innovus-nangate45,directive,off,0.2209,VIOLATED,-2.079,-0.13,33.0,61,,921,,5024.1,9.64707161,300.0,0.91,0,0.0,0.0,,92.717
+r18_clock_gated_region,F - clock gating,true,fmax,innovus-nangate45,orig,off,0.2209,VIOLATED,-1.233,-0.069,28.0,49,,841,,4505.94,12.00108987,298.0,0.34,0,0.0,0.0,,96.101
+r18_clock_gated_region,F - clock gating,true,fmax,innovus-nangate45,orig,on,0.2209,VIOLATED,-2.079,-0.13,33.0,61,,921,,5024.1,9.64707161,305.0,0.91,0,0.0,0.0,,92.717
+r18_clock_gated_region,F - clock gating,true,fmax,innovus-nangate45,retimed,off,0.2209,VIOLATED,-6.513,-0.249,32.0,49,,973,,5736.06,9.4626992,349.0,5.49,0,0.0,0.0,,94.098
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-163.192,-4.557,,48,,92,,,137.0,349.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-163.192,-4.557,,48,,92,,,137.0,353.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-163.192,-4.557,,48,,92,,,137.0,357.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-188.477,-3.793,,48,,92,,,155.0,753.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-71.581,-2.221,,68,,121,,,177.0,406.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-71.581,-2.221,,68,,121,,,177.0,404.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-71.581,-2.221,,68,,121,,,177.0,399.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado-xcau7p,retimed,off,4.0,VIOLATED,-48.079,-0.396,,68,,99,,,177.0,413.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,3.561,,48,,92,,,105.0,38.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,3.561,,48,,92,,,105.0,38.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,3.561,,48,,92,,,105.0,38.0,,,,,,
+r18_clock_gated_region,F - clock gating,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,4.832,,48,,92,,,106.0,42.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,innovus-nangate45,directive,off,0.1174,VIOLATED,-2.584,-0.151,22.0,50,,912,,5416.615,12.38855304,220.0,1.26,0,0.0,0.0,,93.858
+r19_power_activity_retime,G - power-driven retiming,true,power,innovus-nangate45,orig,off,0.1174,VIOLATED,-2.633,-0.385,7.0,71,,992,,6834.255,35.58634796,292.0,0.15,0,0.0,0.0,,95.144
+r19_power_activity_retime,G - power-driven retiming,true,power,innovus-nangate45,orig,on,0.1174,VIOLATED,-2.315,-0.153,17.0,51,,901,,5819.32,13.56484018,257.0,3.03,0,0.0,0.0,,92.002
+r19_power_activity_retime,G - power-driven retiming,true,power,innovus-nangate45,retimed,off,0.1174,VIOLATED,-0.058,-0.011,7.0,14,,844,,4522.395,27.80495576,221.0,0.0,1,0.11,0.0,,92.373
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xc7a100t,directive,on,4.0,VIOLATED,-127.006,-2.848,,71,,146,,,188.0,366.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xc7a100t,orig,off,4.0,VIOLATED,-127.006,-2.848,,71,,146,,,188.0,392.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xc7a100t,orig,on,4.0,VIOLATED,-127.006,-2.848,,71,,146,,,188.0,379.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-54.009,-2.289,,14,,113,,,167.0,396.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xcau7p,directive,on,4.0,MET,-17.068,0.009,,138,,145,,,165.0,239.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xcau7p,orig,off,4.0,MET,-17.068,0.009,,138,,145,,,165.0,250.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xcau7p,orig,on,4.0,MET,-17.068,0.009,,138,,145,,,165.0,246.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado-xcau7p,retimed,off,4.0,VIOLATED,-23.772,-1.468,,81,,112,,,163.0,226.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,2.387,,71,,146,,,102.0,50.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,2.387,,71,,146,,,102.0,40.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,2.387,,71,,146,,,102.0,39.0,,,,,,
+r19_power_activity_retime,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,4.237,,14,,113,,,101.0,41.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,innovus-nangate45,directive,off,0.135,VIOLATED,-0.511,-0.061,19.0,48,,660,,4723.36,9.55384847,99.0,0.86,0,0.0,0.0,,94.623
+r20_glitch_absorb,G - power-driven retiming,true,power,innovus-nangate45,orig,off,0.135,VIOLATED,-6.908,-0.28,32.0,48,,884,,6791.72,21.98035344,139.0,0.5,0,0.0,0.0,,95.854
+r20_glitch_absorb,G - power-driven retiming,true,power,innovus-nangate45,orig,on,0.135,VIOLATED,-3.23,-0.109,40.0,64,,704,,5127.625,8.43411548,102.0,2.11,1,0.09,0.0,,84.264
+r20_glitch_absorb,G - power-driven retiming,true,power,innovus-nangate45,retimed,off,0.135,VIOLATED,-4.489,-0.157,32.0,48,,864,,6025.115,11.69170899,125.0,0.6,1,0.08,0.0,,95.625
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xc7a100t,directive,on,4.0,VIOLATED,-263.521,-3.419,,48,,91,,,196.0,388.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xc7a100t,orig,off,4.0,VIOLATED,-263.521,-3.419,,48,,91,,,196.0,400.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xc7a100t,orig,on,4.0,VIOLATED,-263.521,-3.419,,48,,91,,,196.0,359.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-225.341,-2.626,,48,,73,,,190.0,344.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xcau7p,directive,on,4.0,MET,-51.718,0.374,,67,,90,,,282.0,228.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xcau7p,orig,off,4.0,MET,-51.718,0.374,,67,,90,,,282.0,217.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xcau7p,orig,on,4.0,MET,-51.718,0.374,,67,,90,,,282.0,222.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado-xcau7p,retimed,off,4.0,VIOLATED,-51.98,-0.237,,67,,72,,,280.0,234.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,directive,on,12.0,MET,0.0,5.914,,48,,91,,,119.0,43.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,orig,off,12.0,MET,0.0,5.914,,48,,91,,,119.0,37.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,orig,on,12.0,MET,0.0,5.914,,48,,91,,,119.0,35.0,,,,,,
+r20_glitch_absorb,G - power-driven retiming,true,power,vivado2023.1-xc7a100t,retimed,off,12.0,MET,0.0,6.15,,48,,73,,,118.0,41.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45,directive,off,0.3327,VIOLATED,-0.005,-0.004,2.0,178,,2097,,15478.28,14.41769251,135.0,1.85,0,0.0,0.0,,83.796
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45,orig,off,0.3327,VIOLATED,-4.04,-0.124,46.0,128,,2563,,15748.085,17.64152848,180.0,0.36,0,0.0,0.0,,94.213
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45,orig,on,0.3327,VIOLATED,-0.005,-0.004,2.0,178,,2097,,15478.28,14.41769251,132.0,1.85,0,0.0,0.0,,83.796
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45,retimed,off,0.3327,VIOLATED,-4.945,-0.125,49.0,192,,2675,,17433.97,19.1724469,182.0,0.86,0,0.0,0.0,,92.872
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45-congested,directive,off,0.768,VIOLATED,,,,168,,1283,,13807.79,3.58978158,86.0,0.6,42,0.0,1.01,,37.744
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45-congested,orig,off,0.7684,VIOLATED,,,,128,,1571,,13710.67,4.86865048,102.0,1.51,25,0.0,0.59,,45.003
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45-congested,orig,on,0.768,VIOLATED,,,,168,,1283,,13807.79,3.58978158,87.0,0.6,42,0.0,1.01,,37.744
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,innovus-nangate45-congested,retimed,off,0.768,VIOLATED,,,,192,,1726,,14872.555,5.53162082,106.0,1.74,81,0.0,1.62,,43.084
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xc7a100t,directive,on,3.5,VIOLATED,-1001.403,-5.345,,128,,271,,,301.0,371.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xc7a100t,orig,off,3.5,VIOLATED,-1001.403,-5.345,,128,,271,,,301.0,388.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xc7a100t,orig,on,3.5,VIOLATED,-1001.403,-5.345,,128,,271,,,301.0,373.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xc7a100t,retimed,off,3.5,VIOLATED,-858.597,-4.391,,192,,271,,,301.0,938.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xcau7p,directive,on,3.5,VIOLATED,-194.732,-1.695,,147,,385,,,404.0,241.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xcau7p,orig,off,3.5,VIOLATED,-194.732,-1.695,,147,,385,,,404.0,266.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xcau7p,orig,on,3.5,VIOLATED,-194.732,-1.695,,147,,385,,,404.0,268.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado-xcau7p,retimed,off,3.5,VIOLATED,-216.214,-1.69,,211,,385,,,406.0,233.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado2023.1-xc7a100t,directive,on,10.5,MET,0.0,2.698,,128,,271,,,154.0,37.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado2023.1-xc7a100t,orig,off,10.5,MET,0.0,2.698,,128,,271,,,154.0,96.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado2023.1-xc7a100t,orig,on,10.5,MET,0.0,2.698,,128,,271,,,154.0,37.0,,,,,,
+r21_wire_pipeline_cross_die,H - physical / wire delay (LATENCY-CHANGING),false,wirelength,vivado2023.1-xc7a100t,retimed,off,10.5,MET,0.0,2.233,,192,,271,,,155.0,37.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45,directive,off,0.3121,VIOLATED,-126.397,-0.164,1339.0,1050,,18307,,252497.49,151.27304311,1053.0,7.15,62,0.3,0.08,,100.389
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45,orig,off,0.3121,VIOLATED,-16.576,-0.121,622.0,1050,,18719,,284019.665,145.33265662,735.0,0.48,136,0.79,0.05,,94.817
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45,orig,on,0.3121,VIOLATED,-7.096,-0.15,194.0,807,,22439,,452492.05,157.90256715,1558.0,0.38,365,1.93,0.25,,92.094
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45,retimed,off,0.3121,VIOLATED,-4.197,-0.071,238.0,1114,,18982,,292026.185,151.29713885,685.0,1.1,97,0.54,0.03,,92.371
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45-congested,directive,off,0.852,VIOLATED,,,,1050,,11593,,595509.11,67.83365105,742.0,27.61,32520,0.04,99.92,,44.358
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45-congested,orig,off,0.852,VIOLATED,,,,1050,,11587,,591162.485,69.47557162,763.0,23.22,32279,0.04,98.5,,46.028
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45-congested,orig,on,0.8518,VIOLATED,,,,242,,13153,,549310.205,63.72511579,1115.0,24.33,38435,0.35,151.83,,53.619
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,innovus-nangate45-congested,retimed,off,0.852,VIOLATED,,,,1114,,11559,,510596.965,59.64648707,463.0,18.17,20900,0.0,59.99,,39.853
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xc7a100t,directive,on,5.0,VIOLATED,-8510.027,-3.589,,4140,,8142,,,388.0,1089.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xc7a100t,orig,off,5.0,VIOLATED,-2647.541,-4.417,,1063,,8148,,,339.0,1027.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xc7a100t,orig,on,5.0,VIOLATED,-7614.962,-4.133,,4138,,8142,,,393.0,1056.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xc7a100t,retimed,off,5.0,VIOLATED,-2361.132,-3.466,,1151,,8142,,,347.0,959.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xcau7p,directive,on,5.0,MET,-7.277,0.147,,1163,,3103,,,240.0,318.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xcau7p,orig,off,5.0,MET,-6.213,0.03,,1122,,3074,,,238.0,322.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xcau7p,orig,on,5.0,MET,-6.213,0.03,,1122,,3074,,,238.0,309.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado-xcau7p,retimed,off,5.0,MET,-7.277,0.341,,1208,,3002,,,237.0,465.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado2023.1-xc7a100t,directive,on,10.0,MET,0.0,0.934,,4140,,8142,,,223.0,73.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado2023.1-xc7a100t,orig,off,10.0,MET,0.0,0.985,,1063,,8148,,,193.0,67.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado2023.1-xc7a100t,orig,on,10.0,MET,0.0,0.859,,4138,,8142,,,222.0,81.0,,,,,,
+r22_fanout_wire_load,H - physical / fanout wire load,true,wirelength,vivado2023.1-xc7a100t,retimed,off,10.0,MET,0.0,0.768,,1151,,8142,,,198.0,58.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,innovus-nangate45,directive,off,0.7259,VIOLATED,-5.258,-0.224,25.0,25,,981,,5456.515,7.55664989,165.0,0.7,0,0.0,0.0,,97.874
+r24_loop_bound_control,I - negative control,true,fmax,innovus-nangate45,orig,off,0.7259,VIOLATED,-4.193,-0.277,16.0,16,,1064,,6346.14,9.73123032,163.0,0.23,0,0.0,0.0,,96.71
+r24_loop_bound_control,I - negative control,true,fmax,innovus-nangate45,orig,on,0.7259,VIOLATED,-5.258,-0.224,25.0,25,,981,,5456.515,7.55664989,166.0,0.7,0,0.0,0.0,,97.874
+r24_loop_bound_control,I - negative control,true,fmax,innovus-nangate45,retimed,off,0.7259,VIOLATED,-4.193,-0.277,16.0,16,,1064,,6346.14,9.73123032,163.0,0.23,0,0.0,0.0,,96.71
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xc7a100t,directive,on,4.0,VIOLATED,-479.777,-12.377,,32,,104,,,137.0,380.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xc7a100t,orig,off,4.0,VIOLATED,-479.777,-12.377,,32,,104,,,137.0,385.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xc7a100t,orig,on,4.0,VIOLATED,-479.777,-12.377,,32,,104,,,137.0,388.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xc7a100t,retimed,off,4.0,VIOLATED,-479.777,-12.377,,32,,104,,,137.0,378.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xcau7p,directive,on,4.0,VIOLATED,-72.289,-1.795,,49,,159,,,187.0,216.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xcau7p,orig,off,4.0,VIOLATED,-72.289,-1.795,,49,,159,,,187.0,228.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xcau7p,orig,on,4.0,VIOLATED,-72.289,-1.795,,49,,159,,,187.0,220.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado-xcau7p,retimed,off,4.0,VIOLATED,-72.289,-1.795,,49,,159,,,187.0,234.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado2023.1-xc7a100t,directive,on,12.0,VIOLATED,-111.329,-4.133,,32,,104,,,106.0,38.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado2023.1-xc7a100t,orig,off,12.0,VIOLATED,-111.329,-4.133,,32,,104,,,106.0,40.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado2023.1-xc7a100t,orig,on,12.0,VIOLATED,-111.329,-4.133,,32,,104,,,106.0,38.0,,,,,,
+r24_loop_bound_control,I - negative control,true,fmax,vivado2023.1-xc7a100t,retimed,off,12.0,VIOLATED,-111.329,-4.133,,32,,104,,,106.0,38.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,innovus-nangate45,directive,off,0.1678,VIOLATED,-13.607,-0.471,32.0,52,,1378,,7074.94,18.67015896,127.0,0.68,0,0.0,0.0,,96.613
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,innovus-nangate45,orig,off,0.1678,VIOLATED,-6.769,-0.469,16.0,32,,1330,,6357.335,42.21978441,5068.0,0.96,4,0.26,0.0,,99.661
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,innovus-nangate45,orig,on,0.1678,VIOLATED,-9.728,-0.644,16.0,32,,1360,,6258.905,41.8214707,3232.0,0.45,0,0.0,0.0,,100.0
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,innovus-nangate45,retimed,off,0.1678,VIOLATED,-11.968,-0.762,16.0,32,,1489,,7798.82,35.35165366,155.0,1.81,0,0.0,0.0,,94.876
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xc7a100t,directive,on,3.0,VIOLATED,-358.876,-11.944,,32,,128,,,170.0,486.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xc7a100t,orig,off,3.0,VIOLATED,-358.876,-11.944,,32,,128,,,170.0,480.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xc7a100t,orig,on,3.0,VIOLATED,-358.876,-11.944,,32,,128,,,170.0,496.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xc7a100t,retimed,off,3.0,VIOLATED,-316.668,-8.846,,32,,128,,,153.0,519.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xcau7p,directive,on,3.0,VIOLATED,-119.767,-2.727,,51,,178,,,200.0,127.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xcau7p,orig,off,3.0,VIOLATED,-119.767,-2.727,,51,,178,,,200.0,130.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xcau7p,orig,on,3.0,VIOLATED,-119.767,-2.727,,51,,178,,,200.0,128.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado-xcau7p,retimed,off,3.0,VIOLATED,-69.919,-1.693,,51,,177,,,194.0,122.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,directive,on,3.9,VIOLATED,-315.556,-11.129,,32,,128,,,138.0,41.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,orig,off,3.9,VIOLATED,-315.556,-11.129,,32,,128,,,138.0,41.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,orig,on,3.9,VIOLATED,-315.556,-11.129,,32,,128,,,138.0,38.0,,,,,,
+r26_sdc_exception_invalidation,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,retimed,off,3.9,VIOLATED,-267.763,-7.57,,32,,128,,,138.0,40.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,innovus-nangate45,directive,off,0.2415,VIOLATED,-3.504,-0.172,38.0,78,,1824,,10112.865,30.18786568,1229.0,0.15,0,0.0,0.0,,98.062
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,innovus-nangate45,orig,off,0.2415,VIOLATED,-0.266,-0.101,11.0,56,,1975,,10665.3,36.40470501,1274.0,0.51,0,0.0,0.0,,97.79
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,innovus-nangate45,orig,on,0.2415,VIOLATED,-3.504,-0.172,38.0,78,,1824,,10112.865,30.18786568,1273.0,0.15,0,0.0,0.0,,98.062
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,innovus-nangate45,retimed,off,0.2702,VIOLATED,-14.684,-0.422,57.0,112,,1963,,9495.465,28.5700256,17.0,0.34,0,0.0,0.0,,102.081
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xc7a100t,directive,on,3.0,VIOLATED,-554.218,-11.941,,64,,208,,,211.0,421.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xc7a100t,orig,off,3.0,VIOLATED,-554.218,-11.941,,64,,208,,,211.0,431.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xc7a100t,orig,on,3.0,VIOLATED,-554.218,-11.941,,64,,208,,,211.0,443.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xc7a100t,retimed,off,3.0,VIOLATED,-638.101,-11.938,,64,,208,,,229.0,368.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xcau7p,directive,on,3.0,VIOLATED,-194.066,-3.903,,99,,277,,,246.0,247.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xcau7p,orig,off,3.0,VIOLATED,-194.066,-3.903,,99,,277,,,246.0,253.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xcau7p,orig,on,3.0,VIOLATED,-194.066,-3.903,,99,,277,,,246.0,243.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado-xcau7p,retimed,off,3.0,VIOLATED,-157.709,-2.026,,99,,249,,,296.0,145.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,directive,on,3.9,VIOLATED,-503.106,-11.1,,64,,208,,,182.0,39.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,orig,off,3.9,VIOLATED,-503.106,-11.1,,64,,208,,,182.0,40.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,orig,on,3.9,VIOLATED,-503.106,-11.1,,64,,208,,,182.0,89.0,,,,,,
+r27_exception_scope_probe,J - constraint interaction,true,diagnostic,vivado2023.1-xc7a100t,retimed,off,3.9,VIOLATED,-551.215,-10.916,,64,,208,,,182.0,39.0,,,,,,
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45,directive,off,0.18,VIOLATED,-0.655,-0.016,120.0,784,,2128,,35521.22,45.38294558,141.0,10.9,5,0.12,0.0,,76.777
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45,orig,off,0.18,VIOLATED,-2.387,-0.03,206.0,768,,2682,,37198.99,48.45109991,188.0,19.72,8,0.11,0.06,,79.877
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45,orig,on,0.18,VIOLATED,-0.655,-0.016,120.0,784,,2128,,35521.22,45.38294558,141.0,10.9,5,0.12,0.0,,76.777
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45,retimed,off,0.18,VIOLATED,-0.156,-0.013,45.0,768,,2180,,37374.785,47.44259296,164.0,18.46,4,0.1,0.0,,80.96
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45-congested,directive,off,0.5799,VIOLATED,,,,777,,1997,,40313.605,13.71452635,92.0,10.84,160,0.0,3.15,,77.092
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45-congested,orig,off,0.58,VIOLATED,,,,768,,1969,,31195.24,13.02790345,122.0,15.44,185,0.0,3.64,,76.114
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45-congested,orig,on,0.5799,VIOLATED,,,,777,,1997,,40313.605,13.71452635,107.0,10.84,160,0.0,3.15,,77.092
+r28_congestion_wire_split,H - net delay dominates logic delay,true,fmax,innovus-nangate45-congested,retimed,off,0.58,MET,,,,768,,1999,,38545.36,13.42222473,106.0,14.5,197,0.0,4.06,,76.578
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,innovus-nangate45,directive,off,0.2534,VIOLATED,-286.185,-0.245,1720.0,2171,,45842,,534973.575,548.1524242,1863.0,2.27,105,0.28,0.0,,97.892
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,innovus-nangate45,orig,off,0.2534,VIOLATED,-286.185,-0.245,1720.0,2171,,45842,,534973.575,548.15242419,1859.0,2.27,105,0.28,0.0,,97.892
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,innovus-nangate45,orig,on,0.2534,VIOLATED,-327.279,-0.113,3857.0,3199,,45275,,551787.325,434.99524283,1703.0,3.55,29,0.07,0.0,,92.828
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,innovus-nangate45,retimed,off,0.2534,VIOLATED,-86.116,-0.12,1333.0,2171,,46114,,481224.48,592.40194138,1985.0,1.41,60,0.16,0.0,,95.852
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,innovus-nangate45-congested,orig,off,1.2,MET,,,,1536,,12198,,266133.31,29.57653001,154.0,16.92,3920,5.07,16.13,,65.19
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,innovus-nangate45-congested,retimed,off,1.2,MET,,,,1536,,11951,,268252.17,30.93149007,156.0,6.15,2279,4.87,7.55,,65.182
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,vivado-xc7a100t,retimed,off,8.0,VIOLATED,-805.538,-1.58,,2183,,9603,,,693.0,899.0,,,,,,
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,vivado-xcau15p,directive,on,8.0,MET,0.0,2.732,,2238,,9794,,,686.0,207.0,,,,,,
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,vivado-xcau15p,orig,off,8.0,MET,0.0,2.732,,2238,,9794,,,686.0,220.0,,,,,,
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,vivado-xcau15p,orig,on,8.0,MET,0.0,2.732,,2238,,9794,,,686.0,212.0,,,,,,
+r29_wide_crossing,"H - net delay dominates logic delay, at scale",true,fmax,vivado-xcau15p,retimed,off,8.0,MET,0.0,2.466,,2250,,9602,,,613.0,195.0,,,,,,
+r30_fsm_decode_fanout,"B/H - FSM decode fanout, real design",true,fmax,innovus-nangate45,directive,off,0.3255,VIOLATED,-110.838,-0.141,1024.0,2134,,48561,,513772.42,237.2606072,17.0,2.31,51,0.13,0.0,,92.446
+r30_fsm_decode_fanout,"B/H - FSM decode fanout, real design",true,fmax,innovus-nangate45,orig,off,0.3255,VIOLATED,-110.838,-0.141,1024.0,2134,,48561,,513772.42,237.26060719,16.0,2.31,51,0.13,0.0,,92.446
+r30_fsm_decode_fanout,"B/H - FSM decode fanout, real design",true,fmax,innovus-nangate45,orig,on,0.3255,VIOLATED,-294.529,-0.226,2145.0,1809,,56545,,736914.63,313.21753522,1366.0,8.99,251,0.59,0.01,,95.527
+r30_fsm_decode_fanout,"B/H - FSM decode fanout, real design",true,fmax,innovus-nangate45,retimed,off,0.3255,VIOLATED,-97.584,-0.132,1024.0,2138,,48432,,534666.685,239.35317115,16.0,1.8,79,0.2,0.0,,91.276
+r31_clone_distinct_reset,B - duplication with per-clone initial state,true,wirelength,innovus-nangate45,directive,off,0.175,VIOLATED,-55.125,-0.132,796.0,878,,2925,,23376.205,63.58121681,21.0,0.86,0,0.0,0.0,,83.787
+r31_clone_distinct_reset,B - duplication with per-clone initial state,true,wirelength,innovus-nangate45,orig,off,0.175,VIOLATED,-55.125,-0.132,796.0,878,,2925,,23376.205,63.58121681,21.0,0.86,0,0.0,0.0,,83.787
+r31_clone_distinct_reset,B - duplication with per-clone initial state,true,wirelength,innovus-nangate45,orig,on,0.175,VIOLATED,-25.9,-0.071,1202.0,1547,,5818,,48038.765,102.9008633,25.0,1.04,0,0.0,0.0,,76.247
+r31_clone_distinct_reset,B - duplication with per-clone initial state,true,wirelength,innovus-nangate45,retimed,off,0.175,VIOLATED,-6.995,-0.055,493.0,899,,3285,,23302.97,59.41282324,20.0,6.38,0,0.0,0.0,,78.37
+r32_backward_reset_preimage,A - backward retiming with no valid initial state,true,fmax,innovus-nangate45,directive,off,0.182,VIOLATED,-32.091,-0.181,443.0,705,,6894,,73171.415,98.78443334,388.0,1.03,6,0.08,0.0,,89.446
+r32_backward_reset_preimage,A - backward retiming with no valid initial state,true,fmax,innovus-nangate45,orig,off,0.182,VIOLATED,-32.091,-0.181,443.0,705,,6894,,73171.415,98.78443334,386.0,1.03,6,0.08,0.0,,89.446
+r32_backward_reset_preimage,A - backward retiming with no valid initial state,true,fmax,innovus-nangate45,orig,on,0.182,VIOLATED,-6.85,-0.056,301.0,674,,6513,,67293.365,73.26750391,257.0,1.35,1,0.01,0.0,,84.039
+r32_backward_reset_preimage,A - backward retiming with no valid initial state,true,fmax,innovus-nangate45,retimed,off,0.182,VIOLATED,-31.966,-0.103,380.0,706,,6520,,72861.79,82.00031521,369.0,0.71,0,0.0,0.0,,88.376

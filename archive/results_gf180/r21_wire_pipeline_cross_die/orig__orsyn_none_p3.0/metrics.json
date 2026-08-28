@@ -1,0 +1,17 @@
+{
+  "tool": "openroad_syn",
+  "top": "r21_wire_pipeline_cross_die",
+  "retime_mode": "unsupported",
+  "num_cells": 946,
+  "num_seq": 128,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 1,
+  "wns_ns": -6.1279,
+  "timing_status": "VIOLATED",
+  "tns_ns": -455.4907,
+  "data_path_ns": 8.8631,
+  "power_mw": 65.0217,
+  "power_switching_mw": 14.647200000000002,
+  "wall_seconds": 2.0
+}

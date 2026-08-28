@@ -1,0 +1,17 @@
+{
+  "tool": "openroad_syn",
+  "top": "r18_clock_gated_region",
+  "retime_mode": "unsupported",
+  "num_cells": 410,
+  "num_seq": 48,
+  "power_mode": "vectorless",
+  "runtime_elab_s": 0,
+  "runtime_total_s": 0,
+  "wns_ns": -9.0806,
+  "timing_status": "VIOLATED",
+  "tns_ns": -222.4592,
+  "data_path_ns": 11.4785,
+  "power_mw": 30.2837,
+  "power_switching_mw": 8.14504,
+  "wall_seconds": 1.0
+}

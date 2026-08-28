@@ -1,0 +1,506 @@
+{
+  "r01_reset_backward_barrier": {
+    "orig__off": {
+      "min_period_ns": 0.691,
+      "probe": "probed p0.6306, wns=-0.06"
+    },
+    "orig__on": {
+      "min_period_ns": 0.262,
+      "probe": "probed p0.15765, wns=-0.104"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.469,
+      "probe": "probed p0.3153, wns=-0.154"
+    },
+    "directive__off": {
+      "min_period_ns": 0.262,
+      "probe": "probed p0.15765, wns=-0.104"
+    }
+  },
+  "r02_reset_no_valid_init": {
+    "orig__off": {
+      "min_period_ns": 0.716,
+      "probe": "probed p0.6402, wns=-0.076"
+    },
+    "orig__on": {
+      "min_period_ns": 0.266,
+      "probe": "probed p0.16005, wns=-0.106"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.485,
+      "probe": "probed p0.3201, wns=-0.165"
+    },
+    "directive__off": {
+      "min_period_ns": 0.266,
+      "probe": "probed p0.16005, wns=-0.106"
+    }
+  },
+  "r03_async_reset_blocker": {
+    "orig__off": {
+      "min_period_ns": 0.706,
+      "probe": "probed p0.6276, wns=-0.078"
+    },
+    "orig__on": {
+      "min_period_ns": 0.263,
+      "probe": "probed p0.1569, wns=-0.106"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.492,
+      "probe": "probed p0.3138, wns=-0.178"
+    },
+    "directive__off": {
+      "min_period_ns": 0.263,
+      "probe": "probed p0.1569, wns=-0.106"
+    }
+  },
+  "r04_init_only_no_reset": {
+    "orig__off": {
+      "min_period_ns": 0.729,
+      "probe": "probed p0.6186, wns=-0.11"
+    },
+    "orig__on": {
+      "min_period_ns": 0.253,
+      "probe": "probed p0.15465, wns=-0.098"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.477,
+      "probe": "probed p0.3093, wns=-0.168"
+    },
+    "directive__off": {
+      "min_period_ns": 0.253,
+      "probe": "probed p0.15465, wns=-0.098"
+    }
+  },
+  "r05_fsm_high_fanout": {
+    "orig__off": {
+      "min_period_ns": 0.354,
+      "probe": "probed p0.3396, wns=-0.014"
+    },
+    "orig__on": {
+      "min_period_ns": 0.221,
+      "probe": "probed p0.1698, wns=-0.051"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.354,
+      "probe": "probed p0.3396, wns=-0.014"
+    },
+    "directive__off": {
+      "min_period_ns": 0.21,
+      "probe": "probed p0.1698, wns=-0.04"
+    }
+  },
+  "r06_fsm_high_fanin": {
+    "orig__off": {
+      "min_period_ns": 0.803,
+      "probe": "probed p0.5682, wns=-0.235"
+    },
+    "orig__on": {
+      "min_period_ns": 0.532,
+      "probe": "probed p0.2841, wns=-0.248"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.77,
+      "probe": "probed p0.5682, wns=-0.202"
+    },
+    "directive__off": {
+      "min_period_ns": 0.532,
+      "probe": "probed p0.2841, wns=-0.248"
+    }
+  },
+  "r08_fsm_output_decode": {
+    "orig__off": {
+      "min_period_ns": 0.734,
+      "probe": "probed p0.5346, wns=-0.199"
+    },
+    "orig__on": {
+      "min_period_ns": 0.35,
+      "probe": "probed p0.2673, wns=-0.083"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.45,
+      "probe": "probed p0.2673, wns=-0.183"
+    },
+    "directive__off": {
+      "min_period_ns": 0.35,
+      "probe": "probed p0.2673, wns=-0.083"
+    }
+  },
+  "r09_unbalanced_mult_pipe": {
+    "orig__off": {
+      "min_period_ns": 0.701,
+      "probe": "probed p0.6132, wns=-0.088"
+    },
+    "orig__on": {
+      "min_period_ns": 0.29,
+      "probe": "probed p0.1533, wns=-0.137"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.585,
+      "probe": "probed p0.3066, wns=-0.278"
+    },
+    "directive__off": {
+      "min_period_ns": 0.29,
+      "probe": "probed p0.1533, wns=-0.137"
+    }
+  },
+  "r10_long_carry_chain": {
+    "orig__off": {
+      "min_period_ns": 0.496,
+      "probe": "probed p0.2583, wns=-0.238"
+    },
+    "orig__on": {
+      "min_period_ns": 0.239,
+      "probe": "probed p0.12915, wns=-0.11"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.462,
+      "probe": "probed p0.2583, wns=-0.204"
+    },
+    "directive__off": {
+      "min_period_ns": 0.239,
+      "probe": "probed p0.12915, wns=-0.11"
+    }
+  },
+  "r11_deep_retime_distance": {
+    "orig__off": {
+      "min_period_ns": 3.477,
+      "probe": "probed p2.3652, wns=-1.112"
+    },
+    "orig__on": {
+      "min_period_ns": 0.743,
+      "probe": "probed p0.5913, wns=-0.152"
+    },
+    "retimed__off": {
+      "min_period_ns": 1.016,
+      "probe": "probed p0.5913, wns=-0.425"
+    },
+    "directive__off": {
+      "min_period_ns": 0.743,
+      "probe": "probed p0.5913, wns=-0.152"
+    }
+  },
+  "r12_wide_reduction_tree": {
+    "orig__off": {
+      "min_period_ns": 0.59,
+      "probe": "probed p0.5496, wns=-0.04"
+    },
+    "orig__on": {
+      "min_period_ns": 0.252,
+      "probe": "probed p0.1374, wns=-0.115"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.365,
+      "probe": "probed p0.2748, wns=-0.09"
+    },
+    "directive__off": {
+      "min_period_ns": 0.252,
+      "probe": "probed p0.1374, wns=-0.115"
+    }
+  },
+  "r13_retime_around_sram": {
+    "orig__off": {
+      "min_period_ns": 0.59,
+      "probe": "probed p0.5742, wns=-0.016"
+    },
+    "orig__on": {
+      "min_period_ns": 0.253,
+      "probe": "probed p0.14355, wns=-0.109"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.578,
+      "probe": "probed p0.5742, wns=-0.004"
+    },
+    "directive__off": {
+      "min_period_ns": 0.253,
+      "probe": "probed p0.14355, wns=-0.109"
+    }
+  },
+  "r15_hier_boundary_block": {
+    "orig__off": {
+      "min_period_ns": 0.708,
+      "probe": "probed p0.642, wns=-0.066"
+    },
+    "orig__on": {
+      "min_period_ns": 0.278,
+      "probe": "probed p0.1605, wns=-0.118"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.486,
+      "probe": "probed p0.321, wns=-0.165"
+    },
+    "directive__off": {
+      "min_period_ns": 0.278,
+      "probe": "probed p0.1605, wns=-0.118"
+    }
+  },
+  "r16_dont_touch_conflict": {
+    "orig__off": {
+      "min_period_ns": 0.76,
+      "probe": "probed p0.5328, wns=-0.227"
+    },
+    "orig__on": {
+      "min_period_ns": 0.31,
+      "probe": "probed p0.2664, wns=-0.044"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.536,
+      "probe": "probed p0.5328, wns=-0.003"
+    },
+    "directive__off": {
+      "min_period_ns": 0.31,
+      "probe": "probed p0.2664, wns=-0.044"
+    }
+  },
+  "r17_clock_enable_barrier": {
+    "orig__off": {
+      "min_period_ns": 0.722,
+      "probe": "probed p0.6396, wns=-0.082"
+    },
+    "orig__on": {
+      "min_period_ns": 0.301,
+      "probe": "probed p0.1599, wns=-0.141"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.487,
+      "probe": "probed p0.3198, wns=-0.167"
+    },
+    "directive__off": {
+      "min_period_ns": 0.301,
+      "probe": "probed p0.1599, wns=-0.141"
+    }
+  },
+  "r18_clock_gated_region": {
+    "orig__off": {
+      "min_period_ns": 0.713,
+      "probe": "probed p0.633, wns=-0.08"
+    },
+    "orig__on": {
+      "min_period_ns": 0.325,
+      "probe": "probed p0.3165, wns=-0.009"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.465,
+      "probe": "probed p0.3165, wns=-0.149"
+    },
+    "directive__off": {
+      "min_period_ns": 0.325,
+      "probe": "probed p0.3165, wns=-0.009"
+    }
+  },
+  "r19_power_activity_retime": {
+    "orig__off": {
+      "min_period_ns": 0.549,
+      "probe": "probed p0.4236, wns=-0.125"
+    },
+    "orig__on": {
+      "min_period_ns": 0.266,
+      "probe": "probed p0.2118, wns=-0.054"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.55,
+      "probe": "probed p0.4236, wns=-0.126"
+    },
+    "directive__off": {
+      "min_period_ns": 0.261,
+      "probe": "probed p0.2118, wns=-0.049"
+    }
+  },
+  "r20_glitch_absorb": {
+    "orig__off": {
+      "min_period_ns": 0.457,
+      "probe": "probed p0.354, wns=-0.103"
+    },
+    "orig__on": {
+      "min_period_ns": 0.234,
+      "probe": "probed p0.177, wns=-0.057"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.301,
+      "probe": "probed p0.177, wns=-0.124"
+    },
+    "directive__off": {
+      "min_period_ns": 0.229,
+      "probe": "probed p0.177, wns=-0.052"
+    }
+  },
+  "r21_wire_pipeline_cross_die": {
+    "orig__off": {
+      "min_period_ns": 0.457,
+      "probe": "probed p0.2349, wns=-0.222"
+    },
+    "orig__on": {
+      "min_period_ns": 0.273,
+      "probe": "probed p0.2349, wns=-0.038"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.474,
+      "probe": "probed p0.4698, wns=-0.004"
+    },
+    "directive__off": {
+      "min_period_ns": 0.273,
+      "probe": "probed p0.2349, wns=-0.038"
+    }
+  },
+  "r22_fanout_wire_load": {
+    "orig__off": {
+      "min_period_ns": 0.514,
+      "probe": "probed p0.411, wns=-0.103"
+    },
+    "orig__on": {
+      "min_period_ns": 0.589,
+      "probe": "probed p0.411, wns=-0.178"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.514,
+      "probe": "probed p0.411, wns=-0.103"
+    },
+    "directive__off": {
+      "min_period_ns": 0.522,
+      "probe": "probed p0.411, wns=-0.111"
+    }
+  },
+  "r24_loop_bound_control": {
+    "orig__off": {
+      "min_period_ns": 0.979,
+      "probe": "probed p0.7854, wns=-0.194"
+    },
+    "orig__on": {
+      "min_period_ns": 0.905,
+      "probe": "probed p0.7854, wns=-0.12"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.979,
+      "probe": "probed p0.7854, wns=-0.194"
+    },
+    "directive__off": {
+      "min_period_ns": 0.905,
+      "probe": "probed p0.7854, wns=-0.12"
+    }
+  },
+  "r26_sdc_exception_invalidation": {
+    "orig__off": {
+      "min_period_ns": 1.039,
+      "probe": "probed p0.4404, wns=-0.599"
+    },
+    "orig__on": {
+      "min_period_ns": 0.4,
+      "probe": "probed p0.2202, wns=-0.18"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.897,
+      "probe": "probed p0.4404, wns=-0.457"
+    },
+    "directive__off": {
+      "min_period_ns": 0.61,
+      "probe": "probed p0.4404, wns=-0.17"
+    }
+  },
+  "r27_exception_scope_probe": {
+    "orig__off": {
+      "min_period_ns": 0.921,
+      "probe": "probed p0.6522, wns=-0.269"
+    },
+    "orig__on": {
+      "min_period_ns": 0.386,
+      "probe": "probed p0.3261, wns=-0.06"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.898,
+      "probe": "probed p0.6522, wns=-0.246"
+    },
+    "directive__off": {
+      "min_period_ns": 0.386,
+      "probe": "probed p0.3261, wns=-0.06"
+    }
+  },
+  "r28_congestion_wire_split": {
+    "orig__off": {
+      "min_period_ns": 0.293,
+      "probe": "probed p0.1653, wns=-0.128"
+    },
+    "orig__on": {
+      "min_period_ns": 0.246,
+      "probe": "probed p0.1653, wns=-0.081"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.288,
+      "probe": "probed p0.1653, wns=-0.123"
+    },
+    "directive__off": {
+      "min_period_ns": 0.246,
+      "probe": "probed p0.1653, wns=-0.081"
+    }
+  },
+  "r29_wide_crossing": {
+    "orig__off": {
+      "min_period_ns": 0.424,
+      "probe": "probed p0.36, wns=-0.064"
+    },
+    "orig__on": {
+      "min_period_ns": 0.298,
+      "probe": "probed p0.18, wns=-0.118"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.485,
+      "probe": "probed p0.36, wns=-0.125"
+    },
+    "directive__off": {
+      "min_period_ns": 0.424,
+      "probe": "probed p0.36, wns=-0.064"
+    }
+  },
+  "r30_fsm_decode_fanout": {
+    "orig__off": {
+      "min_period_ns": 0.472,
+      "probe": "probed p0.3, wns=-0.172"
+    },
+    "orig__on": {
+      "min_period_ns": 0.476,
+      "probe": "probed p0.3, wns=-0.176"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.468,
+      "probe": "probed p0.3, wns=-0.168"
+    },
+    "directive__off": {
+      "min_period_ns": 0.472,
+      "probe": "probed p0.3, wns=-0.172"
+    }
+  },
+  "r31_clone_distinct_reset": {
+    "orig__off": {
+      "min_period_ns": 0.37,
+      "probe": "probed p0.3, wns=-0.07"
+    },
+    "orig__on": {
+      "min_period_ns": 0.25,
+      "probe": "probed p0.15, wns=-0.1"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.404,
+      "probe": "probed p0.3, wns=-0.104"
+    },
+    "directive__off": {
+      "min_period_ns": 0.37,
+      "probe": "probed p0.3, wns=-0.07"
+    }
+  },
+  "r32_backward_reset_preimage": {
+    "orig__off": {
+      "min_period_ns": 0.344,
+      "probe": "probed p0.3, wns=-0.044"
+    },
+    "orig__on": {
+      "min_period_ns": 0.311,
+      "probe": "probed p0.3, wns=-0.011"
+    },
+    "retimed__off": {
+      "min_period_ns": 0.309,
+      "probe": "probed p0.15, wns=-0.159"
+    },
+    "directive__off": {
+      "min_period_ns": 0.344,
+      "probe": "probed p0.3, wns=-0.044"
+    }
+  }
+}

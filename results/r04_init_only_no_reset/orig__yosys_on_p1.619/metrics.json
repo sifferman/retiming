@@ -1,0 +1,18 @@
+{
+  "tool": "yosys",
+  "top": "r04_init_only_no_reset",
+  "area_um2": 501.41,
+  "num_cells": 303,
+  "tool_version": "0.58",
+  "wns_ns": 0.6158,
+  "timing_status": "MET",
+  "tns_ns": 0.0,
+  "data_path_ns": 0.9238,
+  "critical_endpoint": "_650_",
+  "power_mw": 0.6759999999999999,
+  "power_switching_mw": 0.23,
+  "power_mode": "vectorless",
+  "wall_seconds": 2.0,
+  "runtime_total_s": 1.0,
+  "retime_mode": "on"
+}

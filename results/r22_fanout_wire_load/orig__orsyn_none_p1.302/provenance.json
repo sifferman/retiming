@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-22T00:53:26Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r22.sdc",
+  "sdc_sha1": "796c16ba9ee9",
+  "rtl": [{"file": "r22_fanout_wire_load.sv", "sha1": "5416662cd1d3"}]
+}

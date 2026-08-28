@@ -1,0 +1,16 @@
+{
+  "tool": "genus",
+  "tool_version": "23.12-s086_1",
+  "top": "r04_init_only_no_reset",
+  "retime_mode": "off",
+  "retime_optimize_reset": "false",
+  "power_mode": "probabilistic",
+  "clock_period_ns": "6500.0",
+  "area_um2": "12204.1730805",
+  "num_cells": 215,
+  "num_seq_pre_syn": 32,
+  "num_seq": 28,
+  "runtime_generic_s": 8,
+  "runtime_map_s": 10,
+  "runtime_total_s": 10
+}

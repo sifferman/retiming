@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-28T15:27:56Z",
+  "git_commit": "4f7c7a48",
+  "git_dirty": true,
+  "sdc": "r08.sdc",
+  "sdc_sha1": "d708f0576931",
+  "rtl": [{"file": "r08_fsm_output_decode.sv", "sha1": "afa00195fc80"}]
+}

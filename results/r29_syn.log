@@ -1,0 +1,8 @@
+{
+  "wns_ns": null,
+  "timing_status": null,
+  "data_path_ns": null,
+  "critical_endpoint": null,
+  "wall_seconds": 7.0
+}
+  cells=None seq=None area=None data_path=None wns=None None

@@ -1,0 +1,8 @@
+{
+  "stamped_utc": "2026-08-21T17:07:20Z",
+  "git_commit": "uncommitted",
+  "git_dirty": true,
+  "sdc": "r12.sdc",
+  "sdc_sha1": "41e88599407c",
+  "rtl": [{"file": "r12_wide_reduction_tree.sv", "sha1": "5505d9c92710"}]
+}

@@ -1,0 +1,41 @@
+12 benchmarks have measured data; tight-probing 12
+  probed r01_reset_backward_barrier       floor=   0.546 ns   floor at p0.15 (68.0s)
+  probed r02_reset_no_valid_init          floor=   0.585 ns   floor at p0.15 (54.0s)
+  probed r03_async_reset_blocker          floor=   0.495 ns   floor at p0.15 (52.0s)
+  probed r04_init_only_no_reset           floor=   0.555 ns   floor at p0.15 (53.0s)
+  probed r05_fsm_high_fanout              floor=    0.11 ns   floor at p0.0558 (21.0s)
+  probed r06_fsm_high_fanin               floor=   0.776 ns   floor at p0.15 (125.0s)
+  probed r08_fsm_output_decode            floor=   0.711 ns   floor at p0.15 (78.0s)
+  probed r09_unbalanced_mult_pipe         floor=   0.549 ns   floor at p0.15 (124.0s)
+  probed r10_long_carry_chain             floor=   0.387 ns   floor at p0.15 (58.0s)
+  probed r12_wide_reduction_tree          floor=   0.419 ns   floor at p0.15 (65.0s)
+  probed r22_fanout_wire_load             floor=   0.159 ns   non-data endpoint SI
+  probed r28_congestion_wire_split        floor=   0.076 ns   floor at p0.0456 (36.0s)
+
+benchmark                            old ns   new ns
+  r01_reset_backward_barrier          0.609    0.573
+  r02_reset_no_valid_init             0.612    0.614
+  r03_async_reset_blocker             0.617     0.52
+  r04_init_only_no_reset              0.621    0.583
+  r05_fsm_high_fanout                  0.04    0.116
+  r06_fsm_high_fanin                  0.657    0.815
+  r08_fsm_output_decode               0.753    0.747
+  r09_unbalanced_mult_pipe             0.86    0.576
+  r10_long_carry_chain                0.786    0.406
+  r11_deep_retime_distance            1.392    3.448
+  r12_wide_reduction_tree             0.429     0.44
+  r13_retime_around_sram              0.491    0.491
+  r15_hier_boundary_block             0.608    0.608
+  r16_dont_touch_conflict             0.759    0.759
+  r17_clock_enable_barrier            0.586    0.586
+  r18_clock_gated_region              0.595    0.595
+  r19_power_activity_retime           0.555    0.555
+  r20_glitch_absorb                   0.453    0.453
+  r21_wire_pipeline_cross_die         0.316    0.316
+  r22_fanout_wire_load                0.159    0.167
+  r24_loop_bound_control              0.862    0.862
+  r26_sdc_exception_invalidation       1.02     1.02
+  r27_exception_scope_probe           0.617    0.617
+  r28_congestion_wire_split            0.08     0.08
+
+periods written; run scripts/regen_constraints.py next
